@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  title: ""
+  favicon: "bcem-logo.png"
+
+  navbar:
+    logo: "bcem-logo.png"
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: research.qmd
+        text: Research
+
+      - href: people.qmd
+        text: People
+
+      - href: about.qmd
+        text: Blog  
+
+      - href: about.qmd
+        text: Oportunities
+
+      - href: about.qmd
+        text: Publications
+
+      - href: about.qmd
+        text: Projects 
+
+      - href: about.qmd
+        text: Tools
+
+      - href: about.qmd
+        text: Outreach
+      
+      - href: about.qmd
+        text: News
+              
+      - href: contact.qmd
+        text: Contact
+
+
+  back-to-top-navigation: true
+
+  page-footer: 
+    center: "Copyright 2023, BCEM - Universidad de Los Andes" 
+    background: light
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

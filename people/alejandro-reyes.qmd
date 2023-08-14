@@ -1,0 +1,15 @@
+---
+title: "Alejandro Reyes"
+categories: [Ongoing, PI]
+image: people-images/alejandro-reyes.jpeg
+about :
+  template: jolla
+  image: people-images/alejandro-reyes.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---
+
+En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.

@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "7bd91d87"
+  },
+  "research/research.qmd": {
+    "research.html": "bfcb172e"
+  },
+  "about.qmd": {
+    "about.html": "a68a3e53"
+  },
+  "people.qmd": {
+    "people.html": "f9d051d8"
+  },
+  "people/camilo-garcia.qmd": {
+    "camilo-garcia.html": "78c31f65"
+  },
+  "people/juanse-andrade.qmd": {
+    "juanse-andrade.html": "d01cd1c9"
+  },
+  "people/luis-chica.qmd": {
+    "luis-chica.html": "e35a046c"
+  },
+  "people/alejandro-reyes.qmd": {
+    "alejandro-reyes.html": "9cdab473"
+  },
+  "contact.qmd": {
+    "contact.html": "1974c8a3"
+  },
+  "research.qmd": {
+    "research.html": "1040223b"
+  },
+  "publications.qmd": {
+    "publications.html": "475f4657"
+  }
+}

@@ -1,0 +1,19 @@
+---
+title: "Biología Computacional y Ecología Microbiana"
+toc: false
+about:
+  id: hero-heading
+  template: jolla
+  image: bcem-logo.png
+  links:
+    - icon: twitter
+      href: https://twitter.com/bcem_uniandes
+    - icon: github
+      href: https://github.com/BCEM-UniAndes
+---
+
+:::{#hero-heading}
+
+We are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.
+
+:::

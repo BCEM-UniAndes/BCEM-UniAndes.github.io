@@ -1,0 +1,13 @@
+---
+title: Luis Chica
+categories: [Graduated, Master]
+image: people-images/luis-chica.jpeg
+about:
+  template: jolla
+  image: people-images/luis-chica.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---
