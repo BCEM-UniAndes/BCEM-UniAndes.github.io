@@ -1,0 +1,15 @@
+---
+title: "Alejandro Castellanos"
+categories: [Ongoing, Master]
+image: people-images/alejandro-reyes.jpeg
+about :
+  template: jolla
+  image: people-images/alejandro-reyes.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---
+
+Yuca
