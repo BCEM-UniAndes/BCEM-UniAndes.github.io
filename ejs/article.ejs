@@ -10,14 +10,9 @@
     <a href="<%- item.path %>" class="btn btn-primary">
       Details
     </a>
-    <% if (item.doi) { %>
-    <a href="<%- item.doi %>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    <% } %>
-    <% if (item.preprint) { %>
-    <a href="<%- item.preprint %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
+    <% if (item.manuscript) { %>
+    <a href="<%- item.manuscript %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-text"></i> Manuscript
     </a>
     <% } %>
     <% if (item.materials) { %>
