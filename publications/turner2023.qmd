@@ -1,0 +1,18 @@
+---
+title: "Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee"
+author:
+  - name: Alejandro Reyes
+    # url: ""
+    # orcid: 0000-0003-3506-7590
+    affiliation: Universidad de Los Andes
+year: "2023"
+publication: "Archives of Virology"
+manuscript: "https://dial.uclouvain.be/pr/boreal/object/boreal%3A272705/datastream/PDF_01/view"
+materials: ""
+toc: false
+categories:
+  - viral taxonomy
+  - ICTV
+  - phages
+  - classification
+---

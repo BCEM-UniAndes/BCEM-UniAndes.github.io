@@ -19,27 +19,15 @@ website:
       - href: people.qmd
         text: People
 
-      - href: about.qmd
-        text: Blog  
-
-      - href: about.qmd
-        text: Oportunities
-
-      - href: about.qmd
+      - href: publications.qmd
         text: Publications
 
-      - href: about.qmd
-        text: Projects 
+      - href: resources.qmd
+        text: Resources
 
-      - href: about.qmd
-        text: Tools
+      - href: oportunities.qmd
+        text: Oportunities # Data and Tools
 
-      - href: about.qmd
-        text: Outreach
-      
-      - href: about.qmd
-        text: News
-              
       - href: contact.qmd
         text: Contact
 
@@ -55,6 +43,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

@@ -46,5 +46,17 @@
   },
   "people/current-members/alejandro-reyes.qmd": {
     "alejandro-reyes.html": "3528dc41"
+  },
+  "publications/turner2023.qmd": {
+    "turner2023.html": "4007d782"
+  },
+  "oportunities.qmd": {
+    "oportunities.html": "54b639bf"
+  },
+  "news.qmd": {
+    "news.html": "d7d2bf52"
+  },
+  "resources.qmd": {
+    "resources.html": "17b1ac60"
   }
 }

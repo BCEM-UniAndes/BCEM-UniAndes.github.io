@@ -1,1 +1,17 @@
-https://affcom.ku.edu/publications.html
+---
+toc: false
+listing:
+  - id: publications
+    contents: publications/*.qmd
+    template: ejs/article.ejs
+    categories: true
+    sort-ui: [title,author,journal,year]
+    filter-ui: [title,author,journal,year]
+    page-size: 10
+    field-display-names: 
+      journal: "Journal"
+      year: "Year"
+---
+
+:::{#publications}
+:::

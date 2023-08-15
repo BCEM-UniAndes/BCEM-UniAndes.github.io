@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/turner2023.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/current-members/alejandro-castellanos.html",
