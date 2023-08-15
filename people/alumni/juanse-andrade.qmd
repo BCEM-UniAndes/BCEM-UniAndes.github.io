@@ -1,10 +1,10 @@
 ---
-title: Luis Chica
-categories: [Graduated, Master]
-image: people-images/luis-chica.jpeg
+title: Juan S. Andrade
+categories: [MSc]
+image: ../people-images/jsebas-andrade.jpeg
 about:
   template: jolla
-  image: people-images/luis-chica.jpeg
+  image: ../people-images/jsebas-andrade.jpeg
   links:
     - icon: twitter
       href: https://twitter.com
