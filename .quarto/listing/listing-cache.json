@@ -1,7 +1,8 @@
 {
   "listingMap": {
     "people.qmd": [
-      "people/*.qmd"
+      "people/current-members/*.qmd",
+      "people/alumni/*.qmd"
     ]
   }
 }

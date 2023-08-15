@@ -1,15 +1,36 @@
 ---
 title: ""
-listing: 
+toc: false
+listing:
+  - id: current-members
     type: grid
     categories: unnumbered
     grid-item-align: center
     grid-columns: 3
     fields: [image, categories, title]
     contents: 
-     - people/*.qmd
-     - path: https://camilogarciabotero.github.io
-       title: "Camilo García-Botero"
-       categories: [Ongoing, Doctorate]
-       image: people/people-images/camilo-garcia.jpeg
+    - people/current-members/*.qmd
+    - path: https://camilogarciabotero.github.io
+      title: "Camilo García-Botero"
+      categories: [PhD]
+      image: people/people-images/camilo-garcia.jpeg
+  - id: alumni
+    contents: "people/alumni/*.qmd"
+    type: table
+    fields: [title, subtitle, started, ended]
+    field-display-names: 
+      title: "Name"
+      subtitle: "Role"
+      started: "Started"
+      ended: "Ended"
 ---
+
+## Current Members
+
+:::{#current-members}
+:::
+
+## Alumni
+
+:::{#alumni}
+:::
