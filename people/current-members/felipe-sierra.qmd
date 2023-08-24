@@ -1,0 +1,15 @@
+---
+title: "Felipe Sierra"
+categories: [MSc]
+image: ../people-images/
+about:
+  template: jolla
+  image: ../people-images/
+  links:
+    - icon: twitter
+      href: https://twitter.com/alejandrocs_98
+    - icon: github
+      href: https://github.com/alejandrocs98
+---
+
+Hola soy Pipe.
