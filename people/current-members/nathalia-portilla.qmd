@@ -1,10 +1,10 @@
 ---
 title: "Nathalia Portilla"
 categories: [MSc]
-image: ../people-images/alejandro-castellanos.jpeg
+image: ../people-images/nathalia-portilla.jpeg
 about :
   template: jolla
-  image: ../people-images/alejandro-castellanos.jpeg
+  image: ../people-images/nathalia-portilla.jpeg
   links:
     - icon: twitter
       href: https://twitter.com/alejandrocs_98

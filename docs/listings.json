@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/turner2023.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/current-members/alejandro-castellanos.html",
@@ -14,6 +8,12 @@
       "/people/current-members/nathalia-portilla.html",
       "/people/alumni/juanse-andrade.html",
       "/people/alumni/luis-chica.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/turner2023.html"
     ]
   }
 ]

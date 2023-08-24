@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biología Computacional y Ecología Microbiana",
+    "section": "",
+    "text": "Our focus\nWe are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.\n\n\nOur values\nThe BCEM is a research group based on principles of excellence and scientific rigor, ensuring high-quality scientific research. Our members are characterized by their passion and scientific curiosity, as well as by their high level of commitment and discipline. As researchers we are based on mutual respect, based on a principle of empathy and solidarity with others, recognizing each other in our uniqueness, that is, in the difference, implying respect and the search for equity.\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "people/current-members/alejandro-castellanos.html",
+    "href": "people/current-members/alejandro-castellanos.html",
+    "title": "Alejandro Castellanos",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/current-members/alejandro-reyes.html",
+    "href": "people/current-members/alejandro-reyes.html",
+    "title": "Alejandro Reyes",
+    "section": "",
+    "text": "En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.\n\n\n Back to top"
+  },
+  {
+    "objectID": "people/alumni/luis-chica.html",
+    "href": "people/alumni/luis-chica.html",
+    "title": "Luis Chica",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
+  },
+  {
+    "objectID": "contact.html#visit-us",
+    "href": "contact.html#visit-us",
+    "title": "",
+    "section": "",
+    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
+  },
+  {
+    "objectID": "contact.html#email-us",
+    "href": "contact.html#email-us",
+    "title": "",
+    "section": "Email Us",
+    "text": "Email Us"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "",
@@ -28,65 +84,9 @@
     "text": "Caracterización de viromas y genoma virales\nCon el surgimiento de nuevas técnicas de secuenciación del ADN se ha impulsado el estudio de diferentes comunidades virales ambientales lo que ha llevado a darnos cuenta que conocemos menos del 1% de la diversidad viral global. Es común en los diferentes estudios que se realizan en comunidades virales que la gran mayoría (80% en promedio) de los datos queden sin analizar ya que no tienen similitud significativa a virus de referencia (siendo la comparación con bases de datos de referencia la principal herramienta de análisis). Aunque las técnicas de secuenciación masiva han disparado el número de secuencias (cortas) de origen viral depositadas en bases de datos, la secuenciación de genomas virales completos ha sido limitada, haciendo que las bases de datos de referencia se estanquen en tamaño. Esto hace imperativo el desarrollo de herramientas bioinformáticas que nos permitan descubrir y caracterizar mejor esa diversidad viral y desentrañar todo el potencial que estos genomas están codificando. Una línea importante de investigación en el grupo es desarrollar este tipo de herramientas adaptadas a las tecnologías modernas de secuenciación y a las herramientas computacionales de punta de las que se disponen en la actualidad."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
-  },
-  {
-    "objectID": "contact.html#visit-us",
-    "href": "contact.html#visit-us",
-    "title": "",
-    "section": "",
-    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "",
-    "section": "Email Us",
-    "text": "Email Us"
-  },
-  {
-    "objectID": "publications/turner2023.html",
-    "href": "publications/turner2023.html",
-    "title": "Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Biología Computacional y Ecología Microbiana",
-    "section": "",
-    "text": "We are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "oportunities.html",
-    "href": "oportunities.html",
-    "title": "",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee\n    Alejandro Reyes\n    Archives of Virology\n    (2023)\n    \n      Details\n    \n    \n       Manuscript\n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Research",
     "section": "",
     "text": "Back to top"
   },
@@ -112,25 +112,32 @@
     "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\nJuan S. Andrade\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\nLuis Chica\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/current-members/alejandro-castellanos.html",
-    "href": "people/current-members/alejandro-castellanos.html",
-    "title": "Alejandro Castellanos",
+    "objectID": "oportunities.html",
+    "href": "oportunities.html",
+    "title": "",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "people/current-members/alejandro-reyes.html",
-    "href": "people/current-members/alejandro-reyes.html",
-    "title": "Alejandro Reyes",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "",
     "section": "",
-    "text": "En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.\n\n\n Back to top"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee\n    Alejandro Reyes\n    Archives of Virology\n    (2023)\n    \n      Details\n    \n    \n       Manuscript\n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "people/current-members/nathalia-portilla.html",
-    "href": "people/current-members/nathalia-portilla.html",
-    "title": "Nathalia Portilla",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Research",
     "section": "",
-    "text": "Hi my name is Natha.\n\n\n Back to top"
+    "text": "Back to top"
+  },
+  {
+    "objectID": "publications/turner2023.html",
+    "href": "publications/turner2023.html",
+    "title": "Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee",
+    "section": "",
+    "text": "Back to top"
   },
   {
     "objectID": "people/alumni/juanse-andrade.html",
@@ -140,24 +147,17 @@
     "text": "Back to top"
   },
   {
-    "objectID": "people/alumni/luis-chica.html",
-    "href": "people/alumni/luis-chica.html",
-    "title": "Luis Chica",
+    "objectID": "people/current-members/nathalia-portilla.html",
+    "href": "people/current-members/nathalia-portilla.html",
+    "title": "Nathalia Portilla",
     "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "",
-    "section": "",
-    "text": "Back to top"
+    "text": "Hi my name is Natha.\n\n\n Back to top"
   },
   {
     "objectID": "people/current-members/luisa-sacristan.html",
     "href": "people/current-members/luisa-sacristan.html",
     "title": "Luisa Sacristan",
     "section": "",
-    "text": "Hola soy Luisa\n\n\n Back to top"
+    "text": "Hola soy Luisa.\n\n\n Back to top"
   }
 ]

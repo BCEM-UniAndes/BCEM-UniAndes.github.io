@@ -3,7 +3,7 @@ title: "Biología Computacional y Ecología Microbiana"
 toc: false
 about:
   id: hero-heading
-  template: jolla
+  template: trestles
   image: bcem-logo.png
   links:
     - icon: twitter
@@ -14,6 +14,14 @@ about:
 
 :::{#hero-heading}
 
+### Our focus
+
 We are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.
 
+### Our values
+
+The BCEM is a research group based on principles of excellence and scientific rigor, ensuring high-quality scientific research. Our members are characterized by their passion and scientific curiosity, as well as by their high level of commitment and discipline. As researchers we are based on mutual respect, based on a principle of empathy and solidarity with others, recognizing each other in our uniqueness, that is, in the difference, implying respect and the search for equity.
+
 :::
+
+

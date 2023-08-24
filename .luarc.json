@@ -10,9 +10,9 @@
   "Lua.runtime.version": "Lua 5.3",
   "Lua.workspace.checkThirdParty": false,
   "Lua.workspace.library": [
-    "/Users/camilogarcia/.local/share/qvm/versions/v1.3.353/share/lua-types"
+    "/home/camilo/.local/share/qvm/versions/v1.3.433/share/lua-types"
   ],
-  "Lua.runtime.plugin": "/Users/camilogarcia/.local/share/qvm/versions/v1.3.353/share/lua-plugin/plugin.lua",
+  "Lua.runtime.plugin": "/home/camilo/.local/share/qvm/versions/v1.3.433/share/lua-plugin/plugin.lua",
   "Lua.completion.showWord": "Disable",
   "Lua.completion.keywordSnippet": "Both",
   "Lua.diagnostics.disable": [
