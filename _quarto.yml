@@ -25,11 +25,14 @@ website:
       - href: resources.qmd
         text: Resources
 
-      - href: oportunities.qmd
-        text: Oportunities # Data and Tools
+      # - href: oportunities.qmd
+      #   text: Oportunities # Data and Tools
 
       - href: contact.qmd
         text: Contact
+
+      - href: collaborators.qmd
+        text: Collaborators
 
 
   back-to-top-navigation: true

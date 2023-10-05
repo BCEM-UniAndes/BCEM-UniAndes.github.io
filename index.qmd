@@ -24,4 +24,18 @@ The BCEM is a research group based on principles of excellence and scientific ri
 
 :::
 
+***
 
+{{< pagebreak >}}
+s
+::: {.column-screen-inset-shaded}
+
+```{r}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
+#| warning: false
+#| echo: false
+source("people/carousel.R")
+carousel("gallery-carousel", 5000, yaml.load_file("people/carousel.yml"))
+```
+
+:::

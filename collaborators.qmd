@@ -1,0 +1,7 @@
+---
+fig-align: center
+---
+
+::: {.column-body}
+![](imgs/collaborators.svg)
+:::

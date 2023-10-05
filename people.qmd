@@ -2,6 +2,15 @@
 title: ""
 toc: false
 listing:
+  - id: pi
+    type: grid
+    grid-item-align: center
+    grid-columns: 3
+    page-size: 10
+    categories: false
+    fields: [image, title]
+    contents: 
+    - people/alejandro-reyes.qmd
   - id: current-members
     type: grid
     categories: unnumbered
@@ -24,6 +33,11 @@ listing:
       started: "Started"
       ended: "Ended"
 ---
+
+## Principal Investigator
+
+:::{#pi}
+:::
 
 ## Current Members
 

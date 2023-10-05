@@ -5,25 +5,29 @@ toc: false
 
 
 :::{.column-page-inset-left}
-## Ecología Microbiana
 
-La ecología y la microbiología parecían conceptos que no tenían nada en común por varias décadas, y el campo de la ecología microbiana tomó mucho tiempo en surgir y consolidarse. Esto en gran parte por la falta de herramientas y tecnologías para explorar este campo. No obstante, con el desarrollo de tecnologías, algoritmos y metodologías que permiten estudiar simultáneamente todos los (micro)organismos presentes en un ambiente en un momento específico, en las últimas década ha sido posible estudiar los microorganismos y sus interacciones de manera conjunta en lo que hoy se conoce como ciencias meta-ómicas. 
+## Microbial ecology
 
-:::{.column-margin}
-![](../imgs/microbial-ecology.png)
+Ecology and microbiology seemed to be concepts that had nothing in common for several decades, and the field of microbial ecology took a long time to emerge and consolidate. This was largely due to the lack of tools and technologies to explore this field. However, with the development of technologies, algorithms and methodologies that allow the simultaneous study of all (micro)organisms present in an environment at a specific time, in the last decade it has been possible to study microorganisms and their interactions together in what is now known as meta-omics sciences.
+
+
+
+
+At the beginining metagenomics allowed us to access the composition and genetic potential of environments, later transcriptomics allowed us to approach gene expression in those environments and now with proteomics and metabolomics we can begin to understand the different interactions between members of a community. However, all these techniques have developed quite rapidly and the technologies and algorithms for the analysis and interpretation of these data have evolved more in response to the particular needs of research groups than in a rational thinking to optimize the use of data and resources, taking advantage of the advances in computing capabilities that are currently available.
 :::
 
-En un principio la metagenómica nos permitía acceder a la composición y potencial genético de ambientes, posteriormente la transcriptómica nos permitía aproximarnos a la expresión de genes en esos ambientes y actualmente con la proteómica y metabolómica podemos comenzar a entender las diferentes interacciones entre los miembros de una comunidad. Sin embargo, todas estas técnicas se han desarrollado bastante rápido y las tecnologías y algoritmos para el análisis e interpretación de estos datos ha evolucionado más en respuesta a necesidades particulares de grupos de investigación que en un pensamiento racional para optimizar el uso de los datos y recursos aprovechando los avances en capacidades de cómputo con las que se cuentan en la actualidad.
+:::{.column-page-inset-right}
+
+## Ecological virus-host relationships in the human gut
+
+The human gut microbiota is the set of all organisms living in the human gastrointestinal tract. This amazingly diverse community is composed of the 3 domains of life and their respective viruses. Since the emergence of molecular techniques for the study of microbial communities, the gut microbiota has been a major target of study and large consortia such as the HMP in the USA and MetaHIT in Europe have devoted a great deal of resources to characterize these communities. However, the major effort to study these communities has been made on their prokaryotic component ignoring for the most part the viral component. In fact, this component may be greater in number and diversity than the bacterial component itself. Viruses are present in any environment where a potential host is found and their predation dynamics, lytic or lysogenic cycles can have important consequences on the dynamics and behavior of the community in general. The study and characterization of the relationships between viruses (with bacterial or eukaryotic hosts) and their diverse implications in the community and therefore their consequences in the health of the human host, are an important objective of the group's research.
+
 :::
 
+:::{.column-page-inset-left}
 
+## Characterization of virome and viral genomes
 
+With the emergence of new DNA sequencing techniques, the study of different environmental viral communities has been boosted, which has led us to realize that we know less than 1% of the global viral diversity. It is common in the different studies carried out on viral communities that the vast majority (80% on average) of the data remain unanalyzed because they do not have significant similarity to reference viruses (being the comparison with reference databases the main tool for analysis). Although massive sequencing techniques have boosted the number of (short) sequences of viral origin deposited in databases, sequencing of complete viral genomes has been limited, causing reference databases to stagnate in size. This makes it imperative to develop bioinformatics tools that allow us to better discover and characterize this viral diversity and unravel the full potential that these genomes are encoding. An important line of research in the group is to develop such tools adapted to modern sequencing technologies and state-of-the-art computational tools currently available.
 
-## Relaciones ecológica virus-hospedero en el intestino humano 
-
-La microbiota intestinal humana es elconjunto de todos los organismos que viven en el tracto gastrointestinal del ser humano. Esta asombrosamente diversa comunidad está compuesta por los 3 dominios de la vida y sus respectivos virus. Desde el surgimiento de las técnicas moleculares para el estudio de comunidades microbianas, la microbiota intestinal ha sido uno de los principales blancos de estudio y grandes consorcios como el HMP en EE.UU. y el MetaHIT en Europa han dedicado una gran cantidad de recursos en caracterizar estas comunidades. Sin embargo, el mayor esfuerzo de estudio de estas comunidades se ha realizado en su componente procariote ignorando en su mayor parte el componente viral. De hecho, este componente puede ser mayor en número y diversidad que el mismo componente bacteriano. Los virus están presentes en cualquier ambiente donde se encuentre un potencial hospedero y sus dinámicas de predación, ciclos líticos o lisogénicos pueden tener importantes consecuencias en las dinámicas y comportamiento de la comunidad en general. El estudio y caracterización de las relaciones entre virus (con hospederos bacterianos o eucariotes) y sus diversas implicaciones en la comunidad y por ende sus consecuencias en la salud del hospedero humano, son un objetivo importante de la investigación del grupo.
-
-
-## Caracterización de viromas y genoma virales
-
-Con el surgimiento de nuevas técnicas de secuenciación del ADN se ha impulsado el estudio de diferentes comunidades virales ambientales lo que ha llevado a darnos cuenta que conocemos menos del 1% de la diversidad viral global. Es común en los diferentes estudios que se realizan en comunidades virales que la gran mayoría (80% en promedio) de los datos queden sin analizar ya que no tienen similitud significativa a virus de referencia (siendo la comparación con bases de datos de referencia la principal herramienta de análisis). Aunque las técnicas de secuenciación masiva han disparado el número de secuencias (cortas) de origen viral depositadas en bases de datos, la secuenciación de genomas virales completos ha sido limitada, haciendo que las bases de datos de referencia se estanquen en tamaño. Esto hace imperativo el desarrollo de herramientas bioinformáticas que nos permitan descubrir y caracterizar mejor esa diversidad viral y desentrañar todo el potencial que estos genomas están codificando. Una línea importante de investigación en el grupo es desarrollar este tipo de herramientas adaptadas a las tecnologías modernas de secuenciación y a las herramientas computacionales de punta de las que se disponen en la actualidad.
+:::

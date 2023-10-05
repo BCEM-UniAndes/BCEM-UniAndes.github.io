@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Biología Computacional y Ecología Microbiana",
-    "section": "",
-    "text": "Our focus\nWe are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.\n\n\nOur values\nThe BCEM is a research group based on principles of excellence and scientific rigor, ensuring high-quality scientific research. Our members are characterized by their passion and scientific curiosity, as well as by their high level of commitment and discipline. As researchers we are based on mutual respect, based on a principle of empathy and solidarity with others, recognizing each other in our uniqueness, that is, in the difference, implying respect and the search for equity.\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "people/current-members/alejandro-castellanos.html",
-    "href": "people/current-members/alejandro-castellanos.html",
-    "title": "Alejandro Castellanos",
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "",
     "section": "",
     "text": "Back to top"
-  },
-  {
-    "objectID": "people/current-members/alejandro-reyes.html",
-    "href": "people/current-members/alejandro-reyes.html",
-    "title": "Alejandro Reyes",
-    "section": "",
-    "text": "En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.\n\n\n Back to top"
   },
   {
     "objectID": "people/alumni/luis-chica.html",
@@ -28,102 +14,25 @@
     "text": "Back to top"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "",
+    "objectID": "people/current-members/felipe-sierra.html",
+    "href": "people/current-members/felipe-sierra.html",
+    "title": "Felipe Sierra",
     "section": "",
-    "text": "Back to top"
+    "text": "Hola soy Pipe.\n\n\n Back to top"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
+    "objectID": "people/current-members/luisa-sacristan.html",
+    "href": "people/current-members/luisa-sacristan.html",
+    "title": "Luisa Sacristan",
     "section": "",
-    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
+    "text": "Hola soy Luisa.\n\n\n Back to top"
   },
   {
-    "objectID": "contact.html#visit-us",
-    "href": "contact.html#visit-us",
-    "title": "",
+    "objectID": "people/alejandro-reyes.html",
+    "href": "people/alejandro-reyes.html",
+    "title": "Alejandro Reyes",
     "section": "",
-    "text": "El BCEM está ubicado en el Bloque CH-201 de la Univerisidad de Los Andes.\n\nStreet Address: Cra. 1 #18a-10"
-  },
-  {
-    "objectID": "contact.html#email-us",
-    "href": "contact.html#email-us",
-    "title": "",
-    "section": "Email Us",
-    "text": "Email Us"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "",
-    "section": "",
-    "text": "La ecología y la microbiología parecían conceptos que no tenían nada en común por varias décadas, y el campo de la ecología microbiana tomó mucho tiempo en surgir y consolidarse. Esto en gran parte por la falta de herramientas y tecnologías para explorar este campo. No obstante, con el desarrollo de tecnologías, algoritmos y metodologías que permiten estudiar simultáneamente todos los (micro)organismos presentes en un ambiente en un momento específico, en las últimas década ha sido posible estudiar los microorganismos y sus interacciones de manera conjunta en lo que hoy se conoce como ciencias meta-ómicas.\n\n\n\nEn un principio la metagenómica nos permitía acceder a la composición y potencial genético de ambientes, posteriormente la transcriptómica nos permitía aproximarnos a la expresión de genes en esos ambientes y actualmente con la proteómica y metabolómica podemos comenzar a entender las diferentes interacciones entre los miembros de una comunidad. Sin embargo, todas estas técnicas se han desarrollado bastante rápido y las tecnologías y algoritmos para el análisis e interpretación de estos datos ha evolucionado más en respuesta a necesidades particulares de grupos de investigación que en un pensamiento racional para optimizar el uso de los datos y recursos aprovechando los avances en capacidades de cómputo con las que se cuentan en la actualidad."
-  },
-  {
-    "objectID": "research.html#ecología-microbiana",
-    "href": "research.html#ecología-microbiana",
-    "title": "",
-    "section": "",
-    "text": "La ecología y la microbiología parecían conceptos que no tenían nada en común por varias décadas, y el campo de la ecología microbiana tomó mucho tiempo en surgir y consolidarse. Esto en gran parte por la falta de herramientas y tecnologías para explorar este campo. No obstante, con el desarrollo de tecnologías, algoritmos y metodologías que permiten estudiar simultáneamente todos los (micro)organismos presentes en un ambiente en un momento específico, en las últimas década ha sido posible estudiar los microorganismos y sus interacciones de manera conjunta en lo que hoy se conoce como ciencias meta-ómicas.\n\n\n\nEn un principio la metagenómica nos permitía acceder a la composición y potencial genético de ambientes, posteriormente la transcriptómica nos permitía aproximarnos a la expresión de genes en esos ambientes y actualmente con la proteómica y metabolómica podemos comenzar a entender las diferentes interacciones entre los miembros de una comunidad. Sin embargo, todas estas técnicas se han desarrollado bastante rápido y las tecnologías y algoritmos para el análisis e interpretación de estos datos ha evolucionado más en respuesta a necesidades particulares de grupos de investigación que en un pensamiento racional para optimizar el uso de los datos y recursos aprovechando los avances en capacidades de cómputo con las que se cuentan en la actualidad."
-  },
-  {
-    "objectID": "research.html#relaciones-ecológica-virus-hospedero-en-el-intestino-humano",
-    "href": "research.html#relaciones-ecológica-virus-hospedero-en-el-intestino-humano",
-    "title": "",
-    "section": "Relaciones ecológica virus-hospedero en el intestino humano",
-    "text": "Relaciones ecológica virus-hospedero en el intestino humano\nLa microbiota intestinal humana es elconjunto de todos los organismos que viven en el tracto gastrointestinal del ser humano. Esta asombrosamente diversa comunidad está compuesta por los 3 dominios de la vida y sus respectivos virus. Desde el surgimiento de las técnicas moleculares para el estudio de comunidades microbianas, la microbiota intestinal ha sido uno de los principales blancos de estudio y grandes consorcios como el HMP en EE.UU. y el MetaHIT en Europa han dedicado una gran cantidad de recursos en caracterizar estas comunidades. Sin embargo, el mayor esfuerzo de estudio de estas comunidades se ha realizado en su componente procariote ignorando en su mayor parte el componente viral. De hecho, este componente puede ser mayor en número y diversidad que el mismo componente bacteriano. Los virus están presentes en cualquier ambiente donde se encuentre un potencial hospedero y sus dinámicas de predación, ciclos líticos o lisogénicos pueden tener importantes consecuencias en las dinámicas y comportamiento de la comunidad en general. El estudio y caracterización de las relaciones entre virus (con hospederos bacterianos o eucariotes) y sus diversas implicaciones en la comunidad y por ende sus consecuencias en la salud del hospedero humano, son un objetivo importante de la investigación del grupo."
-  },
-  {
-    "objectID": "research.html#caracterización-de-viromas-y-genoma-virales",
-    "href": "research.html#caracterización-de-viromas-y-genoma-virales",
-    "title": "",
-    "section": "Caracterización de viromas y genoma virales",
-    "text": "Caracterización de viromas y genoma virales\nCon el surgimiento de nuevas técnicas de secuenciación del ADN se ha impulsado el estudio de diferentes comunidades virales ambientales lo que ha llevado a darnos cuenta que conocemos menos del 1% de la diversidad viral global. Es común en los diferentes estudios que se realizan en comunidades virales que la gran mayoría (80% en promedio) de los datos queden sin analizar ya que no tienen similitud significativa a virus de referencia (siendo la comparación con bases de datos de referencia la principal herramienta de análisis). Aunque las técnicas de secuenciación masiva han disparado el número de secuencias (cortas) de origen viral depositadas en bases de datos, la secuenciación de genomas virales completos ha sido limitada, haciendo que las bases de datos de referencia se estanquen en tamaño. Esto hace imperativo el desarrollo de herramientas bioinformáticas que nos permitan descubrir y caracterizar mejor esa diversidad viral y desentrañar todo el potencial que estos genomas están codificando. Una línea importante de investigación en el grupo es desarrollar este tipo de herramientas adaptadas a las tecnologías modernas de secuenciación y a las herramientas computacionales de punta de las que se disponen en la actualidad."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "",
-    "section": "",
-    "text": "MSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#current-members",
-    "href": "people.html#current-members",
-    "title": "",
-    "section": "",
-    "text": "MSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\nJuan S. Andrade\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\nLuis Chica\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "oportunities.html",
-    "href": "oportunities.html",
-    "title": "",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee\n    Alejandro Reyes\n    Archives of Virology\n    (2023)\n    \n      Details\n    \n    \n       Manuscript\n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+    "text": "En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -133,6 +42,62 @@
     "text": "Back to top"
   },
   {
+    "objectID": "oportunities.html",
+    "href": "oportunities.html",
+    "title": "",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "The BCEM lab is located in the building CH-201 of the University of Los Andes.\nPlease e-mail us at: a.reyes@uniandes.edu.co\n\nStreet Address: Cra. 1 #18a-10"
+  },
+  {
+    "objectID": "contact.html#visit-us",
+    "href": "contact.html#visit-us",
+    "title": "",
+    "section": "",
+    "text": "The BCEM lab is located in the building CH-201 of the University of Los Andes.\nPlease e-mail us at: a.reyes@uniandes.edu.co\n\nStreet Address: Cra. 1 #18a-10"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "",
+    "section": "",
+    "text": "Ecology and microbiology seemed to be concepts that had nothing in common for several decades, and the field of microbial ecology took a long time to emerge and consolidate. This was largely due to the lack of tools and technologies to explore this field. However, with the development of technologies, algorithms and methodologies that allow the simultaneous study of all (micro)organisms present in an environment at a specific time, in the last decade it has been possible to study microorganisms and their interactions together in what is now known as meta-omics sciences.\nAt the beginining metagenomics allowed us to access the composition and genetic potential of environments, later transcriptomics allowed us to approach gene expression in those environments and now with proteomics and metabolomics we can begin to understand the different interactions between members of a community. However, all these techniques have developed quite rapidly and the technologies and algorithms for the analysis and interpretation of these data have evolved more in response to the particular needs of research groups than in a rational thinking to optimize the use of data and resources, taking advantage of the advances in computing capabilities that are currently available."
+  },
+  {
+    "objectID": "research.html#microbial-ecology",
+    "href": "research.html#microbial-ecology",
+    "title": "",
+    "section": "",
+    "text": "Ecology and microbiology seemed to be concepts that had nothing in common for several decades, and the field of microbial ecology took a long time to emerge and consolidate. This was largely due to the lack of tools and technologies to explore this field. However, with the development of technologies, algorithms and methodologies that allow the simultaneous study of all (micro)organisms present in an environment at a specific time, in the last decade it has been possible to study microorganisms and their interactions together in what is now known as meta-omics sciences.\nAt the beginining metagenomics allowed us to access the composition and genetic potential of environments, later transcriptomics allowed us to approach gene expression in those environments and now with proteomics and metabolomics we can begin to understand the different interactions between members of a community. However, all these techniques have developed quite rapidly and the technologies and algorithms for the analysis and interpretation of these data have evolved more in response to the particular needs of research groups than in a rational thinking to optimize the use of data and resources, taking advantage of the advances in computing capabilities that are currently available."
+  },
+  {
+    "objectID": "research.html#ecological-virus-host-relationships-in-the-human-gut",
+    "href": "research.html#ecological-virus-host-relationships-in-the-human-gut",
+    "title": "",
+    "section": "Ecological virus-host relationships in the human gut",
+    "text": "Ecological virus-host relationships in the human gut\nThe human gut microbiota is the set of all organisms living in the human gastrointestinal tract. This amazingly diverse community is composed of the 3 domains of life and their respective viruses. Since the emergence of molecular techniques for the study of microbial communities, the gut microbiota has been a major target of study and large consortia such as the HMP in the USA and MetaHIT in Europe have devoted a great deal of resources to characterize these communities. However, the major effort to study these communities has been made on their prokaryotic component ignoring for the most part the viral component. In fact, this component may be greater in number and diversity than the bacterial component itself. Viruses are present in any environment where a potential host is found and their predation dynamics, lytic or lysogenic cycles can have important consequences on the dynamics and behavior of the community in general. The study and characterization of the relationships between viruses (with bacterial or eukaryotic hosts) and their diverse implications in the community and therefore their consequences in the health of the human host, are an important objective of the group’s research."
+  },
+  {
+    "objectID": "research.html#characterization-of-virome-and-viral-genomes",
+    "href": "research.html#characterization-of-virome-and-viral-genomes",
+    "title": "",
+    "section": "Characterization of virome and viral genomes",
+    "text": "Characterization of virome and viral genomes\nWith the emergence of new DNA sequencing techniques, the study of different environmental viral communities has been boosted, which has led us to realize that we know less than 1% of the global viral diversity. It is common in the different studies carried out on viral communities that the vast majority (80% on average) of the data remain unanalyzed because they do not have significant similarity to reference viruses (being the comparison with reference databases the main tool for analysis). Although massive sequencing techniques have boosted the number of (short) sequences of viral origin deposited in databases, sequencing of complete viral genomes has been limited, causing reference databases to stagnate in size. This makes it imperative to develop bioinformatics tools that allow us to better discover and characterize this viral diversity and unravel the full potential that these genomes are encoding. An important line of research in the group is to develop such tools adapted to modern sequencing technologies and state-of-the-art computational tools currently available."
+  },
+  {
     "objectID": "publications/turner2023.html",
     "href": "publications/turner2023.html",
     "title": "Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee",
@@ -140,9 +105,51 @@
     "text": "Back to top"
   },
   {
-    "objectID": "people/alumni/juanse-andrade.html",
-    "href": "people/alumni/juanse-andrade.html",
-    "title": "Juan S. Andrade",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biología Computacional y Ecología Microbiana",
+    "section": "",
+    "text": "Our focus\nWe are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.\n\n\nOur values\nThe BCEM is a research group based on principles of excellence and scientific rigor, ensuring high-quality scientific research. Our members are characterized by their passion and scientific curiosity, as well as by their high level of commitment and discipline. As researchers we are based on mutual respect, based on a principle of empathy and solidarity with others, recognizing each other in our uniqueness, that is, in the difference, implying respect and the search for equity.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur group in 2015\n\n\n\n\n\n\n\nOur group in 2016\n\n\n\n\n\n\n\nOur group in 2017\n\n\n\n\n\n\n\nOur group in 2018\n\n\n\n\n\n\n\nOur group in 2019\n\n\n\n\n\n\n\nOur group in 2022\n\n\n\n\n\n\n\nOur group in 2023\n\n\n\n\n\nPrevoius\n\n\n\nNext\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee\n    Alejandro Reyes\n    Archives of Virology\n    (2023)\n    \n      Details\n    \n    \n       Manuscript\n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "people.html#current-members",
+    "href": "people.html#current-members",
+    "title": "",
+    "section": "Current Members",
+    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nAlejandro Castellanos\n\n\n\nMSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCamilo García-Botero\n\n\n\nPhD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFelipe Sierra\n\n\n\nMSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuisa Sacristan\n\n\n\nMSc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNathalia Portilla\n\n\n\nMSc\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\nJuan S. Andrade\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\nLuis Chica\n\n\nundefined\n\n\nundefined\n\n\nundefined\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/current-members/alejandro-castellanos.html",
+    "href": "people/current-members/alejandro-castellanos.html",
+    "title": "Alejandro Castellanos",
     "section": "",
     "text": "Back to top"
   },
@@ -154,10 +161,17 @@
     "text": "Hi my name is Natha.\n\n\n Back to top"
   },
   {
-    "objectID": "people/current-members/luisa-sacristan.html",
-    "href": "people/current-members/luisa-sacristan.html",
-    "title": "Luisa Sacristan",
+    "objectID": "people/alumni/juanse-andrade.html",
+    "href": "people/alumni/juanse-andrade.html",
+    "title": "Juan S. Andrade",
     "section": "",
-    "text": "Hola soy Luisa.\n\n\n Back to top"
+    "text": "Back to top"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "",
+    "section": "",
+    "text": "Back to top"
   }
 ]
