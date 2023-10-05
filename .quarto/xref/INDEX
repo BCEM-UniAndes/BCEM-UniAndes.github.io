@@ -70,5 +70,11 @@
   },
   "collaborators.qmd": {
     "collaborators.html": "e6655ffc"
+  },
+  "people/alumni/laura-avellaneda.qmd": {
+    "laura-avellaneda.html": "b347ef3d"
+  },
+  "old-publications.qmd": {
+    "old-publications.html": "c6073164"
   }
 }

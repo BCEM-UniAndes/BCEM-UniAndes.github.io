@@ -1,6 +1,6 @@
 ---
 title: "Luisa Sacristan"
-categories: [MSc]
+subtitle: "MSc. Student"
 image: ../people-images/luisa-sacristan.jpg
 about:
   template: jolla

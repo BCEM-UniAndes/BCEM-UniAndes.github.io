@@ -1,7 +1,8 @@
 ---
 title: Luis Chica
-categories: [MSc]
 image: ../people-images/luis-chica.jpeg
+started: 2017
+subtitle: "MSc. Student"
 about:
   template: jolla
   image: ../people-images/luis-chica.jpeg

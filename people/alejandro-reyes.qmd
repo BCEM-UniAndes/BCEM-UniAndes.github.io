@@ -1,6 +1,6 @@
 ---
 title: "Alejandro Reyes"
-categories: [PI]
+subtitle: Principal Investigator
 image: people-images/alejandro-reyes.jpeg
 about :
   template: jolla

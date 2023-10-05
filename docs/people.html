@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-categories','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-subtitle','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -188,10 +188,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
@@ -220,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="PI" data-listing-file-modified-sort="1696364456104" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696525092785" data-listing-reading-time-sort="1">
 <a href="./people/alejandro-reyes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -230,6 +226,9 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 Alejandro Reyes
 </h5>
+<div class="card-subtitle listing-subtitle">
+Principal Investigator
+</div>
 </div>
 </div>
 </a>
@@ -244,7 +243,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
 <div id="listing-current-members" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="MSc" data-listing-file-modified-sort="1693060938792" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696525392106" data-listing-reading-time-sort="1">
 <a href="./people/current-members/alejandro-castellanos.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -254,16 +253,14 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 Alejandro Castellanos
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MSc'); return false;">
-MSc
-</div>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="PhD">
+<div class="g-col-1" data-index="1">
 <a href="https://camilogarciabotero.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -273,35 +270,14 @@ MSc
 <h5 class="no-anchor card-title listing-title">
 Camilo García-Botero
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PhD'); return false;">
-PhD
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="MSc" data-listing-file-modified-sort="1693060884777" data-listing-reading-time-sort="1">
-<a href="./people/current-members/felipe-sierra.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/people-images/" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Felipe Sierra
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MSc'); return false;">
-MSc
-</div>
+<div class="card-subtitle listing-subtitle">
+PhD. Student
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="MSc" data-listing-file-modified-sort="1693060884777" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696525184665" data-listing-reading-time-sort="1">
 <a href="./people/current-members/luisa-sacristan.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -311,16 +287,14 @@ MSc
 <h5 class="no-anchor card-title listing-title">
 Luisa Sacristan
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MSc'); return false;">
-MSc
-</div>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="MSc" data-listing-file-modified-sort="1693060884778" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696525191035" data-listing-reading-time-sort="1">
 <a href="./people/current-members/nathalia-portilla.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -330,10 +304,8 @@ MSc
 <h5 class="no-anchor card-title listing-title">
 Nathalia Portilla
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MSc'); return false;">
-MSc
-</div>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
 </div>
 </div>
 </div>
@@ -383,12 +355,12 @@ Ended
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="MSc" data-listing-file-modified-sort="1692069219670" data-listing-reading-time-sort="1" data-listing-title-sort="Juan S. Andrade" data-listing-filename-sort="juanse-andrade.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1696525159215" data-listing-reading-time-sort="1" data-listing-title-sort="Juan S. Andrade" data-listing-filename-sort="juanse-andrade.qmd">
 <td>
 <a href="./people/alumni/juanse-andrade.html" class="title listing-title">Juan S. Andrade</a>
 </td>
 <td>
-<span class="listing-subtitle">undefined</span>
+<span class="listing-subtitle">MSc. Student</span>
 </td>
 <td>
 <span class="listing-started">undefined</span>
@@ -397,15 +369,29 @@ Ended
 <span class="listing-ended">undefined</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="MSc" data-listing-file-modified-sort="1692069219670" data-listing-reading-time-sort="1" data-listing-title-sort="Luis Chica" data-listing-filename-sort="luis-chica.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1696529549200" data-listing-reading-time-sort="1" data-listing-title-sort="Laura Avellaneda" data-listing-filename-sort="laura-avellaneda.qmd">
+<td>
+<a href="./people/alumni/laura-avellaneda.html" class="title listing-title">Laura Avellaneda</a>
+</td>
+<td>
+<span class="listing-subtitle">MSc. Student</span>
+</td>
+<td>
+<span class="listing-started">2017</span>
+</td>
+<td>
+<span class="listing-ended">undefined</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1696525063971" data-listing-reading-time-sort="1" data-listing-title-sort="Luis Chica" data-listing-filename-sort="luis-chica.qmd">
 <td>
 <a href="./people/alumni/luis-chica.html" class="title listing-title">Luis Chica</a>
 </td>
 <td>
-<span class="listing-subtitle">undefined</span>
+<span class="listing-subtitle">MSc. Student</span>
 </td>
 <td>
-<span class="listing-started">undefined</span>
+<span class="listing-started">2017</span>
 </td>
 <td>
 <span class="listing-ended">undefined</span>
@@ -663,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2023, BCEM - Universidad de Los Andes</div>
+    <div class="nav-footer-center">© 2023, BCEM - Universidad de Los Andes</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

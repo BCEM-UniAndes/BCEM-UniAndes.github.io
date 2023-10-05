@@ -22,8 +22,8 @@ website:
       - href: publications.qmd
         text: Publications
 
-      - href: resources.qmd
-        text: Resources
+      # - href: resources.qmd
+      #   text: Resources
 
       # - href: oportunities.qmd
       #   text: Oportunities # Data and Tools
@@ -38,7 +38,8 @@ website:
   back-to-top-navigation: true
 
   page-footer: 
-    center: "Copyright 2023, BCEM - Universidad de Los Andes" 
+    center: " © 2023, BCEM - Universidad de Los Andes" 
+    right: "" 
     background: light
 
 format:

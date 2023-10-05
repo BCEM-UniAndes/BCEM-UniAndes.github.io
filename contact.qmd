@@ -1,10 +1,9 @@
-## Visit Us
 
-The BCEM lab is located in the building CH-201 of the University of Los Andes. 
+{{< fa location-dot >}} Cra 1 Nº 18A - 10, Bogotá, Colombia.
 
-Please e-mail us at: `a.reyes@uniandes.edu.co`
+{{< fa building >}} Universidad de los Andes, Hermes Building, 201 (CH-201).
 
-> **Street Address:** Cra. 1 #18a-10
+{{< fa envelope >}} a.reyes@uniandes.edu.co
 
 
 ```{=html}

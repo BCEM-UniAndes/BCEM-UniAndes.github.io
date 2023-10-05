@@ -2,6 +2,30 @@
 fig-align: center
 ---
 
-::: {.column-body}
-![](imgs/collaborators.svg)
+::: {layout-ncol=4}
+
+![](imgs/collaborators/USP.jpg)
+
+![](imgs/collaborators/UCIrvine.svg.png)
+
+![](imgs/collaborators/Rohwer_Lab.png)
+
+![](imgs/collaborators/NIFES.gif)
+
+![](imgs/collaborators/LogoCimfu.jpeg)
+
+![](imgs/collaborators/LAMFU.jpg)
+
+![](imgs/collaborators/Gordon.png)
+
+![](imgs/collaborators/DantasLab.jpg)
+
+![](imgs/collaborators/Corpogen.png)
+
+![](imgs/collaborators/CGS.png)
+
+![](imgs/collaborators/biomar.png)
+
+![](imgs/collaborators/AGROSAVIA.png)
+
 :::

@@ -1,6 +1,6 @@
 ---
 title: "Nathalia Portilla"
-categories: [MSc]
+subtitle: "MSc. Student"
 image: ../people-images/nathalia-portilla.jpeg
 about :
   template: jolla

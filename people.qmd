@@ -8,7 +8,7 @@ listing:
     grid-columns: 3
     page-size: 10
     categories: false
-    fields: [image, title]
+    fields: [image, title, subtitle]
     contents: 
     - people/alejandro-reyes.qmd
   - id: current-members
@@ -16,12 +16,12 @@ listing:
     categories: unnumbered
     grid-item-align: center
     grid-columns: 3
-    fields: [image, categories, title]
+    fields: [image, subtitle, title]
     contents: 
     - people/current-members/*.qmd
     - path: https://camilogarciabotero.github.io
       title: "Camilo García-Botero"
-      categories: [PhD]
+      subtitle: "PhD. Student"
       image: people/people-images/camilo-garcia.jpeg
   - id: alumni
     contents: "people/alumni/*.qmd"

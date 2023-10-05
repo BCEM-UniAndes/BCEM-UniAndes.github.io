@@ -1,6 +1,6 @@
 ---
 title: Juan S. Andrade
-categories: [MSc]
+subtitle: "MSc. Student"
 image: ../people-images/jsebas-andrade.jpeg
 about:
   template: jolla

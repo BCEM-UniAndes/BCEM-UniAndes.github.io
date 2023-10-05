@@ -4,7 +4,7 @@ listing:
   - id: publications
     contents: publications/*.qmd
     template: ejs/article.ejs
-    categories: true
+    categories: false
     sort-ui: [title,author,journal,year]
     filter-ui: [title,author,journal,year]
     page-size: 10

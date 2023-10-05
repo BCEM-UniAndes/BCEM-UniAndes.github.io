@@ -1,6 +1,6 @@
 ---
 title: "Alejandro Castellanos"
-categories: [MSc]
+subtitle: "MSc. Student"
 image: ../people-images/alejandro-castellanos.jpeg
 about :
   template: jolla
