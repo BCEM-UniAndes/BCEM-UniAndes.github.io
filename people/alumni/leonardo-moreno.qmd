@@ -1,0 +1,14 @@
+---
+title: Leonardo Moreno
+image: ../people-images/leonardo-moreno.jpeg
+started: 2017
+subtitle: "MSc. Student"
+about:
+  template: jolla
+  image: ../people-images/leonardo-moreno.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---

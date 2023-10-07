@@ -10,6 +10,7 @@ listing:
     grid-columns: 4
     fields: [image, subtitle, title]
     grid-item-border: false
+    image-placeholder: imgs/default.jpg
     contents: 
     - people/current-members/*.qmd
     - people/alejandro-reyes.qmd
@@ -24,6 +25,8 @@ listing:
     fields: [title, subtitle, image] #started, ended
     grid-item-align: center
     grid-item-border: false
+    image-placeholder: imgs/default.jpg
+    max-items: 40
     field-display-names: 
       title: "Name"
       subtitle: "Role"

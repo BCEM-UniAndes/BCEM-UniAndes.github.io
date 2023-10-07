@@ -1,0 +1,14 @@
+---
+title: Zaide Montes
+# image: ../people-images/zaide-montes.jpeg
+started: 2017
+subtitle: "MSc. Student"
+about:
+  template: jolla
+  image: ../people-images/zaide-montes.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---

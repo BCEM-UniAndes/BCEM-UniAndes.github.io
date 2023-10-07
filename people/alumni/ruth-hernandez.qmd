@@ -1,0 +1,14 @@
+---
+title: Ruth Hernández
+# image: ../people-images/ruth-hernandez.jpeg
+started: 2017
+subtitle: "PhD. Student"
+about:
+  template: jolla
+  image: ../people-images/ruth-hernandez.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---

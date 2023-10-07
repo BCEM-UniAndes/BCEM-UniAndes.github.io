@@ -11,7 +11,7 @@
     "href": "people/alumni/laura-avellaneda.html",
     "title": "Laura Avellaneda",
     "section": "",
-    "text": "Curabitur gravida eu erat et fring. Morbi congue augue vel eros ullamcorper, eget convallis tortor sagittis. Fusce sodales viverra mauris a fringilla. Donec feugiat, justo eu blandit placerat, enim dui volutpat turpis, eu dictum lectus urna eu urna. Mauris sed massa ornare, interdum ipsum a, semper massa.\n\n\n Back to top"
+    "text": "Back to top"
   },
   {
     "objectID": "people/alumni/juanse-andrade.html",
@@ -37,7 +37,7 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee\n    Alejandro Reyes\n    Archives of Virology\n    (2023)\n    \n      Details\n    \n    \n       Manuscript\n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
   },
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Biología Computacional y Ecología Microbiana",
     "section": "",
-    "text": "Hello, we’re a dynamic research group delving into the realm of computational biology, exploring a dozen captivating subjects. From unraveling the intricacies of microbial processes to diving into genomics, population genetics, and systems biology, as well as creating dedicated software for handling vast biological datasets, we cover it all. At the heart of our pursuits are the principles of excellence and scientific rigor, ensuring the delivery of high-quality research.\nWithin our team, we prioritize mutual respect and understanding, valuing the uniqueness that each team member brings to the table. Our diversity is our strength, fostering a collaborative atmosphere characterized by teamwork, fairness, and equity. In summary, we are dedicated to contributing to the scientific exploration of microbial ecology through the use of bioinformatics.\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Hello, we’re a multidisciplinary research group passionate about the realm of computational biology, exploring dozen captivating subjects regarding microbial ecology. From unraveling the intricacies of microbial interactions to diving into genomics, population genetics, and systems biology, as well as creating dedicated software for handling vast biological datasets, we cover it all. At the heart of our pursuits are the principles of excellence and scientific rigor, ensuring the delivery of high-quality research.\nWithin our team, we prioritize mutual respect and understanding, valuing the uniqueness that each team member brings to the table. Our diversity is our strength, fostering a collaborative atmosphere characterized by teamwork, fairness, and equity. In summary, we are dedicated to contributing to the scientific exploration of microbial ecology through the use of bioinformatics.\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "publications/turner2023.html",
@@ -58,35 +58,35 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "Ecology and microbiology seemed to be concepts that had nothing in common for several decades, and the field of microbial ecology took a long time to emerge and consolidate. This was largely due to the lack of tools and technologies to explore this field. However, with the development of technologies, algorithms and methodologies that allow the simultaneous study of all (micro)organisms present in an environment at a specific time, in the last decade it has been possible to study microorganisms and their interactions together in what is now known as meta-omics sciences.\nAt the beginining metagenomics allowed us to access the composition and genetic potential of environments, later transcriptomics allowed us to approach gene expression in those environments and now with proteomics and metabolomics we can begin to understand the different interactions between members of a community. However, all these techniques have developed quite rapidly and the technologies and algorithms for the analysis and interpretation of these data have evolved more in response to the particular needs of research groups than in a rational thinking to optimize the use of data and resources, taking advantage of the advances in computing capabilities that are currently available."
   },
   {
     "objectID": "research.html#microbial-ecology",
     "href": "research.html#microbial-ecology",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "Ecology and microbiology seemed to be concepts that had nothing in common for several decades, and the field of microbial ecology took a long time to emerge and consolidate. This was largely due to the lack of tools and technologies to explore this field. However, with the development of technologies, algorithms and methodologies that allow the simultaneous study of all (micro)organisms present in an environment at a specific time, in the last decade it has been possible to study microorganisms and their interactions together in what is now known as meta-omics sciences.\nAt the beginining metagenomics allowed us to access the composition and genetic potential of environments, later transcriptomics allowed us to approach gene expression in those environments and now with proteomics and metabolomics we can begin to understand the different interactions between members of a community. However, all these techniques have developed quite rapidly and the technologies and algorithms for the analysis and interpretation of these data have evolved more in response to the particular needs of research groups than in a rational thinking to optimize the use of data and resources, taking advantage of the advances in computing capabilities that are currently available."
   },
   {
     "objectID": "research.html#ecological-virus-host-relationships-in-the-human-gut",
     "href": "research.html#ecological-virus-host-relationships-in-the-human-gut",
-    "title": "",
+    "title": "BCEM",
     "section": "Ecological virus-host relationships in the human gut",
     "text": "Ecological virus-host relationships in the human gut\nThe human gut microbiota is the set of all organisms living in the human gastrointestinal tract. This amazingly diverse community is composed of the 3 domains of life and their respective viruses. Since the emergence of molecular techniques for the study of microbial communities, the gut microbiota has been a major target of study and large consortia such as the HMP in the USA and MetaHIT in Europe have devoted a great deal of resources to characterize these communities. However, the major effort to study these communities has been made on their prokaryotic component ignoring for the most part the viral component. In fact, this component may be greater in number and diversity than the bacterial component itself. Viruses are present in any environment where a potential host is found and their predation dynamics, lytic or lysogenic cycles can have important consequences on the dynamics and behavior of the community in general. The study and characterization of the relationships between viruses (with bacterial or eukaryotic hosts) and their diverse implications in the community and therefore their consequences in the health of the human host, are an important objective of the group’s research."
   },
   {
     "objectID": "research.html#characterization-of-virome-and-viral-genomes",
     "href": "research.html#characterization-of-virome-and-viral-genomes",
-    "title": "",
+    "title": "BCEM",
     "section": "Characterization of virome and viral genomes",
     "text": "Characterization of virome and viral genomes\nWith the emergence of new DNA sequencing techniques, the study of different environmental viral communities has been boosted, which has led us to realize that we know less than 1% of the global viral diversity. It is common in the different studies carried out on viral communities that the vast majority (80% on average) of the data remain unanalyzed because they do not have significant similarity to reference viruses (being the comparison with reference databases the main tool for analysis). Although massive sequencing techniques have boosted the number of (short) sequences of viral origin deposited in databases, sequencing of complete viral genomes has been limited, causing reference databases to stagnate in size. This makes it imperative to develop bioinformatics tools that allow us to better discover and characterize this viral diversity and unravel the full potential that these genomes are encoding. An important line of research in the group is to develop such tools adapted to modern sequencing technologies and state-of-the-art computational tools currently available."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "Cra 1 Nº 18A - 10, Bogotá, Colombia.\n Universidad de los Andes, Hermes Building, 201 (CH-201).\n a.reyes@uniandes.edu.co\n\n\n\n\n Back to top"
   },
@@ -107,7 +107,7 @@
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "MSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc. Student\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur group in 2015\n\n\n\n\n\n\n\nOur group in 2016\n\n\n\n\n\n\n\nOur group in 2017\n\n\n\n\n\n\n\nOur group in 2018\n\n\n\n\n\n\n\nOur group in 2019\n\n\n\n\n\n\n\nOur group in 2022\n\n\n\n\n\n\n\nOur group in 2023\n\n\n\n\n\nPrevoius\n\n\n\nNext"
   },
@@ -128,9 +128,9 @@
   {
     "objectID": "people.html#alumni",
     "href": "people.html#alumni",
-    "title": "",
+    "title": "BCEM",
     "section": "Alumni",
-    "text": "Alumni\n\n\n\n\n\n\n\n\n\n\nJuan S. Andrade\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Avellaneda\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuis Chica\n\n\nMSc. Student\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Alumni\n\n\n\n\n\n\n\n\n\n\nAndrea Borbon\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndrés Sacré\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngela García\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarlos Lozada\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarlos Moreno\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Alzate\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Ayala\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Botero\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nEsteban Pardo\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuillermo Luque\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nJorge Díaz\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuan S. Andrade\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulián Casas\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Avellaneda\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Camelo\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaura Forero\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeonardo Moreno\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiliane Santana\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuis Chica\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMauricio Pacheco\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiguel Parra\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPablo Cardenas\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuth Hernández\n\n\nPhD. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nZaide Montes\n\n\nMSc. Student\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/current-members/alejandro-castellanos.html",
@@ -170,7 +170,7 @@
   {
     "objectID": "people.html#fa-people-group-team",
     "href": "people.html#fa-people-group-team",
-    "title": "",
+    "title": "BCEM",
     "section": "",
     "text": "MSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc. Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc. Student\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur group in 2015\n\n\n\n\n\n\n\nOur group in 2016\n\n\n\n\n\n\n\nOur group in 2017\n\n\n\n\n\n\n\nOur group in 2018\n\n\n\n\n\n\n\nOur group in 2019\n\n\n\n\n\n\n\nOur group in 2022\n\n\n\n\n\n\n\nOur group in 2023\n\n\n\n\n\nPrevoius\n\n\n\nNext"
   },
@@ -187,5 +187,152 @@
     "title": "",
     "section": "",
     "text": "Our group in 2015\n\n\n\n\n\n\n\nOur group in 2016\n\n\n\n\n\n\n\nOur group in 2017\n\n\n\n\n\n\n\nOur group in 2018\n\n\n\n\n\n\n\nOur group in 2019\n\n\n\n\n\n\n\nOur group in 2022\n\n\n\n\n\n\n\nOur group in 2023\n\n\n\n\n\nPrevoius\n\n\n\nNext"
+  },
+  {
+    "objectID": "people/alumni/andrea-borbon.html",
+    "href": "people/alumni/andrea-borbon.html",
+    "title": "Andrea Borbon",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/andres-sacre.html",
+    "href": "people/alumni/andres-sacre.html",
+    "title": "Andrés Sacré",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/david-ayala.html",
+    "href": "people/alumni/david-ayala.html",
+    "title": "David Ayala",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/david-alzate.html",
+    "href": "people/alumni/david-alzate.html",
+    "title": "David Alzate",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/carlos-lozada.html",
+    "href": "people/alumni/carlos-lozada.html",
+    "title": "Carlos Lozada",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/carlos-moreno.html",
+    "href": "people/alumni/carlos-moreno.html",
+    "title": "Carlos Moreno",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/david-botero.html",
+    "href": "people/alumni/david-botero.html",
+    "title": "David Botero",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/liliane-santana.html",
+    "href": "people/alumni/liliane-santana.html",
+    "title": "Liliane Santana",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/laura-camelo.html",
+    "href": "people/alumni/laura-camelo.html",
+    "title": "Laura Camelo",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/jorge-diaz.html",
+    "href": "people/alumni/jorge-diaz.html",
+    "title": "Jorge Díaz",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/esteban-pardo.html",
+    "href": "people/alumni/esteban-pardo.html",
+    "title": "Esteban Pardo",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/laura-forero.html",
+    "href": "people/alumni/laura-forero.html",
+    "title": "Laura Forero",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/julian-casas.html",
+    "href": "people/alumni/julian-casas.html",
+    "title": "Julián Casas",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/miguel-parra.html",
+    "href": "people/alumni/miguel-parra.html",
+    "title": "Miguel Parra",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/mauricio-pacheco.html",
+    "href": "people/alumni/mauricio-pacheco.html",
+    "title": "Mauricio Pacheco",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/leonardo-moreno.html",
+    "href": "people/alumni/leonardo-moreno.html",
+    "title": "Leonardo Moreno",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/pablo-cardenas.html",
+    "href": "people/alumni/pablo-cardenas.html",
+    "title": "Pablo Cardenas",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/zaide-montes.html",
+    "href": "people/alumni/zaide-montes.html",
+    "title": "Zaide Montes",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/angela-garcia.html",
+    "href": "people/alumni/angela-garcia.html",
+    "title": "Angela García",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/ruth-hernandez.html",
+    "href": "people/alumni/ruth-hernandez.html",
+    "title": "Ruth Hernández",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "people/alumni/guillermo-luque.html",
+    "href": "people/alumni/guillermo-luque.html",
+    "title": "Guillermo Luque",
+    "section": "",
+    "text": "Back to top"
   }
 ]

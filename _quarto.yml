@@ -3,15 +3,15 @@ project:
   output-dir: docs
   
 website:
-  title: ""
+  title: "BCEM"
   favicon: "bcem-logo.png"
 
   navbar:
     logo: "bcem-logo.png"
     collapse-below: md
     right:
-      - href: index.qmd
-        text: "{{< fa house >}} Home"
+      # - href: index.qmd
+      #   text: "{{< fa house >}} Home"
 
       - href: people.qmd
         text: "{{< fa people-group >}} People"

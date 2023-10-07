@@ -1,0 +1,14 @@
+---
+title: Carlos Lozada
+image: ../people-images/carlos-lozada.jpeg
+started: 2017
+subtitle: "MSc. Student"
+about:
+  template: jolla
+  image: ../people-images/carlos-lozada.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com
+    - icon: github
+      href: https://github.com
+---
