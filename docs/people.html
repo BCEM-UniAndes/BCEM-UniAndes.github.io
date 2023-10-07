@@ -42,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,34 +65,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pi .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-current-members .list');
@@ -128,9 +102,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -158,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
@@ -170,33 +144,29 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+ <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
- <span class="menu-text">People</span></a>
+ <span class="menu-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-microscope" aria-label="microscope"></i> Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+ <span class="menu-text"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./collaborators.html" rel="" target="">
- <span class="menu-text">Collaborators</span></a>
+ <span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -208,44 +178,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-<section id="principal-investigator" class="level2">
-<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
-<div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696525092785" data-listing-reading-time-sort="1">
-<a href="./people/alejandro-reyes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/people-images/alejandro-reyes.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Alejandro Reyes
-</h5>
-<div class="card-subtitle listing-subtitle">
-Principal Investigator
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="current-members" class="level2">
-<h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
+<section id="fa-people-group-team" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="fa-people-group-team"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Team</h2>
 <div id="listing-current-members" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696525392106" data-listing-reading-time-sort="1">
 <a href="./people/current-members/alejandro-castellanos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
 <img src="./people/people-images/alejandro-castellanos.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
@@ -260,9 +203,26 @@ MSc. Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696629239592" data-listing-reading-time-sort="1">
+<a href="./people/alejandro-reyes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img src="./people/people-images/alejandro-reyes.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alejandro Reyes
+</h5>
+<div class="card-subtitle listing-subtitle">
+Principal Investigator
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
 <a href="https://camilogarciabotero.github.io" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
 <img src="people/people-images/camilo-garcia.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
@@ -277,9 +237,9 @@ PhD. Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696525184665" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696525184665" data-listing-reading-time-sort="1">
 <a href="./people/current-members/luisa-sacristan.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
 <img src="./people/people-images/luisa-sacristan.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
@@ -294,9 +254,9 @@ MSc. Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1696525191035" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1696525191035" data-listing-reading-time-sort="1">
 <a href="./people/current-members/nathalia-portilla.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
+<div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
 <img src="./people/people-images/nathalia-portilla.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
@@ -316,90 +276,146 @@ MSc. Student
 No matching items
 </div>
 </div>
+<div class="column-screen-inset-shaded">
+<div class="cell">
+<div class="cell-output-display">
+<div id="gallery-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2015.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2015</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2016.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2016</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2017.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2017</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2018.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2018</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2019.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2019</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2022.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2022</p>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="5000">
+<a>
+<img src="imgs/group-imgs/2023.jpg" class="d-block  mx-auto border">
+</a>
+<div class="carousel-caption d-none d-md-block">
+<p class="fw-light">Our group in 2023</p>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Prevoius</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-alumni" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Name
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-5">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696525159215" data-listing-reading-time-sort="1">
+<a href="./people/alumni/juanse-andrade.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img src="./people/people-images/jsebas-andrade.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Juan S. Andrade
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
-</th>
-<th>
-Role
-</th>
-<th>
-Started
-</th>
-<th>
-Ended
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1696525159215" data-listing-reading-time-sort="1" data-listing-title-sort="Juan S. Andrade" data-listing-filename-sort="juanse-andrade.qmd">
-<td>
-<a href="./people/alumni/juanse-andrade.html" class="title listing-title">Juan S. Andrade</a>
-</td>
-<td>
-<span class="listing-subtitle">MSc. Student</span>
-</td>
-<td>
-<span class="listing-started">undefined</span>
-</td>
-<td>
-<span class="listing-ended">undefined</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1696529549200" data-listing-reading-time-sort="1" data-listing-title-sort="Laura Avellaneda" data-listing-filename-sort="laura-avellaneda.qmd">
-<td>
-<a href="./people/alumni/laura-avellaneda.html" class="title listing-title">Laura Avellaneda</a>
-</td>
-<td>
-<span class="listing-subtitle">MSc. Student</span>
-</td>
-<td>
-<span class="listing-started">2017</span>
-</td>
-<td>
-<span class="listing-ended">undefined</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1696525063971" data-listing-reading-time-sort="1" data-listing-title-sort="Luis Chica" data-listing-filename-sort="luis-chica.qmd">
-<td>
-<a href="./people/alumni/luis-chica.html" class="title listing-title">Luis Chica</a>
-</td>
-<td>
-<span class="listing-subtitle">MSc. Student</span>
-</td>
-<td>
-<span class="listing-started">2017</span>
-</td>
-<td>
-<span class="listing-ended">undefined</span>
-</td>
-</tr>
-</tbody>
-
-</table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696529549200" data-listing-reading-time-sort="1">
+<a href="./people/alumni/laura-avellaneda.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img src="./people/people-images/laura-avellaneda.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Laura Avellaneda
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696640159369" data-listing-reading-time-sort="1">
+<a href="./people/alumni/luis-chica.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img src="./people/people-images/luis-chica.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Luis Chica
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc. Student
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -646,13 +662,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+    <div class="nav-footer-left">Powered by Quarto. Done with <i class="fa-solid fa-heart" aria-label="heart"></i></div>   
     <div class="nav-footer-center">© 2023, BCEM - Universidad de Los Andes</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+    <div class="nav-footer-right">Vigilada Mineducación</div>
   </div>
 </footer>
 

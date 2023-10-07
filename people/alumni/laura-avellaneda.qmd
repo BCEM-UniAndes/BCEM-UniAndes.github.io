@@ -4,7 +4,7 @@ image: ../people-images/laura-avellaneda.jpeg
 started: 2017
 subtitle: "MSc. Student"
 about:
-  template: jolla
+  template: trestles
   image: ../people-images/laura-avellaneda.jpeg
   links:
     - icon: twitter
@@ -12,3 +12,5 @@ about:
     - icon: github
       href: https://github.com
 ---
+
+Curabitur gravida eu erat et fring. Morbi congue augue vel eros ullamcorper, eget convallis tortor sagittis. Fusce sodales viverra mauris a fringilla. Donec feugiat, justo eu blandit placerat, enim dui volutpat turpis, eu dictum lectus urna eu urna. Mauris sed massa ornare, interdum ipsum a, semper massa.

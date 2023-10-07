@@ -1,32 +1,29 @@
 ---
 title: ""
 toc: false
+page-layout: article
 listing:
-  - id: pi
-    type: grid
-    grid-item-align: center
-    grid-columns: 3
-    page-size: 10
-    categories: false
-    fields: [image, title, subtitle]
-    contents: 
-    - people/alejandro-reyes.qmd
   - id: current-members
     type: grid
-    categories: unnumbered
+    categories: false
     grid-item-align: center
-    grid-columns: 3
+    grid-columns: 4
     fields: [image, subtitle, title]
+    grid-item-border: false
     contents: 
     - people/current-members/*.qmd
+    - people/alejandro-reyes.qmd
     - path: https://camilogarciabotero.github.io
       title: "Camilo García-Botero"
       subtitle: "PhD. Student"
       image: people/people-images/camilo-garcia.jpeg
   - id: alumni
     contents: "people/alumni/*.qmd"
-    type: table
-    fields: [title, subtitle, started, ended]
+    type: grid
+    grid-columns: 5
+    fields: [title, subtitle, image] #started, ended
+    grid-item-align: center
+    grid-item-border: false
     field-display-names: 
       title: "Name"
       subtitle: "Role"
@@ -34,17 +31,25 @@ listing:
       ended: "Ended"
 ---
 
-## Principal Investigator
-
-:::{#pi}
-:::
-
-## Current Members
+## {{< fa people-group >}}  Team
 
 :::{#current-members}
+:::
+
+
+::: {.column-screen-inset-shaded} 
+
+```{r}
+#| warning: false
+#| echo: false
+source("people/carousel.R")
+carousel("gallery-carousel", 5000, yaml.load_file("people/carousel.yml"))
+```
+
 :::
 
 ## Alumni
 
 :::{#alumni}
 :::
+

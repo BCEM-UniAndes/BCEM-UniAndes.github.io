@@ -11,6 +11,7 @@ listing:
     field-display-names: 
       journal: "Journal"
       year: "Year"
+page-layout: full
 ---
 
 :::{#publications}

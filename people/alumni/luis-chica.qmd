@@ -4,7 +4,7 @@ image: ../people-images/luis-chica.jpeg
 started: 2017
 subtitle: "MSc. Student"
 about:
-  template: jolla
+  template: trestles
   image: ../people-images/luis-chica.jpeg
   links:
     - icon: twitter
@@ -12,3 +12,4 @@ about:
     - icon: github
       href: https://github.com
 ---
+

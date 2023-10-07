@@ -3,7 +3,7 @@ title: "Biología Computacional y Ecología Microbiana"
 toc: false
 about:
   id: hero-heading
-  template: trestles
+  template: jolla
   image: bcem-logo.png
   links:
     - icon: twitter
@@ -12,30 +12,20 @@ about:
       href: https://github.com/BCEM-UniAndes
 ---
 
+
 :::{#hero-heading}
 
-### Our focus
+Hello, we're a dynamic research group delving into the realm of computational biology, exploring a dozen captivating subjects. From unraveling the intricacies of microbial processes to diving into genomics, population genetics, and systems biology, as well as creating dedicated software for handling vast biological datasets, we cover it all. At the heart of our pursuits are the principles of excellence and scientific rigor, ensuring the delivery of high-quality research.
 
-We are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.
-
-### Our values
-
-The BCEM is a research group based on principles of excellence and scientific rigor, ensuring high-quality scientific research. Our members are characterized by their passion and scientific curiosity, as well as by their high level of commitment and discipline. As researchers we are based on mutual respect, based on a principle of empathy and solidarity with others, recognizing each other in our uniqueness, that is, in the difference, implying respect and the search for equity.
+Within our [team](people.qmd#), we prioritize mutual respect and understanding, valuing the uniqueness that each team member brings to the table. Our diversity is our strength, fostering a collaborative atmosphere characterized by teamwork, fairness, and equity. In summary, we are dedicated to contributing to the scientific exploration of microbial ecology through the use of bioinformatics.
 
 :::
 
 ***
 
-{{< pagebreak >}}
 
-::: {.column-screen-inset-shaded}
-
-```{r}
-#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
-#| warning: false
-#| echo: false
-source("people/carousel.R")
-carousel("gallery-carousel", 5000, yaml.load_file("people/carousel.yml"))
-```
-
+::: {.column-body-outset}
+![](imgs/group-imgs/2023.jpg){fig-align="center"}
 :::
+
+<!-- :::{#hero-heading} -->

@@ -8,19 +8,19 @@ website:
 
   navbar:
     logo: "bcem-logo.png"
-    collapse-below: lg
-    left:
+    collapse-below: md
+    right:
       - href: index.qmd
-        text: Home
-
-      - href: research.qmd
-        text: Research
+        text: "{{< fa house >}} Home"
 
       - href: people.qmd
-        text: People
+        text: "{{< fa people-group >}} People"
+
+      - href: research.qmd
+        text: "{{< fa microscope >}} Research"
 
       - href: publications.qmd
-        text: Publications
+        text: "{{< fa scroll >}} Publications"
 
       # - href: resources.qmd
       #   text: Resources
@@ -29,21 +29,24 @@ website:
       #   text: Oportunities # Data and Tools
 
       - href: contact.qmd
-        text: Contact
+        text: "{{< fa paper-plane >}} Contact"
 
-      - href: collaborators.qmd
-        text: Collaborators
+      # - href: collaborators.qmd
+      #   text: Collaborators
 
 
   back-to-top-navigation: true
 
   page-footer: 
     center: " © 2023, BCEM - Universidad de Los Andes" 
-    right: "" 
+    right: "Vigilada Mineducación" 
+    left: "Powered by Quarto. Done with {{< fa heart >}}"
     background: light
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme:
+      light:
+        - sandstone # -  yeti #sandstone #pulse #sketchy #vapor #cosmo
+
+css: styles.css

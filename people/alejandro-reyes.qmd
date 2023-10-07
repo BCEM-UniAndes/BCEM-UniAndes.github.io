@@ -12,4 +12,5 @@ about :
       href: https://github.com
 ---
 
-En mi trayectoria como microbiólogo, fusioné genética y herramientas en la maestría, y en el doctorado en Biología Computacional, entrelacé datos genómicos con informática. Ahora, como docente, abordo los enigmas microbianos en áreas como salud y agricultura. Mi compromiso es destilar sabiduría, arrojar luz sobre desafíos y avanzar hacia un futuro más armónico y sostenible. En esta convergencia de disciplinas, siembro y cosecho conocimiento para una sociedad mejor informada y equilibrada.
+
+In my microbiology training, I developed an appreciation for microbial communities and their impact on ecosystems, including our bodies. Faced with tool limitations, my master's propelled me into molecular and genetic methods. Advances in techniques led me to computational biology during my Ph.D., honing skills for studying microbial communities. Now, as an assistant professor, I'm committed to applying tools to understand how microbial communities function in diverse environments, influencing health and agriculture.
