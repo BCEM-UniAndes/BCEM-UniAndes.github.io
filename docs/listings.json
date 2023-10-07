@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/turner2023.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/current-members/alejandro-castellanos.html",
@@ -36,6 +30,12 @@
       "/people/alumni/pablo-cardenas.html",
       "/people/alumni/ruth-hernandez.html",
       "/people/alumni/zaide-montes.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/turner2023.html"
     ]
   }
 ]

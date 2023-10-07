@@ -4,8 +4,8 @@
       "publications/*.qmd"
     ],
     "people.qmd": [
-      "people/alejandro-reyes.qmd",
       "people/current-members/*.qmd",
+      "people/alejandro-reyes.qmd",
       "people/alumni/*.qmd"
     ]
   }
