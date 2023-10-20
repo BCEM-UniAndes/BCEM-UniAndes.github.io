@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/current-members/alejandro-castellanos.html",
@@ -33,9 +37,7 @@
     ]
   },
   {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/turner2023.html"
-    ]
+    "listing": "/publications-list.html",
+    "items": []
   }
 ]

@@ -10,6 +10,7 @@ about:
       href: https://twitter.com/bcem_uniandes
     - icon: github
       href: https://github.com/BCEM-UniAndes
+lightbox: true
 ---
 
 

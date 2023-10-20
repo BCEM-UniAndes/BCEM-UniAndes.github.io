@@ -1,12 +1,17 @@
 {
   "listingMap": {
     "publications.qmd": [
-      "publications/*.qmd"
+      "publications/*.qmd",
+      "publications-out.yml"
     ],
     "people.qmd": [
       "people/current-members/*.qmd",
       "people/alejandro-reyes.qmd",
       "people/alumni/*.qmd"
+    ],
+    "publications-list.qmd": [
+      "publications.yml",
+      "publications-out.yml"
     ]
   }
 }

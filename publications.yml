@@ -1,20 +1,1474 @@
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
-  first: '&emsp;&emsp;&emsp;'
+- accessed: 2022-12-20
+  author:
+  - family: Alves
+    given: João M. P.
+  - family: Oliveira
+    given: André L.
+    non-dropping-particle: de
+  - family: Sandberg
+    given: Tatiana O. M.
+  - family: Moreno-Gallego
+    given: Jaime L.
+  - family: Toledo
+    given: Marcelo A. F.
+    non-dropping-particle: de
+  - family: Moura
+    given: Elisabeth M. M.
+    non-dropping-particle: de
+  - family: Oliveira
+    given: Liliane S.
+  - family: Durham
+    given: Alan M.
+  - family: Mehnert
+    given: Dolores U.
+  - family: Zanotto
+    given: Paolo M. de A.
+  - family: Reyes
+    given: Alejandro
+  - family: Gruber
+    given: Arthur
+  journal: Frontiers in Microbiology
+  journal-short: Front. Microbiol.
+  doi: 10.3389/fmicb.2016.00269
+  id: alves2016
+  issn: 1664-302X
+  issued: 2016-03-04
+  keyword: algorithms,HMMs,metagenomics,phages,pipeline,programming,sequence
+    assembly,viral discovery
+  title: "GenSeed-HMM: A Tool for Progressive Assembly Using Profile
+    HMMs as Seeds and its Application in Alpavirinae Viral Discovery
+    from Metagenomic Data"
+  title-short: GenSeed-HMM
+  type: article-journal
+  url: "http://journal.frontiersin.org/Article/10.3389/fmicb.2016.00269/abstract"
+  volume: 7
+- abstract: Abstract The order Herpesvirales encompasses a wide variety
+    of important and broadly distributed human pathogens. During the
+    last decades, similarities in the viral cycle and the structure of
+    some of their proteins with those of the order Caudovirales, the
+    tailed bacterial viruses, have brought speculation regarding the
+    existence of an evolutionary relationship between these clades. To
+    evaluate such hypothesis, we used over 600 Herpesvirales and 2000
+    Caudovirales complete genomes to search for the presence or absence
+    of clusters of orthologous protein domains and constructed a
+    dendrogram based on their compositional similarities. The results
+    obtained strongly suggest an evolutionary relationship between the
+    two orders. Furthermore, they allowed to propose a core genome for
+    the Herpesvirales, composed of 4 proteins, including the ATPase
+    subunit of the DNA-packaging terminase, the only protein with
+    previously verified conservation. Accordingly, a phylogenetic tree
+    constructed with sequences derived from the clusters associated to
+    these proteins grouped the Herpesvirales strains accordingly to the
+    established families and subfamilies. Overall, this work provides
+    results supporting the hypothesis that the two orders are
+    evolutionarily related and contributes to the understanding of the
+    history of the Herpesvirales.
+  accessed: 2022-12-20
+  author:
+  - family: Andrade-Martínez
+    given: Juan S.
+  - family: Moreno-Gallego
+    given: J. Leonardo
+  - family: Reyes
+    given: Alejandro
+  journal: Scientific Reports
+  journal-short: Sci Rep
+  doi: 10.1038/s41598-019-47742-z
+  id: andrade-martinez2019
+  issn: 2045-2322
+  issue: 1
+  issued: 2019-08-05
+  keyword: genomics,pangenomics,phages
+  language: en-US
+  page: 11342
+  title: Defining a Core Genome for the Herpesvirales and Exploring
+    their Evolutionary Relationship with the Caudovirales
+  type: article-journal
+  url: "https://www.nature.com/articles/s41598-019-47742-z"
+  volume: 9
+- abstract: "Over a century of bacteriophage research has uncovered a
+    plethora of fundamental aspects of their biology, ecology, and
+    evolution. Furthermore, the introduction of community-level studies
+    through metagenomics has revealed unprecedented insights on the
+    impact that phages have on a range of ecological and physiological
+    processes. , SUMMARY Over a century of bacteriophage research has
+    uncovered a plethora of fundamental aspects of their biology,
+    ecology, and evolution. Furthermore, the introduction of
+    community-level studies through metagenomics has revealed
+    unprecedented insights on the impact that phages have on a range of
+    ecological and physiological processes. It was not until the
+    introduction of viral metagenomics that we began to grasp the
+    astonishing breadth of genetic diversity encompassed by phage
+    genomes. Novel phage genomes have been reported from a diverse range
+    of biomes at an increasing rate, which has prompted the development
+    of computational tools that support the multilevel characterization
+    of these novel phages based solely on their genome sequences. The
+    impact of these technologies has been so large that, together with
+    MAGs (Metagenomic Assembled Genomes), we now have UViGs
+    (Uncultivated Viral Genomes), which are now officially recognized by
+    the International Committee for the Taxonomy of Viruses (ICTV), and
+    new taxonomic groups can now be created based exclusively on genomic
+    sequence information. Even though the available tools have immensely
+    contributed to our knowledge of phage diversity and ecology, the
+    ongoing surge in software programs makes it challenging to keep up
+    with them and the purpose each one is designed for. Therefore, in
+    this review, we describe a comprehensive set of currently available
+    computational tools designed for the characterization of phage
+    genome sequences, focusing on five specific analyses: (i) assembly
+    and identification of phage and prophage sequences, (ii) phage
+    genome annotation, (iii) phage taxonomic classification, (iv)
+    phage-host interaction analysis, and (v) phage microdiversity."
+  accessed: 2022-10-04
+  author:
+  - family: Andrade-Martínez
+    given: Juan Sebastián
+  - family: Camelo Valera
+    given: Laura Carolina
+  - family: Chica Cárdenas
+    given: Luis Alberto
+  - family: Forero-Junco
+    given: Laura
+  - family: López-Leal
+    given: Gamaliel
+  - family: Moreno-Gallego
+    given: J. Leonardo
+  - family: Rangel-Pineros
+    given: Guillermo
+  - family: Reyes
+    given: Alejandro
+  journal: Microbiology and Molecular Biology Reviews
+  journal-short: Microbiol Mol Biol Rev
+  doi: 10.1128/mmbr.00004-21
+  id: andrade-martinez2022
+  issn: 1092-2172, 1098-5557
+  issue: 2
+  issued: 2022-06-15
+  language: en-US
+  page: e00004-21
+  title: Computational Tools for the Analysis of Uncultivated Phage
+    Genomes
+  type: article-journal
+  url: "https://journals.asm.org/doi/10.1128/mmbr.00004-21"
+  volume: 86
+- accessed: 2022-12-20
+  author:
+  - family: Dutilh
+    given: Bas E
+  - family: Varsani
+    given: Arvind
+  - family: Tong
+    given: Yigang
+  - family: Simmonds
+    given: Peter
+  - family: Sabanadzovic
+    given: Sead
+  - family: Rubino
+    given: Luisa
+  - family: Roux
+    given: Simon
+  - family: Muñoz
+    given: Alejandro Reyes
+  - family: Lood
+    given: Cédric
+  - family: Lefkowitz
+    given: Elliot J
+  - family: Kuhn
+    given: Jens H
+  - family: Krupovic
+    given: Mart
+  - family: Edwards
+    given: Robert A
+  - family: Brister
+    given: J Rodney
+  - family: Adriaenssens
+    given: Evelien M
+  - family: Sullivan
+    given: Matthew B
+  journal: Current Opinion in Virology
+  journal-short: Current Opinion in Virology
+  doi: 10.1016/j.coviro.2021.10.011
+  id: dutilh2021
+  issn: 18796257
+  issued: 2021-12
+  language: en-US
+  page: 207-215
+  title: Perspective on taxonomic classification of uncultivated viruses
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S1879625721001334"
+  volume: 51
+- accessed: 2022-12-20
+  author:
+  - family: Edwards
+    given: Robert A.
+  - family: Vega
+    given: Alejandro A.
+  - family: Norman
+    given: Holly M.
+  - family: Ohaeri
+    given: Maria
+  - family: Levi
+    given: Kyle
+  - family: Dinsdale
+    given: Elizabeth A.
+  - family: Cinek
+    given: Ondrej
+  - family: Aziz
+    given: Ramy K.
+  - family: McNair
+    given: Katelyn
+  - family: Barr
+    given: Jeremy J.
+  - family: Bibby
+    given: Kyle
+  - family: Brouns
+    given: Stan J. J.
+  - family: Cazares
+    given: Adrian
+  - family: Jonge
+    given: Patrick A.
+    non-dropping-particle: de
+  - family: Desnues
+    given: Christelle
+  - family: Díaz Muñoz
+    given: Samuel L.
+  - family: Fineran
+    given: Peter C.
+  - family: Kurilshikov
+    given: Alexander
+  - family: Lavigne
+    given: Rob
+  - family: Mazankova
+    given: Karla
+  - family: McCarthy
+    given: David T.
+  - family: Nobrega
+    given: Franklin L.
+  - family: Reyes Muñoz
+    given: Alejandro
+  - family: Tapia
+    given: German
+  - family: Trefault
+    given: Nicole
+  - family: Tyakht
+    given: Alexander V.
+  - family: Vinuesa
+    given: Pablo
+  - family: Wagemans
+    given: Jeroen
+  - family: Zhernakova
+    given: Alexandra
+  - family: Aarestrup
+    given: Frank M.
+  - family: Ahmadov
+    given: Gunduz
+  - family: Alassaf
+    given: Abeer
+  - family: Anton
+    given: Josefa
+  - family: Asangba
+    given: Abigail
+  - family: Billings
+    given: Emma K.
+  - family: Cantu
+    given: Vito Adrian
+  - family: Carlton
+    given: Jane M.
+  - family: Cazares
+    given: Daniel
+  - family: Cho
+    given: Gyu-Sung
+  - family: Condeff
+    given: Tess
+  - family: Cortés
+    given: Pilar
+  - family: Cranfield
+    given: Mike
+  - family: Cuevas
+    given: Daniel A.
+  - family: De la Iglesia
+    given: Rodrigo
+  - family: Decewicz
+    given: Przemyslaw
+  - family: Doane
+    given: Michael P.
+  - family: Dominy
+    given: Nathaniel J.
+  - family: Dziewit
+    given: Lukasz
+  - family: Elwasila
+    given: Bashir Mukhtar
+  - family: Eren
+    given: A. Murat
+  - family: Franz
+    given: Charles
+  - family: Fu
+    given: Jingyuan
+  - family: Garcia-Aljaro
+    given: Cristina
+  - family: Ghedin
+    given: Elodie
+  - family: Gulino
+    given: Kristen M.
+  - family: Haggerty
+    given: John M.
+  - family: Head
+    given: Steven R.
+  - family: Hendriksen
+    given: Rene S.
+  - family: Hill
+    given: Colin
+  - family: Hyöty
+    given: Heikki
+  - family: Ilina
+    given: Elena N.
+  - family: Irwin
+    given: Mitchell T.
+  - family: Jeffries
+    given: Thomas C.
+  - family: Jofre
+    given: Juan
+  - family: Junge
+    given: Randall E.
+  - family: Kelley
+    given: Scott T.
+  - family: Khan Mirzaei
+    given: Mohammadali
+  - family: Kowalewski
+    given: Martin
+  - family: Kumaresan
+    given: Deepak
+  - family: Leigh
+    given: Steven R.
+  - family: Lipson
+    given: David
+  - family: Lisitsyna
+    given: Eugenia S.
+  - family: Llagostera
+    given: Montserrat
+  - family: Maritz
+    given: Julia M.
+  - family: Marr
+    given: Linsey C.
+  - family: McCann
+    given: Angela
+  - family: Molshanski-Mor
+    given: Shahar
+  - family: Monteiro
+    given: Silvia
+  - family: Moreira-Grez
+    given: Benjamin
+  - family: Morris
+    given: Megan
+  - family: Mugisha
+    given: Lawrence
+  - family: Muniesa
+    given: Maite
+  - family: Neve
+    given: Horst
+  - family: Nguyen
+    given: Nam-phuong
+  - family: Nigro
+    given: Olivia D.
+  - family: Nilsson
+    given: Anders S.
+  - family: O'Connell
+    given: Taylor
+  - family: Odeh
+    given: Rasha
+  - family: Oliver
+    given: Andrew
+  - family: Piuri
+    given: Mariana
+  - family: Prussin II
+    given: Aaron J.
+  - family: Qimron
+    given: Udi
+  - family: Quan
+    given: Zhe-Xue
+  - family: Rainetova
+    given: Petra
+  - family: Ramírez-Rojas
+    given: Adán
+  - family: Raya
+    given: Raul
+  - family: Reasor
+    given: Kim
+  - family: Rice
+    given: Gillian A. O.
+  - family: Rossi
+    given: Alessandro
+  - family: Santos
+    given: Ricardo
+  - family: Shimashita
+    given: John
+  - family: Stachler
+    given: Elyse N.
+  - family: Stene
+    given: Lars C.
+  - family: Strain
+    given: Ronan
+  - family: Stumpf
+    given: Rebecca
+  - family: Torres
+    given: Pedro J.
+  - family: Twaddle
+    given: Alan
+  - family: Ugochi Ibekwe
+    given: MaryAnn
+  - family: Villagra
+    given: Nicolás
+  - family: Wandro
+    given: Stephen
+  - family: White
+    given: Bryan
+  - family: Whiteley
+    given: Andy
+  - family: Whiteson
+    given: Katrine L.
+  - family: Wijmenga
+    given: Cisca
+  - family: Zambrano
+    given: Maria M.
+  - family: Zschach
+    given: Henrike
+  - family: Dutilh
+    given: Bas E.
+  journal: Nature Microbiology
+  journal-short: Nat Microbiol
+  doi: 10.1038/s41564-019-0494-6
+  id: edwards2019
+  issn: 2058-5276
+  issue: 10
+  issued: 2019-07-08
+  keyword: gut viruses,phages,phylogenetics,phylogeography
+  language: en-US
+  page: 1727-1736
+  title: Global phylogeography and ancient evolution of the widespread
+    human gut virus [crAssphage]{.nocase}
+  type: article-journal
+  url: "https://www.nature.com/articles/s41564-019-0494-6"
+  volume: 4
+- abstract: Abstract In this article, we -- the Bacterial Viruses
+    Subcommittee and the Archaeal Viruses Subcommittee of the
+    International Committee on Taxonomy of Viruses (ICTV) -- summarise
+    the results of our activities for the period March 2020 -- March
+    2021. We report the division of the former Bacterial and Archaeal
+    Viruses Subcommittee in two separate Subcommittees, welcome new
+    members, a new Subcommittee Chair and Vice Chair, and give an
+    overview of the new taxa that were proposed in 2020, approved by the
+    Executive Committee and ratified by vote in 2021. In particular, a
+    new realm, three orders, 15 families, 31 subfamilies, 734 genera and
+    1845 species were newly created or redefined (moved/promoted).
+  accessed: 2022-12-20
+  author:
+  - family: Krupovic
+    given: Mart
+  - family: Turner
+    given: Dann
+  - family: Morozova
+    given: Vera
+  - family: Dyall-Smith
+    given: Mike
+  - family: Oksanen
+    given: Hanna M.
+  - family: Edwards
+    given: Rob
+  - family: Dutilh
+    given: Bas E.
+  - family: Lehman
+    given: Susan M.
+  - family: Reyes
+    given: Alejandro
+  - family: Baquero
+    given: Diana P.
+  - family: Sullivan
+    given: Matthew B.
+  - family: Uchiyama
+    given: Jumpei
+  - family: Nakavuma
+    given: Jesca
+  - family: Barylski
+    given: Jakub
+  - family: Young
+    given: Mark J.
+  - family: Du
+    given: Shishen
+  - family: Alfenas-Zerbini
+    given: Poliane
+  - family: Kushkina
+    given: Alla
+  - family: Kropinski
+    given: Andrew M.
+  - family: Kurtböke
+    given: Ipek
+  - family: Brister
+    given: J. Rodney
+  - family: Lood
+    given: Cédric
+  - family: Sarkar
+    given: B. L.
+  - family: Yigang
+    given: Tong
+  - family: Liu
+    given: Ying
+  - family: Huang
+    given: Li
+  - family: Wittmann
+    given: Johannes
+  - family: Chanishvili
+    given: Nina
+  - family: Zyl
+    given: Leonardo J.
+    non-dropping-particle: van
+  - family: Rumnieks
+    given: Janis
+  - family: Mochizuki
+    given: Tomohiro
+  - family: Jalasvuori
+    given: Matti
+  - family: Aziz
+    given: Ramy K.
+  - family: Łobocka
+    given: Małgorzata
+  - family: Stedman
+    given: Kenneth M.
+  - family: Shkoporov
+    given: Andrey N.
+  - family: Gillis
+    given: Annika
+  - family: Peng
+    given: Xu
+  - family: Enault
+    given: François
+  - family: Knezevic
+    given: Petar
+  - family: Lavigne
+    given: Rob
+  - family: Rhee
+    given: Sung-Keun
+  - family: Cvirkaite-Krupovic
+    given: Virginija
+  - family: Moraru
+    given: Cristina
+  - family: Moreno Switt
+    given: Andrea I.
+  - family: Poranen
+    given: Minna M.
+  - family: Millard
+    given: Andrew
+  - family: Prangishvili
+    given: David
+  - family: Adriaenssens
+    given: Evelien M.
+  journal: Archives of Virology
+  journal-short: Arch Virol
+  doi: 10.1007/s00705-021-05205-9
+  id: krupovic2021
+  issn: 0304-8608, 1432-8798
+  issue: 11
+  issued: 2021-11
+  language: en-US
+  page: 3239-3244
+  title: "Bacterial Viruses Subcommittee and Archaeal Viruses
+    Subcommittee of the ICTV: Update of taxonomy changes in 2021"
+  title-short: Bacterial Viruses Subcommittee and Archaeal Viruses
+    Subcommittee of the ICTV
+  type: article-journal
+  url: "https://link.springer.com/10.1007/s00705-021-05205-9"
+  volume: 166
+- accessed: 2022-12-20
+  author:
+  - family: López-Leal
+    given: Gamaliel
+  - family: Reyes-Muñoz
+    given: Alejandro
+  - family: Santamaria
+    given: Rosa Isela
+  - family: Cevallos
+    given: Miguel A.
+  - family: Pérez-Monter
+    given: Carlos
+  - family: Castillo-Ramírez
+    given: Santiago
+  journal: Archives of Virology
+  journal-short: Arch Virol
+  doi: 10.1007/s00705-021-05010-4
+  id: lopez-leal2021
+  issn: 0304-8608, 1432-8798
+  issue: 5
+  issued: 2021-05
+  language: en-US
+  page: 1401-1408
+  title: A novel vieuvirus from multidrug-resistant Acinetobacter
+    baumannii
+  type: article-journal
+  url: "https://link.springer.com/10.1007/s00705-021-05010-4"
+  volume: 166
+- abstract: Phages and prophages play an essential role in controlling
+    their host populations either by modulating the host abundance or
+    providing them with genes that benefit the host. The constant growth
+    in next-generation sequencing technology has caused the development
+    of powerful computational tools to identify phages and prophages
+    with high precision. , ABSTRACT Phages and prophages are one of the
+    principal modulators of microbial populations. However, much of
+    their diversity is still poorly understood. Here, we extracted
+    33,624 prophages from 13,713 complete prokaryotic genomes to explore
+    the prophage diversity and their relationships with their host. Our
+    results reveal that prophages were present in 75% of the genomes
+    studied. In addition, Enterobacterales were significantly enriched
+    in prophages. We also found that pathogens are a significant
+    reservoir of prophages. Finally, we determined that the prophage
+    relatedness and the range of genomic hosts were delimited by the
+    evolutionary relationships of their hosts. On a broader level, we
+    got insights into the prophage population, identified in thousands
+    of publicly available prokaryotic genomes, by comparing the prophage
+    distribution and relatedness between them and their hosts.
+    IMPORTANCE Phages and prophages play an essential role in
+    controlling their host populations either by modulating the host
+    abundance or providing them with genes that benefit the host. The
+    constant growth in next-generation sequencing technology has caused
+    the development of powerful computational tools to identify phages
+    and prophages with high precision. Making it possible to explore the
+    prophage populations integrated into host genomes on a large scale.
+    However, it is still a new and under-explored area, and efforts are
+    still required to identify prophage populations to understand their
+    dynamics with their hosts.
+  accessed: 2022-12-20
+  author:
+  - family: López-Leal
+    given: Gamaliel
+  - family: Camelo-Valera
+    given: Laura Carolina
+  - family: Hurtado-Ramírez
+    given: Juan Manuel
+  - family: Verleyen
+    given: Jérôme
+  - family: Castillo-Ramírez
+    given: Santiago
+  - family: Reyes-Muñoz
+    given: Alejandro
+  journal: mSystems
+  journal-short: mSystems
+  doi: 10.1128/msystems.00326-22
+  editor:
+  - family: Lal
+    given: Rup
+  id: lopez-leal2022
+  issn: 2379-5077
+  issue: 4
+  issued: 2022-08-30
+  keyword: interactions,metagenomics,phage-bacteria,phage-host,phages
+  language: en-US
+  page: e00326-22
+  title: Mining of Thousands of Prokaryotic Genomes Reveals High
+    Abundance of Prophages with a Strictly Narrow Host Range
+  type: article-journal
+  url: "https://journals.asm.org/doi/10.1128/msystems.00326-22"
+  volume: 7
+- accessed: 2023-08-11
+  author:
+  - family: Moore
+    given: Benjamin
+  - family: Carvajal-López
+    given: Patricia
+  - family: Chauke
+    given: Paballo Abel
+  - family: Cristancho
+    given: Marco
+  - family: Dominguez Del Angel
+    given: Victoria
+  - family: Fernandez-Valverde
+    given: Selene L.
+  - family: Ghouila
+    given: Amel
+  - family: Gopalasingam
+    given: Piraveen
+  - family: Guerfali
+    given: Fatma Zahra
+  - family: Matimba
+    given: Alice
+  - family: Morgan
+    given: Sarah L.
+  - family: Oliveira
+    given: Guilherme
+  - family: Ras
+    given: Verena
+  - family: Reyes
+    given: Alejandro
+  - family: De Las Rivas
+    given: Javier
+  - family: Mulder
+    given: Nicola
+  journal: PLOS Computational Biology
+  journal-short: PLoS Comput Biol
+  doi: 10.1371/journal.pcbi.1009218
+  editor:
+  - family: Markel
+    given: Scott
+  id: moore2021
+  issn: 1553-7358
+  issue: 8
+  issued: 2021-08-19
+  language: en-US
+  page: e1009218
+  title: Ten simple rules for organizing a bioinformatics training
+    course in low- and middle-income countries
+  type: article-journal
+  url: "https://dx.plos.org/10.1371/journal.pcbi.1009218"
+  volume: 17
+- accessed: 2022-12-20
+  author:
+  - family: Moreno-Gallego
+    given: J. Leonardo
+  - family: Chou
+    given: Shao-Pei
+  - family: Di Rienzi
+    given: Sara C.
+  - family: Goodrich
+    given: Julia K.
+  - family: Spector
+    given: Timothy D.
+  - family: Bell
+    given: Jordana T.
+  - family: Youngblut
+    given: Nicholas D.
+  - family: Hewson
+    given: Ian
+  - family: Reyes
+    given: Alejandro
+  - family: Ley
+    given: Ruth E.
+  journal: Cell Host & Microbe
+  journal-short: Cell Host & Microbe
+  doi: 10.1016/j.chom.2019.01.019
+  id: moreno-gallego2019
+  issn: 19313128
+  issue: 2
+  issued: 2019-02
+  keyword: microbiome,pipeline,viromes
+  language: en-US
+  page: 261-272.e5
+  title: Virome Diversity Correlates with Intestinal Microbiome
+    Diversity in Adult Monozygotic Twins
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S1931312819300599"
+  volume: 25
+- abstract: Viruses, far from being just parasites affecting hosts'
+    fitness, are major players in any microbial ecosystem. In spite of
+    their broad abundance, viruses, in particular bacteriophages, remain
+    largely unknown since only about 20% of sequences obtained from
+    viral community DNA surveys could be annotated by comparison with
+    public databases. In order to shed some light into this genetic dark
+    matter we expanded the search of orthologous groups as potential
+    markers to viral taxonomy from bacteriophages and included
+    eukaryotic viruses, establishing a set of 31,150 ViPhOGs (Eukaryotic
+    Viruses and Phages Orthologous Groups). To do this, we examine the
+    non-redundant viral diversity stored in public databases, predict
+    proteins in genomes lacking such information, and used all annotated
+    and predicted proteins to identify potential protein domains. The
+    clustering of domains and unannotated regions into orthologous
+    groups was done using cogSoft. Finally, we employed a random forest
+    implementation to classify genomes into their taxonomy and found
+    that the presence or absence of ViPhOGs is significantly associated
+    with their taxonomy. Furthermore, we established a set of 1457
+    ViPhOGs that given their importance for the classification could be
+    considered as markers or signatures for the different taxonomic
+    groups defined by the ICTV at the order, family, and genus levels.
+  accessed: 2022-10-04
+  author:
+  - family: Moreno-Gallego
+    given: Jaime Leonardo
+  - family: Reyes
+    given: Alejandro
+  journal: Viruses
+  doi: 10.3390/v13061164
+  id: moreno-gallego2021
+  issn: 1999-4915
+  issue: 6, 6
+  issued: 2021-06
+  keyword: eukaryotic viruses,orthologous,phages,random forest,ViPhOGs
+  language: en-US
+  page: 1164
+  publisher: Multidisciplinary Digital Publishing Institute
+  title: Informative Regions In Viral Genomes
+  type: article-journal
+  url: "https://www.mdpi.com/1999-4915/13/6/1164"
+  volume: 13
+- abstract: "Background: Fast and computationally efficient strategies
+    are required to explore genomic relationships within an increasingly
+    large and diverse phage sequence space. Here, we present
+    PhageClouds, a novel approach using a graph database of phage
+    genomic sequences and their intergenomic distances to explore the
+    phage genomic sequence space. Methods: A total of 640,000 phage
+    genomic sequences were retrieved from a variety of databases and
+    public virome assemblies. Intergenomic distances were calculated
+    with dashing, an alignment-free method suitable for handling massive
+    data sets. These data were used to build a Neo4j® graph database.
+    Results: PhageClouds supported the search of related phages among
+    all complete phage genomes from GenBank for a single query phage in
+    just 10 s. Moreover, PhageClouds expanded the number of closely
+    related phage sequences detected for both finished and draft phage
+    genomes, in comparison with searches exclusively targeting phage
+    entries from GenBank. Conclusions: PhageClouds is a novel resource
+    that will facilitate the analysis of phage genomic sequences and the
+    characterization of assembled phage genomes."
+  accessed: 2022-10-04
+  author:
+  - family: Rangel-Pineros
+    given: Guillermo
+  - family: Millard
+    given: Andrew
+  - family: Michniewski
+    given: Slawomir
+  - family: Scanlan
+    given: David
+  - family: Sirén
+    given: Kimmo
+  - family: Reyes
+    given: Alejandro
+  - family: Petersen
+    given: Bent
+  - family: Clokie
+    given: Martha R. J.
+  - family: Sicheritz-Pontén
+    given: Thomas
+  journal: PHAGE
+  doi: 10.1089/phage.2021.0008
+  id: rangel-pineros2021
+  issn: 2641-6530
+  issue: 4
+  issued: 2021-12
+  keyword: comparative genomics,genomic graph database,phage genomics
+  page: 194-203
+  publisher: Mary Ann Liebert, Inc., publishers
+  title: "From Trees to Clouds: PhageClouds for Fast Comparison of
+    ∼640,000 Phage Genomic Sequences and Host-Centric Visualization
+    Using Genomic Network Graphs"
+  title-short: From Trees to Clouds
+  type: article-journal
+  url: "https://www.liebertpub.com/doi/full/10.1089/phage.2021.0008"
+  volume: 2
+- abstract: The study of viral communities has revealed the enormous
+    diversity and impact these biological entities have on a range of
+    different ecosystems. These observations have sparked widespread
+    interest in developing computational strategies that support the
+    comprehensive characterization of viral communities based on
+    sequencing data. Here we introduce VIRify, a new computational
+    pipeline designed to provide a user-friendly and accurate functional
+    and taxonomic characterization of viral communities. VIRify
+    identifies viral contigs and prophages from metagenomic assemblies
+    and annotates them using a collection of viral profile hidden Markov
+    models (HMMs). These include our manually-curated profile HMMs,
+    which serve as specific taxonomic markers for a wide range of
+    prokaryotic and eukaryotic viral taxa and are thus used to reliably
+    classify viral contigs. We tested VIRify on assemblies from two
+    microbial mock communities and a large metagenomics study. The
+    results showed that VIRify was able to identify sequences from both
+    prokaryotic and eukaryotic viruses, and provided taxonomic
+    classifications from the genus to the family rank with an accuracy
+    of at least 95.5%. In addition, VIRify allowed the detection and
+    taxonomic classification of a range of prokaryotic and eukaryotic
+    viruses present in 243 marine metagenomic assemblies. Overall, we
+    demonstrate that VIRify is a novel and powerful resource that offers
+    an enhanced capability to detect a broad range of viral contigs and
+    taxonomically classify them.
+  accessed: 2022-12-20
+  author:
+  - family: Rangel-Pineros
+    given: Guillermo
+  - family: Almeida
+    given: Alexandre
+  - family: Beracochea
+    given: Martin
+  - family: Sakharova
+    given: Ekaterina
+  - family: Marz
+    given: Manja
+  - family: Muñoz
+    given: Alejandro Reyes
+  - family: Hölzer
+    given: Martin
+  - family: Finn
+    given: Robert D.
+  doi: 10.1101/2022.08.22.504484
+  genre: preprint
+  id: rangel-pineros2022
+  issued: 2022-08-22
+  keyword: bioinformatics,metagenomics,phages,pipeline,programming
+  language: en-US
+  publisher: Bioinformatics
+  title: "VIRify: An integrated detection, annotation and taxonomic
+    classification pipeline using virus-specific protein profile hidden
+    Markov models"
+  title-short: VIRify
+  type: report
+  url: "http://biorxiv.org/lookup/doi/10.1101/2022.08.22.504484"
+- accessed: 2023-04-04
+  author:
+  - family: Reyes
+    given: Alejandro
+  - family: Haynes
+    given: Matthew
+  - family: Hanson
+    given: Nicole
+  - family: Angly
+    given: Florent E.
+  - family: Heath
+    given: Andrew C.
+  - family: Rohwer
+    given: Forest
+  - family: Gordon
+    given: Jeffrey I.
+  journal: Nature
+  journal-short: Nature
+  doi: 10.1038/nature09199
+  id: reyes2010
+  issn: 0028-0836, 1476-4687
+  issue: 7304
+  issued: 2010-07
+  language: en-US
+  page: 334-338
+  title: Viruses in the faecal microbiota of monozygotic twins and their
+    mothers
+  type: article-journal
+  url: "http://www.nature.com/articles/nature09199"
+  volume: 466
+- accessed: 2023-06-30
+  author:
+  - family: Reyes
+    given: Alejandro
+  - family: Semenkovich
+    given: Nicholas P.
+  - family: Whiteson
+    given: Katrine
+  - family: Rohwer
+    given: Forest
+  - family: Gordon
+    given: Jeffrey I.
+  journal: Nature Reviews Microbiology
+  journal-short: Nat Rev Microbiol
+  doi: 10.1038/nrmicro2853
+  id: reyes2012
+  issn: 1740-1526, 1740-1534
+  issue: 9
+  issued: 2012-09
+  language: en-US
+  page: 607-617
+  title: "Going viral: Next-generation sequencing applied to phage
+    populations in the human gut"
+  title-short: Going viral
+  type: article-journal
+  url: "https://www.nature.com/articles/nrmicro2853"
+  volume: 10
+- abstract: Significance Childhood malnutrition is a global health
+    problem not attributable to food insecurity alone. Sequencing DNA
+    viruses present in fecal microbiota serially sampled from 0- to
+    3-y-old Malawian twin pairs, we identify age-discriminatory viruses
+    that define a "program" of assembly of phage and eukaryotic
+    components of the gut "virome" within and across pairs where both
+    cotwins manifest healthy growth. This program is perturbed (delayed)
+    in both members of discordant pairs where one cotwin develops severe
+    acute malnutrition and the other appears healthy by anthropometry.
+    This developmental delay is not repaired by therapeutic foods. These
+    age- and disease-discriminatory viruses may help define familial
+    risk for childhood malnutrition and provide a viral dimension for
+    characterizing the developmental biology of our gut microbial
+    "organ." , The bacterial component of the human gut microbiota
+    undergoes a definable program of postnatal development. Evidence is
+    accumulating that this program is disrupted in children with severe
+    acute malnutrition (SAM) and that their persistent gut microbiota
+    immaturity, which is not durably repaired with current ready-to-use
+    therapeutic food (RUTF) interventions, is causally related to
+    disease pathogenesis. To further characterize gut microbial
+    community development in healthy versus malnourished
+    infants/children, we performed a time-series metagenomic study of
+    DNA isolated from virus-like particles (VLPs) recovered from fecal
+    samples collected during the first 30 mo of postnatal life from
+    eight pairs of mono- and dizygotic Malawian twins concordant for
+    healthy growth and 12 twin pairs discordant for SAM. Both members of
+    discordant pairs were sampled just before, during, and after
+    treatment with a peanut-based RUTF. Using Random Forests and a
+    dataset of 17,676 viral contigs assembled from shotgun sequencing
+    reads of VLP DNAs, we identified viruses that distinguish different
+    stages in the assembly of the gut microbiota in the concordant
+    healthy twin pairs. This developmental program is impaired in both
+    members of SAM discordant pairs and not repaired with RUTF. Phage
+    plus members of the Anelloviridae and Circoviridae families of
+    eukaryotic viruses discriminate discordant from concordant healthy
+    pairs. These results disclose that apparently healthy cotwins in
+    discordant pairs have viromes associated with, although not
+    necessarily mediators, of SAM; as such, they provide a human model
+    for delineating normal versus perturbed postnatal acquisition and
+    retention of the gut microbiota's viral component in populations at
+    risk for malnutrition.
+  accessed: 2022-12-20
+  author:
+  - family: Reyes
+    given: Alejandro
+  - family: Blanton
+    given: Laura V.
+  - family: Cao
+    given: Song
+  - family: Zhao
+    given: Guoyan
+  - family: Manary
+    given: Mark
+  - family: Trehan
+    given: Indi
+  - family: Smith
+    given: Michelle I.
+  - family: Wang
+    given: David
+  - family: Virgin
+    given: Herbert W.
+  - family: Rohwer
+    given: Forest
+  - family: Gordon
+    given: Jeffrey I.
+  journal: Proceedings of the National Academy of Sciences
+  journal-short: Proc. Natl. Acad. Sci. U.S.A.
+  doi: 10.1073/pnas.1514285112
+  id: reyes2015
+  issn: 0027-8424, 1091-6490
+  issue: 38
+  issued: 2015-09-22
+  keyword: gut viruses,metagenomics,phage-host,viromes
+  language: en-US
+  page: 11941-11946
+  title: Gut DNA viromes of Malawian twins discordant for severe acute
+    malnutrition
+  type: article-journal
+  url: "https://pnas.org/doi/full/10.1073/pnas.1514285112"
+  volume: 112
+- abstract: Sequence similarity searches are the bioinformatic
+    cornerstone of molecular sequence analysis for all domains of life.
+    However, large amounts of divergence between organisms, such as
+    those seen among viruses, can significantly hamper analyses. Profile
+    hidden Markov models (profile HMMs) are among the most successful
+    approaches for dealing with this problem, which represent an
+    invaluable tool for viral identification efforts. Profile HMMs are
+    statistical models that convert information from a multiple sequence
+    alignment into a set of probability values that reflect
+    position-specific variation levels in all members of evolutionarily
+    related sequences. Since profile HMMs represent a wide spectrum of
+    variation, these models show higher sensitivity than conventional
+    similarity methods such as BLAST for the detection of remote
+    homologs. In recent years, there has been an effort to compile viral
+    sequences from different viral taxonomic groups into integrated
+    databases, such as Prokaryotic Virus Orthlogous Groups (pVOGs) and
+    database of profile HMMs (vFam) database, which provide functional
+    annotation, multiple sequence alignments, and profile HMMs. Since
+    these databases rely on viral sequences collected from GenBank and
+    RefSeq, they suffer in variable extent from uneven taxonomic
+    sampling, with low sequence representation of many viral groups,
+    which affects the efficacy of the models. One of the interesting
+    applications of viral profile HMMs is the detection and sequence
+    reconstruction of specific viral genomes from metagenomic data. In
+    fact, several DNA assembly programs that use profile HMMs as seeds
+    have been developed to identify and build gene-sized assemblies or
+    viral genome sequences of unrestrained length, using conventional
+    and progressive assembly approaches, respectively. In this review,
+    we address these aspects and cover some up-to-date information on
+    viral genomics that should be considered in the choice of molecular
+    markers for viral discovery. Finally, we propose a roadmap for
+    rational development of viral profile HMMs and discuss the main
+    challenges associated with this task.
+  author:
+  - family: Reyes
+    given: Alejandro
+  - family: Alves
+    given: Joao
+  - family: Durham
+    given: Alan
+  - family: Gruber
+    given: Arthur
+  journal: Advances in Genomics and Genetics
+  journal-short: Advances in Genomics and Genetics
+  doi: 10.2147/AGG.S136574
+  id: reyes2017
+  issued: 2017-07-17
+  page: 29
+  title: "Use of profile hidden Markov models in viral discovery:
+    Current insights"
+  title-short: Use of profile hidden Markov models in viral discovery
+  type: article-journal
+  volume: 7
+- accessed: 2022-12-20
+  author:
+  - family: Roux
+    given: Simon
+  - family: Adriaenssens
+    given: Evelien M
+  - family: Dutilh
+    given: Bas E
+  - family: Koonin
+    given: Eugene V
+  - family: Kropinski
+    given: Andrew M
+  - family: Krupovic
+    given: Mart
+  - family: Kuhn
+    given: Jens H
+  - family: Lavigne
+    given: Rob
+  - family: Brister
+    given: J Rodney
+  - family: Varsani
+    given: Arvind
+  - family: Amid
+    given: Clara
+  - family: Aziz
+    given: Ramy K
+  - family: Bordenstein
+    given: Seth R
+  - family: Bork
+    given: Peer
+  - family: Breitbart
+    given: Mya
+  - family: Cochrane
+    given: Guy R
+  - family: Daly
+    given: Rebecca A
+  - family: Desnues
+    given: Christelle
+  - family: Duhaime
+    given: Melissa B
+  - family: Emerson
+    given: Joanne B
+  - family: Enault
+    given: François
+  - family: Fuhrman
+    given: Jed A
+  - family: Hingamp
+    given: Pascal
+  - family: Hugenholtz
+    given: Philip
+  - family: Hurwitz
+    given: Bonnie L
+  - family: Ivanova
+    given: Natalia N
+  - family: Labonté
+    given: Jessica M
+  - family: Lee
+    given: Kyung-Bum
+  - family: Malmstrom
+    given: Rex R
+  - family: Martinez-Garcia
+    given: Manuel
+  - family: Mizrachi
+    given: Ilene Karsch
+  - family: Ogata
+    given: Hiroyuki
+  - family: Páez-Espino
+    given: David
+  - family: Petit
+    given: Marie-Agnès
+  - family: Putonti
+    given: Catherine
+  - family: Rattei
+    given: Thomas
+  - family: Reyes
+    given: Alejandro
+  - family: Rodriguez-Valera
+    given: Francisco
+  - family: Rosario
+    given: Karyna
+  - family: Schriml
+    given: Lynn
+  - family: Schulz
+    given: Frederik
+  - family: Steward
+    given: Grieg F
+  - family: Sullivan
+    given: Matthew B
+  - family: Sunagawa
+    given: Shinichi
+  - family: Suttle
+    given: Curtis A
+  - family: Temperton
+    given: Ben
+  - family: Tringe
+    given: Susannah G
+  - family: Thurber
+    given: Rebecca Vega
+  - family: Webster
+    given: Nicole S
+  - family: Whiteson
+    given: Katrine L
+  - family: Wilhelm
+    given: Steven W
+  - family: Wommack
+    given: K Eric
+  - family: Woyke
+    given: Tanja
+  - family: Wrighton
+    given: Kelly C
+  - family: Yilmaz
+    given: Pelin
+  - family: Yoshida
+    given: Takashi
+  - family: Young
+    given: Mark J
+  - family: Yutin
+    given: Natalya
+  - family: Allen
+    given: Lisa Zeigler
+  - family: Kyrpides
+    given: Nikos C
+  - family: Eloe-Fadrosh
+    given: Emiley A
+  journal: Nature Biotechnology
+  journal-short: Nat Biotechnol
+  doi: 10.1038/nbt.4306
+  id: roux2019a
+  issn: 1087-0156, 1546-1696
+  issue: 1
+  issued: 2019-01
+  keyword: metagenomics,metataxonomy,phages,taxonomy
+  language: en-US
+  page: 29-37
+  title: Minimum Information about an Uncultivated Virus Genome (MIUViG)
+  type: article-journal
+  url: "http://www.nature.com/articles/nbt.4306"
+  volume: 37
+- abstract: A universal taxonomy of viruses is essential for a
+    comprehensive view of the virus world and for communicating the
+    complicated evolutionary relationships among viruses. However, there
+    are major differences in the conceptualisation and approaches to
+    virus classification and nomenclature among virologists, clinicians,
+    agronomists, and other interested parties. Here, we provide
+    recommendations to guide the construction of a coherent and
+    comprehensive virus taxonomy, based on expert scientific consensus.
+    Firstly, assignments of viruses should be congruent with the best
+    attainable reconstruction of their evolutionary histories, i.e.,
+    taxa should be monophyletic. This fundamental principle for
+    classification of viruses is currently included in the International
+    Committee on Taxonomy of Viruses (ICTV) code only for the rank of
+    species. Secondly, phenotypic and ecological properties of viruses
+    may inform, but not override, evolutionary relatedness in the
+    placement of ranks. Thirdly, alternative classifications that
+    consider phenotypic attributes, such as being vector-borne (e.g.,
+    "arboviruses"), infecting a certain type of host (e.g.,
+    "mycoviruses," "bacteriophages") or displaying specific
+    pathogenicity (e.g., "human immunodeficiency viruses"), may serve
+    important clinical and regulatory purposes but often create
+    polyphyletic categories that do not reflect evolutionary
+    relationships. Nevertheless, such classifications ought to be
+    maintained if they serve the needs of specific communities or play a
+    practical clinical or regulatory role. However, they should not be
+    considered or called taxonomies. Finally, while an evolution-based
+    framework enables viruses discovered by metagenomics to be
+    incorporated into the ICTV taxonomy, there are essential
+    requirements for quality control of the sequence data used for these
+    assignments. Combined, these four principles will enable future
+    development and expansion of virus taxonomy as the true evolutionary
+    diversity of viruses becomes apparent.
+  accessed: 2023-06-30
+  author:
+  - family: Simmonds
+    given: Peter
+  - family: Adriaenssens
+    given: Evelien M.
+  - family: Zerbini
+    given: F. Murilo
+  - family: Abrescia
+    given: Nicola G. A.
+  - family: Aiewsakun
+    given: Pakorn
+  - family: Alfenas-Zerbini
+    given: Poliane
+  - family: Bao
+    given: Yiming
+  - family: Barylski
+    given: Jakub
+  - family: Drosten
+    given: Christian
+  - family: Duffy
+    given: Siobain
+  - family: Duprex
+    given: W. Paul
+  - family: Dutilh
+    given: Bas E.
+  - family: Elena
+    given: Santiago F.
+  - family: García
+    given: Maria Laura
+  - family: Junglen
+    given: Sandra
+  - family: Katzourakis
+    given: Aris
+  - family: Koonin
+    given: Eugene V.
+  - family: Krupovic
+    given: Mart
+  - family: Kuhn
+    given: Jens H.
+  - family: Lambert
+    given: Amy J.
+  - family: Lefkowitz
+    given: Elliot J.
+  - family: Łobocka
+    given: Małgorzata
+  - family: Lood
+    given: Cédric
+  - family: Mahony
+    given: Jennifer
+  - family: Meier-Kolthoff
+    given: Jan P.
+  - family: Mushegian
+    given: Arcady R.
+  - family: Oksanen
+    given: Hanna M.
+  - family: Poranen
+    given: Minna M.
+  - family: Reyes-Muñoz
+    given: Alejandro
+  - family: Robertson
+    given: David L.
+  - family: Roux
+    given: Simon
+  - family: Rubino
+    given: Luisa
+  - family: Sabanadzovic
+    given: Sead
+  - family: Siddell
+    given: Stuart
+  - family: Skern
+    given: Tim
+  - family: Smith
+    given: Donald B.
+  - family: Sullivan
+    given: Matthew B.
+  - family: Suzuki
+    given: Nobuhiro
+  - family: Turner
+    given: Dann
+  - family: Doorslaer
+    given: Koenraad Van
+  - family: Vandamme
+    given: Anne-Mieke
+  - family: Varsani
+    given: Arvind
+  - family: Vasilakis
+    given: Nikos
+  journal: PLOS Biology
+  journal-short: PLOS Biology
+  doi: 10.1371/journal.pbio.3001922
+  id: simmonds2023
+  issn: 1545-7885
+  issue: 2
+  issued: 2023-02-13
+  keyword: Evolutionary genetics,Evolutionary
+    systematics,Phylogenetics,RNA viruses,Taxonomy,Viral evolution,Viral
+    genomics,Viral taxonomy
+  language: en-US
+  page: e3001922
+  publisher: Public Library of Science
+  title: Four principles to establish a universal virus taxonomy
+  type: article-journal
+  url: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001922"
+  volume: 21
+- abstract: "This article summarises the activities of the Bacterial
+    Viruses Subcommittee of the International Committee on Taxonomy of
+    Viruses for the period of March 2021−March 2022. We provide an
+    overview of the new taxa proposed in 2021, approved by the Executive
+    Committee, and ratified by vote in 2022. Significant changes to the
+    taxonomy of bacterial viruses were introduced: the paraphyletic
+    morphological families Podoviridae, Siphoviridae, and Myoviridae as
+    well as the order Caudovirales were abolished, and a binomial system
+    of nomenclature for species was established. In addition, one order,
+    22 families, 30 subfamilies, 321 genera, and 862 species were newly
+    created, promoted, or moved."
+  accessed: 2023-01-23
+  author:
+  - family: Turner
+    given: Dann
+  - family: Shkoporov
+    given: Andrey N.
+  - family: Lood
+    given: Cédric
+  - family: Millard
+    given: Andrew D.
+  - family: Dutilh
+    given: Bas E.
+  - family: Alfenas-Zerbini
+    given: Poliane
+  - family: Zyl
+    given: Leonardo J.
+    non-dropping-particle: van
+  - family: Aziz
+    given: Ramy K.
+  - family: Oksanen
+    given: Hanna M.
+  - family: Poranen
+    given: Minna M.
+  - family: Kropinski
+    given: Andrew M.
+  - family: Barylski
+    given: Jakub
+  - family: Brister
+    given: J Rodney
+  - family: Chanisvili
+    given: Nina
+  - family: Edwards
+    given: Rob A.
+  - family: Enault
+    given: François
+  - family: Gillis
+    given: Annika
+  - family: Knezevic
+    given: Petar
+  - family: Krupovic
+    given: Mart
+  - family: Kurtböke
+    given: Ipek
+  - family: Kushkina
+    given: Alla
+  - family: Lavigne
+    given: Rob
+  - family: Lehman
+    given: Susan
+  - family: Lobocka
+    given: Malgorzata
+  - family: Moraru
+    given: Cristina
+  - family: Moreno Switt
+    given: Andrea
+  - family: Morozova
+    given: Vera
+  - family: Nakavuma
+    given: Jesca
+  - family: Reyes Muñoz
+    given: Alejandro
+  - family: Rūmnieks
+    given: Jānis
+  - family: Sarkar
+    given: Bl
+  - family: Sullivan
+    given: Matthew B.
+  - family: Uchiyama
+    given: Jumpei
+  - family: Wittmann
+    given: Johannes
+  - family: Yigang
+    given: Tong
+  - family: Adriaenssens
+    given: Evelien M.
+  journal: Archives of Virology
+  journal-short: Arch Virol
+  doi: 10.1007/s00705-022-05694-2
+  id: turner2023
+  issn: 0304-8608, 1432-8798
+  issue: 2
+  issued: 2023-02
+  keyword: phages,taxonomy,viral discovery
+  language: en-US
+  page: 74
+  title: "Abolishment of morphology-based taxa and change to binomial
+    species names: 2022 taxonomy update of the ICTV bacterial viruses
+    subcommittee"
+  title-short: Abolishment of morphology-based taxa and change to
+    binomial species names
+  type: article-journal
+  url: "https://link.springer.com/10.1007/s00705-022-05694-2"
+  volume: 168

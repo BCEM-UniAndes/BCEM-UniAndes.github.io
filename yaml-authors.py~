@@ -1,0 +1,35 @@
+#! usr/bin/python
+
+import sys
+import yaml
+
+def collapse_authors(input_path, output_path):
+    # Load the original YAML data
+    with open(input_path, 'r') as file:
+        data = yaml.safe_load(file)
+
+    # Extract individual author information and concatenate into a single string
+    if 'authors' in data:
+        authors = data['authors']
+        author_string = '; '.join([f"{author['family']}, {author['given']}" for author in authors])
+
+        # Replace the 'authors' key with a single 'author' key
+        data.pop('authors', None)
+        data['author'] = author_string
+
+        # Write the modified YAML data back to the file
+        with open(output_path, 'w') as modified_file:
+            yaml.dump(data, modified_file)
+
+    print(f"YAML file '{input_path}' has been modified and saved to '{output_path}'.")
+
+if __name__ == "__main__":
+    # Check if both input and output file paths are provided
+    if len(sys.argv) != 3:
+        print("Usage: python modify_yaml.py <input_file> <output_file>")
+        sys.exit(1)
+
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+
+    collapse_authors(input_file, output_file)

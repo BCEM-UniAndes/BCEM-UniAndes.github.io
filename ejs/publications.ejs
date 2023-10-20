@@ -1,0 +1,25 @@
+
+```{=html}
+<ul class="pub-list list">
+<% for (const item of items) { %>
+  <a <%= metadataAttrs(item) %>>
+    <span class="listing-title lead"><em><a target="_blank" href="http://doi.org/<%= item.doi %>"><%= item.title %></a></em></span><br />
+    <!-- <em><a target="_blank" href="http://doi.org/<%= item.doi %>"><%= item.title %></a></em><br /> -->
+    <!-- <span class="listing-author"><%= item.author %></span><br /> -->
+    <span class="listing-author"><%= item.author[1].given %> <%= item.author[1].family %></span><br />
+    <span class="listing-publication fst-italic "><%= item.journal %>, </span>
+    <span class="listing-year">(<%= item.issued %>)</span><br />
+    <!-- <a href="<%- item.path %>" class="btn btn-primary">
+      Details
+    </a> -->
+    <span style="display:inline;" class="__dimensions_badge_embed__" data-doi="<%= item.doi %>" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <br>
+    <% if (item.materials) { %>
+    <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-file-earmark-zip"></i> Materials
+    </a>
+    <% } %>
+  </a>
+<% } %>
+</ul>
+```

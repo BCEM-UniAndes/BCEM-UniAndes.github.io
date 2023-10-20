@@ -1,0 +1,24 @@
+---
+title: 'Publications'
+page-layout: article
+# title-block-banner: true
+date-format: 'MMMM,<br>YYYY'
+listing:
+  contents:
+    - publications.yml
+  template: ejs/publications.ejs
+  # page-size: 10
+  max-items: 20
+  sort: 'issued desc'
+  # type: default
+  categories: false
+  sort-ui: [issued, title]
+  filter-ui: [title, journal-title]
+  fields: [title, author, container-title, doi, issued]
+  field-display-names:
+    title: Title 
+    author: Author
+    journal: Journal
+    issued: Date
+    doi: Doi
+---

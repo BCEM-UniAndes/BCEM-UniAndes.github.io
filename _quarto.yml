@@ -19,7 +19,7 @@ website:
       - href: research.qmd
         text: "{{< fa microscope >}} Research"
 
-      - href: publications.qmd
+      - href: publications-list.qmd
         text: "{{< fa scroll >}} Publications"
 
       # - href: resources.qmd
@@ -36,6 +36,7 @@ website:
 
 
   back-to-top-navigation: true
+  
 
   page-footer: 
     center: " © 2023, BCEM - Universidad de Los Andes" 

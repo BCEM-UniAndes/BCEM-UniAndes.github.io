@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.422">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,8 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-css','listing-language','listing-title','listing-author','listing-year','listing-publication','listing-manuscript','listing-materials','listing-toc','listing-categories','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] }],
-      
+      valueNames: ['listing-accessed','listing-author','listing-container-title','listing-container-title-short','listing-doi','listing-id','listing-issn','listing-issued','listing-keyword','listing-title','listing-title-short','listing-type','listing-url','listing-volume','listing-abstract','listing-issue','listing-language','listing-page','listing-editor','listing-publisher','listing-genre',{ data: ['index'] },{ data: ['categories'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-journal","listing-year"],
     };
 
@@ -106,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./bcem-logo.png" alt="" class="navbar-logo">
     </a>
@@ -121,25 +128,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./people.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> People</span></a>
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-microscope" aria-label="microscope"></i> Research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text"><i class="fa-solid fa-microscope" aria-label="microscope"></i> Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
- <span class="menu-text"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Publications</span></a>
+    <a class="nav-link" href="./publications-list.html"> 
+<span class="menu-text"><i class="fa-solid fa-scroll" aria-label="scroll"></i> Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Contact</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -153,7 +160,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
+
+<div id="listing-publications" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -166,9 +174,6 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-author" data-direction="asc">
           Author
         </option>
-         <option value="listing-year" data-direction="asc">
-          Year
-        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -176,23 +181,1191 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<ul class="pub-list list">
-  <li data-index="0" data-categories="viral taxonomy,ICTV,phages,classification" data-listing-file-modified-sort="1692074866599" data-listing-reading-time-sort="1">
-    <span class="listing-title lead">Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee</span><br>
-    <span class="listing-author">Alejandro Reyes</span><br>
-    <span class="listing-publication fst-italic ">Archives of Virology</span>
-    <span class="listing-year">(2023)</span><br>
-    <a href="./publications/turner2023.html" class="btn btn-primary">
-      Details
-    </a>
-    <a href="https://dial.uclouvain.be/pr/boreal/object/boreal%3A272705/datastream/PDF_01/view" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Manuscript
-    </a>
-  </li>
-</ul>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">GenSeed-HMM: A Tool for Progressive Assembly Using Profile HMMs as Seeds and its Application in Alpavirinae Viral Discovery from Metagenomic Data</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Frontiers in Microbiology
+</div>
+<div class="metadata-value listing-container-title-short">
+Front. Microbiol.
+</div>
+<div class="metadata-value listing-doi">
+10.3389/fmicb.2016.00269
+</div>
+<div class="metadata-value listing-id">
+alves2016
+</div>
+<div class="metadata-value listing-issn">
+1664-302X
+</div>
+<div class="metadata-value listing-issued">
+2016-03-04
+</div>
+<div class="metadata-value listing-keyword">
+algorithms,HMMs,metagenomics,phages,pipeline,programming,sequence assembly,viral discovery
+</div>
+<div class="metadata-value listing-title-short">
+GenSeed-HMM
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+http://journal.frontiersin.org/Article/10.3389/fmicb.2016.00269/abstract
+</div>
+<div class="metadata-value listing-volume">
+7
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Defining a Core Genome for the Herpesvirales and Exploring their Evolutionary Relationship with the Caudovirales</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Scientific Reports
+</div>
+<div class="metadata-value listing-container-title-short">
+Sci Rep
+</div>
+<div class="metadata-value listing-doi">
+10.1038/s41598-019-47742-z
+</div>
+<div class="metadata-value listing-id">
+andrade-martinez2019
+</div>
+<div class="metadata-value listing-issn">
+2045-2322
+</div>
+<div class="metadata-value listing-issued">
+2019-08-05
+</div>
+<div class="metadata-value listing-keyword">
+genomics,pangenomics,phages
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://www.nature.com/articles/s41598-019-47742-z
+</div>
+<div class="metadata-value listing-volume">
+9
+</div>
+<div class="metadata-value listing-abstract">
+Abstract The order Herpesvirales encompasses a wide variety of important and broadly distributed human pathogens. During the last decades, similarities in the viral cycle and the structure of some of their proteins with those of the order Caudovirales, the tailed bacterial viruses, have brought speculation regarding the existence of an evolutionary relationship between these clades. To evaluate such hypothesis, we used over 600 Herpesvirales and 2000 Caudovirales complete genomes to search for the presence or absence of clusters of orthologous protein domains and constructed a dendrogram based on their compositional similarities. The results obtained strongly suggest an evolutionary relationship between the two orders. Furthermore, they allowed to propose a core genome for the Herpesvirales, composed of 4 proteins, including the ATPase subunit of the DNA-packaging terminase, the only protein with previously verified conservation. Accordingly, a phylogenetic tree constructed with sequences derived from the clusters associated to these proteins grouped the Herpesvirales strains accordingly to the established families and subfamilies. Overall, this work provides results supporting the hypothesis that the two orders are evolutionarily related and contributes to the understanding of the history of the Herpesvirales.
+</div>
+<div class="metadata-value listing-issue">
+1
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+11342
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Computational Tools for the Analysis of Uncultivated Phage Genomes</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-10-04
+</div>
+<div class="metadata-value listing-container-title">
+Microbiology and Molecular Biology Reviews
+</div>
+<div class="metadata-value listing-container-title-short">
+Microbiol Mol Biol Rev
+</div>
+<div class="metadata-value listing-doi">
+10.1128/mmbr.00004-21
+</div>
+<div class="metadata-value listing-id">
+andrade-martinez2022
+</div>
+<div class="metadata-value listing-issn">
+1092-2172, 1098-5557
+</div>
+<div class="metadata-value listing-issued">
+2022-06-15
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://journals.asm.org/doi/10.1128/mmbr.00004-21
+</div>
+<div class="metadata-value listing-volume">
+86
+</div>
+<div class="metadata-value listing-abstract">
+Over a century of bacteriophage research has uncovered a plethora of fundamental aspects of their biology, ecology, and evolution. Furthermore, the introduction of community-level studies through metagenomics has revealed unprecedented insights on the impact that phages have on a range of ecological and physiological processes. , SUMMARY Over a century of bacteriophage research has uncovered a plethora of fundamental aspects of their biology, ecology, and evolution. Furthermore, the introduction of community-level studies through metagenomics has revealed unprecedented insights on the impact that phages have on a range of ecological and physiological processes. It was not until the introduction of viral metagenomics that we began to grasp the astonishing breadth of genetic diversity encompassed by phage genomes. Novel phage genomes have been reported from a diverse range of biomes at an increasing rate, which has prompted the development of computational tools that support the multilevel characterization of these novel phages based solely on their genome sequences. The impact of these technologies has been so large that, together with MAGs (Metagenomic Assembled Genomes), we now have UViGs (Uncultivated Viral Genomes), which are now officially recognized by the International Committee for the Taxonomy of Viruses (ICTV), and new taxonomic groups can now be created based exclusively on genomic sequence information. Even though the available tools have immensely contributed to our knowledge of phage diversity and ecology, the ongoing surge in software programs makes it challenging to keep up with them and the purpose each one is designed for. Therefore, in this review, we describe a comprehensive set of currently available computational tools designed for the characterization of phage genome sequences, focusing on five specific analyses: (i) assembly and identification of phage and prophage sequences, (ii) phage genome annotation, (iii) phage taxonomic classification, (iv) phage-host interaction analysis, and (v) phage microdiversity.
+</div>
+<div class="metadata-value listing-issue">
+2
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+e00004-21
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Perspective on taxonomic classification of uncultivated viruses</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Current Opinion in Virology
+</div>
+<div class="metadata-value listing-container-title-short">
+Current Opinion in Virology
+</div>
+<div class="metadata-value listing-doi">
+10.1016/j.coviro.2021.10.011
+</div>
+<div class="metadata-value listing-id">
+dutilh2021
+</div>
+<div class="metadata-value listing-issn">
+18796257
+</div>
+<div class="metadata-value listing-issued">
+2021-12
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://linkinghub.elsevier.com/retrieve/pii/S1879625721001334
+</div>
+<div class="metadata-value listing-volume">
+51
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+207-215
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Global phylogeography and ancient evolution of the widespread human gut virus <span class="nocase">crAssphage</span></a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Nature Microbiology
+</div>
+<div class="metadata-value listing-container-title-short">
+Nat Microbiol
+</div>
+<div class="metadata-value listing-doi">
+10.1038/s41564-019-0494-6
+</div>
+<div class="metadata-value listing-id">
+edwards2019
+</div>
+<div class="metadata-value listing-issn">
+2058-5276
+</div>
+<div class="metadata-value listing-issued">
+2019-07-08
+</div>
+<div class="metadata-value listing-keyword">
+gut viruses,phages,phylogenetics,phylogeography
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://www.nature.com/articles/s41564-019-0494-6
+</div>
+<div class="metadata-value listing-volume">
+4
+</div>
+<div class="metadata-value listing-issue">
+10
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+1727-1736
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Bacterial Viruses Subcommittee and Archaeal Viruses Subcommittee of the ICTV: Update of taxonomy changes in 2021</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Archives of Virology
+</div>
+<div class="metadata-value listing-container-title-short">
+Arch Virol
+</div>
+<div class="metadata-value listing-doi">
+10.1007/s00705-021-05205-9
+</div>
+<div class="metadata-value listing-id">
+krupovic2021
+</div>
+<div class="metadata-value listing-issn">
+0304-8608, 1432-8798
+</div>
+<div class="metadata-value listing-issued">
+2021-11
+</div>
+<div class="metadata-value listing-title-short">
+Bacterial Viruses Subcommittee and Archaeal Viruses Subcommittee of the ICTV
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://link.springer.com/10.1007/s00705-021-05205-9
+</div>
+<div class="metadata-value listing-volume">
+166
+</div>
+<div class="metadata-value listing-abstract">
+Abstract In this article, we – the Bacterial Viruses Subcommittee and the Archaeal Viruses Subcommittee of the International Committee on Taxonomy of Viruses (ICTV) – summarise the results of our activities for the period March 2020 – March 2021. We report the division of the former Bacterial and Archaeal Viruses Subcommittee in two separate Subcommittees, welcome new members, a new Subcommittee Chair and Vice Chair, and give an overview of the new taxa that were proposed in 2020, approved by the Executive Committee and ratified by vote in 2021. In particular, a new realm, three orders, 15 families, 31 subfamilies, 734 genera and 1845 species were newly created or redefined (moved/promoted).
+</div>
+<div class="metadata-value listing-issue">
+11
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+3239-3244
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">A novel vieuvirus from multidrug-resistant Acinetobacter baumannii</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Archives of Virology
+</div>
+<div class="metadata-value listing-container-title-short">
+Arch Virol
+</div>
+<div class="metadata-value listing-doi">
+10.1007/s00705-021-05010-4
+</div>
+<div class="metadata-value listing-id">
+lopez-leal2021
+</div>
+<div class="metadata-value listing-issn">
+0304-8608, 1432-8798
+</div>
+<div class="metadata-value listing-issued">
+2021-05
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://link.springer.com/10.1007/s00705-021-05010-4
+</div>
+<div class="metadata-value listing-volume">
+166
+</div>
+<div class="metadata-value listing-issue">
+5
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+1401-1408
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Mining of Thousands of Prokaryotic Genomes Reveals High Abundance of Prophages with a Strictly Narrow Host Range</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+mSystems
+</div>
+<div class="metadata-value listing-container-title-short">
+mSystems
+</div>
+<div class="metadata-value listing-doi">
+10.1128/msystems.00326-22
+</div>
+<div class="metadata-value listing-id">
+lopez-leal2022
+</div>
+<div class="metadata-value listing-issn">
+2379-5077
+</div>
+<div class="metadata-value listing-issued">
+2022-08-30
+</div>
+<div class="metadata-value listing-keyword">
+interactions,metagenomics,phage-bacteria,phage-host,phages
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://journals.asm.org/doi/10.1128/msystems.00326-22
+</div>
+<div class="metadata-value listing-volume">
+7
+</div>
+<div class="metadata-value listing-abstract">
+Phages and prophages play an essential role in controlling their host populations either by modulating the host abundance or providing them with genes that benefit the host. The constant growth in next-generation sequencing technology has caused the development of powerful computational tools to identify phages and prophages with high precision. , ABSTRACT Phages and prophages are one of the principal modulators of microbial populations. However, much of their diversity is still poorly understood. Here, we extracted 33,624 prophages from 13,713 complete prokaryotic genomes to explore the prophage diversity and their relationships with their host. Our results reveal that prophages were present in 75% of the genomes studied. In addition, Enterobacterales were significantly enriched in prophages. We also found that pathogens are a significant reservoir of prophages. Finally, we determined that the prophage relatedness and the range of genomic hosts were delimited by the evolutionary relationships of their hosts. On a broader level, we got insights into the prophage population, identified in thousands of publicly available prokaryotic genomes, by comparing the prophage distribution and relatedness between them and their hosts. IMPORTANCE Phages and prophages play an essential role in controlling their host populations either by modulating the host abundance or providing them with genes that benefit the host. The constant growth in next-generation sequencing technology has caused the development of powerful computational tools to identify phages and prophages with high precision. Making it possible to explore the prophage populations integrated into host genomes on a large scale. However, it is still a new and under-explored area, and efforts are still required to identify prophage populations to understand their dynamics with their hosts.
+</div>
+<div class="metadata-value listing-issue">
+4
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+e00326-22
+</div>
+<div class="metadata-value listing-editor">
+[object Object]
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Ten simple rules for organizing a bioinformatics training course in low- and middle-income countries</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2023-08-11
+</div>
+<div class="metadata-value listing-container-title">
+PLOS Computational Biology
+</div>
+<div class="metadata-value listing-container-title-short">
+PLoS Comput Biol
+</div>
+<div class="metadata-value listing-doi">
+10.1371/journal.pcbi.1009218
+</div>
+<div class="metadata-value listing-id">
+moore2021
+</div>
+<div class="metadata-value listing-issn">
+1553-7358
+</div>
+<div class="metadata-value listing-issued">
+2021-08-19
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://dx.plos.org/10.1371/journal.pcbi.1009218
+</div>
+<div class="metadata-value listing-volume">
+17
+</div>
+<div class="metadata-value listing-issue">
+8
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+e1009218
+</div>
+<div class="metadata-value listing-editor">
+[object Object]
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Virome Diversity Correlates with Intestinal Microbiome Diversity in Adult Monozygotic Twins</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Cell Host &amp; Microbe
+</div>
+<div class="metadata-value listing-container-title-short">
+Cell Host &amp; Microbe
+</div>
+<div class="metadata-value listing-doi">
+10.1016/j.chom.2019.01.019
+</div>
+<div class="metadata-value listing-id">
+moreno-gallego2019
+</div>
+<div class="metadata-value listing-issn">
+19313128
+</div>
+<div class="metadata-value listing-issued">
+2019-02
+</div>
+<div class="metadata-value listing-keyword">
+microbiome,pipeline,viromes
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://linkinghub.elsevier.com/retrieve/pii/S1931312819300599
+</div>
+<div class="metadata-value listing-volume">
+25
+</div>
+<div class="metadata-value listing-issue">
+2
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+261-272.e5
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Informative Regions In Viral Genomes</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-10-04
+</div>
+<div class="metadata-value listing-container-title">
+Viruses
+</div>
+<div class="metadata-value listing-doi">
+10.3390/v13061164
+</div>
+<div class="metadata-value listing-id">
+moreno-gallego2021
+</div>
+<div class="metadata-value listing-issn">
+1999-4915
+</div>
+<div class="metadata-value listing-issued">
+2021-06
+</div>
+<div class="metadata-value listing-keyword">
+eukaryotic viruses,orthologous,phages,random forest,ViPhOGs
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://www.mdpi.com/1999-4915/13/6/1164
+</div>
+<div class="metadata-value listing-volume">
+13
+</div>
+<div class="metadata-value listing-abstract">
+Viruses, far from being just parasites affecting hosts’ fitness, are major players in any microbial ecosystem. In spite of their broad abundance, viruses, in particular bacteriophages, remain largely unknown since only about 20% of sequences obtained from viral community DNA surveys could be annotated by comparison with public databases. In order to shed some light into this genetic dark matter we expanded the search of orthologous groups as potential markers to viral taxonomy from bacteriophages and included eukaryotic viruses, establishing a set of 31,150 ViPhOGs (Eukaryotic Viruses and Phages Orthologous Groups). To do this, we examine the non-redundant viral diversity stored in public databases, predict proteins in genomes lacking such information, and used all annotated and predicted proteins to identify potential protein domains. The clustering of domains and unannotated regions into orthologous groups was done using cogSoft. Finally, we employed a random forest implementation to classify genomes into their taxonomy and found that the presence or absence of ViPhOGs is significantly associated with their taxonomy. Furthermore, we established a set of 1457 ViPhOGs that given their importance for the classification could be considered as markers or signatures for the different taxonomic groups defined by the ICTV at the order, family, and genus levels.
+</div>
+<div class="metadata-value listing-issue">
+6, 6
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+1164
+</div>
+<div class="metadata-value listing-publisher">
+Multidisciplinary Digital Publishing Institute
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">From Trees to Clouds: PhageClouds for Fast Comparison of ∼640,000 Phage Genomic Sequences and Host-Centric Visualization Using Genomic Network Graphs</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-10-04
+</div>
+<div class="metadata-value listing-container-title">
+PHAGE
+</div>
+<div class="metadata-value listing-doi">
+10.1089/phage.2021.0008
+</div>
+<div class="metadata-value listing-id">
+rangel-pineros2021
+</div>
+<div class="metadata-value listing-issn">
+2641-6530
+</div>
+<div class="metadata-value listing-issued">
+2021-12
+</div>
+<div class="metadata-value listing-keyword">
+comparative genomics,genomic graph database,phage genomics
+</div>
+<div class="metadata-value listing-title-short">
+From Trees to Clouds
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://www.liebertpub.com/doi/full/10.1089/phage.2021.0008
+</div>
+<div class="metadata-value listing-volume">
+2
+</div>
+<div class="metadata-value listing-abstract">
+Background: Fast and computationally efficient strategies are required to explore genomic relationships within an increasingly large and diverse phage sequence space. Here, we present PhageClouds, a novel approach using a graph database of phage genomic sequences and their intergenomic distances to explore the phage genomic sequence space. Methods: A total of 640,000 phage genomic sequences were retrieved from a variety of databases and public virome assemblies. Intergenomic distances were calculated with dashing, an alignment-free method suitable for handling massive data sets. These data were used to build a Neo4j® graph database. Results: PhageClouds supported the search of related phages among all complete phage genomes from GenBank for a single query phage in just 10 s. Moreover, PhageClouds expanded the number of closely related phage sequences detected for both finished and draft phage genomes, in comparison with searches exclusively targeting phage entries from GenBank. Conclusions: PhageClouds is a novel resource that will facilitate the analysis of phage genomic sequences and the characterization of assembled phage genomes.
+</div>
+<div class="metadata-value listing-issue">
+4
+</div>
+<div class="metadata-value listing-page">
+194-203
+</div>
+<div class="metadata-value listing-publisher">
+Mary Ann Liebert, Inc., publishers
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">VIRify: An integrated detection, annotation and taxonomic classification pipeline using virus-specific protein profile hidden Markov models</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-doi">
+10.1101/2022.08.22.504484
+</div>
+<div class="metadata-value listing-id">
+rangel-pineros2022
+</div>
+<div class="metadata-value listing-issued">
+2022-08-22
+</div>
+<div class="metadata-value listing-keyword">
+bioinformatics,metagenomics,phages,pipeline,programming
+</div>
+<div class="metadata-value listing-title-short">
+VIRify
+</div>
+<div class="metadata-value listing-type">
+report
+</div>
+<div class="metadata-value listing-url">
+http://biorxiv.org/lookup/doi/10.1101/2022.08.22.504484
+</div>
+<div class="metadata-value listing-abstract">
+The study of viral communities has revealed the enormous diversity and impact these biological entities have on a range of different ecosystems. These observations have sparked widespread interest in developing computational strategies that support the comprehensive characterization of viral communities based on sequencing data. Here we introduce VIRify, a new computational pipeline designed to provide a user-friendly and accurate functional and taxonomic characterization of viral communities. VIRify identifies viral contigs and prophages from metagenomic assemblies and annotates them using a collection of viral profile hidden Markov models (HMMs). These include our manually-curated profile HMMs, which serve as specific taxonomic markers for a wide range of prokaryotic and eukaryotic viral taxa and are thus used to reliably classify viral contigs. We tested VIRify on assemblies from two microbial mock communities and a large metagenomics study. The results showed that VIRify was able to identify sequences from both prokaryotic and eukaryotic viruses, and provided taxonomic classifications from the genus to the family rank with an accuracy of at least 95.5%. In addition, VIRify allowed the detection and taxonomic classification of a range of prokaryotic and eukaryotic viruses present in 243 marine metagenomic assemblies. Overall, we demonstrate that VIRify is a novel and powerful resource that offers an enhanced capability to detect a broad range of viral contigs and taxonomically classify them.
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-publisher">
+Bioinformatics
+</div>
+<div class="metadata-value listing-genre">
+preprint
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Viruses in the faecal microbiota of monozygotic twins and their mothers</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2023-04-04
+</div>
+<div class="metadata-value listing-container-title">
+Nature
+</div>
+<div class="metadata-value listing-container-title-short">
+Nature
+</div>
+<div class="metadata-value listing-doi">
+10.1038/nature09199
+</div>
+<div class="metadata-value listing-id">
+reyes2010
+</div>
+<div class="metadata-value listing-issn">
+0028-0836, 1476-4687
+</div>
+<div class="metadata-value listing-issued">
+2010-07
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+http://www.nature.com/articles/nature09199
+</div>
+<div class="metadata-value listing-volume">
+466
+</div>
+<div class="metadata-value listing-issue">
+7304
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+334-338
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Going viral: Next-generation sequencing applied to phage populations in the human gut</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2023-06-30
+</div>
+<div class="metadata-value listing-container-title">
+Nature Reviews Microbiology
+</div>
+<div class="metadata-value listing-container-title-short">
+Nat Rev Microbiol
+</div>
+<div class="metadata-value listing-doi">
+10.1038/nrmicro2853
+</div>
+<div class="metadata-value listing-id">
+reyes2012
+</div>
+<div class="metadata-value listing-issn">
+1740-1526, 1740-1534
+</div>
+<div class="metadata-value listing-issued">
+2012-09
+</div>
+<div class="metadata-value listing-title-short">
+Going viral
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://www.nature.com/articles/nrmicro2853
+</div>
+<div class="metadata-value listing-volume">
+10
+</div>
+<div class="metadata-value listing-issue">
+9
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+607-617
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Gut DNA viromes of Malawian twins discordant for severe acute malnutrition</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Proceedings of the National Academy of Sciences
+</div>
+<div class="metadata-value listing-container-title-short">
+Proc. Natl. Acad. Sci. U.S.A.
+</div>
+<div class="metadata-value listing-doi">
+10.1073/pnas.1514285112
+</div>
+<div class="metadata-value listing-id">
+reyes2015
+</div>
+<div class="metadata-value listing-issn">
+0027-8424, 1091-6490
+</div>
+<div class="metadata-value listing-issued">
+2015-09-22
+</div>
+<div class="metadata-value listing-keyword">
+gut viruses,metagenomics,phage-host,viromes
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://pnas.org/doi/full/10.1073/pnas.1514285112
+</div>
+<div class="metadata-value listing-volume">
+112
+</div>
+<div class="metadata-value listing-abstract">
+Significance Childhood malnutrition is a global health problem not attributable to food insecurity alone. Sequencing DNA viruses present in fecal microbiota serially sampled from 0- to 3-y-old Malawian twin pairs, we identify age-discriminatory viruses that define a “program” of assembly of phage and eukaryotic components of the gut “virome” within and across pairs where both cotwins manifest healthy growth. This program is perturbed (delayed) in both members of discordant pairs where one cotwin develops severe acute malnutrition and the other appears healthy by anthropometry. This developmental delay is not repaired by therapeutic foods. These age- and disease-discriminatory viruses may help define familial risk for childhood malnutrition and provide a viral dimension for characterizing the developmental biology of our gut microbial “organ.” , The bacterial component of the human gut microbiota undergoes a definable program of postnatal development. Evidence is accumulating that this program is disrupted in children with severe acute malnutrition (SAM) and that their persistent gut microbiota immaturity, which is not durably repaired with current ready-to-use therapeutic food (RUTF) interventions, is causally related to disease pathogenesis. To further characterize gut microbial community development in healthy versus malnourished infants/children, we performed a time-series metagenomic study of DNA isolated from virus-like particles (VLPs) recovered from fecal samples collected during the first 30 mo of postnatal life from eight pairs of mono- and dizygotic Malawian twins concordant for healthy growth and 12 twin pairs discordant for SAM. Both members of discordant pairs were sampled just before, during, and after treatment with a peanut-based RUTF. Using Random Forests and a dataset of 17,676 viral contigs assembled from shotgun sequencing reads of VLP DNAs, we identified viruses that distinguish different stages in the assembly of the gut microbiota in the concordant healthy twin pairs. This developmental program is impaired in both members of SAM discordant pairs and not repaired with RUTF. Phage plus members of the Anelloviridae and Circoviridae families of eukaryotic viruses discriminate discordant from concordant healthy pairs. These results disclose that apparently healthy cotwins in discordant pairs have viromes associated with, although not necessarily mediators, of SAM; as such, they provide a human model for delineating normal versus perturbed postnatal acquisition and retention of the gut microbiota’s viral component in populations at risk for malnutrition.
+</div>
+<div class="metadata-value listing-issue">
+38
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+11941-11946
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Use of profile hidden Markov models in viral discovery: Current insights</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-container-title">
+Advances in Genomics and Genetics
+</div>
+<div class="metadata-value listing-container-title-short">
+Advances in Genomics and Genetics
+</div>
+<div class="metadata-value listing-doi">
+10.2147/AGG.S136574
+</div>
+<div class="metadata-value listing-id">
+reyes2017
+</div>
+<div class="metadata-value listing-issued">
+2017-07-17
+</div>
+<div class="metadata-value listing-title-short">
+Use of profile hidden Markov models in viral discovery
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-volume">
+7
+</div>
+<div class="metadata-value listing-abstract">
+Sequence similarity searches are the bioinformatic cornerstone of molecular sequence analysis for all domains of life. However, large amounts of divergence between organisms, such as those seen among viruses, can significantly hamper analyses. Profile hidden Markov models (profile HMMs) are among the most successful approaches for dealing with this problem, which represent an invaluable tool for viral identification efforts. Profile HMMs are statistical models that convert information from a multiple sequence alignment into a set of probability values that reflect position-specific variation levels in all members of evolutionarily related sequences. Since profile HMMs represent a wide spectrum of variation, these models show higher sensitivity than conventional similarity methods such as BLAST for the detection of remote homologs. In recent years, there has been an effort to compile viral sequences from different viral taxonomic groups into integrated databases, such as Prokaryotic Virus Orthlogous Groups (pVOGs) and database of profile HMMs (vFam) database, which provide functional annotation, multiple sequence alignments, and profile HMMs. Since these databases rely on viral sequences collected from GenBank and RefSeq, they suffer in variable extent from uneven taxonomic sampling, with low sequence representation of many viral groups, which affects the efficacy of the models. One of the interesting applications of viral profile HMMs is the detection and sequence reconstruction of specific viral genomes from metagenomic data. In fact, several DNA assembly programs that use profile HMMs as seeds have been developed to identify and build gene-sized assemblies or viral genome sequences of unrestrained length, using conventional and progressive assembly approaches, respectively. In this review, we address these aspects and cover some up-to-date information on viral genomics that should be considered in the choice of molecular markers for viral discovery. Finally, we propose a roadmap for rational development of viral profile HMMs and discuss the main challenges associated with this task.
+</div>
+<div class="metadata-value listing-page">
+29
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Minimum Information about an Uncultivated Virus Genome (MIUViG)</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2022-12-20
+</div>
+<div class="metadata-value listing-container-title">
+Nature Biotechnology
+</div>
+<div class="metadata-value listing-container-title-short">
+Nat Biotechnol
+</div>
+<div class="metadata-value listing-doi">
+10.1038/nbt.4306
+</div>
+<div class="metadata-value listing-id">
+roux2019a
+</div>
+<div class="metadata-value listing-issn">
+1087-0156, 1546-1696
+</div>
+<div class="metadata-value listing-issued">
+2019-01
+</div>
+<div class="metadata-value listing-keyword">
+metagenomics,metataxonomy,phages,taxonomy
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+http://www.nature.com/articles/nbt.4306
+</div>
+<div class="metadata-value listing-volume">
+37
+</div>
+<div class="metadata-value listing-issue">
+1
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+29-37
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Four principles to establish a universal virus taxonomy</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2023-06-30
+</div>
+<div class="metadata-value listing-container-title">
+PLOS Biology
+</div>
+<div class="metadata-value listing-container-title-short">
+PLOS Biology
+</div>
+<div class="metadata-value listing-doi">
+10.1371/journal.pbio.3001922
+</div>
+<div class="metadata-value listing-id">
+simmonds2023
+</div>
+<div class="metadata-value listing-issn">
+1545-7885
+</div>
+<div class="metadata-value listing-issued">
+2023-02-13
+</div>
+<div class="metadata-value listing-keyword">
+Evolutionary genetics,Evolutionary systematics,Phylogenetics,RNA viruses,Taxonomy,Viral evolution,Viral genomics,Viral taxonomy
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001922
+</div>
+<div class="metadata-value listing-volume">
+21
+</div>
+<div class="metadata-value listing-abstract">
+A universal taxonomy of viruses is essential for a comprehensive view of the virus world and for communicating the complicated evolutionary relationships among viruses. However, there are major differences in the conceptualisation and approaches to virus classification and nomenclature among virologists, clinicians, agronomists, and other interested parties. Here, we provide recommendations to guide the construction of a coherent and comprehensive virus taxonomy, based on expert scientific consensus. Firstly, assignments of viruses should be congruent with the best attainable reconstruction of their evolutionary histories, i.e., taxa should be monophyletic. This fundamental principle for classification of viruses is currently included in the International Committee on Taxonomy of Viruses (ICTV) code only for the rank of species. Secondly, phenotypic and ecological properties of viruses may inform, but not override, evolutionary relatedness in the placement of ranks. Thirdly, alternative classifications that consider phenotypic attributes, such as being vector-borne (e.g., “arboviruses”), infecting a certain type of host (e.g., “mycoviruses,” “bacteriophages”) or displaying specific pathogenicity (e.g., “human immunodeficiency viruses”), may serve important clinical and regulatory purposes but often create polyphyletic categories that do not reflect evolutionary relationships. Nevertheless, such classifications ought to be maintained if they serve the needs of specific communities or play a practical clinical or regulatory role. However, they should not be considered or called taxonomies. Finally, while an evolution-based framework enables viruses discovered by metagenomics to be incorporated into the ICTV taxonomy, there are essential requirements for quality control of the sequence data used for these assignments. Combined, these four principles will enable future development and expansion of virus taxonomy as the true evolutionary diversity of viruses becomes apparent.
+</div>
+<div class="metadata-value listing-issue">
+2
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+e3001922
+</div>
+<div class="metadata-value listing-publisher">
+Public Library of Science
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="">Abolishment of morphology-based taxa and change to binomial species names: 2022 taxonomy update of the ICTV bacterial viruses subcommittee</a>
+</h3>
+<div class="listing-subtitle">
+<a href=""></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href=""></a></p><a href="">
+<div class="listing-author">
+[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+</div>
+<div class="metadata-value listing-accessed">
+2023-01-23
+</div>
+<div class="metadata-value listing-container-title">
+Archives of Virology
+</div>
+<div class="metadata-value listing-container-title-short">
+Arch Virol
+</div>
+<div class="metadata-value listing-doi">
+10.1007/s00705-022-05694-2
+</div>
+<div class="metadata-value listing-id">
+turner2023
+</div>
+<div class="metadata-value listing-issn">
+0304-8608, 1432-8798
+</div>
+<div class="metadata-value listing-issued">
+2023-02
+</div>
+<div class="metadata-value listing-keyword">
+phages,taxonomy,viral discovery
+</div>
+<div class="metadata-value listing-title-short">
+Abolishment of morphology-based taxa and change to binomial species names
+</div>
+<div class="metadata-value listing-type">
+article-journal
+</div>
+<div class="metadata-value listing-url">
+https://link.springer.com/10.1007/s00705-022-05694-2
+</div>
+<div class="metadata-value listing-volume">
+168
+</div>
+<div class="metadata-value listing-abstract">
+This article summarises the activities of the Bacterial Viruses Subcommittee of the International Committee on Taxonomy of Viruses for the period of March 2021−March 2022. We provide an overview of the new taxa proposed in 2021, approved by the Executive Committee, and ratified by vote in 2022. Significant changes to the taxonomy of bacterial viruses were introduced: the paraphyletic morphological families Podoviridae, Siphoviridae, and Myoviridae as well as the order Caudovirales were abolished, and a binomial system of nomenclature for species was established. In addition, one order, 22 families, 30 subfamilies, 321 genera, and 862 species were newly created, promoted, or moved.
+</div>
+<div class="metadata-value listing-issue">
+2
+</div>
+<div class="metadata-value listing-language">
+en-US
+</div>
+<div class="metadata-value listing-page">
+74
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="publications-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
@@ -278,10 +1451,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -291,8 +1463,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -305,6 +1486,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -348,6 +1651,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -373,6 +1677,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -435,11 +1765,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Powered by Quarto. Done with <i class="fa-solid fa-heart" aria-label="heart"></i></div>   
-    <div class="nav-footer-center">© 2023, BCEM - Universidad de Los Andes</div>
-    <div class="nav-footer-right">Vigilada Mineducación</div>
+    <div class="nav-footer-left">
+<p>Powered by Quarto. Done with <i class="fa-solid fa-heart" aria-label="heart"></i></p>
+</div>   
+    <div class="nav-footer-center">
+<p>© 2023, BCEM - Universidad de Los Andes</p>
+</div>
+    <div class="nav-footer-right">
+<p>Vigilada Mineducación</p>
+</div>
   </div>
 </footer>
+
 
 
 

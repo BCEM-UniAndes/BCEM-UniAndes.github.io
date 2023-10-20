@@ -2,8 +2,9 @@
 toc: false
 listing:
   - id: publications
-    contents: publications/*.qmd
-    template: ejs/article.ejs
+    # contents: publications/*.qmd
+    contents: publications-out.yml
+    # template: ejs/article.ejs
     categories: false
     sort-ui: [title,author,journal,year]
     filter-ui: [title,author,journal,year]

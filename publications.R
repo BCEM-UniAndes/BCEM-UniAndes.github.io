@@ -16,7 +16,7 @@ create_pub_listing <- function(bib_file, author = "Reyes") {
                 ),
                 -3
             )
-            authors <- sub(".*- family: ", "", grep("- family:", article, value = TRUE))
+            authors <- sub(".*- name: ", "", grep("- name:", article, value = TRUE))
             if (isTRUE(grepl("first", grep("annote:", article, value = TRUE)))) {
                 first <- "  first: '*As first or co-first*'"
             } else {
