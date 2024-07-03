@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: "BCEM" # the website title (if blank, full name will be used instead)
+first_name: "BCEM"
+middle_name: 
+last_name: "@ Uniandes"
+email: # a.reyes@uniandes.edu.co
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: bcem_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://BCEM-UniAndes.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -34,14 +34,14 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 
@@ -70,7 +70,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: BCEM-UniAndes # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
@@ -87,7 +87,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -99,7 +99,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
+x_username: bcem_uniandes # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -136,7 +136,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: BCEM-UniAndes/BCEM-UniAndes.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOI6hBvA # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: DIC_kwDOI6hBvM4CYHn3 # leave empty or specify your category_id (see https://giscus.app/)
@@ -182,6 +182,9 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
+    output: true
+    permalink: /:collection/:title/
+  team:
     output: true
     permalink: /:collection/:title/
 
@@ -303,8 +306,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Reyes]
+  first_name: [Alejandro]
 
   style: apa
   locale: en
@@ -363,7 +366,7 @@ max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -380,11 +383,11 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br"]
+languages: ["en-us", "es-co"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
+country_flag: true # set true for allowing flag symbol in language toggle
 parallel_localization: false
 
 # -----------------------------------------------------------------------------
@@ -632,7 +635,7 @@ jekyll_get_json:
   - data: resume_en-us
     json: assets/json/resume_en-us.json # it can also be an url
   - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+    json: assets/json/resume_es-co.json # it can also be an url
 jsonresume:
   - basics
   - work

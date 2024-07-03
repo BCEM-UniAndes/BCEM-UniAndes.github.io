@@ -2,8 +2,8 @@
 id: dropdown
 layout: page
 title: submenus
-nav: true
-nav_order: 8
+nav: false
+nav_order: 
 dropdown: true
 children:
   - title: publications

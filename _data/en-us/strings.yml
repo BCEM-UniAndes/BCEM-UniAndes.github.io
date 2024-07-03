@@ -64,8 +64,7 @@ cv:
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: latest posts
+latest_posts: Latest posts
 months:
   long:
     january: January
@@ -93,7 +92,7 @@ months:
     october: Oct
     november: Nov
     december: Dec
-news: news
+news: News
 newsletter:
   back: Back
   error: "Oops! Something went wrong, please try again."
@@ -142,3 +141,5 @@ search:
   theme: Theme
 selected_publications: selected publications
 site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+interests: Interests
+started: started

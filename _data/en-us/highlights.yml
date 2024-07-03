@@ -1,0 +1,80 @@
+- ENTRYTYPE: article
+  image: virify.png
+  ID: rangel-pineros_virify_2023
+  author: "G Rangel-Pineros, A Almeida, M Beracochea, E Sakharova, M Marz, AR Mu\xF1\
+    oz, M H\xF6lzer, RD Finn"
+  doi: 10.1371/journal.pcbi.1011422
+  issn: 1553-7358
+  journal: PLOS Computational Biology
+  keywords: Metagenomics, Genome annotation, Taxonomy, Bacteriophages, Eukaryota,
+    Hidden Markov models, Viral genomics, Viral taxonomy
+  language: en
+  month: August
+  number: '8'
+  pages: e1011422
+  shorttitle: '{VIRify}'
+  title: 'VIRify: An integrated detection, annotation and taxonomic classification
+    pipeline using virus-specific protein profile hidden Markov models'
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011422
+  description: The study introduces VIRify, a computational pipeline for characterizing viral communities based on sequencing data. VIRify accurately identifies viral contigs and prophages, using profile hidden Markov models for taxonomic classification, demonstrating high accuracy in diverse datasets, including microbial mock communities and metagenomic studies.
+  urldate: '2024-01-22'
+  volume: '19'
+  year: 2023
+- ENTRYTYPE: article
+  image: tools_viromes.png
+  ID: andrade-martinez_computational_2022
+  author: "JS Andrade-Mart\xEDnez, LC Camelo Valera, LA Chica C\xE1rdenas, L Forero-Junco,\
+    \ G L\xF3pez-Leal, JL Moreno-Gallego, G Rangel-Pineros, A Reyes"
+  doi: 10.1128/mmbr.00004-21
+  journal: Microbiology and Molecular Biology Reviews
+  month: March
+  number: '2'
+  pages: e00004--21
+  title: Computational Tools for the Analysis of Uncultivated Phage Genomes
+  url: https://journals.asm.org/doi/full/10.1128/mmbr.00004-21
+  description: This review delves into the significant advancements in bacteriophage research, highlighting the impact of metagenomics in unveiling the vast genetic diversity of phages, leading to the development of computational tools for analyzing phage genome sequences across five key analyses.
+  urldate: '2024-01-22'
+  volume: '86'
+  year: 2022
+- ENTRYTYPE: article
+  image: covid.jpg
+  ID: hufsky_computational_2021
+  author: "F Hufsky, K Lamkiewicz, A Almeida, A Aouacheria, C Arighi, A Bateman, J\
+    \ Baumbach, N Beerenwinkel, C Brandt, ... A Reyes, L Richardson, DL Robertson, S Sadegh, JB Singer, K Theys,\
+    \ C Upton, M Welzel, L Williams, M Marz"
+  doi: 10.1093/bib/bbaa232
+  issn: 1477-4054
+  journal: Briefings in Bioinformatics
+  month: March
+  number: '2'
+  pages: 642--663
+  shorttitle: Computational strategies to combat {COVID}-19
+  title: 'Computational strategies to combat COVID-19: useful tools to accelerate
+    SARS-CoV-2 and coronavirus research'
+  url: https://doi.org/10.1093/bib/bbaa232
+  description: This work explores the emergence of bioinformatics tools tailored for SARS-CoV-2, providing a comprehensive overview of their applications in detecting infections, analyzing sequencing data, tracking the pandemic, studying virus evolution, and developing therapeutic strategies to address the ongoing COVID-19 crisis.
+  urldate: '2024-01-22'
+  volume: '22'
+  year: 2021
+- ENTRYTYPE: article
+  image: twins.png
+  ID: moreno-gallego_virome_2019
+  author: JL Moreno-Gallego, S Chou, SCD Rienzi, JK Goodrich, TD Spector, JT Bell,
+    ND Youngblut, I Hewson, A Reyes, RE Ley
+  doi: 10.1016/j.chom.2019.01.019
+  issn: 1931-3128
+  journal: Cell Host & Microbe
+  keywords: human gut microbiome, concordant and discordant monozygotic twins, human
+    gut virome
+  language: English
+  month: February
+  number: '2'
+  pages: 261--272.e5
+  pmid: '30763537'
+  title: Virome Diversity Correlates with Intestinal Microbiome Diversity in Adult
+    Monozygotic Twins
+  url: https://www.cell.com/cell-host-microbe/abstract/S1931-3128(19)30059-9
+  description: The virome remains a relatively unexplored component of the microbiome. Moreno-Gallego and Chou et al. examined the viromes of monozygotic twins to ask how microbiome diversity relates to virome diversity, without host genetic variables. Twin pairs were sorted by high or low microbiome concordance, which revealed a correlated virome relatedness.
+  urldate: '2024-01-22'
+  volume: '25'
+  year: 2019
