@@ -19,11 +19,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername:
+linkedinusername: felipe-sierra-234861183
 twitterusername: 
-githubusername: 
+githubusername: Felipe-Sierra
 interests:
-position_after: Bioinformatician
-affiliation_after: Center for Sustainable Development for Latin America
+position_after: Lead Researcher in Socio-ecological Risks
+affiliation_after: Center for Sustainable Development Goals for Latin America and the Caribbean
 country_after: co
 ---

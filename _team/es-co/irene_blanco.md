@@ -3,7 +3,7 @@ name: Irene Blanco
 country: co
 website: 
 photo: bio_photo.jpg
-position: M.Sc. Student
+position: Estudiante de Maestría
 affiliation: Ciencias Biológicas
 started: 2022
 ended:  

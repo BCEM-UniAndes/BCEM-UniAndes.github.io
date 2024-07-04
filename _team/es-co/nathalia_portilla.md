@@ -23,7 +23,7 @@ biorxivusername:
 linkedinusername: 
 twitterusername: 
 githubusername: portillanath
-interests: Phage taxonomy
+interests: Taxonomía de fagos
 position_after:
 affiliation_after: 
 country_after: 

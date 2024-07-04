@@ -1,14 +1,13 @@
 ---
-name: Juanita Puentes
+name: Diego Martínez
 country: co
 website: 
-photo: bio_photo.jpg
-position: B.Sc. Student
-affiliation: Microbiología
-started: 2023
-ended:  
-number_educ: 1
-education1: B.Eng. en Ingeniería Biomédica, Universidad de los Andes, Colombia
+photo: 
+position: B.Sc.
+affiliation: 
+started: 2019
+ended: 2021
+education1: 
 education2: 
 education3: 
 education4: 
@@ -22,9 +21,9 @@ arxivusername:
 biorxivusername: 
 linkedinusername: 
 twitterusername: 
-githubusername: juanitapuentes
+githubusername: diegomartinez33
 interests: 
 position_after: 
-affiliation_after:
+affiliation_after: 
 country_after: 
 ---

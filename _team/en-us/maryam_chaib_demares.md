@@ -21,7 +21,7 @@ arxivusername:
 biorxivusername: 
 linkedinusername: maryamchaibdemares
 twitterusername: 
-githubusername:  
+githubusername: mchaib
 interests:
 position_after: Assistant Professor
 affiliation_after: Universidad Nacional de Colombia
