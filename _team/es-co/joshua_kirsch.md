@@ -1,5 +1,6 @@
 ---
 name: Joshua M. Kirsch
+display_category: Estudiantes de Postgrado
 country: us
 website: 
 photo: bio_photo.jpg

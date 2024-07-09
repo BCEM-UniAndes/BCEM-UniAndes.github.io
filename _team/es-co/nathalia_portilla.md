@@ -1,5 +1,6 @@
 ---
 name: Nathalia A. Portilla
+display_category: Estudiantes de Postgrado
 country: co
 website: 
 photo: nathalia_portilla.jpg

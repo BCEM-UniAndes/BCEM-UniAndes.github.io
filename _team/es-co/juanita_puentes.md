@@ -1,9 +1,10 @@
 ---
 name: Juanita Puentes
+display_category: Estudiantes de Pregrado
 country: co
 website: 
 photo: bio_photo.jpg
-position: B.Sc. Student
+position: Estudiante de Pregrado
 affiliation: Microbiología
 started: 2023
 ended:  

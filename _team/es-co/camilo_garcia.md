@@ -1,5 +1,6 @@
 ---
 name: Camilo García-Botero
+display_category: Estudiantes de Postgrado
 country: co
 website: https://camilogarciabotero.github.io/
 photo: camilo-garcia.jpeg

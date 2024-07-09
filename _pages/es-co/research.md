@@ -8,11 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-<!-- <em>"Simplicity is the greatest form of sophistication"</em>  -->
-Trabajamos en diversas áreas de investigación, como ecología microbiana, genómica, genética de poblaciones y biología de sistemas.
-
----
-#### **Ecología Microbiana**
+### **Ecología Microbiana**
 ![]({{ site.url }}{{ site.baseurl }}/assets/img/research/MicEco.png){: style="width: 350px; float: left; margin: 0px  10px"}
 
 La ecología y la microbiología parecían conceptos que no tenían nada en común por varias décadas, y el campo de la ecología microbiana tomó mucho tiempo en surgir y consolidarse. Esto en gran parte por la falta de herramientas y tecnologías para explorar este campo. No obstante, con el desarrollo de tecnologías, algoritmos y metodologías que permiten estudiar simultáneamente todos los (micro)organismos presentes en un ambiente en un momento específico, en las últimas década ha sido posible estudiar los microorganismos y sus interacciones de manera conjunta en lo que hoy se conoce como ciencias meta-ómicas.
@@ -25,8 +21,8 @@ En un principio la metagenómica nos permitía acceder a la composición y poten
   
 ---
 
-#### **Relaciones ecológica virus-hospedero en el intestino humano**
-![]({{ site.url }}{{ site.baseurl }}/assets/img/research/Nature_Cover_2010.jpg){: style="width: 300px; float: right; margin: 0px  10px"}
+### **Relaciones ecológica virus-hospedero en el intestino humano**
+![]({{ site.url }}{{ site.baseurl }}/assets/img/research/Nature_Cover_2010.jpg){: style="width: 350px; float: right; margin: 0px  10px"}
 
 La microbiota intestinal humana es elconjunto de todos los organismos que viven en el tracto gastrointestinal del ser humano. Esta asombrosamente diversa comunidad está compuesta por los 3 dominios de la vida y sus respectivos virus. Desde el surgimiento de las técnicas moleculares para el estudio de comunidades microbianas, la microbiota intestinal ha sido uno de los principales blancos de estudio y grandes consorcios como el HMP en EE.UU. y el MetaHIT en Europa han dedicado una gran cantidad de recursos en caracterizar estas comunidades. Sin embargo, el mayor esfuerzo de estudio de estas comunidades se ha realizado en su componente procariote ignorando en su mayor parte el componente viral. De hecho, este componente puede ser mayor en número y diversidad que el mismo componente bacteriano. Los virus están presentes en cualquier ambiente donde se encuentre un potencial hospedero y sus dinámicas de predación, ciclos líticos o lisogénicos pueden tener importantes consecuencias en las dinámicas y comportamiento de la comunidad en general. El estudio y caracterización de las relaciones entre virus (con hospederos bacterianos o eucariotes) y sus diversas implicaciones en la comunidad y por ende sus consecuencias en la salud del hospedero humano, son un objetivo importante de la investigación del grupo.
 
@@ -35,8 +31,8 @@ La microbiota intestinal humana es elconjunto de todos los organismos que viven 
 
 ---
 
-#### **Caracterización de viromas y genoma virales**
-![]({{ site.url }}{{ site.baseurl }}/assets/img/research/Virus_2.png){: style="width: 250px; float: left; margin: 0px  10px"}
+### **Caracterización de viromas y genoma virales**
+![]({{ site.url }}{{ site.baseurl }}/assets/img/research/Virus_2.png){: style="width: 300px; float: left; margin: 0px  10px"}
 
 Con el surgimiento de nuevas técnicas de secuenciación del ADN se ha impulsado el estudio de diferentes comunidades virales ambientales lo que ha llevado a darnos cuenta que conocemos menos del 1% de la diversidad viral global. Es común en los diferentes estudios que se realizan en comunidades virales que la gran mayoría (80% en promedio) de los datos queden sin analizar ya que no tienen similitud significativa a virus de referencia (siendo la comparación con bases de datos de referencia la principal herramienta de análisis). Aunque las técnicas de secuenciación masiva han disparado el número de secuencias (cortas) de origen viral depositadas en bases de datos, la secuenciación de genomas virales completos ha sido limitada, haciendo que las bases de datos de referencia se estanquen en tamaño. Esto hace imperativo el desarrollo de herramientas bioinformáticas que nos permitan descubrir y caracterizar mejor esa diversidad viral y desentrañar todo el potencial que estos genomas están codificando. Una línea importante de investigación en el grupo es desarrollar este tipo de herramientas adaptadas a las tecnologías modernas de secuenciación y a las herramientas computacionales de punta de las que se disponen en la actualidad.
 

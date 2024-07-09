@@ -1,5 +1,6 @@
 ---
 name: Luisa Sacristán
+display_category: Investigadores Asociados
 country: co
 website: 
 photo: luisa_sacristan.jpg

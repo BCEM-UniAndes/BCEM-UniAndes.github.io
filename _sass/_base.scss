@@ -668,10 +668,11 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: right;
   }
 
@@ -1323,5 +1324,45 @@ ninja-keys::part(ninja-input-wrapper) {
   // arrow border color
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
+  }
+}
+
+.profile-image {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.post-header-about {
+  text-align: center;
+}
+
+.post-title {
+  margin-top: 0.5em;
+}
+
+.desc {
+  margin-bottom: 1em;
+  font-size: 1.15em;
+}
+
+.intro-block {
+  background-color: rgba(0, 176, 196, 0.15); /* Adjust the alpha value as needed */
+  padding: 1em;
+  border-radius: 5px;
+  margin: 1em 0;
+  text-align: justify;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.team {
+  h2.category {
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
   }
 }

@@ -1,5 +1,6 @@
 ---
 name: María Fernanda Peña
+display_category: Estudiantes de Postgrado
 country: co
 website: 
 photo: maria_fernanda_pena.jpg

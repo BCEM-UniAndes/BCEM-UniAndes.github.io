@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header-about">
+    {% if page.profile and page.profile.image %}
+      <div class="profile-image">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% assign profile_image_class = 'img-fluid w-100' %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image cache_bust=true
+        %}
+      </div>
+    {% endif %}
+
+    <!-- <h1 class="post-title">
+      {% if site.title == nil %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {% else %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {% endif %}
+    </h1> -->
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <div class="clearfix" style="text-align: justify">{{ content }}</div>
+    <!-- <div class="intro-block" style="text-align: justify">{{ content }}</div> -->
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>

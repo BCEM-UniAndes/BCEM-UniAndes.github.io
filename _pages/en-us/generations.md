@@ -23,7 +23,7 @@ nav_order:
         <div class="text-center mb-2">
           <h3 style="font-size: 1.5rem; font-weight: bold;">{{ pic.year }}</h3>
         </div>
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/picpic/gens/{{ pic.image }}" class="d-block w-100 img-responsive" alt="{{ pic.year }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/picpic/gens/{{ pic.image }}" class="d-block w-100 img-responsive" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); border-radius: 5px;" alt="{{ pic.year }}">
       </div>
     {% endfor %}
   </div>

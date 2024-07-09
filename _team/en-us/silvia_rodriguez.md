@@ -5,7 +5,7 @@ website:
 photo: bio_photo.jpg
 position: B.Sc. Student
 affiliation: Biology
-started: 2023
+started: 
 ended:  
 number_educ: 
 education1: 

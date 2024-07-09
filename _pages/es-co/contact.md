@@ -4,7 +4,7 @@ layout: page
 permalink: /contact/
 title: Contacto
 description: 
-nav: true
+nav: false
 nav_order: 6
 ---
 

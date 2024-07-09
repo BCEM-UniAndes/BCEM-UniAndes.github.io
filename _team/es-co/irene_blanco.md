@@ -1,5 +1,6 @@
 ---
 name: Irene Blanco
+display_category: Estudiantes de Postgrado
 country: co
 website: 
 photo: bio_photo.jpg

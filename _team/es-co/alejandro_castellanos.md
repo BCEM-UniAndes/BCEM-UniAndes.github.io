@@ -1,5 +1,6 @@
 ---
 name: Alejandro Castellanos
+display_category: Investigadores Asociados
 country: co
 website: 
 photo: alejandro_castellanos.jpg
