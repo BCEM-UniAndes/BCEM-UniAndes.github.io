@@ -27,7 +27,7 @@ display_categories: [Líder, Investigadores Asociados, Estudiantes de Postgrado,
 <div class="row" style="margin-bottom: 10px;">
 {% endif %}
 
-{% include team_member.html member=member %}
+{% include team_member_.html member=member %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 

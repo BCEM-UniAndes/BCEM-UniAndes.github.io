@@ -28,28 +28,6 @@
   <p style="text-align: left; margin-bottom: 0px;">
     <strong>{{ include.member.position }}{% if include.member.affiliation != nil %}, {{ include.member.affiliation }}{% endif %}</strong> <em>({{ site.data[lang].strings.started }} {{ include.member.started }})</em>
   </p>
-  <p style="text-align: left; font-size: 90%; opacity: 0.7; margin-bottom: 0px;">  
-    {% if include.member.education4 != nil %}
-      • {{ include.member.education1 }} 
-      <br>• {{ include.member.education2 }} 
-      <br>• {{ include.member.education3 }} 
-      <br>• {{ include.member.education4 }}
-    {% elsif include.member.education3 != nil %}
-    • {{ include.member.education1 }}
-    <br>• {{ include.member.education2 }} 
-    <br>• {{ include.member.education3 }} 
-    {% elsif include.member.education2 != nil %}
-      • {{ include.member.education1 }}
-      <br>• {{ include.member.education2 }}
-    {% elsif include.member.education1 != nil %}
-      • {{ include.member.education1 }}
-    {% endif %}
-  </p>
-  {% if include.member.interests != nil %}
-  <p style="text-align: left; margin-bottom: 0px;">
-    <strong>{{ site.data[lang].strings.interests }}:</strong> {{ include.member.interests }}
-  </p>
-  {% endif %}
 </div>
 
 </html>
