@@ -1,0 +1,28 @@
+<div class="post">
+  <div class="profile float-{% if include.topic.align == 'left' %}left{% else %}right{% endif %}">
+    {% if include.topic.image %}
+      {% assign topic_image_path = include.topic.image | prepend: 'assets/img/' %}
+      {% if include.topic.image_circular %}
+        {% assign topic_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+      {% else %}
+        {% assign topic_image_class = 'img-fluid z-depth-1 rounded' %}
+      {% endif %}
+      {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+      {% include figure.liquid loading="eager" path=topic_image_path class=topic_image_class sizes=sizes alt=include.topic.image %}
+    {% endif %}
+    {% if include.topic.more_info %}
+      <div class="more-info">{{ include.topic.more_info }}</div>
+    {% endif %}
+  </div>
+
+  <div class="clearfix">
+    {% if include.topic.content %}
+      <!-- {% capture topic_content %}{% include_relative {{ include.topic.content }} %}{% endcapture %} -->
+      <!-- {{ include.topic.content | markdownify }} -->
+      pera
+    {% else %}
+      <!-- {{ content }} -->
+      yuca
+    {% endif %}
+  </div>
+</div>

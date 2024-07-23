@@ -3,7 +3,7 @@
 {% assign lang = site.active_lang %}
 <div class="col-sm-4 clearfix" style="text-align:center; align:center">
   <div style="text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ include.member.photo }}" class="img-rounded img-shadow" style="width: 95%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ include.member.photo }}" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
   </div>
   
   {% if include.member.website != nil %}
@@ -26,7 +26,7 @@
     {% if include.member.stravausername  %} - <a target="_blank" href="https://www.strava.com/athletes/{{ include.member.stravausername }}" class="waves-effect waves-teal btn-flat my-strava-link"  data-tooltip="strava"><i class="fa-brands fa-strava"></i></a> {% endif %}
   </p>
   <p style="text-align: left; margin-bottom: 0px;">
-    <strong>{{ include.member.position }}{% if include.member.affiliation != nil %}, {{ include.member.affiliation }}{% endif %}</strong> <em>({{ site.data[lang].strings.started }} {{ include.member.started }})</em>
+    <strong>{{ include.member.position }}{% if include.member.affiliation != nil %}, {{ include.member.affiliation }}{% endif %}</strong> <em>({{ site.data[lang].strings.team.started }} {{ include.member.started }})</em>
   </p>
 </div>
 

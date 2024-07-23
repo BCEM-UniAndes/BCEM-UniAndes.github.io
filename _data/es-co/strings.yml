@@ -141,5 +141,8 @@ search:
   theme: Tema
 selected_publications: Publicaciones Seleccionadas
 site_description: Un tema sencillo para académicos. Basado en el diseño de [*folio](https://github.com/bogoli/-folio).
-interests: Intereses
-started: desde
+team: 
+  interests: Intereses
+  started: desde
+research:
+  highlights: Destacados
