@@ -14,14 +14,25 @@
   <p style="text-align: center; font-size: 125%; margin-bottom: 0px;">
     <a target="_blank" href="mailto:{{ include.member.email }}" class="waves-effect waves-teal btn-flat my-email-link" data-tooltip="email" ><i class="fas fa-envelope"></i></a>
     {% if include.member.cv %} - <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/teamcv/{{ include.member.cv }}"><i class="ai ai-cv"></i></a> {% endif %}
+    {% if include.member.orcidusername %} - <a target="_blank" href="http://orcid.org/{{ include.member.orcidusername }}" class="waves-effect waves-teal btn-flat my-orcid-link" data-tooltip="orcid"><i class="ai ai-orcid"></i></a> {% endif %}
     {% if include.member.scholarusername %} - <a target="_blank" href="http://scholar.google.com/citations?user={{ include.member.scholarusername }}" class="waves-effect waves-teal btn-flat my-google-scholar-link" data-tooltip="google scholar" ><i class="ai ai-google-scholar"></i></a> {% endif %}
     {% if include.member.resgateusername %} - <a target="_blank" href="http://www.researchgate.net/profile/{{ include.member.resgateusername }}" class="waves-effect waves-teal btn-flat my-researchgate-link" data-tooltip="researchgate" ><i class="ai ai-researchgate"></i> </a> {% endif %}
     {% if include.member.mendeleyusername %} - <a target="_blank" href="https://www.mendeley.com/profiles/{{ include.member.mendeleyusername }}" class="waves-effect waves-teal btn-flat my-mendeley-link" data-tooltip="mendeley" ><i class="ai ai-mendeley"></i></a> {% endif %}
-    {% if include.member.orcidusername %} - <a target="_blank" href="http://orcid.org/{{ include.member.orcidusername }}" class="waves-effect waves-teal btn-flat my-orcid-link" data-tooltip="orcid"><i class="ai ai-orcid"></i></a> {% endif %}
     {% if include.member.publonsusername %} - <a target="_blank" href="https://publons.com/a/{{ include.member.publonsusername }}" class="waves-effect waves-teal btn-flat my-publons-link" data-tooltip="publons"><i class="ai ai-publons"></i></a> {% endif %}
+    {% if include.member.arxivusername %} - <a target="_blank" href="https://arxiv.org/a/{{ include.member.arxivusername }}" class="waves-effect waves-teal btn-flat my-arxiv-link" data-tooltip="arxiv"><i class="ai ai-arxiv"></i></a> {% endif %}
+    {% if include.member.biorxivusername %} - <a target="_blank" href="https://www.biorxiv.org/search/{{ include.member.biorxivusername }}" class="waves-effect waves-teal btn-flat my-biorxiv-link" data-tooltip="biorxiv"><i class="ai ai-biorxiv"></i></a> {% endif %}
     {% if include.member.linkedinusername %} - <a target="_blank" href="http://www.linkedin.com/in/{{ include.member.linkedinusername }}" class="waves-effect waves-teal btn-flat my-linkedin-link" data-tooltip="linkedin"><i class="fa-brands fa-linkedin"></i></a> {% endif %}
-    {% if include.member.twitterusername %} - <a target="_blank" href="https://twitter.com/{{ include.member.twitterusername }}" class="waves-effect waves-teal btn-flat my-twitter-link" data-tooltip="twitter"><i class="fa-brands fa-twitter"></i></a> {% endif %}
     {% if include.member.githubusername %} - <a target="_blank" href="https://github.com/{{ include.member.githubusername }}" class="waves-effect waves-teal btn-flat my-github-link" data-tooltip="github"><i class="fa-brands fa-github"></i></a> {% endif %}
+    {% if include.member.blueskyusername %} - <a target="_blank" href="https://bsky.app/profile/{{ include.member.blueskyusername }}" class="waves-effect waves-teal btn-flat my-bluesky-link" data-tooltip="bluesky"><i class="fa-brands fa-bluesky"></i></a> {% endif %}
+    {% if include.member.mastodonusername %} - <a target="_blank" href="https://{{ include.member.mastodoninstance }}/@{{ include.member.mastodonusername }}" class="waves-effect waves-teal btn-flat my-mastodon-link" data-tooltip="mastodon"><i class="fa-brands fa-mastodon"></i></a> {% endif %}
+    {% if include.member.twitterusername %} - <a target="_blank" href="https://twitter.com/{{ include.member.twitterusername }}" class="waves-effect waves-teal btn-flat my-twitter-link" data-tooltip="twitter"><i class="fa-brands fa-twitter"></i></a> {% endif %}
+    {% if include.member.discordusername %} - <a target="_blank" href="https://discord.com/users/{{ include.member.discordusername }}" class="waves-effect waves-teal btn-flat my-discord-link" data-tooltip="discord"><i class="fa-brands fa-discord"></i></a> {% endif %}
+    {% if include.member.redditusername %} - <a target="_blank" href="https://www.reddit.com/user/{{ include.member.redditusername }}" class="waves-effect waves-teal btn-flat my-reddit-link" data-tooltip="reddit"><i class="fa-brands fa-reddit"></i></a> {% endif %}
+    {% if include.member.mediumusername %} - <a target="_blank" href="https://medium.com/@{{ include.member.mediumusername }}" class="waves-effect waves-teal btn-flat my-medium-link" data-tooltip="medium"><i class="fa-brands fa-medium"></i></a> {% endif %}
+    {% if include.member.facebookusername %} - <a target="_blank" href="https://www.facebook.com/{{ include.member.facebookusername }}" class="waves-effect waves-teal btn-flat my-facebook-link" data-tooltip="facebook"><i class="fa-brands fa-facebook"></i></a> {% endif %}
+    {% if include.member.instagramusername %} - <a target="_blank" href="https://www.instagram.com/{{ include.member.instagramusername }}" class="waves-effect waves-teal btn-flat my-instagram-link" data-tooltip="instagram"><i class="fa-brands fa-instagram"></i></a> {% endif %}
+    {% if include.member.youtubeusername %} - <a target="_blank" href="https://www.youtube.com/{{ include.member.youtubeusername }}" class="waves-effect waves-teal btn-flat my-youtube-link" data-tooltip="youtube"><i class="fa-brands fa-youtube"></i></a> {% endif %}
+    {% if include.member.tiktokusername %} - <a target="_blank" href="https://www.tiktok.com/@{{ include.member.tiktokusername }}" class="waves-effect waves-teal btn-flat my-tiktok-link" data-tooltip="tiktok"><i class="fa-brands fa-tiktok"></i></a> {% endif %}
     {% if include.member.spotifyusername  %} - <a target="_blank" href="https://open.spotify.com/artist/{{ include.member.spotifyusername }}" class="waves-effect waves-teal btn-flat my-spotify-link"  data-tooltip="spotify"><i class="fa-brands fa-spotify"></i></a> {% endif %}
     {% if include.member.stravausername  %} - <a target="_blank" href="https://www.strava.com/athletes/{{ include.member.stravausername }}" class="waves-effect waves-teal btn-flat my-strava-link"  data-tooltip="strava"><i class="fa-brands fa-strava"></i></a> {% endif %}
   </p>
@@ -29,21 +40,9 @@
     <strong>{{ include.member.position }}{% if include.member.affiliation != nil %}, {{ include.member.affiliation }}{% endif %}</strong> <em>({{ site.data[lang].strings.team.started }} {{ include.member.started }})</em>
   </p>
   <p style="text-align: left; font-size: 90%; opacity: 0.7; margin-bottom: 0px;">  
-    {% if include.member.education4 != nil %}
-      • {{ include.member.education1 }} 
-      <br>• {{ include.member.education2 }} 
-      <br>• {{ include.member.education3 }} 
-      <br>• {{ include.member.education4 }}
-    {% elsif include.member.education3 != nil %}
-    • {{ include.member.education1 }}
-    <br>• {{ include.member.education2 }} 
-    <br>• {{ include.member.education3 }} 
-    {% elsif include.member.education2 != nil %}
-      • {{ include.member.education1 }}
-      <br>• {{ include.member.education2 }}
-    {% elsif include.member.education1 != nil %}
-      • {{ include.member.education1 }}
-    {% endif %}
+    {% for member in include.member.education %}
+      • {{ member.program }}, {{ member.institution }} <span class="fi fi-{{ member.country }}"></span><br>
+    {% endfor %}
   </p>
   {% if include.member.interests != nil %}
   <p style="text-align: left; margin-bottom: 0px;">

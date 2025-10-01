@@ -8,8 +8,13 @@ position: Estudiante Doctoral
 affiliation: Ciencias Biológicas
 started: 2023
 ended: 
-education1: M.Sc. en Biociencias, Universidad EAFIT, Medellín, Colombia
-education2: B.Sc. en Biología, Universidad EAFIT, Medellín, Colombia
+education:
+  - program: M.Sc. en Biociencias
+    institution: Universidad EAFIT, Medellín
+    country: co
+  - program: B.Sc. en Biología
+    institution: Universidad EAFIT, Medellín
+    country: co
 email: ca.garcia2@uniandes.edu.co
 cv: 
 scholarusername: OJ6452UAAAAJ

@@ -8,9 +8,16 @@ position: Associate Professor
 affiliation: Biological Sciences Department
 started: 2013
 email: a.reyes@uniandes.edu.co
-education1: Ph.D. in Computational & Systems Biology, Washington University in St. Louis, USA
-education2: M.Sc. in Microbiology, Universidad de los Andes, Bogotá, Colombia
-education3: B.Sc. in Microbiology, Universidad de los Andes, Bogotá, Colombia
+education:
+  - program: Ph.D. in Computational & Systems Biology
+    institution: Washington University in St. Louis
+    country: us
+  - program: M.Sc. in Microbiology
+    institution: Universidad de los Andes, Bogotá
+    country: co
+  - program: B.Sc. in Microbiology
+    institution: Universidad de los Andes, Bogotá
+    country: co
 cv: 
 scholarusername: hbXF8UEAAAAJ
 resgateusername: Alejandro-Reyes-15
