@@ -7,7 +7,7 @@ photo: bio_photo.jpg
 position: Estudiante de Maestría
 affiliation: Ciencias Biológicas
 started: 2022
-ended:  
+ended: 2024
 number_educ: 2
 education1: B.Sc. en Biología, Universidad de los Andes, Colombia
 education2: B.Sc. en Microbiología, Universidad de los Andes, Colombia

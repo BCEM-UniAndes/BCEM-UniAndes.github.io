@@ -1,6 +1,6 @@
 ---
 name: Alejandro Castellanos
-display_category: Investigadores Asociados
+display_category: Personal de Investigación
 country: co
 website: 
 photo: alejandro_castellanos.jpg
@@ -8,7 +8,7 @@ position: Investigador Visitante
 # position: B.Sc. & M.Sc.
 # affiliation: Computational Biology
 started: 2018
-# ended: 2024
+ended: 2024
 email: a.castellanoss@uniandes.edu.co
 education1: M.Sc. en Biología Computacional, Universidad de los Andes, Bogotá, Colombia
 education2: B.Sc. en Física, Universidad de los Andes, Bogotá, Colombia

@@ -1,5 +1,6 @@
 ---
 name: 
+display_category: 
 country: 
 website: 
 photo: 

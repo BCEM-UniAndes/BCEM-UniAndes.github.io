@@ -5,7 +5,7 @@
 title: "BCEM" # the website title (if blank, full name will be used instead)
 first_name: "BCEM"
 middle_name: 
-last_name: "@ Uniandes"
+last_name: "@ Uniandes <span class='fi fi-co'></span>"
 email: a.reyes@uniandes.edu.co
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: bcem_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -232,7 +232,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
+  - _pages/en-gb/about_einstein.md
   - _pages/pt-br/about_einstein.md
   - purgecss.config.js
   - README.md
@@ -383,8 +383,8 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "es-co"]
-default_lang: "en-us"
+languages: ["en-gb", "es-es"]
+default_lang: "en-gb"
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: true # set true for allowing flag symbol in language toggle
@@ -632,10 +632,10 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_es-co.json # it can also be an url
+  - data: resume_en-gb
+    json: assets/json/resume_en-gb.json # it can also be an url
+  - data: resume_es-es
+    json: assets/json/resume_es-es.json # it can also be an url
 jsonresume:
   - basics
   - work

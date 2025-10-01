@@ -1,14 +1,15 @@
 ---
 name: Juanita Puentes
+display_category: Estudiantes de Pregrado
 country: co
 website: 
 photo: bio_photo.jpg
-position: B.Sc. Student
-affiliation: Microbiology
+position: Estudiante de Pregrado
+affiliation: Microbiología
 started: 2023
-ended:  
+ended: 2024
 number_educ: 1
-education1: B.Eng. in Biomedical Engineering, Universidad de los Andes, Colombia
+education1: B.Eng. en Ingeniería Biomédica, Universidad de los Andes, Colombia
 education2: 
 education3: 
 education4: 

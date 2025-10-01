@@ -2,15 +2,21 @@
 page_id: team
 layout: page
 permalink: /team/
-title: Team
+title: Equipo
 description: 
 nav: true
 nav_order: 1
+# display_categories: [Líder, Personal de Investigación, Estudiantes de Postgrado, Estudiantes de Pregrado]
+display_categories: [Líder, Estudiantes de Postgrado]
 ---
 
-## Group members
+## **Miembros del grupo**
 
-{% assign sorted_team = site.team | sort: "started" %}
+<div class="team">
+{% for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+{% assign categorized_people = site.team | where: "display_category", category %}
+{% assign sorted_team = categorized_people | sort: "started" %}
 {% assign number_printed = 0 %}
 {% for member in sorted_team %}
 
@@ -38,10 +44,13 @@ nav_order: 1
 {% if mod != 2 %}
 </div>
 {% endif %}
+{% endfor %}
+</div>
+<p>&nbsp;</p>
 
 --- 
 
-## Past members
+## **Miembros anteriores**
 
 <div class="row">
   {% assign sorted_team = site.team | sort: "ended" | reverse %}

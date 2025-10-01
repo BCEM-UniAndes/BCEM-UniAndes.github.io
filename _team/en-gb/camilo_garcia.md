@@ -1,13 +1,13 @@
 ---
 name: Camilo García-Botero
+display_category: Graduate Students
 country: co
 website: https://camilogarciabotero.github.io/
 photo: camilo-garcia.jpeg
-position: Graduate Student
+position: PhD Student
 affiliation: Biology
 started: 2023
 ended: 
-number_educ: 2
 education1: M.Sc. in Biosciences, Universidad EAFIT, Medellín, Colombia
 education2: B.Sc. in Biology, Universidad EAFIT, Medellín, Colombia
 email: ca.garcia2@uniandes.edu.co

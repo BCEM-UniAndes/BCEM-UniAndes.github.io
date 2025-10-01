@@ -1,15 +1,14 @@
 ---
 name: Nathalia A. Portilla
-display_category: Estudiantes de Postgrado
 country: co
 website: 
 photo: nathalia_portilla.jpg
-position: Estudiante de Maestría
-affiliation: Biología Computacional
+position: M.Sc. Student
+affiliation: Computational Biology
 started: 2020
-ended:  
+ended: 2024
 number_educ: 1
-education1: B.Sc. en Microbiología, Universidad de los Andes, Bogotá, Colombia
+education1: B.Sc. in Microbiology, Universidad de los Andes, Bogotá, Colombia
 education2: 
 education3: 
 education4: 
@@ -24,7 +23,7 @@ biorxivusername:
 linkedinusername: 
 twitterusername: 
 githubusername: portillanath
-interests: Taxonomía de fagos
+interests: Phage taxonomy
 position_after:
 affiliation_after: 
 country_after: 

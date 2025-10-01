@@ -2,14 +2,15 @@
 page_id: team
 layout: page
 permalink: /team/
-title: Equipo
+title: Team
 description: 
 nav: true
 nav_order: 1
-display_categories: [Líder, Investigadores Asociados, Estudiantes de Postgrado, Estudiantes de Pregrado]
+# display_categories: [Group Leader, Research Staff, Graduate Students, Undergraduate Students]
+display_categories: [Group Leader, Graduate Students]
 ---
 
-## **Miembros del grupo**
+## Group members
 
 <div class="team">
 {% for category in page.display_categories %}
@@ -27,7 +28,7 @@ display_categories: [Líder, Investigadores Asociados, Estudiantes de Postgrado,
 <div class="row" style="margin-bottom: 10px;">
 {% endif %}
 
-{% include team_member_.html member=member %}
+{% include team_member.html member=member %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -49,7 +50,7 @@ display_categories: [Líder, Investigadores Asociados, Estudiantes de Postgrado,
 
 --- 
 
-## **Miembros anteriores**
+## Past members
 
 <div class="row">
   {% assign sorted_team = site.team | sort: "ended" | reverse %}

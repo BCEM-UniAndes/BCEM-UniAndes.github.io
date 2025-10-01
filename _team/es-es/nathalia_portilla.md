@@ -1,15 +1,15 @@
 ---
-name: María Fernanda Peña
+name: Nathalia A. Portilla
 display_category: Estudiantes de Postgrado
 country: co
 website: 
-photo: maria_fernanda_pena.jpg
-position: Estudiante de Maestría [co-dirigida Diego Jiménez]
-affiliation: Ciencias Biológicas
-started: 2022
-ended:  
+photo: nathalia_portilla.jpg
+position: Estudiante de Maestría
+affiliation: Biología Computacional
+started: 2020
+ended: 2024
 number_educ: 1
-education1: B.Sc. en Biología, Universidad de Antioquía, Medellín, Colombia
+education1: B.Sc. en Microbiología, Universidad de los Andes, Bogotá, Colombia
 education2: 
 education3: 
 education4: 
@@ -23,8 +23,8 @@ arxivusername:
 biorxivusername: 
 linkedinusername: 
 twitterusername: 
-githubusername:  
-interests: Ecología microbiana de suelos de manglar
+githubusername: portillanath
+interests: Taxonomía de fagos
 position_after:
 affiliation_after: 
 country_after: 

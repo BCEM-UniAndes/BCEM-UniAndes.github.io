@@ -1,12 +1,13 @@
 ---
 name: Joshua M. Kirsch
+display_category: Estudiantes de Postgrado
 country: us
 website: 
 photo: bio_photo.jpg
-position: Visiting Graduate Student
+position: Pasante Doctoral
 affiliation: University of Colorado School of Medicine
 started: 2024
-ended:  
+ended: 2024
 number_educ: 
 education1: 
 education2: 

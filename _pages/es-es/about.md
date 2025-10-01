@@ -6,7 +6,7 @@ permalink: /
 subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Departmento de Ciencias Biológicas</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
 
 profile:
-  image: bcem_logo9.png
+  image: bcem_logo7.png
   more_info: 
 
 news: true # includes a list of news items
