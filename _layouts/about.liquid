@@ -5,7 +5,7 @@ layout: default
   <header class="post-header-about">
     {% if page.profile and page.profile.image %}
       <div class="profile-image">
-        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/' | append: page.profile.image %}
         {% assign profile_image_class = 'img-fluid w-100' %}
         {%
           include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image cache_bust=true

@@ -15,7 +15,8 @@ arxivusername:
 biorxivusername: 
 linkedinusername: 
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: B.Sc [co-advised Maryam Chaib De Mares]
 position_after: M.Sc. Student
 affiliation_after: Uniersidad de los Andes
 country_after: co

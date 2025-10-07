@@ -7,10 +7,8 @@ description:
 nav: true
 nav_order: 1
 # display_categories: [Líder, Personal de Investigación, Estudiantes de Postgrado, Estudiantes de Pregrado]
-display_categories: [Líder, Estudiantes de Postgrado]
+display_categories: [Líder, Estudiantes de Postgrado, Estudiantes de Pregrado]
 ---
-
-## **Miembros del grupo**
 
 <div class="team">
 {% for category in page.display_categories %}

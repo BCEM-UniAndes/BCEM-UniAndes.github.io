@@ -5,7 +5,7 @@ country: co
 website: https://camilogarciabotero.github.io/
 photo: camilo-garcia.jpeg
 position: PhD Student
-affiliation: Biology
+affiliation: Biological Sciences
 started: 2023
 ended: 
 education:

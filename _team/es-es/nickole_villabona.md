@@ -21,8 +21,10 @@ arxivusername:
 biorxivusername: 
 linkedinusername: nickole-villabona-b48357232
 twitterusername: 
+instagramusername: nickole97
 githubusername: 
 interests:
+position_completed: B.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: University of California, Irvine
 country_after: us

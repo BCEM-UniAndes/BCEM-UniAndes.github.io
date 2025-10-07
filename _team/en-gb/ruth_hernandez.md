@@ -3,8 +3,8 @@ name: Ruth Hernández
 country: co
 website: 
 position: Ph.D.
-started: 2000
-ended: 2010
+started: 2015
+ended: 2021
 email: 
 cv: 
 scholarusername: 
@@ -13,9 +13,10 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: ruth-d-hernandez-reyes
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: PhD 
 position_after: 
 affiliation_after: 
 country_after: 

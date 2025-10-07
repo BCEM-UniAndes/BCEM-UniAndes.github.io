@@ -19,11 +19,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: diego-andres-martinez-mejia-3602a4120
 twitterusername: 
 githubusername: diegomartinez33
 interests: 
-position_after: 
-affiliation_after: 
-country_after: 
+position_completed: B.Sc.
+position_after: Graduate Student
+affiliation_after: Universidad de los Andes
+country_after: co
 ---

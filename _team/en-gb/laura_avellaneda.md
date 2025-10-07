@@ -16,7 +16,8 @@ biorxivusername:
 linkedinusername: laura-avellaneda-franco-03a757290
 twitterusername: 
 githubusername:  
-position_after: Graduate Student
+position_completed: B.Sc & M.Sc.
+position_after: PhD Student
 affiliation_after: Monash University
 country_after: au
 ---

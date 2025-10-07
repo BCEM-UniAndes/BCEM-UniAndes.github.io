@@ -3,8 +3,8 @@ name: Pablo Cárdenas
 country: co
 website: https://pablo-cardenas.com/
 position: B.Sc.
-started: 2000
-ended: 2010
+started: 2015
+ended: 2018
 email: 
 cv: 
 scholarusername: Iu05ZuQAAAAJ
@@ -16,6 +16,7 @@ biorxivusername:
 linkedinusername: pablocarderam
 twitterusername: pcr_guy
 githubusername: pablocarderam
+position_completed: B.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: MIT
 country_after: us

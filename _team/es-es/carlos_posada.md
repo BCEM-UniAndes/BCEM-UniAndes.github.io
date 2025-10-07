@@ -1,10 +1,10 @@
 ---
-name: Carlos Eduardo Posada Perlaza
+name: Eduardo Posada
 country: co
 website: 
-position: M.Sc.
-started: 2000
-ended: 2010
+position: M.Sc. Student
+started: 2016
+ended: 2018
 email: 
 cv: 
 scholarusername: 
@@ -15,8 +15,9 @@ arxivusername:
 biorxivusername: 
 linkedinusername: ceposadap
 twitterusername: 
-githubusername:  
-position_after: Analista de Políticas
-affiliation_after: Instituto Internacional de Desarrollo Sostenible
-country_after: ca
+githubusername: 
+position_completed: M.Sc.
+position_after: Estudiante de Maestría en Políticas Públicas
+affiliation_after: Hertie School
+country_after: de
 ---

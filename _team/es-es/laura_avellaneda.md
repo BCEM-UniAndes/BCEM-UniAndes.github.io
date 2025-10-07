@@ -15,7 +15,8 @@ arxivusername:
 biorxivusername: 
 linkedinusername: laura-avellaneda-franco-03a757290
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: B.Sc & M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: Monash University
 country_after: au

@@ -6,11 +6,6 @@ photo:
 position: B.Sc. & M.Sc.
 started: 2017
 ended: 2021
-number_educ: 
-education1: 
-education2: 
-education3: 
-education4: 
 email: 
 cv: 
 scholarusername: 
@@ -19,10 +14,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: laura-camelo-246229217
 twitterusername: 
 githubusername:  
 interests:
+position_completed: B.Sc. & M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: McGill University
 country_after: ca

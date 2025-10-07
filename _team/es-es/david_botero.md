@@ -15,7 +15,8 @@ arxivusername:
 biorxivusername: 
 linkedinusername: david-octavio-botero-rozo-54286640
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: Ph.D. [co-dirigido Silvia Restrepo]
 position_after: Investigador Asociado I
 affiliation_after: Cenipalma
 country_after: co

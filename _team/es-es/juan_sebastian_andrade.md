@@ -5,6 +5,7 @@ position: B.Sc. & M.Sc.
 orcidusername: 0000-0001-7852-630X
 started: 2016
 ended: 2020
+position_completed: B.Sc. & M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: Weill Cornell Medicine
 country_after: us

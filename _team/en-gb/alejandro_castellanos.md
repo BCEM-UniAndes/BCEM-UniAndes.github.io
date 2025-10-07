@@ -26,7 +26,7 @@ orcidusername: 0000-0002-1732-6918
 # twitterusername: alejandrocs_98
 githubusername:  alejandrocs98
 linkedinusername: alejandrocs98
-blueskyusername: alejandrocs98
+blueskyusername: alejandrocs98.bsky.social
 mendeleyusername: 
 publonsusername: 
 arxivusername: 
@@ -42,8 +42,10 @@ tiktokusername:
 spotifyusername: 
 stravausername: 
 interests: Ecological and metabolic modeling of the gut microbiome
-position_completed: B.Sc. & M.Sc.
+position_completed: B.Sc. [co-advised Leda Restrepo] & M.Sc. [co-advised Maryam Chaib De Mares & Andrés Quiñones]
 position_after: Graduate Student
-affiliation_after: Duke University
-country_after: us
+# affiliation_after: Duke University
+# country_after: us
+affiliation_after: VIB-KU Leuven Center for Microbiology
+country_after: be
 ---

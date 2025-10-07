@@ -3,7 +3,7 @@ name: Felipe Sierra
 country: co
 website: 
 photo: 
-position: M.Sc. [co-dirigido Diego Jiménez]
+position: Estudiente de Maestría [co-dirigido Diego Jiménez]
 started: 2021
 ended: 2023
 number_educ: 
@@ -21,9 +21,11 @@ arxivusername:
 biorxivusername: 
 linkedinusername: felipe-sierra-234861183
 twitterusername: 
+instagramusername: ppsiera
 githubusername: Felipe-Sierra
 interests:
-position_after: Coordinador de Investigación de Riesgos Socioecológicos
-affiliation_after: Centro para los Objetivos de Desarrollo Sostenible para América Latina y el Caribe
+position_completed: M.Sc. [co-dirigido Diego Jiménez]
+position_after: Asistente de Investigación II
+affiliation_after: Centro para los Objetivos de Desarrollo Sostenible para América Latina y el Caribe, Universidad de los Andes
 country_after: co
 ---

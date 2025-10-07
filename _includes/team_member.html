@@ -3,7 +3,11 @@
 {% assign lang = site.active_lang %}
 <div class="col-sm-4 clearfix" style="text-align:center; align:center">
   <div style="text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ include.member.photo }}" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
+    {% if include.member.photo != nil %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ include.member.photo }}" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
+    {% else %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/bio_photo.jpg" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
+    {% endif %}
   </div>
   
   {% if include.member.website != nil %}
@@ -40,9 +44,11 @@
     <strong>{{ include.member.position }}{% if include.member.affiliation != nil %}, {{ include.member.affiliation }}{% endif %}</strong> <em>({{ site.data[lang].strings.team.started }} {{ include.member.started }})</em>
   </p>
   <p style="text-align: left; font-size: 90%; opacity: 0.7; margin-bottom: 0px;">  
-    {% for member in include.member.education %}
-      • {{ member.program }}, {{ member.institution }} <span class="fi fi-{{ member.country }}"></span><br>
-    {% endfor %}
+    {% if include.member.education != nil %}
+      {% for member in include.member.education %}
+        • {{ member.program }}, {{ member.institution }} <span class="fi fi-{{ member.country }}"></span><br>
+      {% endfor %}
+    {% endif %}
   </p>
   {% if include.member.interests != nil %}
   <p style="text-align: left; margin-bottom: 0px;">

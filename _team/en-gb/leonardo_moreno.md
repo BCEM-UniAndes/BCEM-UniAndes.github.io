@@ -15,8 +15,9 @@ arxivusername:
 biorxivusername: 
 linkedinusername: j-leonardo-moreno-gallego-60154249
 twitterusername: 
-githubusername:  
-position_after: Graduate Student
+githubusername: 
+position_completed: M.Sc.
+position_after: PhD Student
 affiliation_after: Max Planck Institute for Biology in Tübingen
 country_after: de
 ---

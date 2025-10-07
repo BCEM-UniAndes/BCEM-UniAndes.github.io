@@ -16,6 +16,7 @@ biorxivusername:
 linkedinusername: guillermorangelp
 twitterusername: 
 githubusername: guille0387
+position_completed: Investigador
 position_after: Investigador Postdoctoral
 affiliation_after: University of Copenhagen
 country_after: dk

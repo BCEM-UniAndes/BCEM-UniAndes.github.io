@@ -3,7 +3,7 @@ name: Andrés Sacré
 country: co
 website: 
 photo: 
-position: M.Sc.
+position: M.Sc. Student
 affiliation: 
 started: 2019
 ended: 2022
@@ -19,11 +19,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: andres-sacre-alzate
 twitterusername: 
 githubusername: asacrea
 interests: 
-position_after: 
-affiliation_after: 
-country_after: 
+position_completed: M.Sc.
+position_after: Lead Data Engineer
+affiliation_after: itelCX
+country_after: co
 ---

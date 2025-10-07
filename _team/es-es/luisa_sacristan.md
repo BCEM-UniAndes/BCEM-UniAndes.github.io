@@ -6,25 +6,28 @@ website:
 photo: luisa_sacristan.jpg
 position: Estudiante de Maestría
 affiliation: CABANA
-started: 2022
+started: 2021
 ended: 2024
-number_educ: 2
-education1: M.Sc. en Biología Computacional, Universidad de los Andes, Bogotá, Colombia
-education2: B.Sc. en Microbiología, Universidad de Pamplona, Pamplona, Colombia
-education3: 
-education4: 
+education:
+  - program: M.Sc. en Biología Computacional
+    institution: Universidad de los Andes, Bogotá
+    country: co
+  - program: B.Sc. en Microbiología
+    institution: Universidad de Pamplona
+    country: co
 email: lf.sacristan2215@uniandes.edu.co
 cv: 
-scholarusername: 
+scholarusername: MTlt_08AAAAJ&hl
 resgateusername: 
 orcidusername: 
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: luisa-sacristan-162916145
 twitterusername: 
 githubusername: lusacristan
 interests: Metagenómica de ADN ancestral
+position_completed: M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: University College Dublin
 country_after: ie

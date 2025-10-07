@@ -19,10 +19,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
-twitterusername: 
-githubusername:  
+linkedinusername: daniela-betancurt-anzola-402361b4
+twitterusername: danielabetan
+githubusername: danibeta07
 interests:
+position_completed: M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: The Pennsylvania State University
 country_after: us

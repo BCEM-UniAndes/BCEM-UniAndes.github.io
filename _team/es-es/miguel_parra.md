@@ -7,16 +7,17 @@ started: 2016
 ended: 2018
 email: 
 cv: 
-scholarusername: 
+scholarusername: sVf8roUAAAAJ
 resgateusername: 
 orcidusername: 
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: miguel-hernando-parra-avila-a1143015
 twitterusername: 
-githubusername:  
-position_after: Investigador asociadop
+githubusername: 
+position_completed: Postdoc
+position_after: Docente de Investigación en Inmunología
 affiliation_after: Universidad del Bosque
 country_after: co
 ---

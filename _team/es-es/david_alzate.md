@@ -1,22 +1,15 @@
 ---
 name: David Alzate
-country: 
+country: co
 website: 
 position: M.Sc.
-started: 
-ended: 2000
-email: 2010
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
-linkedinusername: 
+started: 2014
+ended: 2017
+linkedinusername: david-alzate-0259b43
 twitterusername: 
-githubusername:  
-position_after: 
-affiliation_after:  
-country_after: 
+githubusername: 
+position_completed: M.Sc.
+position_after: Consultor Senior en SAP
+affiliation_after: Deloitte
+country_after: co
 ---

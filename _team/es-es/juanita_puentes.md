@@ -8,11 +8,10 @@ position: Estudiante de Pregrado
 affiliation: Microbiología
 started: 2023
 ended: 2024
-number_educ: 1
-education1: B.Eng. en Ingeniería Biomédica, Universidad de los Andes, Colombia
-education2: 
-education3: 
-education4: 
+education:
+  - program: B.Eng. en Ingeniería Biomédica
+    institution: Universidad de los Andes, Bogotá
+    country: co
 email: 
 cv: 
 scholarusername: 
@@ -21,11 +20,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: juanita-puentes
 twitterusername: 
 githubusername: juanitapuentes
 interests: 
-position_after: 
-affiliation_after:
-country_after: 
+position_completed: B.Sc.
+position_after: PhD Student
+affiliation_after: Universidad de los Andes
+country_after: co
 ---

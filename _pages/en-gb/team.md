@@ -7,10 +7,8 @@ description:
 nav: true
 nav_order: 1
 # display_categories: [Group Leader, Research Staff, Graduate Students, Undergraduate Students]
-display_categories: [Group Leader, Graduate Students]
+display_categories: [Group Leader, Graduate Students, Undergraduate Students]
 ---
-
-## Group members
 
 <div class="team">
 {% for category in page.display_categories %}

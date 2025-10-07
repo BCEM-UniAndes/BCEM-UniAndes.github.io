@@ -15,8 +15,9 @@ arxivusername:
 biorxivusername: 
 linkedinusername: jorge-iv%C3%A1n-d%C3%ADaz-ria%C3%B1o-cb
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: M.Sc.
 position_after: Computational Biology Unit Coordinator | Graduate Student
-affiliation_after: Biotecgen S.A.S. | Universidad de los Andes
+affiliation_after: BioTecGen S.A.S. | Universidad de los Andes
 country_after: co
 ---

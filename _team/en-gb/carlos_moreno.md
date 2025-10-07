@@ -2,7 +2,7 @@
 name: Carlos Moreno Ibargüen
 country: co
 website: 
-position: M.Sc.
+position: M.Sc. Student
 started: 2017
 ended: 2020
 email: 
@@ -16,6 +16,7 @@ biorxivusername:
 linkedinusername: carlos-moreno-ibargüen-5b642a28
 twitterusername: 
 githubusername:  
+position_completed: M.Sc.
 position_after: HPC Research Services Engineer
 affiliation_after: Universidad de los Andes
 country_after: co

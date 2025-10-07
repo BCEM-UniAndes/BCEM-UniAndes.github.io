@@ -7,11 +7,10 @@ position: B.Sc. Student
 affiliation: Microbiology
 started: 2023
 ended: 2024
-number_educ: 1
-education1: B.Eng. in Biomedical Engineering, Universidad de los Andes, Colombia
-education2: 
-education3: 
-education4: 
+education:
+  - program: B.Eng. in Biomedical Engineering
+    institution: Universidad de los Andes, Bogotá
+    country: co
 email: 
 cv: 
 scholarusername: 
@@ -20,11 +19,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: juanita-puentes
 twitterusername: 
 githubusername: juanitapuentes
 interests: 
-position_after: 
-affiliation_after:
-country_after: 
+position_completed: B.Sc.
+position_after: PhD Student
+affiliation_after: Universidad de los Andes
+country_after: co
 ---

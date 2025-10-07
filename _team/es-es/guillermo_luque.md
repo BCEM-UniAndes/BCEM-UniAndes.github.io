@@ -16,6 +16,7 @@ biorxivusername:
 linkedinusername: gluque
 twitterusername: 
 githubusername: gluque
+position_completed: M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: Instituto Max Planck para Biología en Tübingen
 country_after: de

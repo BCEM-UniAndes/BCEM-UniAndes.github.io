@@ -26,7 +26,7 @@ orcidusername: 0000-0002-1732-6918
 # twitterusername: alejandrocs_98
 githubusername:  alejandrocs98
 linkedinusername: alejandrocs98
-blueskyusername: alejandrocs98
+blueskyusername: alejandrocs98.bsky.social
 mendeleyusername: 
 publonsusername: 
 arxivusername: 
@@ -42,8 +42,10 @@ tiktokusername:
 spotifyusername: 
 stravausername: 
 interests: Modelamiento ecológico y metabólico de la microbiota intestinal
-position_completed: B.Sc. & M.Sc.
+position_completed: B.Sc. [co-dirigido Leda Restrepo] & M.Sc. [co-dirigido Maryam Chaib De Mares & Andrés Quiñones]
 position_after: Estudiante Doctoral
-affiliation_after: Duke University
-country_after: us
+# affiliation_after: Duke University
+# country_after: us
+affiliation_after: VIB-KU Leuven Center for Microbiology
+country_after: be
 ---

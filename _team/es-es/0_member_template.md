@@ -1,20 +1,21 @@
 ---
+## Current member main information
 name: 
-display_category: 
 country: 
-website: 
 photo: 
+display_category: 
 position: 
 affiliation: 
 started: 
 education:
-  - program: 
-    institution: 
-    country: 
+  # - program: 
+  #   institution: 
+  #   country: 
 interests: 
-# contact info and social media prescence
+## Contact info and social media prescence
 email: 
 cv: 
+website: 
 orcidusername: 
 scholarusername: 
 resgateusername: 
@@ -36,7 +37,7 @@ youtubeusername:
 tiktokusername: 
 spotifyusername: 
 stravausername: 
-# 
+## Information regarding group departure
 ended: 
 position_completed: 
 position_after: 

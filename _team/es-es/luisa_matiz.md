@@ -1,16 +1,11 @@
 ---
-name: Luisa Fernanda Matiz Cerón
+name: Luisa Matiz
 country: co
 website: 
 photo: 
 position: M.Sc.
 started: 2018
 ended: 2021
-number_educ: 
-education1: 
-education2: 
-education3: 
-education4: 
 email: 
 cv: 
 scholarusername: 
@@ -19,10 +14,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: luisa-matiz-560b41b9
 twitterusername: 
 githubusername:  
 interests:
+position_completed: M.Sc. [co-dirigida Juan Anzola]
 position_after: Estudiante Doctoral
 affiliation_after: Hokkaido University
 country_after: jp

@@ -1,5 +1,5 @@
 ---
-name: Juan Manuel Anzola
+name: Juan Anzola
 country: co
 website: 
 photo: 
@@ -13,9 +13,9 @@ education3:
 education4: 
 email: 
 cv: 
-scholarusername: 
+scholarusername: u3LOnzEAAAAJ&hl
 resgateusername: 
-orcidusername: 
+orcidusername: 0000-0003-2677-6731
 publonsusername: 
 arxivusername: 
 biorxivusername: 
@@ -23,6 +23,7 @@ linkedinusername:
 twitterusername: 
 githubusername:  
 interests:
+position_completed: Postdoc
 position_after: Profesor Asociado
 affiliation_after: Universidad Central
 country_after: co

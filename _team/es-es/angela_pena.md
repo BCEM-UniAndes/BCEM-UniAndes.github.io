@@ -1,5 +1,5 @@
 ---
-name: Ángela Peña
+name: Ángela V. Serrano
 country: co
 website: 
 photo: 
@@ -18,11 +18,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: angela-v-serrano-a2373225
 twitterusername: 
-githubusername:  
+githubusername: 
+position_completed: Postdoc
 interests:
-position_after: Programador Jefe de Bioinformática
-affiliation_after: Baylor College of Medicine
+position_after: Líder de Programación en Bioinformática
+affiliation_after: Texas Children's Microbiome Center, Baylor College of Medicine
 country_after: us
 ---

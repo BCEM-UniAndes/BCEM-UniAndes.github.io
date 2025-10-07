@@ -2,9 +2,9 @@
 name: Aurelia Ayala Usma
 country: co
 website: 
-position: M.Sc. [co-advised Silvia Restrepo]
-started: 2000
-ended: 2010
+position: M.Sc. Student [co-advised Silvia Restrepo]
+started: 2016
+ended: 2018
 email: 
 cv: 
 scholarusername: O3VHpuEAAAAJ&hl
@@ -16,7 +16,8 @@ biorxivusername:
 linkedinusername: ayalausma
 twitterusername: ayala-usma
 githubusername: ayala-usma
-position_after: Analytics & Planning Associate
-affiliation_after: Twilio Inc.
+position_completed: M.Sc. [co-advised Silvia Restrepo]
+position_after: Data Scientist
+affiliation_after: Bunny Studio
 country_after: co
 ---

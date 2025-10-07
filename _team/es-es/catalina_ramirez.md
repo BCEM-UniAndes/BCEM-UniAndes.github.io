@@ -16,6 +16,7 @@ biorxivusername:
 linkedinusername: catalinarp
 twitterusername: CatalinaRPort
 githubusername:  
+position_completed: M.Sc. [co-dirigida J. Armando Sánchez]
 position_after: Estudiante Doctoral
 affiliation_after: Université libre de Bruxelles | Justus Leibig University Giessen
 country_after: de

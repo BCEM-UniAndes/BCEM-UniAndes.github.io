@@ -1,10 +1,10 @@
 ---
-name: Mauricio Pacheco
+name: Mauricio Pacheco Montealegre
 country: co
 website: 
 position: M.Sc.
-started: 2000
-ended: 2010
+started: 2016
+ended: 2018
 email: 
 cv: 
 scholarusername: 
@@ -13,10 +13,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: me-pacheco
 twitterusername: 
-githubusername:  
-position_after: Bioinformático
-affiliation_after: Laboratorio de Salud Pública de la Secretaría de Salud de Bogotá
+githubusername: 
+position_completed: M.Sc. [co-dirigido Alejandro Caro-Quintero]
+position_after: Docente Invesigador en Bioinformática
+affiliation_after: Universidad del Bosque, Bogotá
 country_after: co
 ---

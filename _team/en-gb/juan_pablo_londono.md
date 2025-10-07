@@ -14,10 +14,11 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
+linkedinusername: jplondono
 twitterusername: 
 githubusername:  
-position_after: Visiting Student
+position_completed: B.Sc. [co-advised Jorge Duitama]
+position_after: M.Sc. Student
 affiliation_after: KAUST
 country_after: sa
 ---

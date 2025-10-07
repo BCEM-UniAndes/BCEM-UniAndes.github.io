@@ -7,12 +7,11 @@ position: M.Sc. Student
 affiliation: Computational Biology
 started: 2020
 ended: 2024
-number_educ: 1
-education1: B.Sc. in Microbiology, Universidad de los Andes, Bogotá, Colombia
-education2: 
-education3: 
-education4: 
-email: mf.penav1@uniandes.edu.co
+education:
+  - program: B.Sc. in Microbiology
+    institution: Universidad de los Andes, Bogotá
+    country: co
+email: 
 cv: 
 scholarusername: 
 resgateusername: 
@@ -20,11 +19,13 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
-twitterusername: 
+linkedinusername: nathaliaportilla
+twitterusername: portillanath
 githubusername: portillanath
+instagramusername: portillanath
 interests: Phage taxonomy
-position_after:
-affiliation_after: 
-country_after: 
+position_completed: M.Sc. [co-advised Jorge Duitama]
+position_after: Lab Manager
+affiliation_after: University of Florida
+country_after: us
 ---

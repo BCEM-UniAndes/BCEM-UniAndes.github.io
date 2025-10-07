@@ -19,11 +19,12 @@ orcidusername:
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername:
+linkedinusername: dayanne-chaparro-avellaneda
 twitterusername: 
 githubusername: 
 interests:
-position_after: 
-affiliation_after: 
+position_completed: M.Sc. [co-advised Diego Jiménez]
+position_after: Project Professional
+affiliation_after: PSL Proanalisis
 country_after: co
 ---

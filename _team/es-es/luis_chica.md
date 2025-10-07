@@ -15,6 +15,7 @@ biorxivusername:
 linkedinusername:
 twitterusername: 
 githubusername: 
+position_completed: B.Sc. & M.Sc.
 position_after: Estudiante Doctoral
 affiliation_after: Washington University in St. Louis
 country_after: us

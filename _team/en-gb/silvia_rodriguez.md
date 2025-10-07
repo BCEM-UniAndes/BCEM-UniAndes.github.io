@@ -1,30 +1,45 @@
 ---
-name: Silvia Rodríguez
+name: Silvia Rodríguez Otalora
+display_category: Undergraduate Students
 country: co
 website: 
-photo: bio_photo.jpg
+photo: 
 position: B.Sc. Student
 affiliation: Biology
-started: 
-ended:  
-number_educ: 
-education1: 
-education2: 
-education3: 
-education4: 
-email: 
+started: 2024
+education: 
+  # - program: 
+  #   institution: 
+  #   country: 
+interests: 
+# contact info and social media prescence
+email: sc.rodriguezo1@uniandes.edu.co
 cv: 
+orcidusername: 
 scholarusername: 
 resgateusername: 
-orcidusername: 
+mendeleyusername: 
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: 
-twitterusername: 
+linkedinusername: silvia-rodriguez-otalora
 githubusername: 
-interests: 
+blueskyusername: 
+mastodonusername: 
+twitterusername: 
+discordusername: 
+redditusername: 
+mediumusername: 
+facebookusername: 
+instagramusername: 
+youtubeusername: 
+tiktokusername: 
+spotifyusername: 
+stravausername: 
+# after
+ended: 
+position_completed: 
 position_after: 
-affiliation_after:
+affiliation_after: 
 country_after: 
 ---

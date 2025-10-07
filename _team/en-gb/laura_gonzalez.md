@@ -16,7 +16,8 @@ biorxivusername:
 linkedinusername: laura-natalia-gonzalez-garcia
 twitterusername: 
 githubusername:  
-position_after: Coordinator of TI Core Facility | Graduate Student
+position_completed: M.Sc.
+position_after: Coordinator of TI Core Facility | PhD Student
 affiliation_after: Universidad de los Andes | Université de Montpellier
 country_after: co
 ---

@@ -1,17 +1,12 @@
 ---
 name: Maryam Chaib De Mares
 country: co
-website: 
+website: https://mchaib.github.io/BMTE-Website/
 photo: 
 position: Postdoc
 started: 2019
 ended: 2023
-number_educ: 
-education1: 
-education2: 
-education3: 
-education4: 
-email: 
+email: mchaib@unal.edu.co
 cv: 
 scholarusername: 
 resgateusername: 
@@ -20,9 +15,10 @@ publonsusername:
 arxivusername: 
 biorxivusername: 
 linkedinusername: maryamchaibdemares
-twitterusername: 
+twitterusername: MChaibDeMares
 githubusername: mchaib
 interests:
+position_completed: Postdoc
 position_after: Assistant Professor
 affiliation_after: Universidad Nacional de Colombia
 country_after: co
