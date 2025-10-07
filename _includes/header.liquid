@@ -6,6 +6,7 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == nil %}
             {% if site.first_name %}
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
               <span class="font-weight-bold">
                 {{- site.first_name -}}
               </span>
@@ -17,8 +18,8 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            <!-- {{- site.title -}} -->
             {% if site.first_name %}
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" style="width:48px; height:32px;" />
               <span class="font-weight-bold">
                 {{- site.first_name -}}
               </span>
@@ -27,7 +28,11 @@
               {{- site.middle_name -}}
             {% endif %}
             {% if site.last_name %}
-              {{- site.last_name -}}
+              {% if site.last_name == "@ Uniandes <span class='fi fi-co'></span>" %}
+                @ <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png" style="width:124px; height:32px;" />
+              {% else %}
+                {{- site.last_name -}}
+              {% endif %}
             {% endif %}
           {% endif %}
         </a>

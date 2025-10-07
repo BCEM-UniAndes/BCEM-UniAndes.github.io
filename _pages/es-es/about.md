@@ -6,7 +6,7 @@ permalink: /
 subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Departmento de Ciencias Biológicas</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
 
 profile:
-  image: bcem_logo7.png
+  image: logopic/bcem_logo_long_es.png
   more_info: 
 
 news: true # includes a list of news items
@@ -15,9 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
----
-
-Bienvenido a la página de inicio del Grupo de Investigación en Biología Computacional y Ecología Microbiana (BCEM) de Uniandes. [Somos]({{ site.url }}{{ site.baseurl }}/team) un grupo multidisciplinar implicado en el desarrollo de la biología computacional. Trabajamos en diversas áreas de investigación como la ecología microbiana, la genómica, la genética de poblaciones y la biología de sistemas.
+Bienvenid@ a la página de inicio del Grupo de Investigación en Biología Computacional y Ecología Microbiana (BCEM) de Uniandes. [Somos]({{ site.url }}{{ site.baseurl }}/team) un grupo multidisciplinar implicado en el desarrollo de la biología computacional. Trabajamos en diversas áreas de investigación como la ecología microbiana, la genómica, la genética de poblaciones y la biología de sistemas.
 
 El BCEM es un grupo de investigación basado en principios de excelencia y rigor científico, que garantiza una investigación científica de alta calidad. Nuestros miembros se caracterizan por su pasión y curiosidad científica, así como por su alto nivel de compromiso y disciplina. Como investigadores nos basamos en el respeto mutuo, partiendo de un principio de empatía y solidaridad con el otro, reconociéndonos en nuestra singularidad, es decir, en la diferencia, lo que implica respeto y búsqueda de equidad. 
 
@@ -29,12 +27,9 @@ El BCEM es un grupo de investigación basado en principios de excelencia y rigor
   </figure>
 </div>
 
----
-
+## Afiliaciones y Financiadores
 <figure class="fourth" style="text-align: center;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Uniandes.png" style="width: 225px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-universidaddelosandes_colombia.png" style="width: 225px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logo_DCB.png" style="width: 175px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/cabana.thumbnail" style="width: 225px">
 </figure>
-
----
