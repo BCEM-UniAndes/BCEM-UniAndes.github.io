@@ -29,7 +29,8 @@ El BCEM es un grupo de investigación basado en principios de excelencia y rigor
 
 ## Afiliaciones y Financiadores
 <figure class="fourth" style="text-align: center;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-universidaddelosandes_colombia.png" style="width: 225px">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logo_DCB.png" style="width: 175px">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/cabana.thumbnail" style="width: 225px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-universidaddelosandes_colombia.png" style="width: 225px; margin-right: 20px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Yoast_WashuLogo.jpg" style="width: 175px; margin-right: 20px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/wellcomesangerinstitutelogo1-800x275.png" style="width: 225px; margin-right: 20px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/cabana.thumbnail" style="width: 225px;">
 </figure>

@@ -27,7 +27,7 @@ linkedinusername: maria-fernanda-peña-valencia-5995a1180
 twitterusername: 
 githubusername:  
 interests: Ecología microbiana de suelos de manglar
-position: M.Sc. [co-dirigida Diego Jiménez]
+position_completed: M.Sc. [co-dirigida Diego Jiménez]
 position_after: Investigadora Junior
 affiliation_after: Centro para los Objetivos de Desarrollo Sostenible para América Latina y el Caribe, Universidad de los Andes
 country_after: co

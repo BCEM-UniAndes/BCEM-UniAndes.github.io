@@ -4,8 +4,10 @@ archive_year: un archivo de entradas de este año
 blog:
   navigation_title: blog
 categories:
-  fun: diversión
-  work: trabajo
+  graduate: Postgrado
+  undergraduate: Pregrado
+  cabana: CABANA
+  extension: Extensión
 citation:
   bibtex: "o como cita en BibTeX:"
   introduction: "Si le ha resultado útil, por favor, cite cómo:"
