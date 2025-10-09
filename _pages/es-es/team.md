@@ -6,8 +6,8 @@ title: Equipo
 description: 
 nav: true
 nav_order: 1
-# display_categories: [Líder, Personal de Investigación, Estudiantes de Postgrado, Estudiantes de Pregrado]
-display_categories: [Líder, Estudiantes de Postgrado, Estudiantes de Pregrado]
+# display_categories: [Líder, Personal de Investigación, Estudiantes de Posgrado, Estudiantes de Pregrado]
+display_categories: [Líder, Estudiantes de Posgrado, Estudiantes de Pregrado]
 ---
 
 <div class="team">

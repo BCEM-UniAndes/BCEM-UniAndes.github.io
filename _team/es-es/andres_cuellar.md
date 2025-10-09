@@ -1,6 +1,6 @@
 ---
 name: Andrés Felipe Cuellar Quimbaya
-display_category: Estudiantes de Postgrado
+display_category: Estudiantes de Posgrado
 country: co
 website: 
 photo: 

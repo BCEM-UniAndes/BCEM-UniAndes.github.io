@@ -1,6 +1,6 @@
 ---
 name: Sebastián Chinchilla
-display_category: Estudiantes de Postgrado
+display_category: Estudiantes de Posgrado
 country: co
 website: 
 photo: 
