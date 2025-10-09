@@ -3,7 +3,7 @@ page_id: bioinformatics
 layout: page
 title: Bioinformática
 description: 
-img: assets/img/pubpic/twins.png
+img: assets/img/teachpic/bioinformatics.png
 importance: 5
 category: graduate
 related_publications: false

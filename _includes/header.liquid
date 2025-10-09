@@ -19,7 +19,7 @@
             {% endif %}
           {% else %}
             {% if site.first_name %}
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" style="width:48px; height:32px;" />
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" style="height:32px;" />
               <span class="font-weight-bold">
                 {{- site.first_name -}}
               </span>
@@ -29,7 +29,7 @@
             {% endif %}
             {% if site.last_name %}
               {% if site.last_name == "@ Uniandes <span class='fi fi-co'></span>" %}
-                @ <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png" style="width:124px; height:32px;" />
+                @ <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png" style="height:32px;" />
               {% else %}
                 {{- site.last_name -}}
               {% endif %}

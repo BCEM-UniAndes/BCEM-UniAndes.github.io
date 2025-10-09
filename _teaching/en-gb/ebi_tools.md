@@ -3,7 +3,7 @@ page_id: ebi_tools
 layout: page
 title: EBI Bioinformatics Tools
 description: 
-img: assets/img/pubpic/covid.jpg
+img: assets/img/teachpic/ebi_tools.jpg
 importance: 1
 category: graduate
 related_publications: false

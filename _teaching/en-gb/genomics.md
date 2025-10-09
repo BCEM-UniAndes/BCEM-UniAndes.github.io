@@ -3,7 +3,7 @@ page_id: genomics
 layout: page
 title: Genómica
 description: 
-img: assets/img/pubpic/virify.png
+img: assets/img/teachpic/genomics.png
 importance: 2
 category: undergraduate
 related_publications: false

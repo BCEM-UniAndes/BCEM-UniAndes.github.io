@@ -43,8 +43,37 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Affiliations & Sponsors -->
+    <h2>
+      Affiliations & Sponsors
+      </h2>
+    <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-universidaddelosandes_colombia.png" style="height: 85px; margin-right: 10px;">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/WashU_Med.png" style="height: 85px; margin-right: 10px;">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Wellcome_Sanger_Institute.png" style="height: 85px; margin-right: 10px;">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/CABANA.png" style="height: 85px; margin-right: 10px;">
+    </figure>
+    
+    <!-- Collaborators -->
+    <h2>
+      Collaborators
+      </h2>
+    <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/cimic.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/bmte_unal.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/darma_unal.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/ley_lab_mpit.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/gordon_lab.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/finn_embl_ebi.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/agrosavia.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/corpogen.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
+    </figure>
+
     <!-- Social -->
     {% if page.social %}
+      <h2>
+        Contact
+      </h2>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
         <div class="contact-note" style="font-size: 1.17em;"><!-- h3 default size -->

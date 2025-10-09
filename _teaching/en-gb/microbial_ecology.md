@@ -3,7 +3,7 @@ page_id: microbial_ecology
 layout: page
 title: Ecología Microbiana
 description: 
-img: assets/img/pubpic/virify.png
+img: assets/img/teachpic/microbial_ecology.png
 importance: 3
 category: undergraduate
 related_publications: false
