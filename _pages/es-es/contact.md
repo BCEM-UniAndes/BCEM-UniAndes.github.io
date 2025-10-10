@@ -4,8 +4,8 @@ layout: page
 permalink: /contact/
 title: Contacto
 description: 
-nav: true
-nav_order: 6
+nav: false
+nav_order: 
 ---
 
 Universidad de los Andes <br>

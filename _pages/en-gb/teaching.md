@@ -3,13 +3,18 @@ page_id: teaching
 layout: page
 title: Teaching
 permalink: /teaching/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 6
 # display_categories: [Graduate, Undergrad, CABANA, Extension]
 display_categories: [graduate, undergraduate, cabana, extension]
 horizontal: false
 ---
+
+- [Graduate](#{{ site.data[site.active_lang].strings.categories['graduate'] }})
+- [Undergraduate](#{{ site.data[site.active_lang].strings.categories['undergraduate'] }})
+- [CABANA](#{{ site.data[site.active_lang].strings.categories['cabana'] }})
+- [Extension](#{{ site.data[site.active_lang].strings.categories['extension'] }})
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

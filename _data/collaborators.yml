@@ -1,0 +1,27 @@
+- name: CIMIC
+  logo: cimic.png
+  url: https://cimic.uniandes.edu.co/
+- name: LIMMA
+  logo: limma.png
+  url: https://cienciasbiologicas.uniandes.edu.co/es/investigacion/interacciones-moleculares-de-microorganismos-en-agricultura
+- name: BMTE
+  logo: bmte_unal.png
+  url: https://mchaib.github.io/BMTE-Website/
+- name: DARMA
+  logo: darma_unal.png
+  url: https://sites.google.com/unal.edu.co/darmaunal/espa%C3%B1ol
+- name: Ley Lab
+  logo: leylab_mpi.png
+  url: https://leylab.com/
+- name: Gordon Lab
+  logo: gordonlab.png
+  url: https://gordonlab.wustl.edu/
+- name: Finn Group 
+  logo: finn_ebi.png
+  url: https://www.ebi.ac.uk/research/finn/
+- name: Agrosavia
+  logo: agrosavia.png
+  url: https://www.agrosavia.co/
+- name: Corpogen
+  logo: corpogen.png
+  url: https://www.corpogen.org/

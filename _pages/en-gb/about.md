@@ -3,7 +3,8 @@ page_id: about
 layout: about
 title: Home
 permalink: /
-subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
+# subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
+# subtitle: "<img src='{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png' style='height:32px;' /> <span class='fi fi-co'></span>"
 
 profile:
   image: logopic/bcem_logo_long_en.png
@@ -13,6 +14,8 @@ news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+affiliations: true # includes a list of affiliations at the bottom of the page
+collaborators: true # includes a list of collaborators at the bottom of the page
 ---
 
 Welcome to the homepage of the Research Group on Computational Biology and Microbial Ecology (BCEM) at Uniandes. [We]({{ site.url }}{{ site.baseurl }}/team) are a multidisciplinary group involved in the development of computational biology. We work in diverse research areas such as microbial ecology, genomics, population genetics and systems biology.

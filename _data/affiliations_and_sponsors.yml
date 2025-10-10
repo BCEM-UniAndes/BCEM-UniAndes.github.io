@@ -1,0 +1,18 @@
+# - name: Universidad de los Andes
+#   logo: losandes.png
+#   url: https://www.uniandes.edu.co/
+- name: DCB - Universidad de los Andes
+  logo: losandes_dcb.png
+  url: https://cienciasbiologicas.uniandes.edu.co/
+- name: WashU Med
+  logo: washu_med.png
+  url: https://medicine.washu.edu/
+- name: ExaCore Uniandes
+  logo: exacore.png
+  url: https://corefacilities.uniandes.edu.co/
+- name: Wellcome Snager Institute
+  logo: sanger.png
+  url: https://www.sanger.ac.uk/
+- name: CABANA
+  logo: cabana.png
+  url: https://www.cabana.online/index

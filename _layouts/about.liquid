@@ -27,6 +27,16 @@ layout: default
     <div class="clearfix" style="text-align: justify">{{ content }}</div>
     <!-- <div class="intro-block" style="text-align: justify">{{ content }}</div> -->
 
+  <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note" style="font-size: 1.17em;"><!-- h3 default size -->
+          {{ site.data[site.active_lang].strings.contact_note }}
+        </div>
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -44,43 +54,31 @@ layout: default
     {% endif %}
 
     <!-- Affiliations & Sponsors -->
-    <h2>
+    {% if site.data.affiliations_and_sponsors %}
+      <h2>
       Affiliations & Sponsors
       </h2>
-    <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-universidaddelosandes_colombia.png" style="height: 85px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/WashU_Med.png" style="height: 85px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Wellcome_Sanger_Institute.png" style="height: 85px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/CABANA.png" style="height: 85px; margin-right: 10px; margin-bottom: 10px">
-    </figure>
-    
+      <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+      {% for affiliation in site.data.affiliations_and_sponsors %}
+        <a href="{{ affiliation.url }}" target="_blank" rel="noopener">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/affilpic/{{ affiliation.logo }}" style="height: 85px; margin-right: 10px; margin-bottom: 10px" alt="{{ affiliation.name }}">
+        </a>
+      {% endfor %}
+      </figure>
+    {% endif %}
+
     <!-- Collaborators -->
-    <h2>
+    {% if site.data.collaborators %}
+      <h2>
       Collaborators
       </h2>
-    <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/cimic.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/limma.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/bmte_unal.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/darma_unal.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/ley_lab_mpit.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/gordon_lab.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/finn_embl_ebi.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/agrosavia.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/corpogen.png" style="height: 95px; margin-right: 10px; margin-bottom: 10px">
-    </figure>
-
-    <!-- Social -->
-    {% if page.social %}
-      <h2>
-        Contact
-      </h2>
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note" style="font-size: 1.17em;"><!-- h3 default size -->
-          {{ site.data[site.active_lang].strings.contact_note }}
-        </div>
-      </div>
+      <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+      {% for collaborator in site.data.collaborators %}
+        <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collabpic/{{ collaborator.logo }}" style="height: 95px; margin-right: 10px; margin-bottom: 10px" alt="{{ collaborator.name }}">
+        </a>
+      {% endfor %}
+      </figure>
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
