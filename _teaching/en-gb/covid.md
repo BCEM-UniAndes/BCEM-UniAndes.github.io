@@ -1,7 +1,7 @@
 ---
 page_id: covid
 layout: page
-title: "Bioinformatic tools for genome assembly and comparative genomics"
+title: "Bioinformatics for SARS-CoV-2 analysis for beginners"
 description: 
 img: assets/img/teachpic/covid.png
 importance: 9

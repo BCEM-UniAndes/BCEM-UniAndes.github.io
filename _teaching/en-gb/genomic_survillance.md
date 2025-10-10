@@ -9,7 +9,7 @@ category: cabana
 related_publications: false
 ---
 
-* https://github.com/cabana-online/Course_SARS_CoV-2
+* https://github.com/cabana-online/Genomic_surveillance
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
