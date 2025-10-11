@@ -3,19 +3,25 @@
 # -----------------------------------------------------------------------------
 
 title: "BCEM" # the website title (if blank, full name will be used instead)
-first_name: "BCEM"
-middle_name: 
-last_name: "@ Uniandes <span class='fi fi-co'></span>"
-email: a.reyes@uniandes.edu.co
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: bcem_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-icon_nt: bcem_logo_nt_white.png
+title_long: "Computational Biology and Microbial Ecology Lab" # the website title on the landing page (if blank, full name will be used instead)
+affiliation: Universidad de los Andes
+affiliation_short: Uniandes
+country: co
+icon:
+  head: bcem_logo.png
+  navbar:
+    group_logo: bcem_logo_nt.png # the logo used in the navbar and on the landing page (alternatively, provide image name in /assets/img/)
+    include_title: true # set to true to include the title next to the logo in the navbar
+    affiliation_logo: uniandes_logo.png # the logo of your affiliation (e.g., university, company, etc.) shown in the navbar
 
 url: https://BCEM-UniAndes.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+publication_year: 2024
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -42,6 +48,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
+home_page_in_navbar: false
 footer_fixed: false
 search_enabled: true
 socials_in_search: true
@@ -64,6 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+email: a.reyes@uniandes.edu.co # your email address
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
@@ -138,9 +146,9 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
   repo: BCEM-UniAndes/BCEM-UniAndes.github.io # <your-github-user-name>/<your-github-repo-name>
-  repo_id: R_kgDOI6hBvA # leave empty or specify your repo_id (see https://giscus.app/)
+  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: DIC_kwDOI6hBvM4CYHn3 # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions

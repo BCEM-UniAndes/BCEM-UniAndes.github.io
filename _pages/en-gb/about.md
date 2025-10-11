@@ -3,17 +3,14 @@ page_id: about
 layout: about
 title: Home
 permalink: /
-# subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
-# subtitle: "<img src='{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png' style='height:32px;' /> <span class='fi fi-co'></span>"
+subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
+logo: bcem_logo_long_en.png
+# affiliation_logo: los_andes_logo.png
 
-profile:
-  image: logopic/bcem_logo_long_en.png
-  more_info: 
-
+social: true # includes social icons at the bottom of the page
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
 affiliations: true # includes a list of affiliations at the bottom of the page
 collaborators: true # includes a list of collaborators at the bottom of the page
 ---

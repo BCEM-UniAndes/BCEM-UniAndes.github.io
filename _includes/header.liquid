@@ -4,36 +4,31 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == nil %}
-            {% if site.first_name %}
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" class="img-rounded img-shadow" style="width: 85%; max-width: 400px; border-radius: 50%; margin-bottom: 10px;" />
+          {% if site.icon.navbar.group_logo %}
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}" style="height:32px;" />
+            {% if site.icon.navbar.include_title %}
               <span class="font-weight-bold">
-                {{- site.first_name -}}
+                {{ site.title }}
               </span>
             {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
+            @
+            {% if site.icon.navbar.affiliation_logo %}
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height:32px;" />
+            {% else %}
+              {{ site.affiliation_short }}
+              <span class='fi fi-{{ site.country }}'></span>
             {% endif %}
           {% else %}
-            {% if site.first_name %}
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon_nt }}" style="height:32px;" />
               <span class="font-weight-bold">
-                {{- site.first_name -}}
+                {{ site.title }}
               </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {% if site.last_name == "@ Uniandes <span class='fi fi-co'></span>" %}
-                @ <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/Logosimbolo-uniandes_horizontal_white_0.png" style="height:32px;" />
+              @
+              {% if site.icon.navbar.affiliation_logo %}
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height:32px;" />
               {% else %}
-                {{- site.last_name -}}
+                {{ site.affiliation_short }}
+                <span class='fi fi-{{ site.country }}'></span>
               {% endif %}
-            {% endif %}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
@@ -63,14 +58,16 @@
           {% endfor %}
 
           <!-- About -->
-          <!-- <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li> -->
+          {% if site.home_page_in_navbar %}
+            <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+              <a class="nav-link" href="{{ site.baseurl }}/">
+                {{- site.data[site.active_lang].strings.home }}
+                {% if page.permalink == '/' %}
+                  <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+            </li>
+          {% endif %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}

@@ -4,7 +4,7 @@ display_category: Estudiantes de Posgrado
 country: co
 website: 
 photo: 
-position: Estudiante de Maestría
+position: Estudiante de Maestría [co-dirigid Yulieth Upegui]
 affiliation: Ciencias Biológicas—Microbiología
 started: 2024
 education:

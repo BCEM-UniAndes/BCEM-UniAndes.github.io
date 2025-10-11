@@ -3,24 +3,24 @@ layout: default
 ---
 <div class="post">
   <header class="post-header-about">
-    {% if page.profile and page.profile.image %}
+    {% if page.logo %}
       <div class="profile-image">
-        {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/' | append: page.profile.image %}
+        {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/logopic/' | append: page.logo %}
         {% assign profile_image_class = 'img-fluid w-100' %}
         {%
-          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image cache_bust=true
+          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.logo cache_bust=true
         %}
       </div>
+    {% else %}
+      <h1 class="post-title"></h1>
+      <span class="font-weight-bold">{{ site.title_long }}</span>
     {% endif %}
-
-    <!-- <h1 class="post-title">
-      {% if site.title == nil %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-      {% endif %}
-    </h1> -->
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.affiliation_logo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ page.affiliation_logo }}" style="height:64px;" />
+      {% comment %} <span class='fi fi-{{ site.country }}' style="font-size: 3em;"></span> {% endcomment %}
+    {% else %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>

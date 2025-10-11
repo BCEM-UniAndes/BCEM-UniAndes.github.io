@@ -1,3 +1,4 @@
+home: Inicio
 archive_category: archivo de entradas de esta categoría
 archive_tag: un archivo de entradas con esta etiqueta
 archive_year: un archivo de entradas de este año
@@ -63,9 +64,11 @@ cv:
   username: Usuário
   volunteer: Voluntario
   work: Trabajo
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desarrollado en <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer:
+  text: > # the ">" symbol means to ignore newlines until "titles:"
+    Desarrollado en <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+    Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  last_updated: Última Actualización
 latest_posts: Últimas entradas
 months:
   long:

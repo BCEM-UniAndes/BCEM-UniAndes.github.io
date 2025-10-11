@@ -4,7 +4,7 @@ display_category: Graduate Students
 country: co
 website: 
 photo: 
-position: M.Sc. Student
+position: M.Sc. Student [co-advised Yulieth Upegui]
 affiliation: Biological Sciences—Microbiology
 started: 2024
 education:
