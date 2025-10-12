@@ -1,0 +1,52 @@
+{% assign lang = site.active_lang %}
+
+<div class="col-sm-4 text-center">
+  <div>
+    {% assign photo = include.member.photo | default: "bio_photo.jpg" %}
+    <img 
+      src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ photo }}" 
+      class="img-rounded img-shadow" 
+      style="width:85%; max-width:400px; border-radius:50%; margin-bottom:10px;" 
+    />
+  </div>
+
+  <h3>
+    {% if include.member.website %}
+      <a target="_blank" href="{{ include.member.website }}">{{ include.member.name }}</a>
+    {% else %}
+      {{ include.member.name }}
+    {% endif %}
+    {% if include.member.country != "co" %}
+      <span class="fi fi-{{ include.member.country }}"></span>
+    {% endif %}
+  </h3>
+
+  <p style="font-size:125%; margin-bottom:0;">
+    {% if include.member.email %}
+      <a target="_blank" href="mailto:{{ include.member.email }}"><i class="fas fa-envelope"></i></a>
+    {% endif %}
+    {% if include.member.cv %}
+      - <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/teamcv/{{ include.member.cv }}"><i class="ai ai-cv"></i></a>
+    {% endif %}
+    {% include social_links.liquid member=include.member %}
+  </p>
+
+  <p style="text-align:left; margin-bottom:0;">
+    <strong>{{ include.member.position }}{% if include.member.affiliation %}, {{ include.member.affiliation }}{% endif %}</strong>
+    <em>({{ site.data[lang].strings.team.started }} {{ include.member.started }})</em>
+  </p>
+
+  {% if include.member.education %}
+    <p style="text-align:left; font-size:90%; opacity:0.7; margin-bottom:0;">
+      {% for ed in include.member.education %}
+        • {{ ed.program }}, {{ ed.institution }} <span class="fi fi-{{ ed.country }}"></span><br>
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% if include.member.interests %}
+    <p style="text-align:left; margin-bottom:0;">
+      <strong>{{ site.data[lang].strings.team.interests }}:</strong> {{ include.member.interests }}
+    </p>
+  {% endif %}
+</div>

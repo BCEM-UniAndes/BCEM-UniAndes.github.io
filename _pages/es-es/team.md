@@ -11,68 +11,42 @@ display_categories: [Líder, Estudiantes de Posgrado, Estudiantes de Pregrado]
 ---
 
 <div class="team">
-{% for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-{% assign categorized_people = site.team | where: "display_category", category %}
-{% assign sorted_team = categorized_people | sort: "started" %}
-{% assign number_printed = 0 %}
-{% for member in sorted_team %}
 
-{% if member.started and member.ended == nil %}
+  {% for category in page.display_categories %}
+    <h2 class="category">{{ category }}</h2>
 
-{% assign mod = number_printed | modulo: 3 %}
+    {% assign categorized_people = site.team | where: "display_category", category %}
+    {% assign active_team = categorized_people | where_exp: "m", "m.ended == nil" | sort: "started" %}
+    {% assign number_printed = 0 %}
 
-{% if mod == 0 %}
-<div class="row" style="margin-bottom: 10px;">
-{% endif %}
+    {% for member in active_team %}
+      {% assign mod = number_printed | modulo: 3 %}
+      {% if mod == 0 %}<div class="row mb-3">{% endif %}
 
-{% include team_member.html member=member %}
+      {% include team_member.liquid member=member %}
 
-{% assign number_printed = number_printed | plus: 1 %}
+      {% assign number_printed = number_printed | plus: 1 %}
+      {% if mod == 2 %}</div>{% endif %}
+    {% endfor %}
 
-{% if mod == 2 %}
-</div>
-{% endif %}
-
-{% endif %}
-
-{% endfor %}
-
-
-{% if mod != 2 %}
-</div>
-{% endif %}
-{% endfor %}
-</div>
-<p>&nbsp;</p>
-
---- 
-
-## **Miembros anteriores**
-
-<div class="row">
-  {% assign sorted_team = site.team | sort: "ended" | reverse %}
-  {% assign total_members = sorted_team.size %}
-  
-  {% for member in sorted_team %}
-    {% if member.started and member.ended %}
-      
-      <!-- Determine the column size based on the total number of members
-      and the current index in the loop. -->
-      
-      {% assign column_size = total_members | divided_by: 2 %}
-      {% assign column_index = forloop.index0 | modulo: column_size %}
-      
-      {% if column_index == 0 %}
-        <div class="col-md-6 mb-3">
-      {% else %}
-        <div class="col-md-6 mb-3">
-      {% endif %}
-      
-      {% include former_team_member.html member=member %}
+    {% if number_printed > 0 and number_printed | modulo: 3 != 0 %}
       </div>
     {% endif %}
+
   {% endfor %}
 </div>
 
+<p>&nbsp;</p>
 
+---
+
+## Miembros anteriores
+
+<div class="row">
+  {% assign past_team = site.team | where_exp: "m", "m.ended" | sort: "ended" | reverse %}
+  {% for member in past_team %}
+    <div class="col-md-6 mb-3">
+      {% include former_team_member.liquid member=member %}
+    </div>
+  {% endfor %}
+</div>

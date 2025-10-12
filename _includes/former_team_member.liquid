@@ -1,0 +1,29 @@
+<div>
+  <p style="font-size:120%; margin-bottom:0;">
+    {% if include.member.website %}
+      <a target="_blank" href="{{ include.member.website }}">{{ include.member.name }}</a>
+    {% else %}
+      {{ include.member.name }}
+    {% endif %}
+    {% if include.member.country != "co" %}
+      <span class="fi fi-{{ include.member.country }}"></span>
+    {% endif %}
+    {% include social_links.liquid member=include.member %}
+  </p>
+
+  <p style="margin-bottom:0;">
+    <b>{{ include.member.position_completed }}</b>
+    {% if include.member.started == include.member.ended %}
+      <em>({{ include.member.started }})</em>
+    {% else %}
+      <em>({{ include.member.started }}–{{ include.member.ended }})</em>
+    {% endif %}
+  </p>
+
+  {% if include.member.position_after %}
+    <p style="opacity:0.85; margin-bottom:1px;">
+      &rarr; {{ include.member.position_after }} @ {{ include.member.affiliation_after }}
+      <span class="fi fi-{{ include.member.country_after }}"></span>
+    </p>
+  {% endif %}
+</div>

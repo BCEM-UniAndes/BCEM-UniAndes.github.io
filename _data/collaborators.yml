@@ -19,6 +19,9 @@
 - name: Finn Group 
   logo: finn_ebi.png
   url: https://www.ebi.ac.uk/research/finn/
+- name: Maurice lab
+  logo: mauricelab_mcgill.png
+  url: http://www.mauricelab.ca/
 - name: Agrosavia
   logo: agrosavia.png
   url: https://www.agrosavia.co/

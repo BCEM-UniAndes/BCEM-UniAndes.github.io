@@ -54,7 +54,7 @@ search_enabled: true
 socials_in_search: true
 
 # Dimensions
-max_width: 1000px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -190,10 +190,10 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
+  team:
     output: true
     permalink: /:collection/:title/
-  team:
+  research:
     output: true
     permalink: /:collection/:title/
   teaching:
@@ -431,7 +431,7 @@ imagemagick:
 #   You can also set loading="" to other values for specific images to override the default behavior.
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: true # enables lazy loading of images (recommended)
+lazy_loading_images: false # enables lazy loading of images (recommended)
 
 # -----------------------------------------------------------------------------
 # Optional Features

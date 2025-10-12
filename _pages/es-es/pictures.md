@@ -5,7 +5,7 @@ permalink: /pics/
 title: Pics
 description: 
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## BCEM a lo largo de los años

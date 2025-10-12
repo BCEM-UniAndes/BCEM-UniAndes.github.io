@@ -13,13 +13,15 @@ layout: default
       </div>
     {% else %}
       <h1 class="post-title"></h1>
-      <span class="font-weight-bold">{{ site.title_long }}</span>
+      <span class="font-weight-bold" style="font-size: 4em;">{{ site.title_long }}</span>
     {% endif %}
     {% if page.affiliation_logo %}
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ page.affiliation_logo }}" style="height:64px;" />
-      {% comment %} <span class='fi fi-{{ site.country }}' style="font-size: 3em;"></span> {% endcomment %}
-    {% else %}
+    {% elsif page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
+    {% if page.other_lang.include %}
+      <p class="desc">{{ page.other_lang.message }} <a href="{{ site.url }}{{ site.baseurl }}{{ page.other_lang.url }}">{{ page.other_lang.name }} <span class="fi fi-{{ page.other_lang.flag }}"></span></a></p>
     {% endif %}
   </header>
 
