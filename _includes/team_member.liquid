@@ -11,7 +11,9 @@
   </div>
 
   <h3>
-    {% if include.member.website %}
+    {% if include.member.has_page %}
+      <a href="{{ include.member.url }}">{{ include.member.name }}</a>
+    {% elsif include.member.website %}
       <a target="_blank" href="{{ include.member.website }}">{{ include.member.name }}</a>
     {% else %}
       {{ include.member.name }}

@@ -7,6 +7,7 @@ photo:
 position: Estudiante Doctoral
 affiliation: Ciencias Biológicas
 started: 2025
+has_page: true
 education:
   - program: M.Sc. en Biología Computacional y Bioinformática
     institution: Dalhousie University

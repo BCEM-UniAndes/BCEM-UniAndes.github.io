@@ -191,8 +191,10 @@ collections:
     output: true
     permalink: /:collection/:title/
   team:
+    defaults:
+      layout: team_member
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:name/
   research:
     output: true
     permalink: /:collection/:title/
@@ -431,7 +433,7 @@ imagemagick:
 #   You can also set loading="" to other values for specific images to override the default behavior.
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: false # enables lazy loading of images (recommended)
+lazy_loading_images: true # enables lazy loading of images (recommended)
 
 # -----------------------------------------------------------------------------
 # Optional Features

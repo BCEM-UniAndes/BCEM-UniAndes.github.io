@@ -7,6 +7,7 @@ photo:
 position: PhD Student
 affiliation: Biological Sciences
 started: 2025
+has_page: true
 education:
   - program: M.Sc. in Computational Biology and Bioinformatics
     institution: Dalhousie University
@@ -15,7 +16,6 @@ education:
     institution: Universidad Icesi
     country: co
 interests: 
-# contact info and social media prescence
 email: mama.sotor@uniandes.edu.co
 cv: 
 orcidusername: 
@@ -39,10 +39,17 @@ youtubeusername:
 tiktokusername: 
 spotifyusername: 
 stravausername: 
-# after
 ended: 
 position_completed: 
 position_after: 
 affiliation_after: 
 country_after: 
 ---
+
+## About
+
+Your custom content about this team member goes here. You can use markdown, headings, lists, etc.
+
+- Research interests
+- Current projects
+- Publications or achievements

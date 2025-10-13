@@ -2,6 +2,10 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+:root {
+  font-size: 18px; /* Default is typically 16px */
+}
+
 // Typography
 
 p,
@@ -219,7 +223,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 
   a {
     color: inherit;
@@ -231,13 +235,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+
 // Navbar customization
 
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  // background-color: #00b0c4ac;
   opacity: 0.95;
 }
 
@@ -249,6 +253,7 @@ ul.task-list input[type="checkbox"] {
 
   a:not(.active) {
     color: var(--global-text-color);
+    font-size: 1.1rem; /* Increased navbar dropdown links */
   }
 
   a:hover {
@@ -262,6 +267,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  font-size: 1.1rem; /* Increased dropdown items */
 
   &:hover {
     color: var(--global-hover-color);
@@ -278,10 +284,12 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1.6rem; /* Increased brand/logo size */
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 1.15rem; /* Increased main navbar links */
 
     &:hover {
       color: var(--global-hover-color);
@@ -292,6 +300,7 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
+    font-size: 1.15rem; /* Increased active navbar link */
 
     &:hover {
       color: var(--global-hover-color);
@@ -301,7 +310,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.9rem; /* Increased social icons size */
 
     a {
       i::before {
