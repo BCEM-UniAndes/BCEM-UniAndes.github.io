@@ -1,6 +1,6 @@
 ---
 name: Nicolás Forero Pineda
-display_category: Estudiantes de Posgrado
+display_category: graduate
 country: co
 website: 
 photo: 
@@ -16,7 +16,7 @@ education:
     country: co
 interests: 
 # contact info and social media prescence
-email: 
+email: n.forerop23@uniandes.edu.co
 cv: 
 orcidusername: 
 scholarusername: 

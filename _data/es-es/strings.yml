@@ -1,18 +1,17 @@
 home: Inicio
+about:
+  affiliations: Afiliaciones
+  sponsors: Apoyo
+  collaborators: Colaboradores
+contact_note: "Donde encontrarnos :blush::v:"
 archive_category: archivo de entradas de esta categoría
 archive_tag: un archivo de entradas con esta etiqueta
 archive_year: un archivo de entradas de este año
 blog:
   navigation_title: blog
-categories:
-  graduate: Postgrado
-  undergraduate: Pregrado
-  cabana: CABANA
-  extension: Extensión
 citation:
   bibtex: "o como cita en BibTeX:"
   introduction: "Si le ha resultado útil, por favor, cite cómo:"
-contact_note: "Donde encontrarnos :blush::v:"
 cv:
   address: Dirección
   area: Área
@@ -85,7 +84,7 @@ months:
     november: Noviembre
     december: Diciembre
   short:
-    january: Jan
+    january: Ene
     february: Feb
     march: Mar
     april: Abr
@@ -146,8 +145,19 @@ search:
   theme: Tema
 selected_publications: Publicaciones Seleccionadas
 site_description: Un tema sencillo para académicos. Basado en el diseño de [*folio](https://github.com/bogoli/-folio).
-team: 
+team:
+  categories:
+    pi: Líder
+    staff: Personal de Investigación
+    graduate: Estudiantes de Posgrado
+    undergad: Estudiantes de Pregrado
   interests: Intereses
   started: desde
 research:
   highlights: Destacados
+teaching:
+  categories:
+    graduate: Posgrado
+    undergraduate: Pregrado
+    cabana: CABANA
+    extension: Extensión

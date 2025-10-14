@@ -5,7 +5,7 @@
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.icon.navbar.group_logo %}
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}" style="height: auto; max-height: 2.5rem; width: auto;" alt="Logo" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}" style="height: auto; max-height: 1.8rem; width: auto;" alt="Logo" />
             {% if site.icon.navbar.include_title %}
               <span class="font-weight-bold">
                 {{ site.title }}
@@ -13,7 +13,7 @@
             {% endif %}
             @
             {% if site.icon.navbar.affiliation_logo %}
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height: auto; max-height: 2.5rem; width: auto;" alt="Logo" />
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height: auto; max-height: 1.8rem; width: auto;" alt="Logo" />
             {% else %}
               {{ site.affiliation_short }}
               <span class='fi fi-{{ site.country }}'></span>
@@ -24,7 +24,7 @@
               </span>
               @
               {% if site.icon.navbar.affiliation_logo %}
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height: auto; max-height: 2.5rem; width: auto;" alt="Logo" />
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}" style="height: auto; max-height: 1.8rem; width: auto;" alt="Logo" />
               {% else %}
                 {{ site.affiliation_short }}
                 <span class='fi fi-{{ site.country }}'></span>

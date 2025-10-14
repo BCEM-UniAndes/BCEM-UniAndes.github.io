@@ -1,6 +1,6 @@
 ---
 name: Camilo García-Botero
-display_category: Graduate Students
+display_category: graduate
 country: co
 website: https://camilogarciabotero.github.io/
 photo: camilo-garcia.jpeg
@@ -30,4 +30,14 @@ interests: Phage genes discovery and classification
 position_after: 
 affiliation_after: 
 country_after: 
+has_page: true
+layout: team_member
 ---
+
+## About
+
+Your custom content about this team member goes here. You can use markdown, headings, lists, etc.
+
+- Research interests
+- Current projects
+- Publications or achievements

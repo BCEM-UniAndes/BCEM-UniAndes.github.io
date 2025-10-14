@@ -9,7 +9,7 @@ linkedinusername: zaidemo
 twitterusername: lachemontes
 githubusername: lachemontes
 position_completed: B.Sc. & M.Sc. [co-advised Jorge Molina]
-position_after: Graduate Student
+position_after: PhD Student
 affiliation_after: Lund University | nGICE Max Planck Center 
 country_after: se
 ---

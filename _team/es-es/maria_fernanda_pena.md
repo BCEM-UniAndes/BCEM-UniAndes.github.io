@@ -1,6 +1,6 @@
 ---
 name: María Fernanda Peña-Valencia
-display_category: Estudiantes de Postgrado
+display_category: graduate
 country: co
 website: 
 photo: maria_fernanda_pena.jpg

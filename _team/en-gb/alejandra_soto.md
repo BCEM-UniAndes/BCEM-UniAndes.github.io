@@ -1,19 +1,18 @@
 ---
 name: M. Alejandra Soto
-display_category: Graduate Students
+display_category: graduate
 country: co
 website: 
 photo: 
 position: PhD Student
 affiliation: Biological Sciences
 started: 2025
-has_page: true
 education:
   - program: M.Sc. in Computational Biology and Bioinformatics
     institution: Dalhousie University
     country: ca
   - program: B.Sc. in Biology
-    institution: Universidad Icesi
+    institution: Universidad Icesi, Cali
     country: co
 interests: 
 email: mama.sotor@uniandes.edu.co
@@ -44,6 +43,8 @@ position_completed:
 position_after: 
 affiliation_after: 
 country_after: 
+has_page: true
+layout: team_member
 ---
 
 ## About

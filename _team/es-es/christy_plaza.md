@@ -1,6 +1,6 @@
 ---
 name: Christy Plaza
-display_category: Estudiantes de Posgrado
+display_category: graduate
 country: co
 website: 
 photo: 

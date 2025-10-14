@@ -1,8 +1,7 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; {{ site.publication_year }}
-      {{ site.title }}
+      <strong>&copy; {{ site.publication_year }} {{ site.title }}</strong>
       @ {{ site.affiliation_short }}
       <span class='fi fi-{{ site.country }}'></span>. {{ site.data[site.active_lang].strings.footer.text }}
       {% if site.impressum_path %}
@@ -28,7 +27,8 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        {{ site.data[site.active_lang].strings.footer.last_updated }}: {{ 'now' | date: '%B %d, %Y' }}.
+        {% assign month_key = 'now' | date: '%B' | downcase %}
+        {{ site.data[site.active_lang].strings.footer.last_updated }}: {{ site.data[site.active_lang].strings.months.long[month_key] }} {{ 'now' | date: '%d, %Y' }}.
       {% endif %}
     </div>
   </footer>

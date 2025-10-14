@@ -25,52 +25,36 @@ layout: default
         <!-- Contact and social links -->
         <p style="margin-bottom:15px; font-size:120%;">
           {% if page.email %}
-            <a target="_blank" href="mailto:{{ page.email }}" title="Email">
-              <i class="fas fa-envelope"></i>
+            <i class="fas fa-envelope"></i> <a target="_blank" href="mailto:{{ page.email }}" title="Email">
+              {{ page.email | replace: "@", "[at]" }}
             </a>
           {% endif %}
           {% if page.cv %}
-            {% if page.email %} &nbsp; {% endif %}
+            <br>
             <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/teamcv/{{ page.cv }}" title="CV">
               <i class="ai ai-cv"></i>
             </a>
           {% endif %}
-          {% if page.orcidusername %}
-            {% if page.email or page.cv %} &nbsp; {% endif %}
-            <a target="_blank" href="https://orcid.org/{{ page.orcidusername }}" title="ORCID">
-              <i class="ai ai-orcid"></i>
-            </a>
-          {% endif %}
-        </p>
-
         <!-- Social media links -->
-        <div>
-          {% include social_links.liquid member=page %}
-        </div>
+        {% include social_page.liquid member=page %}
+        </p>
       </div>
     </div>
 
-    <!-- Right side: Name, position, and content (2/3) -->
+    <!-- Right side: Country,Name, position, and content (2/3) -->
     <div class="col-md-8">
-      <h1 style="margin-top:0; margin-bottom:5px;">{{ page.name }}</h1>
+      <h1 style="margin-top:0; margin-bottom:5px;"> <span class="fi fi-{{ page.country }}"></span> {{ page.name }}</h1>
       
-      {% if page.country != "co" %}
-        <span class="fi fi-{{ page.country }}" style="margin-left:5px; font-size:1.5rem;"></span>
-      {% endif %}
-
-      <p style="margin-bottom:20px; margin-top:10px;">
-        <strong>{{ page.position }}{% if page.affiliation %}, {{ page.affiliation }}{% endif %}</strong>
+      <!-- Position and affiliation -->
+      <p style="margin-bottom:10px; margin-top:10px;">
+        <strong>{{ page.position }}{% if page.affiliation %}, {{ page.affiliation }}{% endif %}</strong><br>
+        <em>Since {{ page.started }}</em>
       </p>
-
-      <!-- Main content from markdown body -->
-      <div style="margin-bottom:30px;">
-        {{ content }}
-      </div>
 
       <!-- Education section -->
       {% if page.education %}
-        <hr style="margin:30px 0;">
-        <h3>Education</h3>
+        <hr style="margin:10px 0;">
+        <h4>Education</h4>
         <ul style="margin-bottom:20px;">
         {% for ed in page.education %}
           <li>
@@ -82,12 +66,11 @@ layout: default
         </ul>
       {% endif %}
 
-      <!-- Interests section -->
-      {% if page.interests %}
-        <hr style="margin:30px 0;">
-        <h3>Research Interests</h3>
-        <p>{{ page.interests }}</p>
-      {% endif %}
+      <!-- Main content from markdown body -->
+      <hr style="margin:10px 0;">
+      <div style="margin-bottom:10px;">
+        {{ content }}
+      </div>
     </div>
   </div>
 </div>

@@ -1,0 +1,64 @@
+<!-- Table of Contents -->
+<ul>
+  {% for category in page.display_categories %}
+    <li>
+      <a href="#{{ category.id | downcase }}" style="font-size: 1.5em;">{{ site.data[site.active_lang].strings.teaching.categories[category.id] }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- Teaching Content -->
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+    {% for category in page.display_categories %}
+      <a id="{{ category.id | downcase }}" href="#{{ category.id | downcase }}">
+        <h2 class="category">{{ site.data[site.active_lang].strings.teaching.categories[category.id] }}</h2>
+      </a>
+      <p class="category-description" style="font-size: 1.25em;">{{ category.description }}</p>
+      
+      {% assign categorized_courses = site.teaching | where: "category", category.id %}
+      {% assign sorted_courses = categorized_courses | sort: "importance" %}
+      
+      {% if sorted_courses.size > 0 %}
+        {% if page.horizontal %}
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+              {% for project in sorted_courses %}
+                {% include projects_horizontal.liquid %}
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <div class="row row-cols-1 row-cols-md-3">
+            {% for project in sorted_courses %}
+              {% include projects.liquid %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <p>No teaching items available in this category.</p>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% if site.teaching %}
+      {% assign sorted_courses = site.teaching | sort: "importance" %}
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            {% for project in sorted_courses %}
+              {% include projects_horizontal.liquid %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="row row-cols-1 row-cols-md-3">
+          {% for project in sorted_courses %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% else %}
+      <p>No teaching items available.</p>
+    {% endif %}
+  {% endif %}
+</div>

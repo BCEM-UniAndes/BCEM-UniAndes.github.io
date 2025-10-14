@@ -1,6 +1,6 @@
 ---
 name: Alejandro Castellanos
-display_category: Personal de Investigación
+display_category: staff
 country: co
 website: 
 photo: alejandro_castellanos.jpg

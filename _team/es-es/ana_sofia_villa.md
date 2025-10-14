@@ -1,10 +1,10 @@
 ---
 name: Ana Sofía Villa
-display_category: Estudiantes de Posgrado
+display_category: graduate
 country: co
 website: 
 photo: 
-position: Estudiante de Maestría [co-dirigida ]
+position: Estudiante de Maestría
 affiliation: Biología Computacional
 started: 2025
 education:

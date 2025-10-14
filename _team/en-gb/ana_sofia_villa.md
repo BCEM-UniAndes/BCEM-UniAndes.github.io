@@ -1,10 +1,10 @@
 ---
 name: Ana Sofía Villa
-display_category: Graduate Students
+display_category: graduate
 country: co
 website: 
 photo: 
-position: M.Sc. Student [co-advised ]
+position: M.Sc. Student
 affiliation: Computational Biology
 started: 2025
 education:

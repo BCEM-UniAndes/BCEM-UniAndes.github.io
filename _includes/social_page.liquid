@@ -1,0 +1,14 @@
+{% assign m = include.member %}
+
+{% if m.orcidusername %} <br><i class="ai ai-orcid"></i> <a target="_blank" href="https://orcid.org/{{ m.orcidusername }}">{{ m.orcidusername }}</a>{% endif %}
+{% if m.scholarusername %} <br><i class="ai ai-google-scholar"></i> <a target="_blank" href="https://scholar.google.com/citations?user={{ m.scholarusername }}">{{ m.scholarusername }}</a>{% endif %}
+{% if m.resgateusername %} <br><i class="ai ai-researchgate"></i> <a target="_blank" href="https://www.researchgate.net/profile/{{ m.resgateusername }}">{{ m.resgateusername }}</a>{% endif %}
+{% if m.linkedinusername %} <br><i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/{{ m.linkedinusername }}">{{ m.linkedinusername }}</a>{% endif %}
+{% if m.githubusername %} <br><i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/{{ m.githubusername }}">{{ m.githubusername }}</a>{% endif %}
+{% if m.blueskyusername %} <br><i class="fa-brands fa-bluesky"></i> <a target="_blank" href="https://bsky.app/profile/{{ m.blueskyusername }}">{{ m.blueskyusername }}</a>{% endif %}
+{% if m.mastodonusername %} <br><i class="fa-brands fa-mastodon"></i> <a target="_blank" href="https://{{ m.mastodoninstance }}/@{{ m.mastodonusername }}">{{ m.mastodonusername }}</a>{% endif %}
+{% if m.twitterusername %} <br><i class="fa-brands fa-twitter"></i> <a target="_blank" href="https://twitter.com/{{ m.twitterusername }}">{{ m.twitterusername }}</a>{% endif %}
+{% if m.instagramusername %} <br><i class="fa-brands fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/{{ m.instagramusername }}">{{ m.instagramusername }}</a>{% endif %}
+{% if m.youtubeusername %} <br><i class="fa-brands fa-youtube"></i> <a target="_blank" href="https://www.youtube.com/{{ m.youtubeusername }}">{{ m.youtubeusername }}</a>{% endif %}
+{% if m.tiktokusername %} <br><i class="fa-brands fa-tiktok"></i> <a target="_blank" href="https://www.tiktok.com/@{{ m.tiktokusername }}">{{ m.tiktokusername }}</a>{% endif %}
+{% if m.stravausername %} <br><i class="fa-brands fa-strava"></i> <a target="_blank" href="https://www.strava.com/athletes/{{ m.stravausername }}">{{ m.stravausername }}</a>{% endif %}

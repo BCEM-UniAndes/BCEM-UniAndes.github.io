@@ -1,6 +1,6 @@
 ---
 name: Silvia Rodríguez Otalora
-display_category: Estudiantes de Pregrado
+display_category: undergrad
 country: co
 website: 
 photo: 

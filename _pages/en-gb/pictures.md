@@ -20,7 +20,8 @@ nav_order: 7
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    {% for pic in site.data.pictures_gens %}
+    {% assign sorted_pics = site.data.pictures_gens | sort: "year" | reverse %}
+    {% for pic in sorted_pics %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
         <div class="text-center mb-2">
           <h3 style="font-size: 1.5rem; font-weight: bold;">{{ pic.year }}</h3>

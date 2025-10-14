@@ -1,18 +1,17 @@
 home: Home
+about:
+  affiliations: Affiliations
+  sponsors: Sponsors
+  collaborators: Collaborators
+contact_note: "Where to find us :blush::v:"
 archive_category: an archive of posts in this category
 archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
 blog:
   navigation_title: blog
-categories:
-  graduate: Graduate
-  undergraduate: Undergraduate
-  cabana: CABANA
-  extension: Extension
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: "Where to find us :blush::v:"
 cv:
   address: Address
   area: Area
@@ -146,8 +145,19 @@ search:
   theme: Theme
 selected_publications: selected publications
 site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-team: 
+team:
+  categories:
+    pi: Group Leader
+    staff: Research Staff
+    graduate: Graduate Students
+    undergad: Undergraduate Students
   interests: Interests
   started: started
 research:
   highlights: Highlights
+teaching:
+  categories:
+    graduate: Graduate
+    undergraduate: Undergraduate
+    cabana: CABANA
+    extension: Extension

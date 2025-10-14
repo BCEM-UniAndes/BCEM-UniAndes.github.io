@@ -1,6 +1,6 @@
 ---
 name: Alejandro Reyes
-display_category: Group Leader
+display_category: pi
 photo: BCEM-22.jpg
 country: co
 website: https://cienciasbiologicas.uniandes.edu.co/es/profesores/alejandro-reyes-mu%C3%B1oz

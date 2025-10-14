@@ -1,6 +1,6 @@
 ---
 name: Alejandro Castellanos
-display_category: Research Staff
+display_category: staff
 country: co
 website: 
 photo: alejandro_castellanos.jpg
@@ -43,7 +43,7 @@ spotifyusername:
 stravausername: 
 interests: Ecological and metabolic modeling of the gut microbiome
 position_completed: B.Sc. [co-advised Leda Restrepo] & M.Sc. [co-advised Maryam Chaib De Mares & Andrés Quiñones]
-position_after: Graduate Student
+position_after: PhD Student
 # affiliation_after: Duke University
 # country_after: us
 affiliation_after: VIB-KU Leuven Center for Microbiology

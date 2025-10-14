@@ -1,15 +1,15 @@
 ---
 name: Andrés Felipe Cuellar Quimbaya
-display_category: Graduate Students
+display_category: graduate
 country: co
 website: 
 photo: 
-position: M.Sc. Student [co-advised Yulieth Upegui]
-affiliation: Biological Sciences—Microbiology
+position: M.Sc. Student
+affiliation: Biological Sciences—Microbiology [co-advised Yulieth Upegui]
 started: 2024
 education:
   - program: B.Sc. in Biochemistry
-    institution: Universidad Antonio Nariño
+    institution: Universidad Antonio Nariño, Bogotá
     country: co
 interests: 
 # contact info and social media prescence

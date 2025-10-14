@@ -16,7 +16,7 @@ linkedinusername:
 twitterusername: 
 githubusername: 
 position_completed: B.Sc. & M.Sc.
-position_after: Graduate Student
+position_after: PhD Student
 affiliation_after: Washington University in St. Louis
 country_after: us
 ---

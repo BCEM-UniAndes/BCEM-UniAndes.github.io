@@ -3,7 +3,7 @@
 name: 
 country: 
 photo: 
-display_category: 
+display_category: # pi | staff | graduate | undergrad
 position: 
 affiliation: 
 started: 
@@ -43,4 +43,7 @@ position_completed:
 position_after: 
 affiliation_after: 
 country_after: 
+## Personal page
+has_page: 
+layout: team_member # do not change this
 ---

@@ -21,7 +21,7 @@ layout: default
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}
     {% if page.other_lang.include %}
-      <p class="desc">{{ page.other_lang.message }} <a href="{{ site.url }}{{ site.baseurl }}{{ page.other_lang.url }}">{{ page.other_lang.name }} <span class="fi fi-{{ page.other_lang.flag }}"></span></a></p>
+      <p class="desc">- {{ page.other_lang.message }} <a href="{{ site.url }}{{ site.baseurl }}{{ page.other_lang.url }}">{{ page.other_lang.name }}</a> -</p>
     {% endif %}
   </header>
 
@@ -58,7 +58,7 @@ layout: default
     <!-- Affiliations & Sponsors -->
     {% if site.data.affiliations_and_sponsors %}
       <h2>
-      Affiliations & Sponsors
+      {{ site.data[site.active_lang].strings.about.affiliations }} & {{ site.data[site.active_lang].strings.about.sponsors }}
       </h2>
       <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
       {% for affiliation in site.data.affiliations_and_sponsors %}
@@ -72,7 +72,7 @@ layout: default
     <!-- Collaborators -->
     {% if site.data.collaborators %}
       <h2>
-      Collaborators
+      {{ site.data[site.active_lang].strings.about.collaborators }}
       </h2>
       <figure class="fourth" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
       {% for collaborator in site.data.collaborators %}

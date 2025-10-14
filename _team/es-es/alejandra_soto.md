@@ -1,19 +1,18 @@
 ---
 name: M. Alejandra Soto
-display_category: Estudiantes de Posgrado
+display_category: graduate
 country: co
 website: 
 photo: 
 position: Estudiante Doctoral
 affiliation: Ciencias Biológicas
 started: 2025
-has_page: true
 education:
   - program: M.Sc. en Biología Computacional y Bioinformática
     institution: Dalhousie University
     country: ca
   - program: B.Sc. en Biología
-    institution: Universidad Icesi
+    institution: Universidad Icesi, Cali
     country: co
 interests: 
 # contact info and social media prescence
@@ -46,4 +45,15 @@ position_completed:
 position_after: 
 affiliation_after: 
 country_after: 
+# personal page
+has_page: true
+layout: team_member
 ---
+
+## About
+
+Your custom content about this team member goes here. You can use markdown, headings, lists, etc.
+
+- Research interests
+- Current projects
+- Publications or achievements
