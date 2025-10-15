@@ -1397,3 +1397,23 @@ ninja-keys::part(ninja-input-wrapper) {
   margin-bottom: -20px; /* Reduce bottom margin */
   padding: 0; /* Ensure no padding is applied */
 }
+
+.dimensions-badge-container {
+  display: inline-block; 
+  transform: scale(0.3); /* Adjust this value to scale down */
+  width: 30%; /* Adjust as needed */
+  height: 30%; /* Adjust as needed */
+  transform-origin: left center; /* Ensure scaling is from the left center */
+  margin-top: -20px; /* Adjust this value to align vertically */
+  margin-bottom: -20px; /* Reduce bottom margin */
+  margin-right: -80px; /* Adjust the spacing between the two badges */
+  padding: 0; /* Ensure no padding is applied */
+
+  .__dimensions_badge_embed__-data-legend {
+    font-size: 5em;
+  }
+}
+
+// .dimensions-badge-container .__dimensions_badge_embed__ {
+//   display: inline-block;
+// }

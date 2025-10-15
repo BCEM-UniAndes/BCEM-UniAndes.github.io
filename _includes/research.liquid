@@ -20,6 +20,14 @@
         {% for paper in include.topic.highlights %}
           <div class="paper-container">
             <a class="paper-link" target="_blank" href="https://doi.org/{{ paper.doi }}">{{ paper.name }}, {{ paper.year }}</a>
+            {% comment %} <div class="dimensions-badge-container" style="font-size: 0.1em;">
+              <span
+                class="__dimensions_badge_embed__"
+                data-doi="{{ paper.doi }}"
+                data-hide-zero-citations="true"
+                data-style="small_circle">
+              </span>
+            </div>  {% endcomment %}
             <div class="altmetric-badge-container">
               <div
                 data-link-target="_blank"

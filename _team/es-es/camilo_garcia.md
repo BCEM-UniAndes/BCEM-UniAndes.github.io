@@ -23,7 +23,7 @@ orcidusername: 0000-0002-0426-7007
 publonsusername: 
 arxivusername: 
 biorxivusername: 
-linkedinusername: alejandrocs98
+linkedinusername: camilo-garc
 twitterusername: Gaspardelanoche
 githubusername:  camilogarciabotero
 interests: Descubrimiento y clasificación de genes de fagos
