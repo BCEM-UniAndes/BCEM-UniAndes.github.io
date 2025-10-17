@@ -22,10 +22,12 @@
             {% assign even_odd = number_printed | modulo: 2 %}
             <div class="col-sm-6 mb-4">
               <div class="rounded shadow p-0">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ pic.img }}"
-                     class="img-fluid rounded"
-                     alt="{{ event.title }} photo"
-                     style="width: 100%; height: auto; display: block;">
+                <img 
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ pic.img }}"
+                  class="img-fluid rounded"
+                  alt="{{ event.title }} photo"
+                  style="width: 100%; height: auto; display: block;"
+                >
               </div>
             </div>
             {% assign number_printed = number_printed | plus: 1 %}
@@ -34,6 +36,12 @@
             {% endif %}
           {% endfor %}
         </div>
+
+        {% if event.content %}
+          <div class="event-description text-center mt-3">
+            {{ event.content | markdownify }}
+          </div>
+        {% endif %}
       </div>
     {% endfor %}
   {% endfor %}
