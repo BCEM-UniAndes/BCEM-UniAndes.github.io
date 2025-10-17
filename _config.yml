@@ -415,6 +415,7 @@ parallel_localization: false
 #   convert -version
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  regenerate_existing: false # set to true to regenerate existing images (otherwise, only new images are processed)
   widths:
     - 480
     - 800
