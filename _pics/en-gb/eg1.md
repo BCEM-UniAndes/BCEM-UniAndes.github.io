@@ -1,5 +1,5 @@
 ---
-title: "Alejandro\'s Birthday!"
+title: "Alejandro Birthday!"
 month: 10
 year: 2020
 pictures:
