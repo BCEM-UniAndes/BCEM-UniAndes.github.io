@@ -13,6 +13,10 @@ other_lang:
   flag: gb
   url: 
 
+homeslides:
+  - img: homeslides/DSC_1551.jpg
+  # - img: 
+
 social: true # includes social icons at the bottom of the page
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -27,8 +31,4 @@ El BCEM es un grupo de investigación basado en principios de excelencia y rigor
 
 [He]({{ site.url }}{{ site.baseurl }}/research) aquí una descripción más detallada de nuestros intereses de investigación.
 
-<div style="text-align: center; margin-top: 10px">
-  <figure class="fourth">
-    <img src="{{ site.url | absolute_url }}{{ site.baseurl }}/assets/img/homeslides/DSC_1551.jpg" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-</div>
+{% include carousel.liquid slides=page.homeslides %}

@@ -8,6 +8,14 @@
     {% if include.member.country != "co" %}
       <span class="fi fi-{{ include.member.country }}"></span>
     {% endif %}
+    {% unless include.member.email contains "@uniandes.edu.co" %}
+      {% if include.member.email %}
+        - <a target="_blank" href="mailto:{{ include.member.email }}"><i class="fas fa-envelope"></i></a>
+      {% endif %}
+    {% endunless %}
+    {% if include.member.cv %}
+      - <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/teamcv/{{ include.member.cv }}"><i class="ai ai-cv"></i></a>
+    {% endif %}
     {% include social_links.liquid member=include.member %}
   </p>
 

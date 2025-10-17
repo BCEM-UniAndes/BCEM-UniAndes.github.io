@@ -201,6 +201,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:title/
+  pics:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true

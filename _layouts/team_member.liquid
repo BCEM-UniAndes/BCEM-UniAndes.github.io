@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign lang = site.active_lang %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -31,6 +32,12 @@ layout: default
               {{ page.email | replace: "@", "[at]" }}
             </a>
           {% endif %}
+          {% if page.website %}
+            <br>
+            <i class="fas fa-link"></i> <a target="_blank" href="{{ page.website }}" title="Website">
+              {{ page.website | replace: "https://", "" | replace: "http://", "" | replace: "www.", "" | split: "/" | first }}
+            </a>
+          {% endif %}
           {% if page.cv %}
             <br>
             <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/teamcv/{{ page.cv }}" title="CV">
@@ -45,7 +52,7 @@ layout: default
         <!-- Education section -->
         {% if page.education %}
           <hr style="margin:10px 0;">
-          <h5>Education</h5>
+          <h5>{{ site.data[lang].strings.team.education }}</h5>
           <ul style="margin-bottom:20px;">
           {% for ed in page.education %}
             <li>
@@ -61,7 +68,6 @@ layout: default
 
     <!-- Right side: Country,Name, position, and content (2/3) -->
     <div class="col-md-8">
-      {% comment %} <h1 style="margin-top:0; margin-bottom:5px;"> <span class="fi fi-{{ page.country }}"></span> {{ page.name }}</h1> {% endcomment %}
       
       <!-- Position and affiliation -->
       <hr style="margin:10px 0;">
@@ -70,23 +76,7 @@ layout: default
         <em>Since {{ page.started }}</em>
       </p>
 
-      {% comment %} <!-- Education section -->
-      {% if page.education %}
-        <hr style="margin:10px 0;">
-        <h3>Education</h3>
-        <ul style="margin-bottom:20px;">
-        {% for ed in page.education %}
-          <li>
-            <strong>{{ ed.program }}</strong><br>
-            {{ ed.institution }} 
-            <span class="fi fi-{{ ed.country }}"></span>
-          </li>
-        {% endfor %}
-        </ul>
-      {% endif %} {% endcomment %}
-
-      <!-- Main content from markdown body -->
-      {% comment %} <hr style="margin:5px 0;"> {% endcomment %}
+      <!-- Main content -->
       <div style="margin-bottom:10px;">
         {{ content }}
       </div>

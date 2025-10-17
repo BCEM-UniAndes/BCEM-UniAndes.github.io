@@ -1,5 +1,5 @@
 ---
-name: M. Alejandra Soto
+name: María Alejandra Soto
 display_category: graduate
 country: co
 website: 

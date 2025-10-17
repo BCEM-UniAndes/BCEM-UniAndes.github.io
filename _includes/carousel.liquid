@@ -1,0 +1,70 @@
+{% assign slides = include.slides | compact %}
+
+{% if slides.size > 1 %}
+  {%- comment -%}
+  Check if any slide has a "year" key — this tells us to show years and sort by it.
+  {%- endcomment -%}
+  {% assign has_year = false %}
+  {% for s in slides %}
+    {% if s.year %}
+      {% assign has_year = true %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%}
+  Sort slides by year descending if year exists.
+  {%- endcomment -%}
+  {% if has_year %}
+    {% assign slides = slides | sort: "year" | reverse %}
+  {% endif %}
+
+  <div class="container my-4">
+    <div id="carouselExampleHome" class="carousel slide" data-ride="carousel" data-interval="4000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        {% for slide in slides %}
+          <li data-target="#carouselExampleHome" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+        {% endfor %}
+      </ol>
+
+      <!-- Slides -->
+      <div class="carousel-inner rounded shadow-sm">
+        {% for slide in slides %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            {% if has_year %}
+              <div class="text-center mb-2">
+                <h3 style="font-size: 1.5rem; font-weight: bold;">{{ slide.year }}</h3>
+              </div>
+            {% endif %}
+            <img 
+              src="{{ site.baseurl }}/assets/img/{{ slide.img }}"
+              alt="Slide {{ forloop.index }}"
+              class="d-block mx-auto img-fluid"
+              style="aspect-ratio: 1205 / 790; max-width: 100%; height: auto; object-fit: cover; border-radius: 8px;"
+            >
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#carouselExampleHome" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleHome" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+{% else %}
+  <div class="container text-center my-4">
+    <img 
+      src="{{ site.baseurl }}/assets/img/{{ slides[0].img }}"
+      alt="Homepage image"
+      class="d-block mx-auto img-fluid"
+      style="aspect-ratio: 1205 / 790; max-width: 100%; height: auto; object-fit: cover;"
+    >
+  </div>
+{% endif %}
