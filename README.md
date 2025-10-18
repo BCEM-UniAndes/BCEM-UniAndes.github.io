@@ -1,9 +1,9 @@
 # BCEM Website
 
-> [!NOTE]
-> This is a standard note. Use it to add extra information or context.
+Welcome! This repository contains the source code for the **Computational Biology and Microbial Ecology (BCEM) @ Uniandes** research group multilingual website, built with **Jekyll** using the **multi-language al-folio** theme and deployed via **GitHub Pages**.
 
-This repository contains the source code for the **BCEM (UniAndes)** research group website, built with **Jekyll** using the **multi-language al-folio** theme and deployed via **GitHub Pages**.
+
+> If you're interested in creating a similar website, feel free to fork this repo and customize it for your own use. We recommend checking out (and even forking) the original multi-language al-folio theme repository: [george-gca/multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio), which provides detailed documentation on setup and customization.
 
 ---
 
