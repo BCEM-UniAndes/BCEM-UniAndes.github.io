@@ -2,7 +2,7 @@
 page_id: microbial_ecology
 layout: page
 title: Ecología Microbiana
-description: 
+description:
 img: assets/img/teachpic/microbial_ecology.png
 importance: 3
 category: undergraduate

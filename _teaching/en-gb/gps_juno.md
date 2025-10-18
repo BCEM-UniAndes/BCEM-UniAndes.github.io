@@ -2,7 +2,7 @@
 page_id: gps_juno
 layout: page
 title: Advanced Bioinformatics Workshop developed for the GPS and JUNO projects in Latin america
-description: 
+description:
 img: assets/img/teachpic/gps_juno.png
 importance: 7
 category: extension

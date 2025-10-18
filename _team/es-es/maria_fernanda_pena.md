@@ -2,7 +2,7 @@
 name: María Fernanda Peña-Valencia
 display_category: graduate
 country: co
-website: 
+website:
 photo: maria_fernanda_pena.jpg
 position: Estudiante de Maestría [co-dirigida Diego Jiménez]
 affiliation: Ciencias Biológicas
@@ -16,16 +16,16 @@ education:
     institution: Universidad de los Andes, Bogotá
     country: co
 email: mf.penav1@uniandes.edu.co
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: maria-fernanda-peña-valencia-5995a1180
-twitterusername: 
-githubusername:  
+twitterusername:
+githubusername:
 interests: Ecología microbiana de suelos de manglar
 position_completed: M.Sc. [co-dirigida Diego Jiménez]
 position_after: Investigadora Junior

@@ -1,21 +1,21 @@
 ---
 name: David O. Botero
 country: co
-website: 
+website:
 position: Ph.D. [co-advised Silvia Restrepo]
 started: 2013
 ended: 2018
-email: 
-cv: 
+email:
+cv:
 scholarusername: ylHi8lwAAAAJ&hl
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: david-octavio-botero-rozo-54286640
-twitterusername: 
-githubusername: 
+twitterusername:
+githubusername:
 position_completed: Ph.D. [co-advised Silvia Restrepo]
 position_after: Research Associate I
 affiliation_after: Cenipalma

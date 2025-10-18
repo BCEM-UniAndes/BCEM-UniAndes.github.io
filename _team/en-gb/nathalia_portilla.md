@@ -1,7 +1,7 @@
 ---
 name: Nathalia A. Portilla
 country: co
-website: 
+website:
 photo: nathalia_portilla.jpg
 position: M.Sc. Student
 affiliation: Computational Biology
@@ -11,14 +11,14 @@ education:
   - program: B.Sc. in Microbiology
     institution: Universidad de los Andes, Bogotá
     country: co
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: nathaliaportilla
 twitterusername: portillanath
 githubusername: portillanath

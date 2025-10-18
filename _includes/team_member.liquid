@@ -2,12 +2,12 @@
 
 <div class="col-sm-4 text-center">
   <div>
-    {% assign photo = include.member.photo | default: "bio_photo.jpg" %}
-    <img 
-      src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ photo }}" 
-      class="img-rounded img-shadow" 
-      style="aspect-ratio: 1 / 1; width:85%; max-width:400px; border-radius:50%; margin-bottom:10px;" 
-    />
+    {% assign photo = include.member.photo | default: 'bio_photo.jpg' %}
+    <img
+      src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ photo }}"
+      class="img-rounded img-shadow"
+      style="aspect-ratio: 1 / 1; width:85%; max-width:400px; border-radius:50%; margin-bottom:10px;"
+    >
   </div>
 
   <h3>
@@ -18,7 +18,7 @@
     {% else %}
       {{ include.member.name }}
     {% endif %}
-    {% if include.member.country != "co" %}
+    {% if include.member.country != 'co' %}
       <span class="fi fi-{{ include.member.country }}"></span>
     {% endif %}
   </h3>
@@ -37,14 +37,21 @@
   </p>
 
   <p style="text-align:left; margin-bottom:0;">
-    <strong>{{ include.member.position }}{% if include.member.affiliation %}, {{ include.member.affiliation }}{% endif %}</strong>
-    <em>({{ site.data[lang].strings.team.started }} {{ include.member.started }})</em>
+    <strong>
+      {{- include.member.position -}}
+      {%- if include.member.affiliation %}, {{ include.member.affiliation }}{% endif -%}
+    </strong>
+    <em
+      >({{ site.data[lang].strings.team.started }}
+      {{ include.member.started }})</em
+    >
   </p>
 
   {% if include.member.education %}
     <p style="text-align:left; font-size:95%; opacity:0.7; margin-bottom:0;">
       {% for ed in include.member.education %}
-        • {{ ed.program }}, {{ ed.institution }} <span class="fi fi-{{ ed.country }}"></span><br>
+        • {{ ed.program }}, {{ ed.institution }}
+        <span class="fi fi-{{ ed.country }}"></span><br>
       {% endfor %}
     </p>
   {% endif %}

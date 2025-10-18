@@ -10,5 +10,5 @@ nav_order: 2
 
 {% assign sorted_topics = site.research | sort: "order" %}
 {% for topic in sorted_topics %}
-  {% include research.liquid topic=topic %}
+{% include research.liquid topic=topic %}
 {% endfor %}

@@ -1,7 +1,7 @@
 ---
 name: Irene Blanco
 country: co
-website: 
+website:
 photo: bio_photo.jpg
 position: M.Sc. Student
 affiliation: Biological Sciences
@@ -16,20 +16,20 @@ education:
   - program: B.Sc. in Microbiology
     institution: Universidad de los Andes, Bogotá
     country: co
-education3: 
-education4: 
+education3:
+education4:
 email: i.blancoc@uniandes.edu.co
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: irene-blanco-casallas-8767ab327
-twitterusername: 
-githubusername:  
-interests: 
+twitterusername:
+githubusername:
+interests:
 position_completed: B.Sc.
 position_after: M.Sc. Student
 affiliation_after: Michigan State University

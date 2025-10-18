@@ -66,8 +66,10 @@ cv:
 footer:
   text: > # the ">" symbol means to ignore newlines until "titles:"
     Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+  about: About this website
   last_updated: Last update
+  contact: Contact
 latest_posts: Latest posts
 months:
   long:

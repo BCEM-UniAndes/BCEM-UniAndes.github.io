@@ -3,7 +3,7 @@ page_id: pics
 layout: page
 permalink: /pics/
 title: Pics
-description: 
+description:
 nav: true
 nav_order: 7
 ---

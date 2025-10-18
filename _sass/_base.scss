@@ -235,7 +235,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-
 // Navbar customization
 
 .navbar {
@@ -439,7 +438,7 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 
   .container {
     color: var(--global-footer-text-color);
@@ -460,8 +459,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 0.9rem;
 
   .container {
@@ -1145,7 +1144,7 @@ ninja-keys {
   .modal-footer {
     padding: 0.5em 1em;
     display: flex;
-    font-size: 0.75em; 
+    font-size: 0.75em;
     border-top: 1px solid var(--ninja-secondary-background-color);
     color: var(--ninja-secondary-text-color);
   }
@@ -1399,7 +1398,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .dimensions-badge-container {
-  display: inline-block; 
+  display: inline-block;
   transform: scale(0.3); /* Adjust this value to scale down */
   width: 30%; /* Adjust as needed */
   height: 30%; /* Adjust as needed */
@@ -1414,6 +1413,39 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-// .dimensions-badge-container .__dimensions_badge_embed__ {
-//   display: inline-block;
-// }
+/* Callout box styling (refined) */
+.callout {
+  background-color: rgba(245, 245, 245, 0.1);
+  border-left: 5px solid #828282;
+  padding: 1rem 1.25rem; /* tighter internal spacing */
+  margin: 0.9rem auto; /* centers and adds vertical spacing */
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+  font-size: 0.95rem;
+  line-height: 1.25;
+  width: 75%; /* narrower than the rest of the text */
+}
+
+.callout p {
+  margin: 0;
+  color: var(--global-text-color);
+  font-style: italic;
+}
+
+/* Footer Contact Link Styling — matches Navbar behavior */
+.footer-contact a {
+  color: var(--global-text-color);
+  font-size: 1.25rem; /* matches navbar link size */
+  // font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+
+  &:active {
+    color: var(--global-theme-color);
+  }
+}

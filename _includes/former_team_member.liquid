@@ -5,10 +5,10 @@
     {% else %}
       {{ include.member.name }}
     {% endif %}
-    {% if include.member.country != "co" %}
+    {% if include.member.country != 'co' %}
       <span class="fi fi-{{ include.member.country }}"></span>
     {% endif %}
-    {% unless include.member.email contains "@uniandes.edu.co" %}
+    {% unless include.member.email contains '@uniandes.edu.co' %}
       {% if include.member.email %}
         - <a target="_blank" href="mailto:{{ include.member.email }}"><i class="fas fa-envelope"></i></a>
       {% endif %}

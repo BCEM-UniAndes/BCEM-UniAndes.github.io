@@ -2,7 +2,7 @@
 page_id: sinchi
 layout: page
 title: Curso Teórico y Práctico en Análisis Metagenómico
-description: 
+description:
 img: assets/img/teachpic/sinchi.png
 importance: 8
 category: extension

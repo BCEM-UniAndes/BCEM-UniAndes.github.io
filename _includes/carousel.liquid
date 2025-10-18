@@ -2,7 +2,7 @@
 
 {% if slides.size > 1 %}
   {%- comment -%}
-  Check if any slide has a "year" key — this tells us to show years and sort by it.
+    Check if any slide has a "year" key — this tells us to show years and sort by it.
   {%- endcomment -%}
   {% assign has_year = false %}
   {% for s in slides %}
@@ -12,10 +12,10 @@
   {% endfor %}
 
   {%- comment -%}
-  Sort slides by year descending if year exists.
+    Sort slides by year descending if year exists.
   {%- endcomment -%}
   {% if has_year %}
-    {% assign slides = slides | sort: "year" | reverse %}
+    {% assign slides = slides | sort: 'year' | reverse %}
   {% endif %}
 
   <div class="container my-4">
@@ -36,7 +36,7 @@
                 <h3 style="font-size: 1.5rem; font-weight: bold;">{{ slide.year }}</h3>
               </div>
             {% endif %}
-            <img 
+            <img
               src="{{ site.baseurl }}/assets/img/{{ slide.img }}"
               alt="Slide {{ forloop.index }}"
               class="d-block mx-auto img-fluid"
@@ -60,7 +60,7 @@
 
 {% else %}
   <div class="container text-center my-4">
-    <img 
+    <img
       src="{{ site.baseurl }}/assets/img/{{ slides[0].img }}"
       alt="Homepage image"
       class="d-block mx-auto img-fluid"

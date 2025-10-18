@@ -1,20 +1,20 @@
 ---
 name: Guillermo Luque
 country: co
-website: 
+website:
 position: M.Sc.
 started: 2014
 ended: 2016
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: gluque
-twitterusername: 
+twitterusername:
 githubusername: gluque
 position_completed: M.Sc.
 position_after: Estudiante Doctoral

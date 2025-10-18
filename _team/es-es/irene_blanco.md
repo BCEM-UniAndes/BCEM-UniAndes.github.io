@@ -2,7 +2,7 @@
 name: Irene Blanco
 display_category: Estudiantes de Postgrado
 country: co
-website: 
+website:
 photo: bio_photo.jpg
 position: Estudiante de Maestría
 affiliation: Ciencias Biológicas
@@ -16,17 +16,17 @@ education:
     institution: Universidad de los Andes, Bogotá
     country: co
 email: i.blancoc@uniandes.edu.co
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: irene-blanco-casallas-8767ab327
-twitterusername: 
-githubusername:  
-interests: 
+twitterusername:
+githubusername:
+interests:
 position_completed: B.Sc.
 position_after: Estudiante de Maestría
 affiliation_after: Michigan State University

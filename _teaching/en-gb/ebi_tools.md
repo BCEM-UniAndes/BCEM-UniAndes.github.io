@@ -2,7 +2,7 @@
 page_id: ebi_tools
 layout: page
 title: EBI Bioinformatics Tools
-description: 
+description:
 img: assets/img/teachpic/ebi_tools.png
 importance: 1
 category: graduate

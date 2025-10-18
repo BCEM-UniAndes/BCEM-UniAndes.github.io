@@ -2,14 +2,14 @@
 page_id: covid
 layout: page
 title: "Bioinformatics for SARS-CoV-2 analysis for beginners"
-description: 
+description:
 img: assets/img/teachpic/covid.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://github.com/cabana-online/Course_SARS_CoV-2
+- https://github.com/cabana-online/Course_SARS_CoV-2
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

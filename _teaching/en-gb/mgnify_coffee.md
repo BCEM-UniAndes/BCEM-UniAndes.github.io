@@ -2,14 +2,14 @@
 page_id: mgnify_coffee
 layout: page
 title: "Analysis and exploration of microbial traits in a wet coffee fermentation experiment using MGnify"
-description: 
+description:
 img: assets/img/teachpic/mgnify_coffee.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://f1000research.com/documents/11-401
+- https://f1000research.com/documents/11-401
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

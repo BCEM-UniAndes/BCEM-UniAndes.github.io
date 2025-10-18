@@ -4,17 +4,17 @@ country: co
 position: B.Sc. & M.Sc.
 started: 2016
 ended: 2021
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername:
-twitterusername: 
-githubusername: 
+twitterusername:
+githubusername:
 position_completed: B.Sc. & M.Sc.
 position_after: PhD Student
 affiliation_after: Washington University in St. Louis

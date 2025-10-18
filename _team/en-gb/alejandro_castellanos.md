@@ -2,7 +2,7 @@
 name: Alejandro Castellanos
 display_category: staff
 country: co
-website: 
+website:
 photo: alejandro_castellanos.jpg
 position: Visiting Researcher
 affiliation: Computational Biology
@@ -19,28 +19,28 @@ education:
   - program: B.Sc. in Microbiology
     institution: Universidad de los Andes, Bogotá
     country: co
-cv: 
+cv:
 scholarusername: kseaWBoAAAAJ&hl
 resgateusername: Alejandro-Castellanos-Sanchez
 orcidusername: 0000-0002-1732-6918
 # twitterusername: alejandrocs_98
-githubusername:  alejandrocs98
+githubusername: alejandrocs98
 linkedinusername: alejandrocs98
 blueskyusername: alejandrocs98.bsky.social
-mendeleyusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
-mastodonusername: 
-discordusername: 
-redditusername: 
-mediumusername: 
-facebookusername: 
-instagramusername: 
-youtubeusername: 
-tiktokusername: 
-spotifyusername: 
-stravausername: 
+mendeleyusername:
+publonsusername:
+arxivusername:
+biorxivusername:
+mastodonusername:
+discordusername:
+redditusername:
+mediumusername:
+facebookusername:
+instagramusername:
+youtubeusername:
+tiktokusername:
+spotifyusername:
+stravausername:
 interests: Ecological and metabolic modeling of the gut microbiome
 position_completed: B.Sc. [co-advised Leda Restrepo] & M.Sc. [co-advised Maryam Chaib De Mares & Andrés Quiñones]
 position_after: PhD Student

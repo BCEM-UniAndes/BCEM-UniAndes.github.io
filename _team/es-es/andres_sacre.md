@@ -1,28 +1,28 @@
 ---
 name: Andrés Sacré
 country: co
-website: 
-photo: 
+website:
+photo:
 position: M.Sc. Student
-affiliation: 
+affiliation:
 started: 2019
 ended: 2022
-education1: 
-education2: 
-education3: 
-education4: 
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+education1:
+education2:
+education3:
+education4:
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: andres-sacre-alzate
-twitterusername: 
+twitterusername:
 githubusername: asacrea
-interests: 
+interests:
 position_completed: M.Sc.
 position_after: Ingeniero de Datos Principal
 affiliation_after: itelCX

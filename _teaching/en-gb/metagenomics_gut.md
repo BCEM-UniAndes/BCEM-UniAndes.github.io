@@ -2,13 +2,14 @@
 page_id: metagenomics_gut
 layout: page
 title: "CABANAnet workshop: Metagenomics analysis of the human gastrointestinal microbiome"
-description: 
+description:
 img: assets/img/teachpic/metagenomics_gut.png
 importance: 9
 category: cabana
 related_publications: false
 ---
-* https://github.com/mariasotor/Cabana-Metagenomics-Workshop
+
+- https://github.com/mariasotor/Cabana-Metagenomics-Workshop
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

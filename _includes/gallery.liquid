@@ -5,16 +5,19 @@
 {% endcomment %}
 
 <div class="gallery-container my-5">
-  {% assign pics_sorted = site.pics | sort: "year" | reverse %}
-  {% assign pics_by_year = pics_sorted | group_by: "year" %}
+  {% assign pics_sorted = site.pics | sort: 'year' | reverse %}
+  {% assign pics_by_year = pics_sorted | group_by: 'year' %}
 
   {% for year_group in pics_by_year %}
-    <h2 class="mt-5 mb-4 text-center">{{ year_group.name }}</h2>
+    <strong>
+      <h3 class="mt-5 mb-4 text-left">{{ year_group.name }}</h3>
+      <hr class="mb-4">
+    </strong>
 
-    {% assign year_items = year_group.items | sort: "month" | reverse %}
+    {% assign year_items = year_group.items | sort: 'month' | reverse %}
     {% for event in year_items %}
       <div class="event-gallery mb-5">
-        <h3 class="mb-3 text-left">{{ event.title }}</h3>
+        <h5 class="mb-3 text-left">{{ event.title }}</h5>
 
         <div class="row justify-content-center">
           {% assign number_printed = 0 %}
@@ -22,7 +25,7 @@
             {% assign even_odd = number_printed | modulo: 2 %}
             <div class="col-sm-6 mb-4">
               <div class="rounded shadow p-0">
-                <img 
+                <img
                   src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ pic.img }}"
                   class="img-fluid rounded"
                   alt="{{ event.title }} photo"
@@ -32,7 +35,8 @@
             </div>
             {% assign number_printed = number_printed | plus: 1 %}
             {% if even_odd == 1 or forloop.last %}
-              </div><div class="row justify-content-center">
+              </div>
+              <div class="row justify-content-center">
             {% endif %}
           {% endfor %}
         </div>

@@ -1,19 +1,19 @@
 ---
 name: María Antonia Madrid
 country: co
-website: 
-photo: 
+website:
+photo:
 position: Estudiante de Pregrado
 started: 2020
 ended: 2022
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
 orcidusername: 0000-0003-2383-6161
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 blueskyusername: mariamadrid16.bsky.social
 linkedinusername: maria-antonia-madrid-restrepo
 twitterusername: mariamadrid26

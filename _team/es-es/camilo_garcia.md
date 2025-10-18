@@ -7,7 +7,7 @@ photo: camilo-garcia.jpeg
 position: Estudiante Doctoral
 affiliation: Ciencias Biológicas
 started: 2023
-ended: 
+ended:
 education:
   - program: M.Sc. en Biociencias
     institution: Universidad EAFIT, Medellín
@@ -16,20 +16,20 @@ education:
     institution: Universidad EAFIT, Medellín
     country: co
 email: ca.garcia2@uniandes.edu.co
-cv: 
+cv:
 scholarusername: OJ6452UAAAAJ
 resgateusername: Camilo-Garcia-Botero-2
 orcidusername: 0000-0002-0426-7007
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: camilo-garc
 twitterusername: Gaspardelanoche
-githubusername:  camilogarciabotero
+githubusername: camilogarciabotero
 interests: Descubrimiento y clasificación de genes de fagos
-position_after: 
-affiliation_after: 
-country_after: 
+position_after:
+affiliation_after:
+country_after:
 has_page: false
 layout: team_member
 ---
@@ -41,6 +41,7 @@ Tengo una licenciatura y un máster en Biología por la Universidad EAFIT de Med
 Cuando no estoy inmersa en el código o los datos, me gusta explorar nuevos lugares, probar nuevas recetas o dedicarme a mi pasión por la música y la fotografía. Siempre estoy dispuesta a conectar con otros investigadores y entusiastas del campo de la bioinformática y la microbiología, ¡así que no dudéis en poneros en contacto conmigo!
 
 ---
+
 <details style="margin-bottom: 10px;">
   <summary style="cursor: pointer; user-select: none;">
     <h4 style="display: inline;">Publicaciones</h4>

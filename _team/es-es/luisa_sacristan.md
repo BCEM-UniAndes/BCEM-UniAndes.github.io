@@ -2,7 +2,7 @@
 name: Luisa Sacristán
 display_category: Personal de Investigación
 country: co
-website: 
+website:
 photo: luisa_sacristan.jpg
 position: Estudiante de Maestría
 affiliation: CABANA
@@ -16,15 +16,15 @@ education:
     institution: Universidad de Pamplona
     country: co
 email: lf.sacristan2215@uniandes.edu.co
-cv: 
+cv:
 scholarusername: MTlt_08AAAAJ&hl
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: luisa-sacristan-162916145
-twitterusername: 
+twitterusername:
 githubusername: lusacristan
 interests: Metagenómica de ADN ancestral
 position_completed: M.Sc.

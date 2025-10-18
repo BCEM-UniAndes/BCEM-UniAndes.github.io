@@ -3,7 +3,7 @@ page_id: publications
 layout: page
 permalink: /publications/
 title: Publicaciones
-description: 
+description:
 nav: true
 nav_order: 4
 ---

@@ -1,28 +1,28 @@
 ---
 name: Nickole Villabona
 country: co
-website: 
-photo: 
+website:
+photo:
 position: B.Sc.
 started: 2018
 ended: 2022
-number_educ: 
-education1: 
-education2: 
-education3: 
-education4: 
-email: 
-cv: 
+number_educ:
+education1:
+education2:
+education3:
+education4:
+email:
+cv:
 scholarusername: odpyW8YAAAAJ&hl
-resgateusername: 
+resgateusername:
 orcidusername: 0000-0001-5269-2270
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: nickole-villabona-b48357232
-twitterusername: 
+twitterusername:
 instagramusername: nickole97
-githubusername: 
+githubusername:
 interests:
 position_completed: B.Sc.
 position_after: Estudiante Doctoral

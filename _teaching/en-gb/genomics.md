@@ -2,7 +2,7 @@
 page_id: genomics
 layout: page
 title: Genómica
-description: 
+description:
 img: assets/img/teachpic/genomics.png
 importance: 2
 category: undergraduate

@@ -1,19 +1,19 @@
 ---
 name: María Antonia Madrid
 country: co
-website: 
-photo: 
+website:
+photo:
 position: B.Sc. Student
 started: 2020
 ended: 2022
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
 orcidusername: 0000-0003-2383-6161
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: maria-antonia-madrid-restrepo
 twitterusername: mariamadrid26
 githubusername: mariamadrid19

@@ -1,22 +1,22 @@
 ---
 name: Juan Pablo Londoño
 country: co
-website: 
+website:
 position: B.Sc. [co-dirigido Jorge Duitama]
-affiliation: 
+affiliation:
 started: 2022
 ended: 2023
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: jplondono
-twitterusername: 
-githubusername: 
+twitterusername:
+githubusername:
 position_completed: B.Sc. [co-dirigido Jorge Duitama]
 position_after: Estudiante de Maestría
 affiliation_after: KAUST

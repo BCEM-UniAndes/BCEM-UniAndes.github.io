@@ -1,15 +1,31 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      <strong>&copy; {{ site.publication_year }} {{ site.title }}</strong>
-      @ {{ site.affiliation_short }}
-      <span class='fi fi-{{ site.country }}'></span>. {{ site.data[site.active_lang].strings.footer.text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        {{ site.data[site.active_lang].strings.footer.last_updated }}: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+      <div class="row align-items-center">
+        <!-- Left 5/6 -->
+        <div class="col-md-10">
+          <strong>
+            &copy; {{ site.publication_year }}
+            {{ site.title -}}
+          </strong>
+          @ {{ site.affiliation_short }}
+          <span class="fi fi-{{ site.country }}"></span>.
+          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site.data[site.active_lang].strings.footer.about }}</a>.
+          {% if site.impressum_path %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+          {% endif %}
+          {% if site.last_updated %}
+            {{ site.data[site.active_lang].strings.footer.last_updated }}: {{ 'now' | date: '%B %d, %Y' }}.
+          {% endif %}
+        </div>
+
+        <!-- Right 1/6 -->
+        <div class="col-md-2 text-md-end text-center">
+          <a href="{{ site.url }}{{ site.baseurl }}/contact/" class="fw-bold" style="font-size: 1.25rem;">
+            {{ site.data[site.active_lang].strings.footer.contact | default: 'Contact' }}
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 {% else %}
@@ -19,17 +35,34 @@
     {% endif %}
 
     <div class="container">
-      &copy; {{ site.publication_year }}
-      {{ site.title }}
-      @ {{ site.affiliation_short }}
-      <span class='fi fi-{{ site.country }}'></span>. {{ site.data[site.active_lang].strings.footer.text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        {% assign month_key = 'now' | date: '%B' | downcase %}
-        {{ site.data[site.active_lang].strings.footer.last_updated }}: {{ site.data[site.active_lang].strings.months.long[month_key] }} {{ 'now' | date: '%d, %Y' }}.
-      {% endif %}
+      <div class="row align-items-center">
+        <!-- Left 5/6 -->
+        <div class="col-md-10">
+          <strong>
+            &copy; {{ site.publication_year }}
+            {{ site.title }}
+          </strong>
+          @ {{ site.affiliation_short }}
+          <span class="fi fi-{{ site.country }}"></span>.
+          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site.data[site.active_lang].strings.footer.about }}</a>.
+          {% if site.impressum_path %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+          {% endif %}
+          {% if site.last_updated %}
+            {% assign month_key = 'now' | date: '%B' | downcase %}
+            {{ site.data[site.active_lang].strings.footer.last_updated }}:
+            {{ site.data[site.active_lang].strings.months.long[month_key] }}
+            {{ 'now' | date: '%d, %Y' }}.
+          {% endif %}
+        </div>
+
+        <!-- Right 1/6 -->
+        <div class="col-md-2 text-md-end text-right footer-contact">
+          <a href="{{ site.url }}{{ site.baseurl }}/contact/">
+            {{ site.data[site.active_lang].strings.footer.contact | default: 'Contact' }}
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 {% endif %}

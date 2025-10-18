@@ -2,14 +2,14 @@
 page_id: genome_assembly
 layout: page
 title: "Bioinformatic tools for genome assembly and comparative genomics"
-description: 
+description:
 img: assets/img/teachpic/genome_assembly.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://zenodo.org/records/14969215
+- https://zenodo.org/records/14969215
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

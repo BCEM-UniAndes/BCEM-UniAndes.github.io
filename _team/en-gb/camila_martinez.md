@@ -1,18 +1,18 @@
 ---
 name: Camila Martinez
 country: co
-website: 
+website:
 position: B.Sc. & M.Sc. Student
 started: 2014
 ended: 2018
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: kamymartinez
 twitterusername: KamyBytes
 githubusername: KamyNz

@@ -2,14 +2,14 @@
 page_id: genomic_survillance
 layout: page
 title: "Genomic Surveillance of Streptococcus pneumoniae and Streptococcus agalactiae"
-description: 
+description:
 img: assets/img/teachpic/genomic_survillance.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://github.com/cabana-online/Genomic_surveillance
+- https://github.com/cabana-online/Genomic_surveillance
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

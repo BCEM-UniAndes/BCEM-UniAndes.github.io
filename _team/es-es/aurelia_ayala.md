@@ -1,18 +1,18 @@
 ---
 name: Aurelia Ayala Usma
 country: co
-website: 
+website:
 position: M.Sc. Student [co-dirigide Silvia Restrepo]
 started: 2018
 ended: 2016
-email: 
-cv: 
+email:
+cv:
 scholarusername: O3VHpuEAAAAJ&hl
 resgateusername: Aurelia-Ayala-Usma
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: ayalausma
 twitterusername: ayala-usma
 githubusername: ayala-usma

@@ -1,21 +1,21 @@
 ---
 name: Miguel Parra
 country: co
-website: 
+website:
 position: Postdoc
 started: 2016
 ended: 2018
-email: 
-cv: 
+email:
+cv:
 scholarusername: sVf8roUAAAAJ
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: miguel-hernando-parra-avila-a1143015
-twitterusername: 
-githubusername: 
+twitterusername:
+githubusername:
 position_completed: Postdoc
 position_after: Docente de Investigación en Inmunología
 affiliation_after: Universidad del Bosque

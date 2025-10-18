@@ -2,7 +2,7 @@
 page_id: bioinformatics
 layout: page
 title: Bioinformática
-description: 
+description:
 img: assets/img/teachpic/bioinformatics.png
 importance: 5
 category: graduate

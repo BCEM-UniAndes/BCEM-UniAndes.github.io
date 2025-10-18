@@ -1,0 +1,42 @@
+<!-- Callout -->
+{% if page.callout %}
+  <div class="callout">
+    <p class="desc">{{ page.callout | markdownify }}</p>
+  </div>
+{% endif %}
+
+<!-- Contact Information -->
+<div class="contact-info" style="margin-top: 1.5rem;">
+  <p>
+    <strong>{{ page.university }}</strong>
+  </p>
+  <p>
+    <i class="fa fa-map-marker"></i> {{ page.address }}
+    <br>
+    <i class="fa fa-building"></i> {{ page.building }}
+    <br>
+    <i class="fa-solid fa-envelope"></i> {{ page.email }}
+    <br>
+    <i class="fa fa-phone"></i> {{ page.phone }}
+  </p>
+</div>
+
+<!-- Map -->
+{% if page.map_embed %}
+  <div
+    class="map"
+    markdown="0"
+    style="position: relative; padding-bottom: 55%; height: 0; overflow: hidden; border-radius: 0.75rem; margin-top: 1.5rem;"
+  >
+    <iframe
+      src="{{ page.map_embed }}"
+      width="800"
+      height="450"
+      style="border:0;"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
+  </div>
+{% endif %}

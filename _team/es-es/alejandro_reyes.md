@@ -18,15 +18,15 @@ education:
   - program: B.Sc. en Microbiología
     institution: Universidad de los Andes, Bogotá
     country: co
-cv: 
+cv:
 scholarusername: hbXF8UEAAAAJ
 resgateusername: Alejandro-Reyes-15
 orcidusername: 0000-0003-2907-3265
 linkedinusername: alejandro-reyes-79a5a255
-publonsusername: 
-twitterusername: 
-githubusername:  
-arxivusername: 
-biorxivusername: 
+publonsusername:
+twitterusername:
+githubusername:
+arxivusername:
+biorxivusername:
 interests: Viroma intestinal
 ---

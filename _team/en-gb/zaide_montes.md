@@ -2,7 +2,7 @@
 name: Zaide K. Montes Ortiz
 country: co
 position: B.Sc. & M.Sc.
-orcidusername: 
+orcidusername:
 started: 2015
 ended: 2021
 linkedinusername: zaidemo
@@ -10,6 +10,6 @@ twitterusername: lachemontes
 githubusername: lachemontes
 position_completed: B.Sc. & M.Sc. [co-advised Jorge Molina]
 position_after: PhD Student
-affiliation_after: Lund University | nGICE Max Planck Center 
+affiliation_after: Lund University | nGICE Max Planck Center
 country_after: se
 ---

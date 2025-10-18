@@ -2,7 +2,7 @@
 page_id: microbial_ecology_bioinformatics
 layout: page
 title: Ecología Microbiana y Herramientas de Análisis Bioinformático
-description: 
+description:
 img: assets/img/teachpic/micro_eco_bio.png
 importance: 4
 category: graduate

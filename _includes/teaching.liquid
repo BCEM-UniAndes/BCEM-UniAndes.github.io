@@ -15,10 +15,10 @@
         <h2 class="category">{{ site.data[site.active_lang].strings.teaching.categories[category.id] }}</h2>
       </a>
       <p class="category-description" style="font-size: 1.25em;">{{ category.description }}</p>
-      
-      {% assign categorized_courses = site.teaching | where: "category", category.id %}
-      {% assign sorted_courses = categorized_courses | sort: "importance" %}
-      
+
+      {% assign categorized_courses = site.teaching | where: 'category', category.id %}
+      {% assign sorted_courses = categorized_courses | sort: 'importance' %}
+
       {% if sorted_courses.size > 0 %}
         {% if page.horizontal %}
           <div class="container">
@@ -41,7 +41,7 @@
     {% endfor %}
   {% else %}
     {% if site.teaching %}
-      {% assign sorted_courses = site.teaching | sort: "importance" %}
+      {% assign sorted_courses = site.teaching | sort: 'importance' %}
       {% if page.horizontal %}
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2">

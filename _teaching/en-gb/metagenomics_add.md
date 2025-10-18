@@ -2,7 +2,7 @@
 page_id: metagenomics_add
 layout: page
 title: "Practical metagenomics: The Study of human gut microbiome in health and disease: Applications in Acute Diarrheal Diseases (ADD)"
-description: 
+description:
 img: assets/img/teachpic/metagenomics_add.png
 importance: 9
 category: cabana

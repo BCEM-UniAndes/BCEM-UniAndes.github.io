@@ -1,21 +1,21 @@
 ---
 name: Laura Avellaneda-Franco
 country: co
-website: 
+website:
 position: B.Sc & M.Sc.
 started: 2016
 ended: 2019
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
-orcidusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
+orcidusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: laura-avellaneda-franco-03a757290
-twitterusername: 
-githubusername:  
+twitterusername:
+githubusername:
 position_completed: B.Sc & M.Sc.
 position_after: PhD Student
 affiliation_after: Monash University

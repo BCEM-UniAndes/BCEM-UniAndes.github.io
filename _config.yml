@@ -22,7 +22,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 
-
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------

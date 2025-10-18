@@ -3,7 +3,7 @@ page_id: team
 layout: page
 permalink: /team/
 title: Equipo
-description: 
+description:
 nav: true
 nav_order: 1
 # display_categories: [pi, staff, graduate, undergrad]
@@ -12,8 +12,9 @@ display_categories: [pi, graduate, undergrad]
 
 <div class="team">
 
-  {% for category in page.display_categories %}
-    <h2 class="category">{{ site.data[site.active_lang].strings.team.categories[category] }}</h2>
+{% for category in page.display_categories %}
+
+<h2 class="category">{{ site.data[site.active_lang].strings.team.categories[category] }}</h2>
 
     {% assign categorized_people = site.team | where: "display_category", category %}
     {% assign active_team = categorized_people | where_exp: "m", "m.ended == nil" | sort: "started" %}
@@ -36,7 +37,8 @@ display_categories: [pi, graduate, undergrad]
       </div>
     {% endif %}
 
-  {% endfor %}
+{% endfor %}
+
 </div>
 
 <p>&nbsp;</p>

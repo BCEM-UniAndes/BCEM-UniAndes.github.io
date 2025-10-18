@@ -7,7 +7,7 @@ photo: camilo-garcia.jpeg
 position: PhD Student
 affiliation: Biological Sciences
 started: 2023
-ended: 
+ended:
 education:
   - program: M.Sc. in Biosciences
     institution: Universidad EAFIT, Medellín
@@ -16,20 +16,20 @@ education:
     institution: Universidad EAFIT, Medellín
     country: co
 email: ca.garcia2@uniandes.edu.co
-cv: 
+cv:
 scholarusername: OJ6452UAAAAJ
 resgateusername: Camilo-Garcia-Botero-2
 orcidusername: 0000-0002-0426-7007
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: camilo-garc
 twitterusername: Gaspardelanoche
-githubusername:  camilogarciabotero
+githubusername: camilogarciabotero
 interests: Phage genes discovery and classification
-position_after: 
-affiliation_after: 
-country_after: 
+position_after:
+affiliation_after:
+country_after:
 has_page: true
 layout: team_member
 ---
@@ -41,6 +41,7 @@ I hold a B.Sc. and M.Sc. in Biology from Universidad EAFIT in Medellín, Colombi
 When I’m not immersed in code or data, you can find me exploring new places, trying out new recipes, or indulging in my love for music and photography. I’m always eager to connect with fellow researchers and enthusiasts in the field of bioinformatics and microbiology, so feel free to reach out!
 
 ---
+
 <details style="margin-bottom: 10px;">
   <summary style="cursor: pointer; user-select: none;">
     <h4 style="display: inline;">Publications</h4>

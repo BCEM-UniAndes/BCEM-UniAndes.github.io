@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nueva posición doctoral en BCEM!
-date: 2024-09-26 
+date: 2024-09-26
 inline: false
 related_posts: false
 ---
@@ -19,8 +19,9 @@ Los interesados deben enviar hoja vida, una carta de intención en la que se exp
 Por favor enviar la información al correo a.reyes@uniandes.edu.co antes del 10 de Octubre de 2024.
 
 Información adicional:
--	Página web programa
-https://cienciasbiologicas.uniandes.edu.co/es/posgrado/doctorado-ciencias-biologicas
 
--	Programa Impacto País.
-https://uniandes.edu.co/es/impacto-pais
+- Página web programa
+  https://cienciasbiologicas.uniandes.edu.co/es/posgrado/doctorado-ciencias-biologicas
+
+- Programa Impacto País.
+  https://uniandes.edu.co/es/impacto-pais

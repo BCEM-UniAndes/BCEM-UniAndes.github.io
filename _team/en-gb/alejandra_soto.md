@@ -2,8 +2,8 @@
 name: María Alejandra Soto
 display_category: graduate
 country: co
-website: 
-photo: 
+website:
+photo:
 position: PhD Student
 affiliation: Biological Sciences
 started: 2025
@@ -14,35 +14,35 @@ education:
   - program: B.Sc. in Biology
     institution: Universidad Icesi, Cali
     country: co
-interests: 
+interests:
 email: mama.sotor@uniandes.edu.co
-cv: 
-orcidusername: 
-scholarusername: 
-resgateusername: 
-mendeleyusername: 
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+cv:
+orcidusername:
+scholarusername:
+resgateusername:
+mendeleyusername:
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: m--soto
 githubusername: mariasotor
-blueskyusername: 
-mastodonusername: 
-twitterusername: 
-discordusername: 
-redditusername: 
-mediumusername: 
-facebookusername: 
-instagramusername: 
-youtubeusername: 
-tiktokusername: 
-spotifyusername: 
-stravausername: 
-ended: 
-position_completed: 
-position_after: 
-affiliation_after: 
-country_after: 
+blueskyusername:
+mastodonusername:
+twitterusername:
+discordusername:
+redditusername:
+mediumusername:
+facebookusername:
+instagramusername:
+youtubeusername:
+tiktokusername:
+spotifyusername:
+stravausername:
+ended:
+position_completed:
+position_after:
+affiliation_after:
+country_after:
 has_page: true
 layout: team_member
 ---

@@ -1,22 +1,22 @@
 ---
 name: Leda Restrepo
 country: co
-website: 
-photo: 
+website:
+photo:
 position: Ph.D.
 started: 2017
 ended: 2022
-email: 
-cv: 
-scholarusername: 
-resgateusername: 
+email:
+cv:
+scholarusername:
+resgateusername:
 orcidusername: 0000-0003-1784-3752
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: leda-restrepo-4b9382104
-twitterusername: 
-githubusername:  
+twitterusername:
+githubusername:
 interests:
 position_completed: PhD
 position_after: Investiogadora Postdoctoral

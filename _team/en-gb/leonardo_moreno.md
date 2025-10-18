@@ -1,21 +1,21 @@
 ---
 name: J. Leonardo Moreno-Gallego
 country: co
-website: 
+website:
 position: M.Sc.
 started: 2014
 ended: 2016
-email: 
-cv: 
-scholarusername: 
+email:
+cv:
+scholarusername:
 resgateusername: J-Moreno-Gallego
 orcidusername: 0000-0001-7596-673X
-publonsusername: 
-arxivusername: 
-biorxivusername: 
+publonsusername:
+arxivusername:
+biorxivusername:
 linkedinusername: j-leonardo-moreno-gallego-60154249
-twitterusername: 
-githubusername: 
+twitterusername:
+githubusername:
 position_completed: M.Sc.
 position_after: PhD Student
 affiliation_after: Max Planck Institute for Biology in Tübingen

@@ -2,15 +2,15 @@
 page_id: microbiome_r
 layout: page
 title: "Microbiome Analysis in R"
-description: 
+description:
 img: assets/img/teachpic/microbiome_r.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://zenodo.org/records/13972776
-* https://github.com/cabana-online/Microbiome_Analysis_in_R?tab=readme-ov-file
+- https://zenodo.org/records/13972776
+- https://github.com/cabana-online/Microbiome_Analysis_in_R?tab=readme-ov-file
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

@@ -2,14 +2,14 @@
 page_id: metagenomics_2
 layout: page
 title: "Essentials in metagenomics (Part 2)"
-description: 
+description:
 img: assets/img/teachpic/metagenomics_2.png
 importance: 9
 category: cabana
 related_publications: false
 ---
 
-* https://f1000research.com/documents/9-1195
+- https://f1000research.com/documents/9-1195
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
