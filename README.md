@@ -6,6 +6,12 @@ Welcome! This repository contains the source code for the **Computational Biolog
 > If you're interested in creating a similar website, feel free to fork this repo and customize it for your own use. We recommend checking out (and even forking) the original multi-language al-folio theme repository: [george-gca/multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio), which provides detailed documentation on setup and customization.
 
 ---
+[![deploy](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/actions/workflows/deploy.yml)
+[![GitHub license](https://img.shields.io/github/license/BCEM-UniAndes/BCEM-UniAndes.github.io?color=blue)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/BCEM-UniAndes/BCEM-UniAndes.github.io)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/BCEM-UniAndes/BCEM-UniAndes.github.io)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/fork)
+
+---
 
 ## 🗂️ Table of Contents
 
