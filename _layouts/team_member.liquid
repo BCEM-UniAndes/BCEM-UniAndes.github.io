@@ -84,6 +84,32 @@ layout: default
       <div style="margin-bottom:10px;">
         {{ content }}
       </div>
+      <!-- Publications -->
+      {% if page.pubs %}
+        <hr style="margin:10px 0;">
+        <details style="margin-bottom: 10px;">
+          <summary style="cursor: pointer; user-select: none;">
+            <h4 style="display: inline;">Publications</h4>
+          </summary>
+          <div class="publications" style="margin-top: 1rem;">
+            {% bibliography --file {{ page.pubs }} --group_by none %}
+          </div>
+        </details>
+      {% endif %}
+      <!-- Github repositories -->
+      {% if page.github_repos %}
+        <hr style="margin:10px 0;">
+        <details style="margin-bottom: 10px;">
+          <summary style="cursor: pointer; user-select: none;">
+            <h4 style="display: inline;">Highlighted GitHub Repos</h4>
+          </summary>
+          <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="margin-top: 1rem;">
+            {% for repo in page.github_repos %}
+              {% include repository/repo.liquid repository=repo %}
+            {% endfor %}
+          </div>
+        </details>
+      {% endif %}
     </div>
   </div>
 </div>

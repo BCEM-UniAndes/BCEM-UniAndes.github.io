@@ -32,6 +32,12 @@ affiliation_after:
 country_after:
 has_page: false
 layout: team_member
+pubs: camilo_garcia.bib
+github_repos:
+  - camilogarciabotero/phu
+  - camilogarciabotero/GeneFinder.jl
+  - camilogarciabotero/BioSimplex.jl
+  - camilogarciabotero/BioMarkovChains.jl
 ---
 
 ¡Hola, alma curiosa! Soy Camilo, un bioinformático apasionado por explorar el mundo microbiano a través de enfoques computacionales. Mi investigación actual se centra en el microbioma humano (la parte viral, extraña y descuidada) y en cómo sus genes están asociados con diversos factores humanos. Al mismo tiempo, también participo en el desarrollo de herramientas y procesos bioinformáticos para analizar genomas virales.
@@ -39,26 +45,3 @@ layout: team_member
 Tengo una licenciatura y un máster en Biología por la Universidad EAFIT de Medellín, Colombia. Antes de incorporarme al BCEM, trabajé como asistente de investigación en la misma universidad, donde desarrollé herramientas bioinformáticas para analizar genomas virales y estudié la diversidad de bacteriófagos en diferentes entornos.
 
 Cuando no estoy inmersa en el código o los datos, me gusta explorar nuevos lugares, probar nuevas recetas o dedicarme a mi pasión por la música y la fotografía. Siempre estoy dispuesta a conectar con otros investigadores y entusiastas del campo de la bioinformática y la microbiología, ¡así que no dudéis en poneros en contacto conmigo!
-
----
-
-<details style="margin-bottom: 10px;">
-  <summary style="cursor: pointer; user-select: none;">
-    <h4 style="display: inline;">Publicaciones</h4>
-  </summary>
-  <div class="publications" style="margin-top: 1rem;">
-    {% bibliography --file camilo_garcia.bib --group_by none %}
-  </div>
-</details>
-
-<details style="margin-bottom: 10px;">
-  <summary style="cursor: pointer; user-select: none;">
-    <h4 style="display: inline;">Repos de GitHub Destacados</h4>
-  </summary>
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="margin-top: 1rem;">
-    {% include repository/repo.liquid repository="camilogarciabotero/phu" %}
-    {% include repository/repo.liquid repository="camilogarciabotero/GeneFinder.jl" %}
-    {% include repository/repo.liquid repository="camilogarciabotero/BioSimplex.jl" %}
-    {% include repository/repo.liquid repository="camilogarciabotero/BioMarkovChains.jl" %}
-  </div>
-</details>
