@@ -1,11 +1,10 @@
 # BCEM Website
 
-Welcome! This repository contains the source code for the **Computational Biology and Microbial Ecology (BCEM) @ Uniandes** research group multilingual website, built with **Jekyll** using the **multi-language al-folio** theme and deployed via **GitHub Pages**.
+Welcome! This repository contains the source code for the multilingual website of the **Computational Biology and Microbial Ecology (BCEM) @ Uniandes** research group, built with **Jekyll** using the **multi-language al-folio** theme and deployed via **GitHub Pages**.
 
+> [!TIP]
+> If you're interested in creating a similar website, feel free to fork this repo and customize it for your own use. However, we recommend checking out (and forking) the original multi-language al-folio theme repository: [george-gca/multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio), which provides detailed documentation on setup and customization, and counts with continuous updates and improvements.
 
-> If you're interested in creating a similar website, feel free to fork this repo and customize it for your own use. We recommend checking out (and even forking) the original multi-language al-folio theme repository: [george-gca/multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio), which provides detailed documentation on setup and customization.
-
----
 [![deploy](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/actions/workflows/deploy.yml)
 [![GitHub license](https://img.shields.io/github/license/BCEM-UniAndes/BCEM-UniAndes.github.io?color=blue)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/BCEM-UniAndes/BCEM-UniAndes.github.io)](https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io)
@@ -13,183 +12,124 @@ Welcome! This repository contains the source code for the **Computational Biolog
 
 ---
 
+The objective of this README is to provide a concise guide on how to set up, customize, and maintain the BCEM's website. It covers the essential components of the Jekyll-based site, including configuration, content management, and deployment.
+
+> [!NOTE]
+> Current group member in charge of the site's updates and maintenance: [Camilo García](https://github.com/camilogarciabotero)
+
 ## 🗂️ Table of Contents
 
-* [1. Setup](#1-setup)
+1) Setup
+i. and serving the site locally
+  - Requirements
+    - Jekyll
+    - Nodejs
+    - Jupyterlab
+    - ImageMagick
+  - git clone
+   - cd BCEM-UniAndes.github.io
+  - bundle exec jekyll serve
+  > Callout: using Docker or conda
+ii. Online deployment
+  - git add, commit, push 
+  - Setting the repo
+    * GitHub Pages
+    * GitHub Actions
+    * .github/workflows/
+    * .github/workflows/deploy.yml
+iii. polyglot
 
-  * [Jekyll](#jekyll)
-  * [GitHub Pages](#github-pages)
-  * [multi-language-al-folio Theme](#multi-language-al-folio-theme)
-  * [Installation & Setup](#installation--setup)
-* [2. Relevant Files and Folders](#2-relevant-files-and-folders)
+2) Relevant files and folders/general overview
+i. 
+  - Markdown 
+    - Frontmatter
+  - YAML
+  - Liquid
+  - HTML
+ii. _config.yml
+iii. _includes/ & _layouts/
+iv. _pages/
+v. _sass/
+vi. asstets/
+vii. _data/
+viii. Collections (_news, _teams, _pics, etc.)
+ix. _site/
 
-  * [_config.yml](#_configyml)
-  * [_pages/](#_pages)
-  * [_includes/](#_includes)
-  * [_layouts/](#_layouts)
-  * [assets/](#assets)
-  * [_sass/](#_sass)
-* [3. Updating Information](#3-updating-information)
+3) Updating info
+i. Home
+ii. News
+iii. Team
+iv. Research
+v. Publications
+vi. Teaching
+vii. Pics
+viii. Contact
 
-  * [_data/](#_data)
-  * [Collections (Dynamic Content)](#collections-dynamic-content)
-* [4. Tips](#4-tips)
 
----
+4) Best practices & Tips
+i. npx prettier . --write
 
-## 🧩 1. Setup
+# 🧩 Setup
 
-### Jekyll
+## Setting and serving the site locally
 
-* Jekyll is a static site generator written in Ruby.
-* Installation:
+### 1. Requirements:
+- [Jekyll](https://jekyllrb.com)
+  - [Installation Guide](https://jekyllrb.com/docs/installation/) (dont forget to check the requirements section, particularly [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/))
+- [Nodejs](https://nodejs.org/)
+  - [Installation Guide](https://nodejs.org/en/download)
+- [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/#)
+  - [Installation Guide](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)
+- [ImageMagick](https://imagemagick.org/)
+  - [Installation Guide](https://imagemagick.org/script/download.php)
 
-  ```bash
-  gem install bundler jekyll
-  ```
-* Run locally:
+> [!NOTE]
+> You can use [Conda](https://docs.conda.io/en/latest/) to create an environment with all dependencies. Alternatively, you can use [Docker](https://www.docker.com/) to run the site without installing all dependencies locally through a container.
 
-  ```bash
-  bundle exec jekyll serve
-  ```
-
-  Then open [http://localhost:4000](http://localhost:4000).
-
-### GitHub Pages
-
-* The site is hosted automatically by GitHub Pages.
-* On every push to the `main` branch, the site is rebuilt and deployed.
-* Ensure `_config.yml` and `Gemfile` are correctly configured for GitHub Pages.
-
-### multi-language-al-folio Theme
-
-* Forked from [`george-gca/multi-language-al-folio`](https://github.com/george-gca/multi-language-al-folio).
-* Supports multilingual content via separate folders for each locale (e.g. `en-gb`, `es-es`).
-* Site text and labels are localized using `_data/*/strings.yml`.
-
-### Installation & Setup
-
-1. Clone the repository:
+### 2. Clone the repository:
 
    ```bash
    git clone https://github.com/BCEM-UniAndes/BCEM-UniAndes.github.io.git
    cd BCEM-UniAndes.github.io
    ```
-2. Install dependencies:
+
+### 3. Install dependencies:
+The Gemfile and package.json contain the necessary dependencies for the project. To install them, simplyrun:
 
    ```bash
    bundle install
    npm install
    ```
-3. Run the site locally:
+### 4. Run the site locally:
+To serve the site locally, run:
 
    ```bash
    bundle exec jekyll serve
    ```
-4. To build using Docker:
+    Then open [http://localhost:4000](http://localhost:4000).
 
+## Online deployment
+To deploy the site online, you need to push your changes to the GitHub repository. Follow these steps:
+
+1. Stage your changes:
    ```bash
-   docker compose up
+   git add .
    ```
 
----
+2. Commit your changes:
+   ```bash
+   git commit -m "Your commit message"
+   ```
 
-## 📁 2. Relevant Files and Folders
+3. Push your changes:
+   ```bash
+   git push
+   ```
 
-### `_config.yml`
+Since the repository is already configured with [GitHub Pages](https://pages.github.com/) and [GitHub Actions](https://github.com/features/actions), the site will be automatically built and deployed. For more details about this, you can check [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) and [here](https://jekyllrb.com/docs/continuous-integration/github-actions/).
 
-Main configuration file. Controls:
+> [!NOTE]
+> The deployment process is managed through a GitHub Actions workflow defined in the `.github/workflows/deploy.yml` file. This file contains the configuration for the GitHub Actions workflow that builds and deploys the site. You can customize it to fit your needs.
 
-* Site settings (title, description, URLs)
-* Theme options (language, layout, plugins)
-* Navigation structure
-* Build settings for GitHub Pages
-
-### `_pages/`
-
-Contains all main static pages for each language version:
-
-* `en-gb/`: English pages (`about.md`, `team.md`, `teaching.md`, etc.)
-* `es-es/`: Spanish pages (localized counterparts)
-* Each file defines layout and navigation order via YAML front matter.
-
-### `_includes/`
-
-Reusable HTML/Liquid snippets (e.g. `header.liquid`, `footer.liquid`, `team_member.liquid`).
-These components are called within page layouts.
-
-### `_layouts/`
-
-Define page structure and templates:
-
-* `default.liquid`: base layout
-* `page.liquid`: used by standard content pages
-* `team_member.liquid`, `research.liquid`: specific to certain sections
-
-### `assets/`
-
-Holds static assets (images, CSS, JS, PDFs):
-
-* `assets/img/`: all images organized by subfolder (`teampic/`, `collabpic/`, etc.)
-* `assets/css/`: CSS and SCSS builds
-* `assets/js/`: JavaScript utilities and libraries
-
-### `_sass/`
-
-Custom SCSS partials for styling:
-
-* `_base.scss`, `_layout.scss`, `_themes.scss`: global styles and color variables
-* Modify these to adjust theme appearance.
-
----
-
-## 🔄 3. Updating Information
-
-### `_data/`
-
-YAML files storing structured data for different sections:
-
-* `affiliations_and_sponsors.yml` — Logos and sponsor info
-* `collaborators.yml` — External collaborators
-* `pictures_gal.yml`, `pictures_gens.yml` — Images for carousels
-* `en-gb/strings.yml` and `es-es/strings.yml` — UI translations and labels
-
-When adding a new language, duplicate the `strings.yml` file and translate accordingly.
-
-### Collections (Dynamic Content)
-
-Each content type lives in a separate folder:
-
-* `_news/` — Announcements and updates
-* `_teams/` — Lab members and alumni (each member is an `.md` file)
-* `_teaching/` — Courses and workshops
-* `_research/` — Research areas and projects
-* `_pics/` — Image collections
-
-Each item uses **front matter** variables at the top of the file, for example:
-
-```yaml
----
-title: "Microbial Ecology"
-layout: research
-lang: en-gb
-order: 1
-image: assets/img/research/MicEco.png
-description: "Exploring microbial communities using multi-omics."
----
-```
-
-Update these metadata fields to modify ordering, language, or visuals.
-
----
-
-## 💡 4. Tips
-
-* Always verify your YAML syntax (use spaces, not tabs).
-* To test site locally with multiple languages, clear `_site/` before rebuilding.
-* Avoid editing `_site/` directly — it’s auto-generated.
-* For debugging, run:
-
-  ```bash
-  bundle exec jekyll build --trace
-  ```
+## Multi-language Support with Polyglot
+The website supports multiple languages using the Polyglot Jekyll plugin. To add or modify languages, you can edit the `_config.yml` file and the corresponding language files in the `_data/` directory.
