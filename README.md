@@ -14,8 +14,8 @@ Welcome! This repository contains the source code for the multilingual website o
 
 The objective of this README is to provide a concise guide on how to set up, customize, and maintain the BCEM's website. It covers the essential components of the Jekyll-based site, including configuration, content management, and deployment.
 
-> [!NOTE]
-> Current group member in charge of the site's updates and maintenance: [Camilo García](https://github.com/camilogarciabotero)
+> [!INFO]
+> Current group member in charge of the site's updates and maintenance: [Camilo García-Botero](https://github.com/camilogarciabotero)
 
 ## 🗂️ Table of Contents
 
@@ -83,7 +83,7 @@ i. npx prettier . --write
 - [ImageMagick](https://imagemagick.org/)
   - [Installation Guide](https://imagemagick.org/script/download.php)
 
-> [!NOTE]
+> [!TIP]
 > You can use [Conda](https://docs.conda.io/en/latest/) to create an environment with all dependencies. Alternatively, you can use [Docker](https://www.docker.com/) to run the site without installing all dependencies locally through a container.
 
 ### 2. Clone the repository:
@@ -128,7 +128,7 @@ To deploy the site online, you need to push your changes to the GitHub repositor
 
 Since the repository is already configured with [GitHub Pages](https://pages.github.com/) and [GitHub Actions](https://github.com/features/actions), the site will be automatically built and deployed. For more details about this, you can check [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) and [here](https://jekyllrb.com/docs/continuous-integration/github-actions/).
 
-> [!NOTE]
+> [!IMPORTANT]
 > The deployment process is managed through a GitHub Actions workflow defined in the `.github/workflows/deploy.yml` file. This file contains the configuration for the GitHub Actions workflow that builds and deploys the site. You can customize it to fit your needs.
 
 ## Multi-language Support with Polyglot

@@ -248,13 +248,17 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-gb/about_einstein.md
-  - _pages/pt-br/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - UPGRADING.md
   - vendor
+  - _news/announcement_template.md
+  - _research/topic_template.md
+  - _teaching/course_template.md
+  - _team/member_template.md
+  - _pages/page_template.md
+  - _pics/post_template.md
 keep_files:
   - CNAME
   - .nojekyll

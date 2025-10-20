@@ -1,7 +1,8 @@
 ---
-layout: 
-date: 
-inline: 
-related_posts: 
+layout: post
+title: 
+# date: 
+inline: true
+related_posts: false
 ---
 
