@@ -2,7 +2,53 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if site.icon.navbar.show_home == false %}
+        {% if page.permalink != '/' %}
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+            {% if site.icon.navbar.group_logo %}
+              <img
+                src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}"
+                style="height: auto; max-height: 1.8rem; width: auto;"
+                alt="Logo"
+              >
+              {% if site.icon.navbar.include_title %}
+                <span class="font-weight-bold">
+                  {{ site.title }}
+                </span>
+              {% endif %}
+              @
+              {% if site.icon.navbar.affiliation_logo %}
+                <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}"
+                  style="height: auto; max-height: 1.8rem; width: auto;"
+                  alt="Logo"
+                >
+              {% else %}
+                {{ site.affiliation_short }}
+                <span class="fi fi-{{ site.country }}"></span>
+              {% endif %}
+            {% else %}
+              <span class="font-weight-bold">
+                {{ site.title }}
+              </span>
+              @
+              {% if site.icon.navbar.affiliation_logo %}
+                <img
+                  src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}"
+                  style="height: auto; max-height: 1.8rem; width: auto;"
+                  alt="Logo"
+                >
+              {% else %}
+                {{ site.affiliation_short }}
+                <span class="fi fi-{{ site.country }}"></span>
+              {% endif %}
+            {% endif %}
+          </a>
+        {% elsif site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% endif %}
+      {% else %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.icon.navbar.group_logo %}
             <img
@@ -42,10 +88,11 @@
               <span class="fi fi-{{ site.country }}"></span>
             {% endif %}
           {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% if site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% endif %}
+      </a>
       {% endif %}
       <!-- Navbar Toggle -->
       <button

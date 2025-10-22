@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: Home
 permalink: /
-logo: bcem_logo_long_en.png
+banner: bcem_logo_long_en.png
 callout: ":loudspeaker: [New PhD position at BCEM!]({% link news/announcement_4.md %})"
 # subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
 # affiliation_logo: los_andes_logo.png

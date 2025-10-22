@@ -2,7 +2,7 @@
 page_id: site_info
 layout: page
 permalink: /site_info/
-title: About this Webiste
+title: About this Website
 description:
 nav: false
 nav_order:

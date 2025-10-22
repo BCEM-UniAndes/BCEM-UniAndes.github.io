@@ -4,11 +4,11 @@ layout: default
 <div class="post">
   <!-- Profile Image or Title -->
   <header class="post-header-about">
-    {% if page.logo %}
+    {% if page.banner %}
       <div class="profile-image">
-        {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/logopic/' | append: page.logo %}
+        {% assign profile_image_path = site.url | append: site.baseurl | append: '/assets/img/logopic/' | append: page.banner %}
         {% assign profile_image_class = 'img-fluid w-100' %}
-        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.logo cache_bust=true %}
+        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.banner cache_bust=true %}
       </div>
     {% else %}
       <h1 class="post-title"></h1>
