@@ -142,19 +142,22 @@ Since the repository is already configured with [GitHub Pages](https://pages.git
 This section provides a brief overview of the main components of the Jekyll-based website.
 
 > [!NOTE]
+>
 > ### Some important file types
+>
 > - [YAML](https://yaml.org/) (`.yml`) are used to store structured data in a human-readable format. YAML files are commonly used in Jekyll for configuration settings and data files.
 > - [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain-text formatting syntax. Markdown files use [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) to define metadata for each page or post. The frontmatter is enclosed within triple dashes (`---`) at the beginning of the file. The content of the page is written in Markdown syntax below the frontmatter. Jekyll processes these files to generate HTML pages for the website.
 > - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a markup language used for structuring content on the web. Jekyll allows you to use HTML files alongside Markdown files to create more complex layouts and designs.
 > - [Liquid](https://shopify.github.io/liquid/) is a templating language used in Jekyll to create dynamic content. It allows you to embed variables, loops, and conditional statements within your HTML and Markdown files. By using Liquid, you can create reusable templates and components for your website.
 
->[!IMPORTANT]
->### Multi-lingual support through Polyglot
-
+> [!IMPORTANT]
+>
+> ### Multi-lingual support through Polyglot
 
 ### \_config.yml
 
 The `_config.yml` file contains the main configuration settings for the Jekyll site including:
+
 - Site title
 - Logo display
 - URL

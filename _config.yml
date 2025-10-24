@@ -41,7 +41,7 @@ keywords: # SEO keywords for search engines
 navbar_fixed: true # If true, the navigation bar in the header will be fixed
 home_page_in_navbar: false # If true, the home page will be an option in the navigation bar
 footer_fixed: true # If true, the footer will be fixed
-search_enabled: true # If true, browsing capabilities within the website will be available 
+search_enabled: true # If true, browsing capabilities within the website will be available
 socials_in_search: true # If true, social nformation will be available in the serching
 
 # Dimensions

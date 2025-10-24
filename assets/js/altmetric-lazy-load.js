@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   function loadAltmetricScript() {
     if (!document.getElementById("altmetric-script")) {
       var script = document.createElement("script");
@@ -10,16 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        loadAltmetricScript();
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadAltmetricScript();
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
 
-  document.querySelectorAll(".lazy-altmetric").forEach(el => observer.observe(el));
-
+  document.querySelectorAll(".lazy-altmetric").forEach((el) => observer.observe(el));
 });
-
