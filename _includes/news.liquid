@@ -1,33 +1,62 @@
+<!-- Wrapper for the news section -->
 <div class="news">
+  <!-- Check if the site has any news posts defined -->
   {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+    <!-- Get all news posts and exclude those marked as archived -->
+    {% assign active_news = site.news | where_exp: 'item', 'item.archived != true' %}
+    <!-- Get the total number of active (non-archived) news items -->
+    {% assign news_size = active_news | size %}
+
+    <!-- Create a responsive table container -->
     <div
       class="table-responsive"
       {% if include.limit and site.announcements.scrollable and news_size > 3 %}
         style="max-height: 60vw"
       {% endif %}
     >
+      <!-- Define a small, borderless table to list the news items -->
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        <!-- Reverse the news order so newest items appear first -->
+        {% assign news = active_news | reverse %}
+
+        <!--
+          Determine how many news items to show:
+          if a limit is set and scrollable announcements are enabled,
+          use that limit; otherwise show all
+        -->
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
+
+        <!-- Loop through each active news item up to the defined limit -->
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{% include date_format.liquid format='short' date=item.date %}</th>
+            <!-- Display the date in short format (via an include file) -->
+            <th scope="row" style="width: 20%">
+              {% include date_format.liquid format='short' date=item.date %}
+            </th>
             <td>
+              <!--
+                If the news item is marked as 'inline', show its content directly (no link),
+                remove surrounding <p> tags, and apply emoji rendering
+              -->
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                <!-- Otherwise, display the title as a clickable link to the news page -->
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <a class="news-title" href="{{ item.url | relative_url }}">
+                  {{ item.title }}
+                </a>
               {% endif %}
             </td>
           </tr>
         {% endfor %}
       </table>
     </div>
+
+    <!-- If there are no (non-archived) news posts, display a message -->
   {% else %}
     <p>{{ site.data[site.active_lang].strings.no_news }}</p>
   {% endif %}

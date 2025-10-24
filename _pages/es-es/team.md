@@ -4,7 +4,7 @@ layout: page
 permalink: /team/
 title: Equipo
 description:
-nav: true
+nav_header: true
 nav_order: 1
 # display_categories: [pi, staff, graduate, undergrad]
 display_categories: [pi, graduate, undergrad]

@@ -3,6 +3,7 @@ about:
   affiliations: Afiliaciones
   sponsors: Apoyo
   collaborators: Colaboradores
+callout_opening: 📢 ¡Oportunidades en el BCEM!
 contact_note: "Donde encontrarnos :blush::v:"
 archive_category: archivo de entradas de esta categoría
 archive_tag: un archivo de entradas con esta etiqueta
@@ -64,12 +65,7 @@ cv:
   volunteer: Voluntario
   work: Trabajo
 footer:
-  text: > # the ">" symbol means to ignore newlines until "titles:"
-    Desarrollado en <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-    Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-  about: Acerca de este sitio web
   last_updated: Última Actualización
-  contact: Contacto
 latest_posts: Últimas entradas
 months:
   long:
@@ -164,3 +160,7 @@ teaching:
     undergraduate: Pregrado
     cabana: CABANA
     extension: Extensión
+join:
+  below: Consulta nuestras convocatorias actuales a más abajo
+  current: Oportundidades actuales
+  no_openings: No tenemos posiciones abiertas en este momento.

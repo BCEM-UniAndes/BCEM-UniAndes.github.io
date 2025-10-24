@@ -4,7 +4,7 @@ layout: page
 title: Enseñanza
 permalink: /teaching/
 description: Cursos y programas impartidos por el grupo
-nav: true
+nav_header: true
 nav_order: 6
 display_categories:
   - id: graduate

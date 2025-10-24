@@ -4,7 +4,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-nav: true
+nav_header: true
 nav_order: 4
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-  <!-- Profile Image or Title -->
+  <!-- Banner or Title -->
   <header class="post-header-about">
     {% if page.banner %}
       <div class="profile-image">
@@ -28,16 +28,33 @@ layout: default
     {% endif %}
   </header>
 
-  <!-- Callout -->
-  {% if page.callout %}
-    <div class="callout">
-      <p class="desc">{{ page.callout | markdownify }}</p>
-    </div>
-  {% endif %}
-
   <!-- Main Content -->
   <article>
     <div class="clearfix" style="text-align: justify">{{ content }}</div>
+
+    <!-- Recruiting Callout -->
+    {% if page.recruitment_callout %}
+      <div class="callout">
+        <p class="mb-2" style="font-size: 1.05rem;">
+          <strong>{{ site.data[site.active_lang].strings.callout_opening }}</strong>
+        </p>
+        <ul class="list-unstyled mb-0">
+          {% for opportunity in page.recruitment_callout %}
+            <li class="mb-1">
+              •
+              <a href="{{ site.url }}{{ site.baseurl }}/{{ opportunity.announcement_page }}" class="fw-bold">
+                {{ opportunity.position_available }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <!-- Image carousel -->
+    {% if page.homeslides != null %}
+      {% include carousel.liquid slides=page.homeslides %}
+    {% endif %}
 
     <!-- Social -->
     {% if page.social %}

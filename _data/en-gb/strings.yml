@@ -3,6 +3,7 @@ about:
   affiliations: Affiliations
   sponsors: Sponsors
   collaborators: Collaborators
+callout_opening: 📢 Openings at BCEM!
 contact_note: "Where to find us :blush::v:"
 archive_category: an archive of posts in this category
 archive_tag: an archive of posts with this tag
@@ -64,12 +65,7 @@ cv:
   volunteer: Volunteer
   work: Work
 footer:
-  text: > # the ">" symbol means to ignore newlines until "titles:"
-    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-  about: About this website
   last_updated: Last update
-  contact: Contact
 latest_posts: Latest posts
 months:
   long:
@@ -164,3 +160,7 @@ teaching:
     undergraduate: Undergraduate
     cabana: CABANA
     extension: Extension
+join:
+  below: Check our current openings below
+  current: Current Openings
+  no_openings: We have no open positions at the moment.

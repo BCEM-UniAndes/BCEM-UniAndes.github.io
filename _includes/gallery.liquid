@@ -4,26 +4,26 @@
   Displays images from the _pics collection grouped by year and sorted by date.
 {% endcomment %}
 
-<div class="gallery-container my-5">
+<div class="gallery-container my-2">
   {% assign pics_sorted = site.pics | sort: 'year' | reverse %}
   {% assign pics_by_year = pics_sorted | group_by: 'year' %}
 
   {% for year_group in pics_by_year %}
     <strong>
-      <h3 class="mt-5 mb-4 text-left">{{ year_group.name }}</h3>
-      <hr class="mb-4">
+      <h3 class="mt-1 mb-1 text-left">{{ year_group.name }}</h3>
+      <hr class="mb-2">
     </strong>
 
     {% assign year_items = year_group.items | sort: 'month' | reverse %}
     {% for event in year_items %}
-      <div class="event-gallery mb-5">
-        <h5 class="mb-3 text-left">{{ event.title }}</h5>
+      <div class="event-gallery mb-3">
+        <h5 class="mb-2 text-left">{{ event.title }}</h5>
 
         <div class="row justify-content-center">
           {% assign number_printed = 0 %}
           {% for pic in event.pictures %}
             {% assign even_odd = number_printed | modulo: 2 %}
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
               <div class="rounded shadow p-0">
                 <img
                   src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ pic.img }}"
@@ -42,7 +42,7 @@
         </div>
 
         {% if event.content %}
-          <div class="event-description text-center mt-3">
+          <div class="event-description text-center mt-1">
             {{ event.content | markdownify }}
           </div>
         {% endif %}

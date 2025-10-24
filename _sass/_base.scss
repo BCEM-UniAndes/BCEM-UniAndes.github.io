@@ -1416,21 +1416,20 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* Callout box styling (refined) */
 .callout {
-  background-color: rgba(245, 245, 245, 0.1);
+  background-color: rgba(115, 115, 115, 0.115);
   border-left: 5px solid #828282;
-  padding: 1rem 1.25rem; /* tighter internal spacing */
-  margin: 0.9rem auto; /* centers and adds vertical spacing */
+  padding: 0.5rem 0.5rem; /* tighter internal spacing */
+  margin: 0.7rem auto; /* centers and adds vertical spacing */
   border-radius: 0.5rem;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.04);
   font-size: 0.95rem;
   line-height: 1.25;
-  width: 75%; /* narrower than the rest of the text */
+  width: 95%; /* narrower than the rest of the text */
 }
 
 .callout p {
   margin: 0;
   color: var(--global-text-color);
-  font-style: italic;
 }
 
 /* Footer Contact Link Styling — matches Navbar behavior */
@@ -1449,4 +1448,77 @@ ninja-keys::part(ninja-input-wrapper) {
   &:active {
     color: var(--global-theme-color);
   }
+}
+
+/* === Footer Navbar Styling === */
+.footer-nav {
+  /* Remove the border that the navbar inherits */
+  .navbar {
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 0 !important;
+  }
+
+  /* Reduce spacing inside the nav but add some horizontal separation */
+  .navbar-nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    justify-content: flex-end !important;
+    gap: 0.6rem;
+  }
+
+  .nav-item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end !important;
+  }
+
+  .nav-link {
+    font-size: 0.9rem; /* slightly smaller text */
+    padding: 0 0.4rem !important;
+    color: var(--global-text-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  /* Adjust the toggle button (hamburger) spacing */
+  .navbar-toggler {
+    margin: 0 !important;
+    padding: 0.05rem 0.15rem !important;
+  }
+}
+
+/* === Footer container overall height and padding === */
+footer {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  line-height: 1.2;
+}
+
+.join-us {
+  border-top: 0px solid var(--global-divider-color);
+  padding-top: 0.05rem;
+}
+
+.join-us h3 {
+  font-weight: 600;
+}
+
+.join-us .position h4 {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.join-us p {
+  text-align: justify;
+  margin-bottom: 0.8rem;
 }

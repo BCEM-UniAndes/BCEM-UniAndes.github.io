@@ -1,0 +1,47 @@
+<!--
+  ===============================
+  Join Us Section
+  ===============================
+-->
+
+<section class="join-us my-1">
+  <!-- Overall description -->
+  <div class="join-us-intro mb-1">
+    <p>{{ page.join_us.overall | markdownify }}</p>
+    <p>
+      <strong>
+        <a href="#current-openings" class="text-decoration-none"> {{ site.data[site.active_lang].strings.join.below }}. </a>
+      </strong>
+    </p>
+  </div>
+
+  <!-- Positions section -->
+  {% if page.join_us.positions %}
+    <div class="join-us-positions mt-3">
+      <hr class="mb-4">
+      {% for pos in page.join_us.positions %}
+        <div class="position mb-4">
+          <h4>{{ pos.position }}</h4>
+          <p>{{ pos.description | markdownify }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <!-- Current openings section -->
+  <div id="current-openings" class="join-us-openings mt-3">
+    <hr class="mb-4">
+    <h3 class="mb-3">📢 {{ site.data[site.active_lang].strings.join.current }}</h3>
+    {% if page.join_us.openings != null %}
+      {% for opportunity in page.join_us.openings %}
+        <div class="opening mb-3">
+          <p>
+            • <a href="{{ site.url }}{{ site.baseurl }}/{{ opportunity.announcement_page }}">{{ opportunity.position_available }}</a>.
+          </p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>{{ site.data[site.active_lang].strings.join.no_openings }}</p>
+    {% endif %}
+  </div>
+</section>

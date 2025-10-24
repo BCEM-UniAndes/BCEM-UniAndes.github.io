@@ -2,15 +2,16 @@
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       <div class="row align-items-center">
-        <!-- Left 5/6 -->
-        <div class="col-md-10 text-md-start text-left">
+        <!-- Left side: Copyright and info -->
+        <div class="col-md-8 text-md-start text-left">
           <strong>
             &copy; {{ site.publication_year }}
             {{ site.title -}}
           </strong>
           @ {{ site.affiliation_short }}
           <span class="fi fi-{{ site.country }}"></span>.
-          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site.data[site.active_lang].strings.footer.about }}</a>.
+          {% assign site_info_page = site.pages | where: 'permalink', '/site_info/' | first %}
+          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site_info_page.title }}. </a>
           {% if site.impressum_path %}
             <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
           {% endif %}
@@ -19,32 +20,65 @@
           {% endif %}
         </div>
 
-        <!-- Right 1/6 -->
-        <div class="col-md-2 text-md-end text-right footer-contact">
-          <a href="{{ site.url }}{{ site.baseurl }}/contact/">
-            {{ site.data[site.active_lang].strings.footer.contact | default: 'Contact' }}
-          </a>
+        <!-- Right side: Footer navigation (with toggle) -->
+        <div class="col-md-4 text-md-end text-right footer-nav">
+          <nav class="navbar navbar-light navbar-expand-sm justify-content-end" role="navigation">
+            <!-- Footer Toggle Button (hamburger) -->
+            <button
+              class="navbar-toggler collapsed ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#footerNav"
+              aria-controls="footerNav"
+              aria-expanded="false"
+              aria-label="Toggle footer navigation"
+            >
+              <span class="sr-only">Toggle footer navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <!-- Collapsible Footer Menu -->
+            <div class="collapse navbar-collapse text-right" id="footerNav">
+              <ul class="navbar-nav ml-auto flex-nowrap">
+                {% assign footer_pages = site.pages | where: 'nav_footer', true | sort: 'nav_order' %}
+                {% for p in footer_pages %}
+                  <li class="nav-item {% if page.url == p.url %}active{% endif %}">
+                    <a class="nav-link" href="{{ p.url | relative_url }}">
+                      {{- p.title -}}
+                      {% if page.url == p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </div>
   </footer>
+
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
+  <footer class="sticky-bottom mt-3" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
     <div class="container">
       <div class="row align-items-center">
-        <!-- Left 5/6 -->
-        <div class="col-md-10 text-md-start text-left">
+        <!-- Left side -->
+        <div class="col-md-8 text-md-start text-left">
           <strong>
             &copy; {{ site.publication_year }}
             {{ site.title }}
           </strong>
           @ {{ site.affiliation_short }}
           <span class="fi fi-{{ site.country }}"></span>.
-          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site.data[site.active_lang].strings.footer.about }}</a>.
+          {% assign site_info_page = site.pages | where: 'permalink', '/site_info/' | first %}
+          <a href="{{ site.url }}{{ site.baseurl }}/site_info/"> {{ site_info_page.title }}. </a>
           {% if site.impressum_path %}
             <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
           {% endif %}
@@ -56,11 +90,40 @@
           {% endif %}
         </div>
 
-        <!-- Right 1/6 -->
-        <div class="col-md-2 text-md-end text-right footer-contact">
-          <a href="{{ site.url }}{{ site.baseurl }}/contact/">
-            {{ site.data[site.active_lang].strings.footer.contact | default: 'Contact' }}
-          </a>
+        <!-- Right side: Footer navigation -->
+        <div class="col-md-4 text-md-end text-right footer-nav">
+          <nav class="navbar navbar-light navbar-expand-sm justify-content-end" role="navigation">
+            <button
+              class="navbar-toggler collapsed ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#footerNav"
+              aria-controls="footerNav"
+              aria-expanded="false"
+              aria-label="Toggle footer navigation"
+            >
+              <span class="sr-only">Toggle footer navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="footerNav">
+              <ul class="navbar-nav ml-auto flex-nowrap">
+                {% assign footer_pages = site.pages | where: 'nav_footer', true | sort: 'nav_order' %}
+                {% for p in footer_pages %}
+                  <li class="nav-item {% if page.url == p.url %}active{% endif %}">
+                    <a class="nav-link" href="{{ p.url | relative_url }}">
+                      {{- p.title -}}
+                      {% if page.url == p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </div>

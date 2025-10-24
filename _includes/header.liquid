@@ -2,21 +2,27 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <!-- Determine which navbar brand/logo configuration to display -->
       {% if site.icon.navbar.show_home == false %}
+        <!-- Only show brand when NOT on home page -->
         {% if page.permalink != '/' %}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+            <!-- Check if group logo should be displayed -->
             {% if site.icon.navbar.group_logo %}
+              <!-- Display group logo image -->
               <img
                 src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}"
                 style="height: auto; max-height: 1.8rem; width: auto;"
                 alt="Logo"
               >
+              <!-- Optionally include site title alongside logo -->
               {% if site.icon.navbar.include_title %}
                 <span class="font-weight-bold">
                   {{ site.title }}
                 </span>
               {% endif %}
               @
+              <!-- Display affiliation logo or short name with flag -->
               {% if site.icon.navbar.affiliation_logo %}
                 <img
                   src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}"
@@ -28,6 +34,7 @@
                 <span class="fi fi-{{ site.country }}"></span>
               {% endif %}
             {% else %}
+              <!-- Display text-only brand without group logo -->
               <span class="font-weight-bold">
                 {{ site.title }}
               </span>
@@ -46,11 +53,14 @@
           </a>
         {% elsif site.enable_navbar_social %}
           <!-- Social Icons -->
+          <!-- On home page, show social icons instead of brand -->
           <div class="navbar-brand social">{% include social.liquid %}</div>
         {% endif %}
       {% else %}
+        <!-- Always show brand (show_home is true) -->
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.icon.navbar.group_logo %}
+            <!-- Display group logo with optional title -->
             <img
               src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.group_logo }}"
               style="height: auto; max-height: 1.8rem; width: auto;"
@@ -62,6 +72,7 @@
               </span>
             {% endif %}
             @
+            <!-- Display affiliation (logo or text with flag) -->
             {% if site.icon.navbar.affiliation_logo %}
               <img
                 src="{{ site.url }}{{ site.baseurl }}/assets/img/logopic/{{ site.icon.navbar.affiliation_logo }}"
@@ -73,6 +84,7 @@
               <span class="fi fi-{{ site.country }}"></span>
             {% endif %}
           {% else %}
+            <!-- Display text-only brand -->
             <span class="font-weight-bold">
               {{ site.title }}
             </span>
@@ -88,13 +100,15 @@
               <span class="fi fi-{{ site.country }}"></span>
             {% endif %}
           {% endif %}
-        {% if site.enable_navbar_social %}
-          <!-- Social Icons -->
-          <div class="navbar-brand social">{% include social.liquid %}</div>
-        {% endif %}
-      </a>
+          {% if site.enable_navbar_social %}
+            <!-- Social Icons -->
+            <!-- Include social icons alongside brand -->
+            <div class="navbar-brand social">{% include social.liquid %}</div>
+          {% endif %}
+        </a>
       {% endif %}
-      <!-- Navbar Toggle -->
+
+      <!-- Navbar Toggle Button (hamburger menu for mobile) -->
       <button
         class="navbar-toggler collapsed ml-auto"
         type="button"
@@ -109,14 +123,13 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-
+      <!-- Collapsible navbar menu -->
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
-
-          <!-- About -->
+          <!-- Home/About link (conditional) -->
           {% if site.home_page_in_navbar %}
             <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
               <a class="nav-link" href="{{ site.baseurl }}/">
@@ -127,12 +140,15 @@
               </a>
             </li>
           {% endif %}
-
           <!-- Other pages -->
+          <!-- Loop through all site pages and build navigation menu -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            <!-- Only include pages marked for navigation that aren't auto-generated -->
+            {% if p.nav_header and p.autogen == null %}
               {% if p.dropdown %}
+                <!-- Dropdown menu item -->
+                <!-- Check if any child page is currently active -->
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
                   {% if page.title == child.title %}
@@ -154,8 +170,10 @@
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
+                  <!-- Dropdown menu contents -->
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     {% for child in p.children %}
+                      <!-- Support dividers in dropdown menu -->
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
@@ -167,8 +185,10 @@
                   </div>
                 </li>
               {% else %}
+                <!-- Regular navigation link (not dropdown) -->
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                  <!-- Special handling for blog pages -->
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
@@ -180,9 +200,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <!-- Toogle language -->
+
+          <!-- Language toggle (if multilingual site) -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 3 %}
+              <!-- Handle exactly 3 languages: show single toggle to alternate language -->
               {% if site.active_lang == site.languages.first %}
                 {% assign other_language = site.languages.last %}
               {% else %}
@@ -208,6 +230,7 @@
                 {% endif %}
               </li>
             {% else %}
+              <!-- Handle 2 or 4+ languages: show dropdown menu -->
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a
                   class="nav-link dropdown-toggle"
@@ -218,6 +241,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
+                  <!-- Display current language with optional flag -->
                   {% if site.country_flag %}
                     {{- site.active_lang | split: '-' | first | upcase }}
                     <span class="fi fi-{{ site.active_lang | split: "-" | last }}"></span>
@@ -228,13 +252,17 @@
                     <span class="sr-only">(current)</span>
                   {% endif %}
                 </a>
+                <!-- Dropdown with all available languages -->
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   {% assign language_set = false %}
                   {% for l in site.languages %}
+                    <!-- Skip current active language -->
                     {% if l != site.active_lang %}
+                      <!-- Add divider between language options -->
                       {% if language_set %}
                         <div class="dropdown-divider"></div>
                       {% endif %}
+                      <!-- Handle default language (no prefix in URL) -->
                       {% if l == site.default_lang %}
                         <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
                           {% if site.country_flag %}
@@ -245,6 +273,7 @@
                           {%- endif -%}
                         </a>
                       {% else %}
+                        <!-- Non-default language (add language prefix to URL) -->
                         <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>
                           {% if site.country_flag %}
                             {{- l | split: '-' | first | upcase }}
@@ -261,7 +290,8 @@
               </li>
             {% endif %}
           {% endif %}
-          <!-- Toogle theme mode -->
+
+          <!-- Theme mode toggle (light/dark mode) -->
           {% if site.enable_darkmode %}
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
@@ -271,7 +301,8 @@
               </button>
             </li>
           {% endif %}
-          <!-- Search -->
+
+          <!-- Search button -->
           {% if site.search_enabled %}
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
@@ -283,7 +314,8 @@
       </div>
     </div>
   </nav>
-  <!-- Scrolling Progress Bar -->
+
+  <!-- Scrolling Progress Bar (shows reading progress on page) -->
   {% if site.enable_progressbar %}
     <progress id="progress" value="0">
       <div class="progress-container">

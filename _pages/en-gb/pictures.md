@@ -4,7 +4,7 @@ layout: page
 permalink: /pics/
 title: Pics
 description:
-nav: true
+nav_header: true
 nav_order: 7
 ---
 
@@ -12,10 +12,6 @@ nav_order: 7
 
 {% include carousel.liquid slides=site.data.pictures_gens %}
 
----
-
 ## BCEM outside the lab!
 
 {% include gallery.liquid %}
-
-<p>&nbsp;</p>

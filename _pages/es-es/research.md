@@ -4,7 +4,7 @@ layout: page
 permalink: /research/
 title: Investigación
 description: Trabajamos en diversas áreas de investigación, como ecología microbiana, genómica, genética de poblaciones y biología de sistemas.
-nav: true
+nav_header: true
 nav_order: 2
 ---
 

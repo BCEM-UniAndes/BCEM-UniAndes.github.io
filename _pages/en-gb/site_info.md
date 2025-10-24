@@ -4,7 +4,8 @@ layout: page
 permalink: /site_info/
 title: About this Website
 description:
-nav: false
+nav_header: false
+nav_footer: false
 nav_order:
 ---
 

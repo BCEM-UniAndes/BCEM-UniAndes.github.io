@@ -47,7 +47,7 @@
     >
   </p>
 
-  {% if include.member.education %}
+  {% if include.member.education != null %}
     <p style="text-align:left; font-size:95%; opacity:0.7; margin-bottom:0;">
       {% for ed in include.member.education %}
         • {{ ed.program }}, {{ ed.institution }}

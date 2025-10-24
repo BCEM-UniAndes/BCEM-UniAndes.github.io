@@ -4,7 +4,7 @@ layout: page
 title: Teaching
 permalink: /teaching/
 description: Courses and programs taught by the group
-nav: true
+nav_header: true
 nav_order: 6
 display_categories:
   - id: graduate

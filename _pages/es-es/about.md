@@ -4,9 +4,13 @@ layout: about
 title: Inicio
 permalink: /
 banner: bcem_logo_long_es.png
-# callout: ":loudspeaker: [¡Nueva posición doctoral en BCEM!]({% link news/es-es/announcement_4.md %})"
 # subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>
 # affiliation_logo: los_andes_logo.png
+
+recruitment_callout:
+  - position_available: Posición doctoral en análisis genómicos y transcriptómicos para elucidar mecanismos de regulación de proteínas Moonlighting en patógenos bacterianos (enfoque One Health)
+    announcement_page: news/announcement_4
+
 other_lang:
   include: true
   message: Check our website in
@@ -31,5 +35,3 @@ Bienvenid@ a la página de inicio del Grupo de Investigación en Biología Compu
 El BCEM es un grupo de investigación basado en principios de excelencia y rigor científico, que garantiza una investigación científica de alta calidad. Nuestros miembros se caracterizan por su pasión y curiosidad científica, así como por su alto nivel de compromiso y disciplina. Como investigadores nos basamos en el respeto mutuo, partiendo de un principio de empatía y solidaridad con el otro, reconociéndonos en nuestra singularidad, es decir, en la diferencia, lo que implica respeto y búsqueda de equidad.
 
 [He]({{ site.url }}{{ site.baseurl }}/research) aquí una descripción más detallada de nuestros intereses de investigación.
-
-{% include carousel.liquid slides=page.homeslides %}

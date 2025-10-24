@@ -3,12 +3,10 @@ page_id: contact
 layout: page
 permalink: /contact/
 title: Contacto
-description: Información de contacto del grupo BCEM
-nav: false
-nav_order:
-
-# Callout for announcements or open positions
-# callout: ":loudspeaker: [¡Nueva posición doctoral en BCEM!]({% link news/es-es/announcement_4.md %})"
+description:
+nav_header: false
+nav_footer: true
+nav_order: 1
 
 # Contact info variables
 university: "Universidad de los Andes"
