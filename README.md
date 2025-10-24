@@ -142,45 +142,56 @@ Since the repository is already configured with [GitHub Pages](https://pages.git
 This section provides a brief overview of the main components of the Jekyll-based website.
 
 > [!NOTE]
+> ### Some important file types
+> - [YAML](https://yaml.org/) (`.yml`) are used to store structured data in a human-readable format. YAML files are commonly used in Jekyll for configuration settings and data files.
+> - [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain-text formatting syntax. Markdown files use [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) to define metadata for each page or post. The frontmatter is enclosed within triple dashes (`---`) at the beginning of the file. The content of the page is written in Markdown syntax below the frontmatter. Jekyll processes these files to generate HTML pages for the website.
+> - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a markup language used for structuring content on the web. Jekyll allows you to use HTML files alongside Markdown files to create more complex layouts and designs.
+> - [Liquid](https://shopify.github.io/liquid/) is a templating language used in Jekyll to create dynamic content. It allows you to embed variables, loops, and conditional statements within your HTML and Markdown files. By using Liquid, you can create reusable templates and components for your website.
 
-- [YAML](https://yaml.org/) (`.yml`) are used to store structured data in a human-readable format. YAML files are commonly used in Jekyll for configuration settings and data files.
-- [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain-text formatting syntax. Markdown files use [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) to define metadata for each page or post. The frontmatter is enclosed within triple dashes (`---`) at the beginning of the file. The content of the page is written in Markdown syntax below the frontmatter. Jekyll processes these files to generate HTML pages for the website.
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a markup language used for structuring content on the web. Jekyll allows you to use HTML files alongside Markdown files to create more complex layouts and designs.
-- [Liquid](https://shopify.github.io/liquid/) is a templating language used in Jekyll to create dynamic content. It allows you to embed variables, loops, and conditional statements within your HTML and Markdown files. By using Liquid, you can create reusable templates and components for your website.
+>[!IMPORTANT]
+>### Multi-lingual support through Polyglot
 
-## \_config.yml
 
-The `_config.yml` file contains the main configuration settings for the Jekyll site, including site title, description, URL, language settings, and plugin configurations.
+### \_config.yml
 
-## \_includes/ & \_layouts/
+The `_config.yml` file contains the main configuration settings for the Jekyll site including:
+- Site title
+- Logo display
+- URL
+- Theme, layout and feel of the site
+- Language settings
+- Plugin configurations
+- More
+
+### \_includes/ & \_layouts/
 
 The `_includes/` folder contains reusable components (like headers, footers, and navigation bars) that can be included in multiple pages. The `_layouts/` folder contains the overall structure of different types of pages (like default layout, post layout, etc.).
 
-## \_pages/
+### \_pages/
 
 The `_pages/` folder contains the main pages of the website, such as Home, About, Research, Publications, etc.
 
-## \_sass/
+### \_sass/
 
 The `_sass/` folder contains the SASS files used for styling the website. These files are compiled into CSS.
 
-## assets/
+### assets/
 
 The `assets/` folder contains static files like images, JavaScript files, and CSS files used throughout the website.
 
-## \_data/
+### \_data/
 
 The `_data/` folder contains YAML files that store structured data used in the site, such as team members, publications, and news items.
 
-## Collections (\_news, \_teams, \_pics, etc.)
+### Collections (\_news, \_teams, \_pics, etc.)
 
 Collections are custom content types in Jekyll. In this site, collections like `_news`, `_teams`, and `_pics` are used to organize related content.
 
-## \_site/
+### \_site/
 
 The `_site/` folder is the output directory where the generated static site is stored after building the Jekyll site.
 
-## polyglot
+### polyglot
 
 The `polyglot` folder contains files and configurations related to the multilingual functionality of the website
 
