@@ -15,7 +15,7 @@ Welcome! This repository contains the source code for the multilingual website o
 The objective of this README is to provide a concise guide on how to set up, customize, and maintain the BCEM's website. It covers the essential components of the Jekyll-based site, including configuration, content management, and deployment.
 
 > [!NOTE]
-> Current group member in charge of the site's updates and maintenance: [Camilo García-Botero](https://github.com/camilogarciabotero)
+> Current group member in charge of the site's updates and maintenance: [Camilo García-Botero](https://github.com/camilogarciabotero) @camilogarciabotero
 
 ## 🗂️ Table of Contents
 
