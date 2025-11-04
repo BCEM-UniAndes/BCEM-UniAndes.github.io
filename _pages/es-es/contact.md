@@ -1,14 +1,19 @@
 ---
-page_id: contact
-layout: page
-permalink: /contact/
-title: Contacto
-description:
-nav_header: false
-nav_footer: true
-nav_order: 1
+# -----------------------------------------------------------------------------
+# Contact Page Configuration
+# -----------------------------------------------------------------------------
+page_id: contact # Unique identifier for the page
+layout: page # Page layout defined in _layouts/
+permalink: /contact/ # URL path for the page
+title: Contacto # Page title
+description: # Short page description
+nav_header: false # Set to true to display the page in the header navigation menu
+nav_footer: true # Set to true to display the page in the footer navigation menu
+nav_order: 1 # Order of the page in the navigation menu
 
-# Contact info variables
+# -----------------------------------------------------------------------------
+# Contact Info
+# -----------------------------------------------------------------------------
 university: "Universidad de los Andes"
 address: "Cra 1 Nº 18A - 10, Bogotá, Colombia"
 building: "Edificio Hermes (Ch), Oficina 201"

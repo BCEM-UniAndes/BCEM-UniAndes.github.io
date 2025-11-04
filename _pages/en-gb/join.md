@@ -1,20 +1,27 @@
 ---
-page_id: join
-layout: page
-permalink: /join/
-title: Join us
-description:
-nav_header: false
-nav_footer: true
-nav_order: 2
+# -----------------------------------------------------------------------------
+# Join Us Page Configuration
+# -----------------------------------------------------------------------------
+page_id: join # Unique identifier for the page
+layout: page # Page layout defined in _layouts/
+permalink: /join/ # URL path for the page
+title: Join us # Page title
+description: # Short page description
+nav_header: false # Set to true to display the page in the header navigation menu
+nav_footer: true # Set to true to display the page in the footer navigation menu
+nav_order: 2 # Order of the page in the navigation menu
 
-# Join us
+# -----------------------------------------------------------------------------
+# Page Content
+# -----------------------------------------------------------------------------
 join_us:
+  # General introductory message at the top of the page.
   overall: >
     Our group brings together members from diverse backgrounds and skill sets who contribute to a highly collaborative and interdisciplinary environment, and we are always welcoming new motivated students and talented researchers at any stage of their careers who wish to join our team.
     <br><br>
     We also encourage prospective members to contact current or former lab members to learn more about our research environment and potential opportunities.
 
+  # Structured descriptions for each recruitment category.
   positions:
     - position: Undergraduate Students
       description: >
@@ -38,9 +45,14 @@ join_us:
       description: >
         For spontaneous inquiries, please email Professor Alejandro and include your CV. To make our lives easier, please start the email subject line with “<ins>[Postdoc BCEM Lab Application]</ins>”.
 
-  openings:
+  # Optional listings of currently open positions
+  # Used to display hiring announcements or open positions on the homepage.
+  # Each item links to a full announcement in the "news" collection.
+  openings: # Several items can be included
     - position_available: PhD Position on Genomic and Transcriptomic Analysis to Uncover Regulatory Mechanisms of Moonlighting Proteins in Bacterial Pathogens (One Health Framework)
       announcement_page: news/announcement_4
+    # - position_available:
+    #   announcement_page:
 ---
 
 # Interested in joining the lab?

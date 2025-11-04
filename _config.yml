@@ -6,14 +6,14 @@ title: "BCEM" # Short site title (used in header and footer)
 title_long: "Computational Biology and Microbial Ecology Lab" # Full title shown in Home page (if enebled)
 affiliation: Universidad de los Andes # Affiliation (shown in Home page if enabled)
 affiliation_short: Uniandes # Shortened affiliation (shown in header and footer)
-country: co # Country code
+country: co # ISO 3166-1 alpha-2 country code used for metadata and flag display (e.g., "co" for Colombia)
 icon:
-  head: bcem_logo.png # Favicon or logo displayed in the browser tab
+  head: bcem_logo.png # Favicon or logo displayed in the browser tab. File should be at assets/img/logopic
   navbar:
     show_home: false # If false, hide home button in navbar when on About (Home) page
-    group_logo: bcem_logo_nt.png # Logo used in the navbar and on the landing page
+    group_logo: bcem_logo_nt.png # Logo used in the navbar and on the landing page. File should be at assets/img/logopic
     include_title: true # set to true to include the title next to the logo in the navbar
-    affiliation_logo: uniandes_logo.png # the logo of your affiliation (e.g., university, company, etc.) shown in the navbar
+    affiliation_logo: uniandes_logo.png # the logo of your affiliation (e.g., university, company, etc.) shown in the navbar. File should be at assets/img/logopic
 
 url: https://BCEM-UniAndes.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -95,7 +95,15 @@ zotero_username: # your zotero username
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
+# Custom content types that generate their own pages and directories.
+# Each collection maps to a folder under the project root prefixed with "_".
+# Example: "_news", "_team", "_research", etc.
+#
+# `output: true` enables HTML page generation for each item in the collection.
+# `permalink` defines the URL structure for the generated pages.
+# `defaults.layout` sets the layout template used when rendering items.
+#
+# Adjust these if adding/removing content types or changing URL conventions.
 collections:
   news:
     defaults:
@@ -153,16 +161,15 @@ newsletter:
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
-# Jekyll Polyglot
-# Multilingual Support
+# Jekyll Polyglot — Multilingual Support
 # -----------------------------------------------------------------------------
-
-languages: ["en-gb", "es-es"]
-default_lang: "en-gb"
-exclude_from_localization: ["assets"]
-lang_from_path: true
-country_flag: true # set true for allowing flag symbol in language toggle
-parallel_localization: false
+# Configuration for managing translated versions of the website.
+languages: ["en-gb", "es-es"] # List of supported language–region codes (BCP 47), e.g., "en-gb" = English (United Kingdom), "es-es" = Spanish (Spain)
+default_lang: "en-gb" # sets the primary language used when no locale is specified.
+exclude_from_localization: ["assets"] # prevents certain folders/files from being duplicated for each language during the build process (e.g., shared static assets).
+lang_from_path: true # enables automatic language detection from the URL path. Example: /es-es/ will serve Spanish content.
+country_flag: true # enables country flags in the language switcher. Disable if flags are not desired or if languages span multiple countries.
+parallel_localization: false # forces missing pages to fall back to the default language instead of creating placeholder pages in other languages.
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -170,22 +177,23 @@ parallel_localization: false
 
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
+# Automatically generates resized WebP versions of images from the specified input directories, improving performance on modern browsers.
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   regenerate_existing: false # set to true to regenerate existing images (otherwise, only new images are processed)
-  widths:
+  widths: # list of responsive breakpoints to generate (in pixels).
     - 480
     - 800
     - 1400
-  input_directories:
+  input_directories: # folders monitored for source images
     - assets/img/
-  input_formats:
+  input_formats: # image file types to convert
     - ".jpg"
     - ".jpeg"
     - ".png"
     - ".tiff"
     - ".gif"
-  output_formats:
+  output_formats: # conversion settings passed to ImageMagick
     webp: "-quality 85"
 
 # Lazy loading images
@@ -266,88 +274,105 @@ enable_publication_thumbnails: false
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
-
 # Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
+markdown: kramdown # Jekyll supports multiple Markdown processors; here we explicitly use Kramdown.
+highlighter: rouge # Rouge is the syntax highlighter used for code blocks within Markdown files.
 kramdown:
-  input: GFM
+  input: GFM # Use GitHub-Flavored Markdown (GFM) so formatting is consistent with GitHub.
   syntax_highlighter_opts:
-    css_class: "highlight"
+    css_class: "highlight" # Adds a CSS class to code blocks for styling consistency with the theme.
     span:
-      line_numbers: false
+      line_numbers: false # true = show line numbers inline for inline code; false = hide (default).
     block:
-      line_numbers: false
-      start_line: 1
+      line_numbers: false # true = show line numbers for fenced code blocks; false recommended unless needed globally.
+      start_line: 1 # Starting line number when line_numbers=true (useful for documentation/tutorials).
 
 # Includes & excludes
-include: ["_pages"]
-exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
+# This section controls which files and folders Jekyll processes or skips when generating your site.
+include: # Paths that should always be included in the build even if normally ignored.
+  - _pages # `_pages` is processed to support custom page routing.
+exclude: # Files and folders to exclude from the build. These are not copied to the final `_site` directory, reducing clutter and build time.
+  - bin/ # Development scripts/tools
+  - CONTRIBUTING.md # Developer guidelines (not part of site output)
+  - CUSTOMIZE.md # Theme customization documentation
+  - Dockerfile # Docker setup files
   - docker-compose.yml
   - docker-compose-slim.yml
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - lighthouse_results/
-  - package.json
+  - FAQ.md # Internal docs not displayed on site
+  - Gemfile # Jekyll dependency definitions
+  - Gemfile.lock # Locked gem versions
+  - INSTALL.md # Setup instructions
+  - LICENSE # Theme software license (optional for publishing)
+  - lighthouse_results/ # Performance testing reports
+  - package.json # Node dependencies (development only)
   - package-lock.json
-  - purgecss.config.js
-  - README.md
-  - readme_preview/
-  - UPGRADING.md
-  - vendor
+  - purgecss.config.js # CSS optimization config
+  - README.md # Only for GitHub repo, not site output
+  - readme_preview/ # Preview resources not used in production
+  - UPGRADING.md # Upgrade notes for theme maintainers
+  - vendor # Bundled Ruby dependencies folder
+  # Content templates — excluded to prevent publishing placeholders
   - _pages/page_template.md
   - _news/announcement_template.md
   - _research/topic_template.md
   - _teaching/course_template.md
   - _team/member_template.md
   - _pics/post_template.md
+# Files that should remain at the root of the published site.
 keep_files:
-  - CNAME
-  - .nojekyll
+  - CNAME # Required for custom domain ownership
+  - .nojekyll # Prevent GitHub Pages from treating this as a standard Jekyll site
 
+# -----------------------------------------------------------------------------
 # Plug-ins
+# -----------------------------------------------------------------------------
+# Extend Jekyll functionality. Ensure all plugins are supported by GitHub Pages or deployed via custom CI, as some may not be natively supported.
 plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-polyglot
-  - jekyll-regex-replace
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+  - jekyll-archives # generates archive pages (tags/categories)
+  - jekyll-email-protect # obfuscates email addresses to reduce spam
+  - jekyll-feed # creates a valid RSS/Atom feed
+  - jekyll-get-json # imports JSON data into your site
+  - jekyll-imagemagick # responsive image optimization (WebP)
+  - jekyll-jupyter-notebook # render Jupyter notebooks as HTML content
+  - jekyll-link-attributes # automatically add attributes to external links
+  - jekyll-minifier # HTML/CSS/JS minification for faster load times
+  - jekyll-paginate-v2 # advanced pagination support
+  - jekyll-polyglot # multilingual site generation
+  - jekyll-regex-replace # regex-based content transformations
+  - jekyll/scholar # bibliographic and citation support
+  - jekyll-sitemap # auto-generated sitemap for SEO
+  - jekyll-tabs # tabbed content blocks
+  - jekyll-toc # auto table of contents generation
+  - jekyll-twitter-plugin # embeds Twitter/X posts
+  - jemoji # emoji support in Markdown
 
-# Sitemap settings
+# -----------------------------------------------------------------------------
+# Sitemap Settings
+# -----------------------------------------------------------------------------
+# Exclude certain files (such as static assets) from sitemap generation.
 defaults:
   - scope:
       path: "assets"
     values:
       sitemap: false
 
+# -----------------------------------------------------------------------------
+# Sass
+# -----------------------------------------------------------------------------
+# Controls CSS preprocessing and output formatting.
 sass:
-  sourcemap: never
-  style: compressed
+  sourcemap: never # no source maps in production for smaller file size
+  style: compressed # minified CSS for faster page loads
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
-
-# These are the defaults
+# Automatically applies attributes to external links for better UX and security.
+# rel:
+#   - 'noopener' prevents newly opened tabs from accessing `window.opener`
+#   - 'nofollow' discourages search engines from ranking linked pages
+# target:
+#   - '_blank' opens external links in a new tab
 external_links:
   enabled: true
   rel: external nofollow noopener
@@ -357,7 +382,6 @@ external_links:
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
-
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)

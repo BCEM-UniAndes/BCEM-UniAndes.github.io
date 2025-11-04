@@ -1,13 +1,23 @@
 ---
-page_id: team
-layout: page
-permalink: /team/
-title: Team
-description:
-nav_header: true
-nav_order: 1
-# display_categories: [pi, staff, graduate, undergrad]
-display_categories: [pi, graduate, undergrad]
+# -----------------------------------------------------------------------------
+# Team Page Configuration
+# -----------------------------------------------------------------------------
+page_id: team # Unique identifier for the page
+layout: page # Page layout defined in _layouts/
+permalink: /team/ # URL path for the page
+title: Team # Page title
+description: # Short page description
+nav_header: true # Set to true to display the page in the header navigation menu
+nav_order: 1 # Order of the page in the navigation menu
+
+# -----------------------------------------------------------------------------
+# Members Layout
+# -----------------------------------------------------------------------------
+display_categories: # Categories in order to be display. Every element in _team/ must have ine to be displayed
+  - pi
+  # - staff
+  - graduate
+  - undergrad
 ---
 
 <div class="team">

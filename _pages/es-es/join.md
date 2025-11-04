@@ -1,20 +1,27 @@
 ---
-page_id: join
-layout: page
-permalink: /join/
-title: Únete
-description:
-nav_header: false
-nav_footer: true
-nav_order: 2
+# -----------------------------------------------------------------------------
+# Join Us Page Configuration
+# -----------------------------------------------------------------------------
+page_id: join # Unique identifier for the page
+layout: page # Page layout defined in _layouts/
+permalink: /join/ # URL path for the page
+title: Únete # Page title
+description: # Short page description
+nav_header: false # Set to true to display the page in the header navigation menu
+nav_footer: true # Set to true to display the page in the footer navigation menu
+nav_order: 2 # Order of the page in the navigation menu
 
-# Únete a nosotros
+# -----------------------------------------------------------------------------
+# Page Content
+# -----------------------------------------------------------------------------
 join_us:
+  # General introductory message at the top of the page.
   overall: >
     Nuestro grupo reúne miembros con formaciones y habilidades diversas que contribuyen a un entorno altamente colaborativo e interdisciplinario. Siempre estamos interesados en recibir nuevos estudiantes motivados e investigadores talentosos en cualquier etapa de su carrera que deseen unirse a nuestro equipo.  
     <br><br>
     También animamos a los aquellos interesados en formar parte del grupo a contactar a miembros actuales o antiguos para conocer más sobre nuestro entorno de investigación y las oportunidades disponibles.
 
+  # Structured descriptions for each recruitment category.
   positions:
     - position: Estudiantes de pregrado
       description: >
@@ -38,9 +45,14 @@ join_us:
       description: >
         Para consultas espontáneas, envía un correo electrónico al profesor Alejandro e incluye tu hoja de vida (CV). Para facilitarnos el proceso, por favor inicia el asunto del correo con “<ins>[Postdoc BCEM Lab Application]</ins>”.
 
-  openings:
+  # Optional listings of currently open positions
+  # Used to display hiring announcements or open positions on the homepage.
+  # Each item links to a full announcement in the "news" collection.
+  openings: # Several items can be included
     - position_available: Posición de doctorado en Análisis Genómico y Transcriptómico para descubrir los mecanismos regulatorios de proteínas multifuncionales en patógenos bacterianos (Marco One Health)
       announcement_page: news/announcement_4
+    # - position_available:
+    #   announcement_page:
 ---
 
 # ¿Interesado en hacer parte del grupo?

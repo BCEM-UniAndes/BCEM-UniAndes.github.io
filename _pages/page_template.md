@@ -1,5 +1,7 @@
 ---
-## About this template
+# -----------------------------------------------------------------------------
+# About this template
+# -----------------------------------------------------------------------------
 # Copy and fill out this template in both English and Spanish and save it as a new markdown files in the _pages/en-gb and _pages/es-es folders, respectively.
 # e.g., _pages/en-gb/page_name.md and _pages/es-es/page_name.md
 
@@ -17,7 +19,9 @@ children: # List of children pages (use as many as desired)
     permalink: # permalink to the desired page
   # - title:
   #   permalink:
-## Some ideas for additional pages:
+# -----------------------------------------------------------------------------
+# Some ideas for additional pages
+# -----------------------------------------------------------------------------
 # - Outreach and community engagement - e.g., https://weitzgroup.umd.edu/education-outreach/
 # - Current Projects - e.g., https://zellerlab.org/projects/
 # - Join the Group - e.g., https://sanchezlaboratory.weebly.com/join-our-group.html
