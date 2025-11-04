@@ -17,55 +17,7 @@ The objective of this README is to provide a concise guide on how to set up, cus
 > [!NOTE]
 > Current group member in charge of the site's updates and maintenance: [Camilo García-Botero](https://github.com/camilogarciabotero)
 
-## 🗂️ Table of Contents
-
-1. Setup
-   i. and serving the site locally
-
-- Requirements
-  - Jekyll
-  - Nodejs
-  - Jupyterlab
-  - ImageMagick
-- Clone the repository
-  ii. Online deployment
-- git add, commit, push
-- Setting the repo
-  - GitHub Pages
-  - GitHub Actions
-  - .github/workflows/
-  - .github/workflows/deploy.yml
-
-2. General overview of the project
-   i. Relevant file types
-
-- Markdown
-  - Frontmatter
-- YAML
-- Liquid
-- HTML
-  ii. \_config.yml
-  iii. \_includes/ & \_layouts/
-  iv. \_pages/
-  v. \_sass/
-  vi. assets/
-  vii. \_data/
-  viii. Collections (\_news, \_teams, \_pics, etc.)
-  ix. \_site/
-  x. polyglot
-
-3. Updating info
-   i. Home
-   ii. News
-   iii. Team
-   iv. Research
-   v. Publications
-   vi. Teaching
-   vii. Pics
-   viii. Contact
-
-4. Best practices & Tips
-   i. npx prettier . --write
+# 🗂️ Table of Contents
 
 # 🧩 Setup
 
@@ -200,39 +152,71 @@ The `polyglot` folder contains files and configurations related to the multiling
 
 # 📝 Updating info
 
-This section provides guidelines on how to update different sections of the website.
+This section provides detailed guidelines on how to update and manage each section of the BCEM website.
 
-## Home
+All page source files are located inside the `_pages/` directory, organized into language-specific folders:
 
-To update the Home page, edit the corresponding Markdown file in the `_pages/` folder.
+```{bash}
+_pages/
+├── en-gb/ # English pages
+├── es-es/ # Spanish pages
+└── page_template.md
+```
 
-## News
+Each page is written in Markdown with a YAML front matter defining metadata such as `layout`, `title`, and `permalink`.
 
-To add or update news items, edit the Markdown files in the `_news/` collection.
+## 🏠 Home (`about.md`)
 
-## Team
+- **Purpose:** Defines the homepage content, including banners, recruitment callouts, and links to recent news.
+- **To edit:** Update text, images, or links in the Markdown body. The homepage also uses data from `_data/` and `_news/` for dynamic content.
+- **Tip:** Ensure links and image paths are relative to `/assets/`.
 
-To update team member information, edit the Markdown files in the `_teams/` collection.
+## 📢 News (`news.md`)
 
-## Research
+- **Purpose:** Acts as an index for announcements, positions, and updates.
+- **To edit:** Add new Markdown files in `_news/`, following the structure of existing posts (each with its own YAML front matter).
+- **Tip:** Keep filenames descriptive (e.g., `announcement_4.md`).
 
-To update research information, edit the corresponding Markdown file in the `_pages/` folder.
+## 🧩 Team (`team.md`)
 
-## Publications
+- **Purpose:** Displays current lab members, and alumni.
+- **To edit:**
 
-To add or update publications, edit the YAML file in the `_data/` folder.
+## 🧑‍🔬 Research (`research.md`)
 
-## Teaching
+- **Purpose:** Describes the main research areas and current projects of the group.
+- **To edit:**
 
-To update teaching information, edit the corresponding Markdown file in the `_pages/` folder.
+## 📚 Publications (`publications.md`)
 
-## Pics
+- **Purpose:** Lists of publications authored by the group.
+- **To edit:** The publication data is pulled from `_data/publications.yml`.
+- **Tip:** You can mark selected papers using `selected: true` for highlighting in the “Selected Papers” section.
 
-To add or update pictures, edit the Markdown files in the `_pics/` collection.
+## 🧑‍🏫 Teaching (`teaching.md`)
 
-## Contact
+- **Purpose:** Describes the courses developed and tought by the group.
+- **To edit:**
 
-To update contact information, edit the corresponding Markdown file in the `_pages/` folder.
+## 📸 Pics (`pictures.md`)
+
+- **Purpose:** Contains photo galleries of the lab along the years and of lab extracurricular events.
+- **To edit:**
+
+## 📬 Contact (`contact.md`)
+
+- **Purpose:** Displays lab address, email, and contact form.
+- **To edit:**
+
+## 🤝 Join Us (`join.md`)
+
+- **Purpose:** Provides details on how to join the lab (undergraduate, graduate, and postdoc positions).
+- **To edit:**
+
+## ⚙️ Site Info (`site_info.md`)
+
+- **Purpose:** Provides additional information about the site’s design, credits, and licenses.
+- **To edit:**
 
 # 💡 Best practices & Tips
 
