@@ -6,9 +6,9 @@ page_id: about # Unique identifier for the page
 layout: about # Page layout defined in _layouts/about.liquid
 permalink: / # URL path for the page
 title: Home # Page title
-banner: bcem_logo_long_en.png # Banner image displayed at the top of the page. File should be at assets/img/logopic
+banner: banner/bcem_logo_long_en.png # Banner image displayed at the top of the page. File should be at assets/img/
 # subtitle: <a href="https://cienciasbiologicas.uniandes.edu.co">Biological Sciences Department</a>, <a href="https://uniandes.edu.co/">Universidad de los Andes</a> <span class="fi fi-co"></span>                    # Page subtitle
-# affiliation_logo: los_andes_logo.png      # logo to show below the subtitle. File should be at assets/img/logopic
+# affiliation_logo: banner/los_andes_logo.png      # logo to show below the subtitle. File should be at assets/img/
 
 # -----------------------------------------------------------------------------
 # Recruitment Callout

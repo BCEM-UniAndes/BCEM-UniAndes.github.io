@@ -4,7 +4,7 @@ display_category: pi
 photo: BCEM-22.jpg
 country: co
 website: https://cienciasbiologicas.uniandes.edu.co/es/profesores/alejandro-reyes-mu%C3%B1oz
-position: Profesor Asociado
+position: Profesor Titular
 affiliation: Departmento de Ciencias Biológicas
 started: 2013
 email: a.reyes@uniandes.edu.co
