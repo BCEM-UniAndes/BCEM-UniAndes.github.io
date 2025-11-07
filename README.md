@@ -209,15 +209,14 @@ The `_site/` folder is the output directory where the generated static site is s
 > [!TIP]
 > The `_site/` folder is included in the `.gitignore` file to prevent it from being tracked by version control, as it is generated automatically and can be recreated at any time by building the site.
 
-> [!IMPORTANT]
->
 > ## Multi-lingual support through Polyglot
->
-> This website uses the [Polyglot Jekyll Plugin](https://github.com/hakimel/reveal.js#language-support) to provide multi-lingual support. The plugin allows you to create content in multiple languages and switch between them seamlessly. Each page has a language-specific version, and the plugin handles the routing and rendering of the appropriate content based on the selected language.
-> The `_config.yml` file contains a section for Polyglot Support containing settings for the available languages and their configuration.
-> The language-specific content is organized in separate folders within the `_pages/` and each of the collections (e.g. `_team/`, `_news/`, `_research/`, etc.) directories, such as `en-gb/` for English and `es-es/` for Spanish. Each folder contains the corresponding Markdown files for that language.
-> The `_data/[lang]/strings.yml` file contains the multilingual strings used throughout the site. This file is structured to provide translations for various text elements, ensuring consistency across different languages, which are accessed using Liquid templating in the layouts and includes.
-> The language switcher is implemented in the header of the site, allowing users to easily switch between available languages.
+
+This website uses the [Polyglot Jekyll Plugin](https://github.com/hakimel/reveal.js#language-support) to provide multi-lingual support. The plugin allows you to create content in multiple languages and switch between them seamlessly. Each page has a language-specific version, and the plugin handles the routing and rendering of the appropriate content based on the selected language.
+
+- The `_config.yml` file contains a section for Polyglot Support containing settings for the available languages and their configuration.
+- The language-specific content is organized in separate folders within the `_pages/` and each of the collections (e.g. `_team/`, `_news/`, `_research/`, etc.) directories, such as `en-gb/` for English and `es-es/` for Spanish. Each folder contains the corresponding Markdown files for that language.
+- The `_data/[lang]/strings.yml` file contains the multilingual strings used throughout the site. This file is structured to provide translations for various text elements, ensuring consistency across different languages, which are accessed using Liquid templating in the layouts and includes.
+- The language switcher is implemented in the header of the site, allowing users to easily switch between available languages.
 
 # 📝 Updating and mantaining each of the elements of the site.
 
@@ -368,5 +367,3 @@ To maintain consistent code formatting across the project, you can use Prettier.
 ```bash
 npx prettier . --write
 ```
-
-## Image aspect
