@@ -35,6 +35,7 @@ The objective of this README is to provide a concise guide on how to set up, cus
   - [\_data/](#_data)
   - [Collections (\_news/, \_teams/, \_pics/, etc.)](#collections-_news-_teams-_pics-etc)
   - [\_site/](#_site)
+  - [Multi-lingual support through Polyglot](#multi-lingual-support-through-polyglot)
 - [📝 Updating and maintaining each of the elements of the site](#-updating-and-mantaining-each-of-the-elements-of-the-site)
   - [👤 Head](#-head)
   - [🦱 Header](#-header)
@@ -51,7 +52,7 @@ The objective of this README is to provide a concise guide on how to set up, cus
   - [⚙️ Site Info](#️-site-info)
 - [💡 Best practices & Tips](#-best-practices--tips)
   - [Code formatting](#code-formatting)
-  - [Image aspect](#image-aspect)
+  - [Online updating of website elements](#online-updating-of-website-elements)
 
 # 🧩 Setup
 
@@ -148,7 +149,7 @@ The `_config.yml` file is one of the most important components of any Jekyll pro
 - Plugin configurations
 - More
 
-The file is organized in such a way in which the most relevant and most likely to edit variables are first, and it is throughly commented explaining what each variable does and calls.
+The file is organized in such a way in which the most relevant and most likely to edit variables are first, and it is thoroughly commented explaining what each variable does and calls.
 
 ## \_includes/ & \_layouts/
 
@@ -199,6 +200,9 @@ Collections are custom content types in Jekyll. Each collection has its own fold
 > Collections are defined in the `_config.yml` file under the `collections` key.
 > When creating or editing collection items, make sure to follow the existing structure and conventions used in the site. This includes using the correct front matter fields and adhering to the naming conventions for files and folders.
 
+> [!TIP]
+> Each collection folder contains a template Markdown file (e.g. `member_template.md`, `announcement_template.md`, etc.) that serves as a guide for creating new items in the respective collection. These template files contain the necessary front matter fields and structure that should be followed when adding new items to the collection, and are thoroughly commented to provide guidance.
+
 ## \_site/
 
 The `_site/` folder is the output directory where the generated static site is stored after building the Jekyll site. This folder is automatically created by Jekyll during the build process and should not be modified manually. It contains the final HTML, CSS, JavaScript, and other assets that make up the website.
@@ -209,14 +213,18 @@ The `_site/` folder is the output directory where the generated static site is s
 > [!TIP]
 > The `_site/` folder is included in the `.gitignore` file to prevent it from being tracked by version control, as it is generated automatically and can be recreated at any time by building the site.
 
-> ## Multi-lingual support through Polyglot
+## Multi-lingual support through Polyglot
 
-This website uses the [Polyglot Jekyll Plugin](https://github.com/hakimel/reveal.js#language-support) to provide multi-lingual support. The plugin allows you to create content in multiple languages and switch between them seamlessly. Each page has a language-specific version, and the plugin handles the routing and rendering of the appropriate content based on the selected language.
+This website uses the [Polyglot Jekyll Plugin](https://github.com/untra/polyglot) to provide multi-lingual support. The plugin allows you to create content in multiple languages and switch between them seamlessly. Each page has a language-specific version, and the plugin handles the routing and rendering of the appropriate content based on the selected language.
 
-- The `_config.yml` file contains a section for Polyglot Support containing settings for the available languages and their configuration.
-- The language-specific content is organized in separate folders within the `_pages/` and each of the collections (e.g. `_team/`, `_news/`, `_research/`, etc.) directories, such as `en-gb/` for English and `es-es/` for Spanish. Each folder contains the corresponding Markdown files for that language.
-- The `_data/[lang]/strings.yml` file contains the multilingual strings used throughout the site. This file is structured to provide translations for various text elements, ensuring consistency across different languages, which are accessed using Liquid templating in the layouts and includes.
-- The language switcher is implemented in the header of the site, allowing users to easily switch between available languages.
+### Configuration and Structure
+
+- **Configuration:** The `_config.yml` file contains a section for Polyglot Support with settings for the available languages and their configuration.
+- **Content Organization:** Language-specific content is organized in separate folders within the `_pages/` directory and each of the collections (e.g., `_team/`, `_news/`, `_research/`, etc.), such as `en-gb/` for English and `es-es/` for Spanish. Each folder contains the corresponding Markdown files for that language.
+- **Translation Requirements:** Every page and collection item should have a language-specific version with the same structure and front matter fields, but with content translated into the respective language. Each item (file) should be saved in both language folders.
+  > **Note:** If an item is only saved in one language folder, it will be displayed on the website in that same language for all language versions. If this behavior is desired (e.g., for language-agnostic content), the item can be located inside the collection folder but outside the language-specific subfolders.
+- **Multilingual Strings:** The `_data/[lang]/strings.yml` files contain the multilingual strings used throughout the site. These files are structured to provide translations for various text elements, ensuring consistency across different languages. The strings are accessed using Liquid templating in the layouts and includes.
+- **Language Switcher:** The language switcher is implemented in the header of the site, allowing users to easily switch between available languages.
 
 # 📝 Updating and mantaining each of the elements of the site.
 
@@ -253,6 +261,7 @@ The homepage of the BCEM website, providing an overview of the group, its missio
   - **Images:** All images used on the homepage should be placed in the `assets/img/` directory:
     - `banners/` — Contains banner images used on the homepage.
     - `homeslides/` — Contains images used in the homepage slideshow.
+      > **Tip:** The aspect ratio of the profile pictures is 1205 / 790, so to avoid unwanted distortion of these pictures when displayed in the website, is best if the images already have the desired aspect ratio. There are several free online tools and desktop applications (e.g. GIMP, Photoshop, Inkscape) to tweak and/or modify images to achieve this.
     - `affilpics/` — Contains images of institutional affiliations.
     - `collapics/` — Contains images of collaborators and sponsors.
 
@@ -283,6 +292,7 @@ The team section showcases the members of the BCEM group, their roles, and relev
   - `_team/` — Contains the markdown files for each team member, each with its own YAML front matter which contains various configuration options for the team page, such as team member details, social media links, and profile pictures. Additionally, the Markdown body contains the main text content of the team member's personal page.
   - **Images:** All images used on the team page should be placed in the `assets/img/` directory:
     - `teampic/` — Contains profile pictures of team members.
+      > **Tip:** The aspect ratio of the profile pictures is 1:1 (squared), so to avoid unwanted distortion of these pictures when displayed in the website, is best if the images already have the desired aspect ratio. There are several free online tools and desktop applications (e.g. GIMP, Photoshop, Inkscape) to tweak and/or modify images to achieve this.
 
 ## 🧑‍🔬 Research
 
@@ -332,6 +342,7 @@ The pics section showcases images related to the BCEM group's activities, events
   - `_pics/` — Contains the images related to the BCEM group's activities.
   - **Images:** All images used on the pics page should be placed in the `assets/img/` directory:
     - `picpic/gens` — Contains the images of the generations of the BCEM group.
+      > **Tip:** The aspect ratio of the profile pictures is 1205 / 790, so to avoid unwanted distortion of these pictures when displayed in the website, is best if the images already have the desired aspect ratio. There are several free online tools and desktop applications (e.g. GIMP, Photoshop, Inkscape) to tweak and/or modify images to achieve this.
     - `picpic/gallery` — Contains images related to the BCEM group's activities.
 
 ## 📬 Contact
@@ -367,3 +378,28 @@ To maintain consistent code formatting across the project, you can use Prettier.
 ```bash
 npx prettier . --write
 ```
+
+## Online updating of website elements
+
+Since the website is already deployed via GitHub Pages, updating simple aspects of the website can be achieved directly through the GitHub web interface without needing to clone the repository or set up a local development environment.
+
+### What can be updated online:
+
+- **Text content:** Edit Markdown files in `_pages/`, `_news/`, `_team/`, `_research/`, etc.
+- **Images:** Upload new images to the `assets/img/` directory and its subfolders
+- **Links and metadata:** Modify YAML front matter in page and collection files
+- **Data files:** Update YAML files in the `_data/` directory (e.g., affiliations, collaborators, strings)
+- **Collection items:** Add, edit, or remove items from collections like news articles, team members, or research projects
+
+### How to update online:
+
+1. Navigate to the file you want to edit on GitHub
+2. Click the pencil icon (✏️) to edit the file
+3. Make your changes in the editor
+4. Scroll down and add a descriptive commit message
+5. Click "Commit changes"
+6. The GitHub Actions workflow will automatically rebuild and redeploy the site (usually takes 2-5 minutes)
+
+> **Important:** For more complex changes involving layouts, styles, or structural modifications, it's recommended to work locally and test the changes before pushing to the repository.
+
+> **Tip:** You can check the deployment status by visiting the "Actions" tab in the GitHub repository to ensure your changes were successfully deployed.
