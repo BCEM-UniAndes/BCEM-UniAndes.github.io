@@ -5,7 +5,7 @@
 page_id: team # Unique identifier for the page
 layout: page # Page layout defined in _layouts/
 permalink: /team/ # URL path for the page
-title: Eqipo # Page title
+title: Equipo # Page title
 description: # Short page description
 nav_header: true # Set to true to display the page in the header navigation menu
 nav_order: 1 # Order of the page in the navigation menu
