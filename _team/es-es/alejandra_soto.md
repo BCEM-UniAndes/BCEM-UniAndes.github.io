@@ -8,7 +8,7 @@ position: Estudiante Doctoral
 affiliation: Ciencias Biológicas
 started: 2025
 education:
-  - program: M.Sc. en Biología Computacional y Bioinformática
+  - program: M.Sc. - Ecología Microbiana
     institution: Dalhousie University
     country: ca
   - program: B.Sc. en Biología
@@ -16,7 +16,7 @@ education:
     country: co
 interests:
 # contact info and social media prescence
-email: mama.sotor@uniandes.edu.co
+email: m.soto2@uniandes.edu.co
 cv:
 orcidusername:
 scholarusername:
