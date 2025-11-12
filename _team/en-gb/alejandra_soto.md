@@ -8,14 +8,14 @@ position: PhD Student
 affiliation: Biological Sciences
 started: 2025
 education:
-  - program: M.Sc. in Computational Biology and Bioinformatics
+  - program: M.Sc. - Microbial Ecology
     institution: Dalhousie University
     country: ca
   - program: B.Sc. in Biology
     institution: Universidad Icesi, Cali
     country: co
 interests:
-email: mama.sotor@uniandes.edu.co
+email: m.soto2@uniandes.edu.co
 cv:
 orcidusername:
 scholarusername:
