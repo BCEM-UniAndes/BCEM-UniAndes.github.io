@@ -314,8 +314,8 @@ The publications section showcases the research outputs of the BCEM group, inclu
 - **Supporting files:**
   - `_includes/bib.liquid` — This include file contains reusable components for displaying individual publication entries. It is used in the publications page to display the publications defined in the frontmatter of `publications.md`.
 - **Data:** The publications page uses data from various sources to populate its content dynamically:
-  - `_bibliography/bcem.bib` — Contains the BibTeX entries for all publications of the group. This file should be kept up to date with all publications from the group. 
-    >**TIP:** You can use reference management software like [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) to manage your references and export them in BibTeX format. You can simply import the existing `_bibliography/bcem.bib` file into your reference manager, add new publications, and then export the updated BibTeX file to replace the existing one.
+  - `_bibliography/bcem.bib` — Contains the BibTeX entries for all publications of the group. This file should be kept up to date with all publications from the group.
+    > **TIP:** You can use reference management software like [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) to manage your references and export them in BibTeX format. You can simply import the existing `_bibliography/bcem.bib` file into your reference manager, add new publications, and then export the updated BibTeX file to replace the existing one.
   - `_bibliography/team_member.bib` — Contains the BibTeX entries for all publications of the team member to be displayed on their personal page.
 
 ## 🧑‍🏫 Teaching

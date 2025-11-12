@@ -77,7 +77,10 @@ layout: default
           {{- page.position -}}
           {%- if page.affiliation %}, {{ page.affiliation }}{% endif -%}</strong
         ><br>
-        <em>Since {{ page.started }}</em>
+        <em>
+          {{- site.data[lang].strings.team.since }}
+          {{ page.started -}}
+        </em>
       </p>
 
       <!-- Main content -->

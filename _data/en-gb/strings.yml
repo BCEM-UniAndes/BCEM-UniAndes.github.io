@@ -152,6 +152,7 @@ team:
   interests: Interests
   started: started
   education: Training
+  since: Since
 research:
   highlights: Highlights
 teaching:
