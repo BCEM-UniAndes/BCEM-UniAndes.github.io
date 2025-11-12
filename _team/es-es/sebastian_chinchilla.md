@@ -3,7 +3,7 @@ name: Sebastián Chinchilla
 display_category: graduate
 country: co
 website:
-photo:
+photo: sebastian_chinchilla.jpg
 position: Estudiante de Maestría
 affiliation: Biología Computacional
 started: 2025
@@ -26,7 +26,7 @@ publonsusername:
 arxivusername:
 biorxivusername:
 linkedinusername: sebastian-chinchilla-sarmiento-902026317
-githubusername:
+githubusername: sechisa12
 blueskyusername:
 mastodonusername:
 twitterusername:
