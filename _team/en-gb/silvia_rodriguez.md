@@ -3,10 +3,10 @@ name: Silvia Rodríguez Otalora
 display_category: undergrad
 country: co
 website:
-photo:
+photo: silvia_rodriguez.jpeg
 position: B.Sc. Student
 affiliation: Biology
-started: 2024
+started: 2023
 education:
   # - program:
   #   institution:

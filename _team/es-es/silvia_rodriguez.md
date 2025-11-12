@@ -3,7 +3,7 @@ name: Silvia Rodríguez Otalora
 display_category: undergrad
 country: co
 website:
-photo:
+photo: silvia_rodriguez.jpeg
 position: Estudiante de Pregrado
 affiliation: Biología
 started: 2024
