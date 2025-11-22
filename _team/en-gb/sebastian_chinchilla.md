@@ -3,7 +3,7 @@ name: Sebastián Chinchilla
 display_category: graduate
 country: co
 website:
-photo:
+photo: sebastian_chinchilla.jpg
 position: M.Sc. Student
 affiliation: Computational Biology
 started: 2025
