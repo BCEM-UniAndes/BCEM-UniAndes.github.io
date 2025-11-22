@@ -18,9 +18,10 @@ blueskyusername: mariamadrid16.bsky.social
 linkedinusername: maria-antonia-madrid-restrepo
 twitterusername: mariamadrid26
 githubusername: mariamadrid19
+stravausername: 110198136
 interests:
 position_completed: B.Sc.
-position_after: Estudiante de Maestría
+position_after: Estudiante de Maestría y Doctorado
 affiliation_after: KU Leuven
 country_after: be
 ---
