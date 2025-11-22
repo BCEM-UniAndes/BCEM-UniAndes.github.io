@@ -61,7 +61,7 @@ The objective of this README is to provide a concise guide on how to set up, cus
 ### 1. Requirements:
 
 - [Jekyll](https://jekyllrb.com)
-  - [Installation Guide](https://jekyllrb.com/docs/installation/) (dont forget to check the requirements section, particularly [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/))
+  - [Installation Guide](https://jekyllrb.com/docs/installation/) (don't forget to check the requirements section, particularly [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/))
 - [Nodejs](https://nodejs.org/)
   - [Installation Guide](https://nodejs.org/en/download)
 - [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/#)
