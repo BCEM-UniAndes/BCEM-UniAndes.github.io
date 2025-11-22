@@ -21,10 +21,6 @@ The objective of this README is to provide a concise guide on how to set up, cus
 
 - [🧩 Setup](#-setup)
   - [Setting and serving the site locally](#setting-and-serving-the-site-locally)
-    - [1. Requirements](#1-requirements)
-    - [2. Clone the repository](#2-clone-the-repository)
-    - [3. Install dependencies](#3-install-dependencies)
-    - [4. Run the site locally](#4-run-the-site-locally)
   - [Online deployment](#online-deployment)
 - [🗂️ General overview of the project](#️-general-overview-of-the-project)
   - [\_config.yml](#_configyml)
