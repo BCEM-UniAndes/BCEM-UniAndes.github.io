@@ -30,7 +30,7 @@ interests: Descubrimiento y clasificación de genes de fagos
 position_after:
 affiliation_after:
 country_after:
-has_page: false
+has_page: true
 layout: team_member
 pubs: camilo_garcia.bib
 github_repos:
