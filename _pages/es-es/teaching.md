@@ -26,7 +26,7 @@ display_categories:
     description: Cursos y programas específicos de CABANA
   - id: extension
     description: Cursos y programas de extensión
-horizontal: true # defines whether categories are arranged horizontally or vertically
+horizontal: false # defines whether categories are arranged horizontally or vertically
 ---
 
 {% include teaching.liquid %}
