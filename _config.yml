@@ -45,7 +45,7 @@ search_enabled: true # If true, browsing capabilities within the website will be
 socials_in_search: true # If true, social nformation will be available in the serching
 
 # Dimensions
-max_width: 1200px # Maximum width of the website in a browser
+max_width: 1000px # Maximum width of the website in a browser
 
 # -----------------------------------------------------------------------------
 # Social integration
